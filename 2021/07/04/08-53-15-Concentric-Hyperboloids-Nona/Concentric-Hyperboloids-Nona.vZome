@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="55" coreVersion="7.0" edition="vZome" field="polygon9" version="7.0">
+  <EditHistory editNumber="405" lastStickyEdit="82">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="red" index="9" len="1 3 0" symm="antiprism9"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" index="5" len="3 1 3" outbound="false" symm="antiprism9"/>
+    <SelectManifestation point="1 8 -2 0 5 -2 0 0 0"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 -5 2 3 1 3 0 0 0" dir="red" index="9" len="10 6 9" symm="antiprism9"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 2 3 1 3 -10 -6 -9"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -5 2 3 1 3 0 0 0"/>
+    <SelectManifestation point="0 -5 2 3 1 3 -10 -6 -9"/>
+    <EndBlock/>
+    <TranslationTool name="tool-0"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -1 -3 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -1 -3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -5 2 3 1 3 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 8 -2 0 5 -2 0 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -5 -3 -9/2"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 -5 -3 -9/2"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-1"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="tool-1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 -5 2 3 1 3 -5 -3 -9/2" startSegment="0 -5 2 3 1 3 5 3 9/2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -5 2 3 1 3 -5 -3 -9/2" startSegment="0 -5 2 3 1 3 5 3 9/2"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="1 8 -2 0 5 -2 5 3 9/2" startSegment="0 0 0 0 0 0 5 3 9/2"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -5 -3 -9/2"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -5 -3 -9/2"/>
+    <SelectManifestation point="0 5 -2 1 8 -2 5 3 9/2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 2 3 1 3 5 3 9/2"/>
+    <SelectManifestation point="-3 4 -5 -3 4 -5 -5 -3 -9/2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -5 -3 -9/2"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="red" index="9" len="3 1 3" symm="antiprism9"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 -3 -1 -3"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-2"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 8 -2 0 5 -2 -5 -3 -9/2"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="tool-2" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 5 -2 1 8 -2 2 2 3/2"/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 2 2 3/2" startSegment="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 2 2 3/2" startSegment="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 2 2 3/2" startSegment="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 2 2 3/2" startSegment="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <SelectManifestation endSegment="3 1 3 0 -5 2 -2 -2 -3/2" startSegment="0 -5 2 3 1 3 2 2 3/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 3 0 -5 2 -2 -2 -3/2"/>
+    <SelectManifestation point="7 5 6 -4 -9 -1 -19/3 -23/3 -25/6"/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 4 -5 -3 4 -5 5 3 9/2" startSegment="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="-3 4 -5 -3 4 -5 5 3 9/2" startSegment="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="-1 -8 2 3 -4 5 5 3 9/2" startSegment="0 0 0 -3 -1 -3 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="0 5 -2 1 8 -2 5 3 9/2" startSegment="3 -4 5 -1 -8 2 -5 -3 -9/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 -5 -3 -9/2"/>
+    <SelectManifestation point="3 1 3 -7 -10 -4 -44/3 -52/3 -59/6"/>
+    <SelectManifestation point="0 0 0 -3 -1 -3 -5 -3 -9/2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -4 5 -1 -8 2 2 2 3/2"/>
+    <SelectManifestation endSegment="3 1 3 0 -5 2 2 2 3/2" startSegment="0 -5 2 3 1 3 -2 -2 -3/2"/>
+    <SelectManifestation endSegment="3 1 3 0 -5 2 2 2 3/2" startSegment="0 -5 2 3 1 3 -2 -2 -3/2"/>
+    <SelectManifestation point="3 1 3 0 -5 2 2 2 3/2"/>
+    <SelectManifestation point="7 5 6 -4 -9 -1 19/3 23/3 25/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -8 2 3 -4 5 -2 -2 -3/2" startSegment="0 0 0 -3 -1 -3 2 2 3/2"/>
+    <SelectManifestation endSegment="-3 4 -5 -3 4 -5 2 2 3/2" startSegment="3 1 3 0 -5 2 -2 -2 -3/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 4 -5 -3 4 -5 2 2 3/2" startSegment="3 1 3 0 -5 2 -2 -2 -3/2"/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 -2 -2 -3/2" startSegment="3 -4 5 -1 -8 2 2 2 3/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 -2 -2 -3/2" startSegment="3 -4 5 -1 -8 2 2 2 3/2"/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 5 3 9/2" startSegment="3 -4 5 -1 -8 2 -5 -3 -9/2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 -2 -2 -3/2" startSegment="3 -4 5 -1 -8 2 2 2 3/2"/>
+    <SelectManifestation endSegment="-3 -1 -3 0 0 0 2 2 3/2" startSegment="3 -4 5 -1 -8 2 -2 -2 -3/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 -12 7 2 -17 9 2/3 7/3 -1/6"/>
+    <SelectManifestation point="0 0 0 -3 -1 -3 2 2 3/2"/>
+    <SelectManifestation point="-3 4 -5 -3 4 -5 2 2 3/2"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -3 -1 -3 2 2 3/2"/>
+    <SelectManifestation point="-2 12 -7 -3 4 -5 2/3 7/3 -1/6"/>
+    <SelectManifestation point="2 -12 7 2 -17 9 2/3 7/3 -1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 12 -7 -3 4 -5 2/3 7/3 -1/6"/>
+    <SelectManifestation point="0 0 0 -1 -3 0 1/3 2/3 1/6"/>
+    <SelectManifestation point="2 -12 7 2 -17 9 2/3 7/3 -1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -1 -3 0 1/3 2/3 1/6"/>
+    <SelectManifestation point="2 -12 7 2 -17 9 2/3 7/3 -1/6"/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 -1 -3 0 1/3 2/3 1/6"/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation endSegment="-1 -8 2 3 -4 5 -2 -2 -3/2" startSegment="0 0 0 -3 -1 -3 2 2 3/2"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -1 -3 0 1/3 2/3 1/6"/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <SelectManifestation point="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -5/2 1 -1/2 -4 1 0 0 0"/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation point="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+    <SelectManifestation point="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+    <SelectManifestation point="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+      <polygonVertex at="2 -17 9 2 -12 7 2/3 7/3 -1/6"/>
+      <polygonVertex at="-1 -3 0 0 0 0 1/3 2/3 1/6"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-3 4 -5 -2 12 -7 2/3 7/3 -1/6"/>
+      <polygonVertex at="-3 -1 -3 0 0 0 2 2 3/2"/>
+      <polygonVertex at="-1 -8 2 3 -4 5 2 2 3/2"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="2 -17 9 2 -12 7 2/3 7/3 -1/6"/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation point="-1 -3 0 0 0 0 1/3 2/3 1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+      <polygonVertex at="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+      <polygonVertex at="-1 -3 0 0 0 0 1/3 2/3 1/6"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 2 0 -5 2 1/3 2/3 1/6"/>
+    <SelectManifestation point="-1 -3 0 0 0 0 1/3 2/3 1/6"/>
+    <SelectManifestation point="-1/2 -4 1 0 -5/2 1 0 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-7 -10 -4 3 1 3 19/3 23/3 25/6"/>
+    <SelectManifestation point="-3 -1 -3 0 0 0 2 2 3/2"/>
+    <SelectManifestation point="-7 -5 -6 -3 -1 -3 19/3 23/3 25/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 -3 -1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 -3 -1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 8 -2 0 5 -2 5 3 9/2" startSegment="-1 -8 2 3 -4 5 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="-3 4 -5 -3 4 -5 5 3 9/2" startSegment="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 1 3 0 -5 2 5 3 9/2" startSegment="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="-1 -8 2 3 -4 5 5 3 9/2" startSegment="1 8 -2 0 5 -2 -5 -3 -9/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="symmetry.builtin/polygonal antiprism around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="1 -2 2 2 -2 3 2/3 7/3 -1/6" dir="red" index="9" len="3 1 3" symm="antiprism9"/>
+    <BeginBlock/>
+    <SelectManifestation point="-3/2 2 -5/2 1/2 4 -1 0 0 0"/>
+    <SelectManifestation point="-1 2 -2 1 3 0 -2/3 -7/3 1/6"/>
+    <SelectManifestation point="0 0 0 3/2 1/2 3/2 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false" joinMode="ALL_POSSIBLE"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 3/2 1/2 3/2 0 0 0" startSegment="-3/2 2 -5/2 1/2 4 -1 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-3/2 2 -5/2 1/2 4 -1 0 0 0"/>
+    <SelectManifestation point="-1 2 -2 1 3 0 -2/3 -7/3 1/6"/>
+    <SelectManifestation point="0 0 0 3/2 1/2 3/2 0 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 3/2 1/2 3/2 0 0 0"/>
+    <SelectManifestation point="-1 2 -2 1 3 0 -2/3 -7/3 1/6"/>
+    <SelectManifestation point="1 -2 2 2 -2 3 -2/3 -7/3 1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 -2 1 3 0 -2/3 -7/3 1/6"/>
+    <SelectManifestation point="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    <SelectManifestation point="1 -2 2 2 -2 3 -2/3 -7/3 1/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -2 2 2 -2 3 -2/3 -7/3 1/6"/>
+    <SelectManifestation point="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    <SelectManifestation point="5 -16 12 5 -16 12 -1/3 -32/3 23/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3 -4 5 -1 -8 2 5 3 9/2" startSegment="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="3 -4 5 -1 -8 2 5 3 9/2" startSegment="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation point="5 -16 12 5 -16 12 -1/3 -32/3 23/6"/>
+    <SelectManifestation point="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation point="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <SelectManifestation point="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation point="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 7 10 4 -44/3 -52/3 -59/6" startSegment="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation endSegment="0 0 0 7 10 4 -44/3 -52/3 -59/6" startSegment="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation>
+      <polygonVertex at="4 9 1 4 9 1 -19/3 -23/3 -25/6"/>
+      <polygonVertex at="0 5 -2 1 8 -2 -2 -2 -3/2"/>
+      <polygonVertex at="0 0 0 7 10 4 -19/3 -23/3 -25/6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 9 1 4 9 1 -19/3 -23/3 -25/6"/>
+      <polygonVertex at="0 5 -2 1 8 -2 -2 -2 -3/2"/>
+      <polygonVertex at="0 0 0 7 10 4 -19/3 -23/3 -25/6"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation point="0 0 0 7 10 4 -44/3 -52/3 -59/6"/>
+    <SelectManifestation>
+      <polygonVertex at="0 -5 2 3 1 3 -5 -3 -9/2"/>
+      <polygonVertex at="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+      <polygonVertex at="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -5 2 3 1 3 -5 -3 -9/2"/>
+      <polygonVertex at="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+      <polygonVertex at="0 0 0 3 -4 5 -1/3 -32/3 23/6"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 -5 2 3 1 3 -5 -3 -9/2"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 5 -2 1 8 -2 -5 -3 -9/2"/>
+    <SelectManifestation point="4 9 1 4 9 1 -44/3 -52/3 -59/6"/>
+    <SelectManifestation point="0 0 0 7 10 4 -44/3 -52/3 -59/6"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Hide/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="819.6516723632812" far="1639.300048828125" near="2.0491294860839844" parallel="true" stereoAngle="0.0" width="368.84393310546875">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.01152124535292387" y="0.021708443760871887" z="-0.9996771812438965"/>
+      <LookDirection x="-0.4922739863395691" y="0.8703364729881287" z="0.013230596669018269"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="antiprism9" renderingStyle="thin antiprism">
+    <Direction color="255,255,255" name="534" prototype="2/3 -5/3 4/3 2/3 -5/3 4/3 11 -47 31"/>
+    <Direction color="255,255,255" name="535" prototype="-7/3 31/3 -20/3 8/3 -32/3 22/3 8 -35 23"/>
+    <Direction color="255,255,255" name="536" prototype="-4/3 16/3 -11/3 2/3 -5/3 4/3 8 -35 23"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="537" prototype="5/3 -26/3 16/3 -7/3 31/3 -20/3 8 -35 23"/>
+    <Direction color="255,255,255" name="538" prototype="5/3 -26/3 16/3 -4/3 16/3 -11/3 8 -35 23"/>
+    <Direction color="255,255,255" name="539" prototype="2/3 -5/3 4/3 2/3 -5/3 4/3 8 -35 23"/>
+    <Direction color="255,255,255" name="530" prototype="-7/3 31/3 -20/3 8/3 -32/3 22/3 11 -47 31"/>
+    <Direction color="255,255,255" name="531" prototype="-4/3 16/3 -11/3 2/3 -5/3 4/3 11 -47 31"/>
+    <Direction color="255,255,255" name="532" prototype="5/3 -26/3 16/3 -7/3 31/3 -20/3 11 -47 31"/>
+    <Direction color="255,255,255" name="533" prototype="5/3 -26/3 16/3 -4/3 16/3 -11/3 11 -47 31"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="523" prototype="1/3 -1/3 -1/3 7/3 2/3 -4/3 -2 -1 1"/>
+    <Direction color="255,255,255" name="524" prototype="1/3 -1/3 -1/3 -5/3 -1/3 2/3 -2 -1 1"/>
+    <Direction color="255,255,255" name="525" prototype="1/3 -4/3 2/3 -2/3 5/3 -4/3 -3 12 -8"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,255,255" name="526" prototype="1/3 -7/3 5/3 -2/3 5/3 -4/3 -3 12 -8"/>
+    <Direction color="255,255,255" name="527" prototype="1/3 2/3 -1/3 1/3 -4/3 2/3 -3 12 -8"/>
+    <Direction color="255,255,255" name="528" prototype="-2/3 8/3 -4/3 1/3 -7/3 5/3 -3 12 -8"/>
+    <Direction color="255,255,255" name="529" prototype="1/3 2/3 -1/3 1/3 2/3 -1/3 -3 12 -8"/>
+    <Direction color="255,255,255" name="560" prototype="-1/3 -2/3 1/3 -1/3 1/3 1/3 -5 -1 3"/>
+    <Direction color="255,255,255" name="561" prototype="-1/3 1/3 -2/3 2/3 -2/3 1/3 -5 -1 3"/>
+    <Direction color="255,255,255" name="562" prototype="-1/3 1/3 -2/3 -1/3 -2/3 1/3 -5 -1 3"/>
+    <Direction color="255,255,255" name="563" prototype="-1/3 1/3 1/3 -1/3 1/3 1/3 -5 -1 3"/>
+    <Direction color="255,255,255" name="520" prototype="-8/3 -1/3 5/3 -5/3 -1/3 2/3 -2 -1 1"/>
+    <Direction color="255,255,255" name="521" prototype="10/3 2/3 -4/3 7/3 2/3 -4/3 -2 -1 1"/>
+    <Direction color="255,255,255" name="522" prototype="-8/3 -1/3 5/3 -8/3 -1/3 5/3 -2 -1 1"/>
+    <Direction color="255,255,255" name="556" prototype="5/3 -26/3 16/3 -16/3 73/3 -47/3 -7 31 -20"/>
+    <Direction color="255,255,255" name="557" prototype="32/3 -146/3 94/3 -31/3 136/3 -89/3 -7 31 -20"/>
+    <Direction color="255,255,255" name="558" prototype="5/3 -26/3 16/3 5/3 -26/3 16/3 -7 31 -20"/>
+    <Direction color="255,255,255" name="559" prototype="2/3 -2/3 1/3 2/3 4/3 -2/3 -5 -1 3"/>
+    <Direction color="255,255,255" name="518" prototype="12 3 -7 -16 -2 8 1 0 0"/>
+    <Direction color="255,255,255" name="519" prototype="4 2 -3 -6 0 2 -4 -1 2"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,255,255" name="550" prototype="4/3 -16/3 11/3 -2/3 5/3 -4/3 2 -8 5"/>
+    <Direction color="255,255,255" name="551" prototype="-5/3 26/3 -16/3 7/3 -31/3 20/3 2 -8 5"/>
+    <Direction color="255,255,255" name="552" prototype="-5/3 26/3 -16/3 4/3 -16/3 11/3 2 -8 5"/>
+    <Direction color="255,255,255" name="553" prototype="-2/3 5/3 -4/3 -2/3 5/3 -4/3 2 -8 5"/>
+    <Direction color="255,255,255" name="554" prototype="-16/3 73/3 -47/3 26/3 -110/3 73/3 -7 31 -20"/>
+    <Direction color="255,255,255" name="555" prototype="-31/3 136/3 -89/3 26/3 -110/3 73/3 -7 31 -20"/>
+    <Direction color="255,255,255" name="545" prototype="1/3 -1/12 5/12 -5/12 11/12 -5/6 -1/4 1 -3/4"/>
+    <Direction color="255,255,255" name="546" prototype="5/6 -11/6 5/3 -5/12 13/6 -4/3 -1/4 1 -3/4"/>
+    <Direction color="255,255,255" name="547" prototype="1/3 -1/12 5/12 1/3 -1/12 5/12 -1/4 1 -3/4"/>
+    <Direction color="255,255,255" name="548" prototype="1/12 -25/12 11/12 -5/12 11/12 -5/6 -1/4 1 -3/4"/>
+    <Direction color="255,255,255" name="549" prototype="7/3 -31/3 20/3 -8/3 32/3 -22/3 2 -8 5"/>
+    <Direction color="255,255,255" name="540" prototype="1/6 -1/6 1/3 1/6 5/6 -1/6 0 0 0"/>
+    <Direction color="255,255,255" name="541" prototype="1/6 -2/3 1/3 1/6 5/6 -1/6 0 0 0"/>
+    <Direction color="255,255,255" name="542" prototype="-1/3 -1/6 -1/6 1/6 -1/6 1/3 0 0 0"/>
+    <Direction color="255,255,255" name="543" prototype="-1/3 1/3 -2/3 1/6 -2/3 1/3 0 0 0"/>
+    <Direction color="255,255,255" name="544" prototype="-5/12 13/6 -4/3 1/12 -25/12 11/12 -1/4 1 -3/4"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="240,160,0" name="yellow"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool id="tool-0" label="translation 0" selectInputs="true"/>
+    <Tool deleteInputs="true" id="tool-1" label="translation 1"/>
+    <Tool id="tool-2" label="translation 2" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
