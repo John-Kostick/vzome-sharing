@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="58" coreVersion="7.0" edition="vZome" field="rootTwo" version="7.0">
+  <EditHistory editNumber="56" lastStickyEdit="-1">
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ 0, -4, 1 ], [ 0, -4, 1 ], [ 0, 0, 1 ] ], [ [ 0, -4, 1 ], [ 0, 0, 1 ], [ 0, -4, 1 ] ], [ [ 0, -4, 1 ], [ 0, 0, 1 ], [ 0, 4, 1 ] ], [ [ 0, -4, 1 ], [ 0, 4, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, -4, 1 ], [ 0, -4, 1 ] ], [ [ 0, 0, 1 ], [ 0, -4, 1 ], [ 0, 4, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ 0, -4, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ 0, 4, 1 ] ], [ [ 0, 4, 1 ], [ 0, -4, 1 ], [ 0, 0, 1 ] ], [ [ 0, 4, 1 ], [ 0, 0, 1 ], [ 0, -4, 1 ] ], [ [ 0, 4, 1 ], [ 0, 0, 1 ], [ 0, 4, 1 ] ], [ [ 0, 4, 1 ], [ 0, 4, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 4 0 4"/>
+    <SelectManifestation point="0 4 0 0 0 4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 4 0 4 0 0"/>
+    <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 4 0 0 0 4"/>
+    <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 4 0 0 0 4"/>
+    <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 4 0 0 0 4"/>
+    <SelectManifestation point="0 4 0 0 0 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 4 0 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ 0, -4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 8 0 0" startSegment="0 0 0 4 0 4"/>
+    <SelectManifestation endSegment="0 0 0 8 0 0" startSegment="0 0 0 4 0 -4"/>
+    <SelectManifestation point="0 0 0 8 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -4 0 4 0 0"/>
+    <SelectManifestation point="0 0 0 8 0 0"/>
+    <SelectManifestation point="0 4 0 4 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -4 0 4 0 0" startSegment="0 0 0 4 0 4"/>
+    <EndBlock/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 0 0 4 0 -4"/>
+    <SelectManifestation endSegment="0 0 0 4 0 4" startSegment="0 4 0 4 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459603101015091" parallel="true" stereoAngle="0.0" width="44.27286148071289">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="-0.03044566512107849" y="0.9994950294494629" z="-0.009067047387361526"/>
+      <LookDirection x="-0.22811220586299896" y="-0.01577932760119438" z="-0.9735058546066284"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="240,160,0" name="yellow"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="synestructics" renderingStyle="small octahedra">
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="220,76,0" name="orange"/>
+      <Direction color="255,41,183" name="magenta"/>
+      <Direction color="107,53,26" name="brown"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
