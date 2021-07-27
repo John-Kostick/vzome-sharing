@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="61" coreVersion="7.0" edition="vZome" field="polygon9" version="7.0">
+  <EditHistory editNumber="276" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="red" index="0" len="1 3 0" symm="antiprism9"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="red" index="9" len="1 3 0" symm="antiprism9"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0" dir="yellow" index="0" len="1 3 0" symm="antiprism9"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ -3, -1, -3, 1 ], [ -1, 2, -2, 1 ], [ -1, -3, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 -2 2 6 0 1 3 0"/>
+    <SelectManifestation endSegment="-1 2 -2 2 6 0 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="1 -2 2 -2 -6 0 -1 -3 0"/>
+    <SelectManifestation point="1 -2 2 -2 -6 0 -1 -3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -1 -3 -1 2 -2 -1 -3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ -2, 4, -4, 1 ], [ 4, 12, 0, 1 ], [ 2, 6, 0, 1 ] ], [ [ -1, 2, -2, 1 ], [ 2, 6, 0, 1 ], [ 1, 3, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -2 2 -2 -6 0 -1 -3 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="1 -2 2 -2 -6 0 -1 -3 0"/>
+    <SelectManifestation endSegment="-1 2 -2 -3 -1 -3 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 2 -2 -3 -1 -3 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 2 -2 2 6 0 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-1 2 -2 2 6 0 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 1, -2, 2, 1 ], [ -2, -6, 0, 1 ], [ -1, -3, 0, 1 ] ], [ [ 2, -4, 4, 1 ], [ -4, -12, 0, 1 ], [ -2, -6, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -1 -3 -1 2 -2 -1 -3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 1, -2, 2, 1 ], [ -2, -6, 0, 1 ], [ -1, -3, 0, 1 ] ], [ [ 2, -4, 4, 1 ], [ -4, -12, 0, 1 ], [ -2, -6, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="4 -1 5 -1 -8 2 0 0 0"/>
+    <SelectManifestation point="4 -1 5 -1 -8 2 0 0 0"/>
+    <SelectManifestation endSegment="4 -1 5 -1 -8 2 0 0 0" startSegment="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <SelectManifestation point="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ -2, 4, -4, 1 ], [ 4, 12, 0, 1 ], [ 2, 6, 0, 1 ] ], [ [ -1, 2, -2, 1 ], [ 2, 6, 0, 1 ], [ 1, 3, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <SelectManifestation endSegment="-5 3 -7 3 14 -2 1 3 0" startSegment="-4 1 -5 1 8 -2 0 0 0"/>
+    <SelectManifestation point="-4 1 -5 1 8 -2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ -1, 2, -2, 1 ], [ 2, 6, 0, 1 ], [ 1, 3, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <SelectManifestation point="3 4 2 -3 -4 -2 -2 -6 0"/>
+    <SelectManifestation point="3 4 2 -3 -4 -2 -2 -6 0"/>
+    <SelectManifestation endSegment="4 -1 5 -1 -8 2 0 0 0" startSegment="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <SelectManifestation point="4 -1 5 -1 -8 2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 1, -2, 2, 1 ], [ -2, -6, 0, 1 ], [ -1, -3, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="1 5 -1 5 10 2 3 9 0" index="0" len="1 3 0" outbound="false" symm="antiprism9"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 2 -1 5 10 2 3 9 0" startSegment="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation endSegment="1 5 -1 5 10 2 3 9 0" startSegment="2 3 1 3 4 2 2 6 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 1 3 4 2 2 6 0"/>
+    <SelectManifestation point="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation point="0 2 -1 5 10 2 3 9 0"/>
+    <EndBlock/>
+    <CrossProduct/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 -1 9/2 10 3/2 4 9 1"/>
+    <SelectManifestation point="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation point="0 2 -1 5 10 2 3 9 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 2 -1 5 10 2 3 9 0" startSegment="1 5 -1 5 10 2 3 9 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 -1 5 10 2 3 9 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation endSegment="0 2 -1 5 10 2 3 9 0" startSegment="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation point="0 2 -1 5 10 2 3 9 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "polygon9",
+  "vertices" : [ [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 1, 3, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -5 1 -5 -10 -2 -3 -9 0" startSegment="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation endSegment="-2 -3 -1 -3 -4 -2 -2 -6 0" startSegment="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 -1 -3 -4 -2 -2 -6 0"/>
+    <SelectManifestation point="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation point="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <EndBlock/>
+    <CrossProduct/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation point="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation point="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    <EndBlock/>
+    <Polygon/>
+    <SelectManifestation endSegment="5 -3 7 -3 -14 2 -1 -3 0" startSegment="6 -5 9 -5 -20 2 -2 -6 0"/>
+    <LinePlaneIntersect/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation endSegment="-1 -5 1 -5 -10 -2 -3 -9 0" startSegment="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation point="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    <SelectManifestation endSegment="-1 -5 1 -11/2 -10 -5/2 -2 -9 1" startSegment="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation endSegment="-1 -5 1 -5 -10 -2 -3 -9 0" startSegment="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="0 -2 1 -5 -10 -2 -3 -9 0"/>
+      <polygonVertex at="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-1 -5 1 -5 -10 -2 -3 -9 0" startSegment="0 -2 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation endSegment="-1 -5 1 -11/2 -10 -5/2 -2 -9 1" startSegment="-1 -5 1 -5 -10 -2 -3 -9 0"/>
+    <SelectManifestation point="-1 -5 1 -11/2 -10 -5/2 -2 -9 1"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 -1 5 10 2 3 9 0"/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 -1 9/2 10 3/2 4 9 1"/>
+      <polygonVertex at="1 5 -1 5 10 2 3 9 0"/>
+      <polygonVertex at="0 2 -1 5 10 2 3 9 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 2 -1 5 10 2 3 9 0" startSegment="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation endSegment="1 5 -1 9/2 10 3/2 4 9 1" startSegment="1 5 -1 5 10 2 3 9 0"/>
+    <SelectManifestation point="1 5 -1 9/2 10 3/2 4 9 1"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1/5 23/5 -7/5 33/5 51/5 16/5 11/5 13/5 8/5"/>
+    <SelectManifestation point="-5 -7 -3 -3 -3 -2 -3 -9 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-6 5 -9 5 20 -2 2 6 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-6 5 -9 5 20 -2 2 6 0"/>
+    <SelectManifestation endSegment="-6 5 -9 5 20 -2 2 6 0" startSegment="-5 3 -7 3 14 -2 1 3 0"/>
+    <SelectManifestation point="-5 3 -7 3 14 -2 1 3 0"/>
+    <SelectManifestation endSegment="-5 3 -7 3 14 -2 1 3 0" startSegment="-4 1 -5 1 8 -2 0 0 0"/>
+    <SelectManifestation point="-4 1 -5 1 8 -2 0 0 0"/>
+    <SelectManifestation endSegment="-4 1 -5 1 8 -2 0 0 0" startSegment="-3 -1 -3 -1 2 -2 -1 -3 0"/>
+    <SelectManifestation point="-3 -1 -3 -1 2 -2 -1 -3 0"/>
+    <SelectManifestation endSegment="-3 -1 -3 -1 2 -2 -1 -3 0" startSegment="-2 -3 -1 -3 -4 -2 -2 -6 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -4 -3 2 3 1 -2 -6 0"/>
+    <SelectManifestation endSegment="-4 -4 -3 2 3 1 -2 -6 0" startSegment="-7 -5 -6 1 5 -1 -3 -9 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="-5 -7 -3 -3 -3 -2 -3 -9 0" startSegment="1/5 23/5 -7/5 33/5 51/5 16/5 11/5 13/5 8/5"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1/5 -23/5 7/5 -33/5 -51/5 -16/5 -11/5 -13/5 -8/5"/>
+    <SelectManifestation point="5 7 3 3 3 2 3 9 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 5 -1 5 10 2 3 9 0" startSegment="2 3 1 3 4 2 2 6 0"/>
+    <SelectManifestation point="2 3 1 3 4 2 2 6 0"/>
+    <SelectManifestation endSegment="2 3 1 3 4 2 2 6 0" startSegment="3 1 3 1 -2 2 1 3 0"/>
+    <SelectManifestation point="3 1 3 1 -2 2 1 3 0"/>
+    <SelectManifestation endSegment="3 1 3 1 -2 2 1 3 0" startSegment="4 -1 5 -1 -8 2 0 0 0"/>
+    <SelectManifestation point="4 -1 5 -1 -8 2 0 0 0"/>
+    <SelectManifestation endSegment="4 -1 5 -1 -8 2 0 0 0" startSegment="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <SelectManifestation point="5 -3 7 -3 -14 2 -1 -3 0"/>
+    <SelectManifestation endSegment="5 -3 7 -3 -14 2 -1 -3 0" startSegment="6 -5 9 -5 -20 2 -2 -6 0"/>
+    <SelectManifestation point="6 -5 9 -5 -20 2 -2 -6 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="5 7 3 3 3 2 3 9 0" startSegment="-1/5 -23/5 7/5 -33/5 -51/5 -16/5 -11/5 -13/5 -8/5"/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 3 0 -3 -1 -3 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0" startSegment="-1 -3 0 3 1 3 -1 -3 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism9 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 1 3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 1 3 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -1 -3 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -1 -3 0"/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 1 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 1 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -1 0 0" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 -1 0 0"/>
+    <EndBlock/>
+    <Delete/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="47.888694763183594" far="95.77722930908203" near="0.11972199380397797" parallel="true" stereoAngle="0.0" width="21.549957275390625">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.7354641556739807" y="0.6764649748802185" z="-0.03854024037718773"/>
+      <LookDirection x="-0.026398273184895515" y="-0.02823297306895256" z="-0.9992558360099792"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="15636" prototype="180 168/5 -478/5 -180 -168/5 478/5 478/5 86/5 -254/5"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,255,255" name="15634" prototype="-956/5 -172/5 508/5 732/5 138/5 -392/5 478/5 86/5 -254/5"/>
+    <Direction color="255,255,255" name="15635" prototype="478/5 86/5 -254/5 -180 -168/5 478/5 478/5 86/5 -254/5"/>
+    <Direction color="255,255,255" name="15632" prototype="-732/5 -138/5 392/5 168/5 6 -86/5 478/5 86/5 -254/5"/>
+    <Direction color="255,255,255" name="15633" prototype="478/5 86/5 -254/5 168/5 6 -86/5 478/5 86/5 -254/5"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="antiprism9" renderingStyle="thin antiprism">
+      <Direction color="255,255,255" name="15626" prototype="1 0 0 -3 -1 2 -143 -26 76"/>
+      <Direction color="255,255,255" name="15627" prototype="1 0 0 -3 -1 2 47 9 -25"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="255,255,255" name="15628" prototype="1 0 0 -3 -1 2 -19 -3 10"/>
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="255,255,255" name="15629" prototype="1 0 0 -3 -1 2 4 1 -2"/>
+      <Direction color="255,255,255" name="15630" prototype="0 0 0 -1/2 0 0 1 0 0"/>
+      <Direction color="255,255,255" name="15631" prototype="0 0 0 1 0 0 1/2 0 0"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="240,160,0" name="yellow"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
