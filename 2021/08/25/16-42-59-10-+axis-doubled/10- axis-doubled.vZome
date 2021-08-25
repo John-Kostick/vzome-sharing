@@ -1,0 +1,2703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="62" field="golden" version="7.0">
+  <EditHistory editNumber="1035" lastStickyEdit="930">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="0" len="1 2"/>
+    <StrutCreation anchor="3 5 0 0 -1 -2" dir="yellow" index="0" len="1 1"/>
+    <SelectManifestation point="5 8 0 0 -2 -3"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 5 0 0 -1 -2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="3 5 0 0 -1 -2"/>
+    <SelectManifestation endSegment="5 8 0 0 -2 -3" startSegment="3 5 0 0 -1 -2"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectAll/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <Delete/>
+    <LoadVEF scale="1 0">vZome VEF 6 field golden
+
+32
+(0,0) (-16,-10) (6,4) (10,6)
+(0,0) (-4,-3) (-11,-7) (0,0)
+(0,0) (-4,-3) (-10,-6) (-3,-2)
+(0,0) (-3,-2) (-8,-5) (0,0)
+(0,0) (-3,-2) (-7,-4) (-3,-2)
+(0,0) (-2,-1) (-5,-3) (0,0)
+(0,0) (-2,-1) (-4,-2) (-3,-2)
+(0,0) (-1,-1) (-11,-7) (-1,-1)
+(0,0) (-1,-1) (-10,-6) (-2,-1)
+(0,0) (-1,-1) (-10,-6) (2,1)
+(0,0) (0,0) (-8,-5) (-1,-1)
+(0,0) (0,0) (-7,-4) (-2,-1)
+(0,0) (0,0) (-7,-4) (2,1)
+(0,0) (0,0) (0,0) (0,0)
+(0,0) (0,0) (1,1) (-3,-2)
+(0,0) (1,1) (-4,-2) (-2,-1)
+(0,0) (2,1) (-3,-2) (-1,-1)
+(0,0) (2,1) (-2,-1) (2,1)
+(0,0) (2,1) (5,3) (0,0)
+(0,0) (2,1) (6,4) (-3,-2)
+(0,0) (3,2) (1,1) (-2,-1)
+(0,0) (3,2) (8,5) (0,0)
+(0,0) (3,2) (9,6) (-3,-2)
+(0,0) (4,2) (2,1) (-1,-1)
+(0,0) (4,2) (3,2) (2,1)
+(0,0) (4,3) (11,7) (0,0)
+(0,0) (5,3) (5,3) (-1,-1)
+(0,0) (5,3) (6,4) (-2,-1)
+(0,0) (5,3) (6,4) (2,1)
+(0,0) (6,4) (8,5) (-1,-1)
+(0,0) (6,4) (9,6) (-2,-1)
+(0,0) (6,4) (9,6) (2,1)
+
+
+
+71
+1 9
+2 1
+2 8
+3 1
+3 4
+4 0
+4 2
+4 9
+4 11
+4 12
+5 3
+5 12
+6 4
+6 5
+6 15
+7 1
+7 2
+7 8
+8 11
+9 3
+9 7
+10 7
+10 11
+11 15
+12 9
+12 10
+13 5
+13 14
+13 17
+13 18
+14 6
+14 19
+14 20
+14 28
+15 20
+16 10
+16 15
+17 4
+17 12
+17 14
+17 16
+17 24
+18 21
+18 24
+19 18
+19 22
+19 27
+20 27
+21 25
+21 28
+22 21
+22 28
+22 30
+23 16
+23 20
+23 26
+24 23
+24 28
+25 22
+26 27
+26 29
+28 0
+28 4
+28 19
+28 26
+28 31
+29 30
+30 27
+31 25
+31 29
+31 30
+
+
+
+0
+
+
+
+32
+0 1 2 3 4 5 6 7 8 9 
+10 11 12 13 14 15 16 17 18 19 
+20 21 22 23 24 25 26 27 28 29 
+30 31 
+
+</LoadVEF>
+    <BeginBlock/>
+    <SelectManifestation point="-10 -16 4 6 6 10"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-0"/>
+    <SelectAll/>
+    <ApplyTool deleteInputs="true" name="tool-0"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 16 -8 -13 -7 -12" startSegment="10 16 -9 -14 -7 -11"/>
+    <SelectManifestation endSegment="10 16 -8 -13 -7 -12" startSegment="10 16 -9 -14 -7 -11"/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <SelectManifestation point="14 22 1 2 -7 -11"/>
+    <SelectManifestation point="13 21 -1 -1 -7 -11"/>
+    <SelectManifestation point="13 21 0 0 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="13 21 -1 -1 -7 -11"/>
+    <DeselectAll/>
+    <SelectManifestation point="13 21 -1 -1 -7 -11"/>
+    <SelectManifestation point="13 21 0 0 -7 -12"/>
+    <SelectManifestation point="12 19 -3 -5 -7 -12"/>
+    <SelectManifestation point="12 20 -3 -4 -7 -11"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="12 20 -3 -4 -7 -11"/>
+    <SelectManifestation point="12 19 -3 -5 -7 -12"/>
+    <SelectManifestation point="11 17 -6 -10 -7 -12"/>
+    <SelectManifestation point="11 18 -6 -9 -7 -11"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <SelectManifestation point="12 19 2 3 -8 -13"/>
+    <SelectManifestation point="11 18 0 0 -8 -13"/>
+    <SelectManifestation point="13 21 0 0 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="13 21 0 0 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="13 21 0 0 -7 -12"/>
+    <SelectManifestation point="11 18 0 0 -8 -13"/>
+    <SelectManifestation point="10 16 -3 -5 -8 -13"/>
+    <SelectManifestation point="12 19 -3 -5 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="12 19 -3 -5 -7 -12"/>
+    <SelectManifestation point="10 16 -3 -5 -8 -13"/>
+    <SelectManifestation point="9 14 -6 -10 -8 -13"/>
+    <SelectManifestation point="11 17 -6 -10 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="11 17 -6 -10 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="11 17 -6 -10 -7 -12"/>
+    <SelectManifestation point="9 14 -6 -10 -8 -13"/>
+    <SelectManifestation point="8 13 -8 -13 -8 -13"/>
+    <SelectManifestation point="10 16 -8 -13 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="10 16 -8 -13 -7 -12"/>
+    <SelectManifestation point="8 13 -8 -13 -8 -13"/>
+    <SelectManifestation point="7 12 -10 -16 -8 -13"/>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 16 -8 -13 -7 -12"/>
+      <polygonVertex at="8 13 -8 -13 -8 -13"/>
+      <polygonVertex at="7 12 -10 -16 -8 -13"/>
+      <polygonVertex at="9 15 -10 -16 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5 -8 -8 -13 -11 -17"/>
+      <polygonVertex at="-3 -5 -8 -13 -10 -16"/>
+      <polygonVertex at="-1 -2 -6 -10 -12 -19"/>
+      <polygonVertex at="-3 -5 -6 -10 -13 -20"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <SelectManifestation point="13 20 3 5 -6 -10"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="13 20 3 5 -6 -10"/>
+    <SelectManifestation point="12 19 2 3 -8 -13"/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -5 -8"/>
+    <SelectManifestation point="13 20 3 5 -6 -10"/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -5 -8"/>
+    <SelectManifestation point="13 20 3 5 -6 -10"/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <SelectManifestation point="14 22 1 2 -7 -11"/>
+    <SelectManifestation point="14 22 2 3 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="14 22 2 3 -5 -8"/>
+    <SelectManifestation point="14 22 1 2 -7 -11"/>
+    <SelectManifestation point="13 21 -1 -1 -7 -11"/>
+    <SelectManifestation point="13 21 0 0 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ShowHidden/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="12 19 2 3 -8 -13"/>
+    <SelectManifestation point="13 20 3 5 -6 -10"/>
+    <SelectManifestation point="12 19 1 2 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="12 19 2 3 -8 -13"/>
+    <SelectManifestation point="12 19 1 2 -6 -10"/>
+    <SelectManifestation point="11 18 -1 -1 -6 -10"/>
+    <SelectManifestation point="11 18 0 0 -8 -13"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="10 16 -3 -5 -8 -13"/>
+    <SelectManifestation point="11 18 0 0 -8 -13"/>
+    <SelectManifestation point="11 18 -1 -1 -6 -10"/>
+    <SelectManifestation point="10 16 -4 -6 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="10 16 -4 -6 -6 -10"/>
+    <DeselectAll/>
+    <SelectManifestation point="10 16 -4 -6 -6 -10"/>
+    <SelectManifestation point="11 18 -1 -1 -6 -10"/>
+    <SelectManifestation point="12 20 -2 -3 -5 -8"/>
+    <SelectManifestation point="11 18 -5 -8 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="11 18 -1 -1 -6 -10"/>
+    <SelectManifestation point="12 19 1 2 -6 -10"/>
+    <SelectManifestation point="13 21 0 0 -5 -8"/>
+    <SelectManifestation point="12 20 -2 -3 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ShowHidden/>
+    <StrutCreation anchor="9 15 -10 -16 -5 -8" dir="yellow" index="16" len="1 2"/>
+    <DeselectAll/>
+    <StrutCreation anchor="7 12 -11 -17 -6 -10" dir="yellow" index="16" len="1 2"/>
+    <StrutCreation anchor="9 15 -11 -17 -7 -11" dir="yellow" index="16" len="1 2"/>
+    <StrutCreation anchor="9 15 -10 -16 -7 -12" dir="yellow" index="16" len="1 2"/>
+    <StrutCreation anchor="7 12 -10 -16 -8 -13" dir="yellow" index="16" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="8 13 -13 -21 -5 -8"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="7 11 -11 -18 -6 -9"/>
+      <polygonVertex at="5 8 -11 -18 -5 -8"/>
+      <polygonVertex at="5 8 -12 -20 -2 -3"/>
+      <polygonVertex at="7 11 -12 -20 -3 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="7 11 -11 -18 -6 -9"/>
+      <polygonVertex at="5 8 -11 -18 -5 -8"/>
+      <polygonVertex at="5 8 -12 -20 -2 -3"/>
+      <polygonVertex at="7 11 -12 -20 -3 -4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="7 12 -11 -17 -6 -10"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <SelectManifestation point="8 13 -13 -21 -5 -8"/>
+    <SelectManifestation point="9 15 -10 -16 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="7 12 -11 -17 -6 -10"/>
+    <SelectManifestation point="7 12 -10 -16 -8 -13"/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <SelectManifestation point="9 15 -11 -17 -7 -11"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="9 15 -11 -17 -7 -11"/>
+    <SelectManifestation point="9 15 -11 -17 -7 -11"/>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <SelectManifestation point="7 12 -10 -16 -8 -13"/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="9 15 -10 -16 -5 -8"/>
+    <SelectManifestation point="9 15 -11 -17 -7 -11"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="8 13 -13 -21 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -13 -21 -5 -8"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="9 15 -10 -16 -7 -12"/>
+      <polygonVertex at="7 12 -10 -16 -8 -13"/>
+      <polygonVertex at="6 10 -13 -21 -8 -13"/>
+      <polygonVertex at="8 13 -13 -21 -7 -12"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="6 10 -14 -22 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <DeselectAll/>
+    <SelectManifestation point="6 10 -13 -21 -8 -13"/>
+    <SelectManifestation point="8 13 -14 -22 -7 -11"/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ShowHidden/>
+    <BookmarkTool name="tool-1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="13 21 0 0 -5 -8"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="8 13 -8 -13 -8 -13"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-2"/>
+    <BeginBlock/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <SelectManifestation point="14 22 2 3 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="9 15 -10 -16 -7 -12"/>
+      <polygonVertex at="7 12 -10 -16 -8 -13"/>
+      <polygonVertex at="6 10 -13 -21 -8 -13"/>
+      <polygonVertex at="8 13 -13 -21 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="9 15 -10 -16 -7 -12"/>
+      <polygonVertex at="7 12 -10 -16 -8 -13"/>
+      <polygonVertex at="6 10 -13 -21 -8 -13"/>
+      <polygonVertex at="8 13 -13 -21 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation point="9 15 -10 -16 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -8, -12, 1 ], [ -16, -25, 1 ], [ 1, 2, 1 ] ], [ [ -8, -12, 1 ], [ -15, -24, 1 ], [ -1, -1, 1 ] ], [ [ -7, -10, 1 ], [ -13, -20, 1 ], [ 1, 2, 1 ] ], [ [ -7, -10, 1 ], [ -12, -19, 1 ], [ -1, -1, 1 ] ], [ [ -6, -9, 1 ], [ -16, -25, 1 ], [ 0, 1, 1 ] ], [ [ -6, -9, 1 ], [ -15, -24, 1 ], [ 0, 0, 1 ] ], [ [ -6, -9, 1 ], [ -15, -24, 1 ], [ 2, 4, 1 ] ], [ [ -6, -9, 1 ], [ -11, -17, 1 ], [ 1, 2, 1 ] ], [ [ -6, -9, 1 ], [ -10, -16, 1 ], [ -1, -1, 1 ] ], [ [ -5, -8, 1 ], [ -9, -14, 1 ], [ 1, 2, 1 ] ], [ [ -5, -8, 1 ], [ -8, -13, 1 ], [ -1, -1, 1 ] ], [ [ -5, -7, 1 ], [ -13, -20, 1 ], [ 0, 1, 1 ] ], [ [ -5, -7, 1 ], [ -12, -19, 1 ], [ 0, 0, 1 ] ], [ [ -5, -7, 1 ], [ -12, -19, 1 ], [ 2, 4, 1 ] ], [ [ -4, -6, 1 ], [ -11, -17, 1 ], [ 0, 1, 1 ] ], [ [ -4, -6, 1 ], [ -10, -16, 1 ], [ 0, 0, 1 ] ], [ [ -4, -6, 1 ], [ -10, -16, 1 ], [ 2, 4, 1 ] ], [ [ -4, -6, 1 ], [ -6, -9, 1 ], [ 1, 2, 1 ] ], [ [ -4, -6, 1 ], [ -5, -8, 1 ], [ -1, -1, 1 ] ], [ [ -3, -5, 1 ], [ -8, -13, 1 ], [ 0, 0, 1 ] ], [ [ -3, -4, 1 ], [ -8, -12, 1 ], [ 0, 1, 1 ] ], [ [ -3, -4, 1 ], [ -7, -11, 1 ], [ 2, 4, 1 ] ], [ [ -3, -4, 1 ], [ -3, -4, 1 ], [ 1, 2, 1 ] ], [ [ -3, -4, 1 ], [ -2, -3, 1 ], [ -1, -1, 1 ] ], [ [ -2, -3, 1 ], [ -5, -8, 1 ], [ 0, 0, 1 ] ], [ [ -2, -3, 1 ], [ -1, -1, 1 ], [ 1, 2, 1 ] ], [ [ -2, -3, 1 ], [ 0, 0, 1 ], [ -1, -1, 1 ] ], [ [ -2, -2, 1 ], [ -5, -7, 1 ], [ 0, 1, 1 ] ], [ [ -2, -2, 1 ], [ -4, -6, 1 ], [ 2, 4, 1 ] ], [ [ -1, -2, 1 ], [ 1, 2, 1 ], [ 1, 2, 1 ] ], [ [ -1, -1, 1 ], [ -3, -4, 1 ], [ 0, 1, 1 ] ], [ [ -1, -1, 1 ], [ -2, -3, 1 ], [ 0, 0, 1 ] ], [ [ -1, -1, 1 ], [ -2, -3, 1 ], [ 2, 4, 1 ] ], [ [ 0, 0, 1 ], [ -1, -1, 1 ], [ 0, 1, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 17,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 16,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 18,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 19,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 20,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 21,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 22,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 23,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 24,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 25,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 26,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 27,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 28,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 29,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 30,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 31,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 32,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 33,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 35,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 34,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 3, 12 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 7, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 7, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 8, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 8, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 15 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 8, 16 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 9, 7 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 9, 16 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 10, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 10, 9 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 10, 19 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 11, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 11, 3 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 12 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 12, 15 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 13, 7 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 13, 11 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 14, 11 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 14, 15 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 15, 19 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 16, 13 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 16, 14 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 17, 9 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 17, 18 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 17, 21 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 17, 22 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 18, 10 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 18, 23 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 18, 24 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 18, 32 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 19, 24 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 20, 14 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 20, 19 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 21, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 21, 16 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 21, 18 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 21, 20 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 21, 28 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 22, 25 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 22, 28 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 23, 22 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 23, 26 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 23, 31 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 24, 31 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 25, 29 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 25, 32 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 26, 25 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 26, 32 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 26, 34 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 27, 20 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 27, 24 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 27, 30 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 28, 27 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 28, 32 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 29, 26 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 30, 31 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 30, 33 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 32, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 32, 23 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 32, 30 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 32, 35 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 33, 34 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 34, 31 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 35, 29 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 35, 33 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 35, 34 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 34, 29 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 13, 6 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 11, 4 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 12, 5 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 5 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 5, 4 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 4, 6 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 6, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 1 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 1 -29 -46 -6 -10"/>
+    <SelectManifestation point="-10 -15 -25 -40 12 20"/>
+    <SelectManifestation point="-20 -31 -21 -34 -6 -10"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-21 -33 -19 -31 -7 -11" startSegment="-20 -31 -16 -26 -7 -11"/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-21 -33 -20 -32 -7 -12" startSegment="-20 -31 -17 -27 -7 -12"/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <StrutCreation anchor="-15 -24 -17 -28 -1 -2" index="36" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation point="-65/3 -101/3 -61/3 -33 -7 -11"/>
+    <SelectManifestation point="-20 -31 -21 -34 -6 -10"/>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -1 1 2"/>
+      <polygonVertex at="-13 -21 -2 -3 0 0"/>
+      <polygonVertex at="-13 -21 -1 -1 -3 -5"/>
+      <polygonVertex at="-14 -23 0 1 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -1 1 2"/>
+      <polygonVertex at="-13 -21 -2 -3 0 0"/>
+      <polygonVertex at="-13 -21 -1 -1 -3 -5"/>
+      <polygonVertex at="-14 -23 0 1 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation point="-20 -31 -21 -34 -6 -10"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-20 -31 -21 -34 -6 -10"/>
+    <SelectManifestation point="-43/2 -67/2 -41/2 -33 -7 -23/2"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <SelectManifestation point="-83/4 -129/4 -83/4 -67/2 -13/2 -43/4"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-83/4 -129/4 -83/4 -67/2 -13/2 -43/4"/>
+    <SelectManifestation point="-83/4 -129/4 -83/4 -67/2 -13/2 -43/4"/>
+    <DeselectAll/>
+    <SelectManifestation point="-83/4 -129/4 -83/4 -67/2 -13/2 -43/4"/>
+    <SelectManifestation point="-10 -15 -25 -40 13 43/2"/>
+    <SelectManifestation point="3/4 9/4 -117/4 -93/2 -13/2 -43/4"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="3/4 9/4 -117/4 -93/2 -13/2 -43/4" startSegment="-10 -15 -25 -40 13 43/2"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <MapToColor alpha="63" colorMapper="TransparencyMapper"/>
+    <BeginBlock/>
+    <SelectManifestation point="-65/3 -101/3 -61/3 -33 -7 -11"/>
+    <SelectManifestation point="-43/2 -67/2 -41/2 -33 -7 -23/2"/>
+    <SelectManifestation point="-64/3 -100/3 -62/3 -33 -7 -12"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="-19 -30 -14 -23 -7 -11" index="36" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-19 -31 -6 -10 -1 -2" startSegment="-20 -33 -4 -7 -4 -7"/>
+    <SelectManifestation point="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation point="17/4 31/4 77/4 63/2 43/2 143/4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -3 7 12 14 22"/>
+      <polygonVertex at="-2 -3 8 13 12 19"/>
+      <polygonVertex at="0 0 8 13 11 18"/>
+      <polygonVertex at="0 0 7 12 13 21"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -13 -21 -8 -13"/>
+      <polygonVertex at="8 13 -14 -22 -7 -11"/>
+      <polygonVertex at="8 13 -13 -21 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 13 -14 -22 -7 -11"/>
+      <polygonVertex at="6 10 -13 -21 -8 -13"/>
+      <polygonVertex at="6 10 -14 -22 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 13 -13 -21 -5 -8"/>
+      <polygonVertex at="8 13 -14 -22 -7 -11"/>
+      <polygonVertex at="6 10 -14 -22 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation point="8 13 -13 -21 -7 -12"/>
+    <SelectManifestation point="2 4 -28 -45 -7 -12"/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="2 4 -28 -45 -7 -12"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -3, 1 ], [ -1, -1, 1 ], [ 1, 2, 1 ] ], [ [ -2, -3, 1 ], [ 0, 0, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ -1, -1, 1 ], [ 0, 1, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ {
+    "vertices" : [ 1, 2, 3 ],
+    "color" : "#7FBACA"
+  }, {
+    "vertices" : [ 2, 1, 0 ],
+    "color" : "#7FC69A"
+  }, {
+    "vertices" : [ 4, 2, 0 ],
+    "color" : "#7FC69A"
+  } ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1 -28 -45 -8 -13" startSegment="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation endSegment="0 1 -28 -45 -8 -13" startSegment="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation>
+      <polygonVertex at="2 4 -29 -46 -7 -11"/>
+      <polygonVertex at="0 1 -28 -45 -8 -13"/>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 4 -29 -46 -7 -11"/>
+      <polygonVertex at="0 1 -28 -45 -8 -13"/>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+    </SelectManifestation>
+    <SelectManifestation point="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -28 -45 -8 -13"/>
+      <polygonVertex at="2 4 -29 -46 -7 -11"/>
+      <polygonVertex at="2 4 -28 -45 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -28 -45 -8 -13"/>
+      <polygonVertex at="2 4 -29 -46 -7 -11"/>
+      <polygonVertex at="2 4 -28 -45 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation point="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation point="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation point="0 1 -28 -45 -8 -13"/>
+    <SelectManifestation point="19 30 20 32 -8 -13"/>
+    <SelectManifestation endSegment="3 5 22 35 6 10" startSegment="4 7 19 30 6 10"/>
+    <SelectManifestation point="21 33 20 32 -7 -12"/>
+    <DeselectAll/>
+    <SelectManifestation point="19 30 20 32 -8 -13"/>
+    <SelectManifestation point="21 33 20 32 -7 -12"/>
+    <SelectManifestation point="2 4 -28 -45 -7 -12"/>
+    <SelectManifestation point="0 1 -28 -45 -8 -13"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 4 -29 -46 -7 -11"/>
+    <SelectManifestation point="2 4 -28 -45 -7 -12"/>
+    <SelectManifestation point="21 33 19 31 -7 -11"/>
+    <SelectManifestation point="21 33 20 32 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 4 -28 -45 -5 -8"/>
+    <SelectManifestation point="3/4 9/4 -117/4 -93/2 -13/2 -43/4"/>
+    <SelectManifestation point="83/4 129/4 83/4 67/2 -13/2 -43/4"/>
+    <SelectManifestation point="21 33 20 32 -5 -8"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation point="-21 -35 -5 -9 19 31"/>
+    <SelectManifestation point="-20 -33 -4 -7 20 33"/>
+    <SelectManifestation point="9 15 25 41 -11 -19"/>
+    <SelectManifestation point="9 15 25 41 -9 -15"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="-10 -15 -25 -40 12 20"/>
+      <polygonVertex at="-20 -31 -21 -34 -6 -10"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="20 33 4 7 20 33"/>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-9 -15 -25 -41 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="20 33 4 7 20 33"/>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-9 -15 -25 -41 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -10 -16 4 6"/>
+      <polygonVertex at="8 13 -8 -13 6 9"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+      <polygonVertex at="5 8 -11 -18 5 8"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-25 -40 7 12 -3 -6" startSegment="-26 -41 7 11 -3 -6"/>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-7 -12 -25 -41 -12 -20"/>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="22 36 4 7 17 28"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="11 18 -7 -11 6 10"/>
+      <polygonVertex at="9 15 -7 -11 7 11"/>
+      <polygonVertex at="8 13 -8 -13 6 9"/>
+      <polygonVertex at="10 16 -8 -13 5 8"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="8 13 -10 -16 3 5"/>
+      <polygonVertex at="10 16 -8 -13 5 8"/>
+      <polygonVertex at="8 13 -8 -13 6 9"/>
+      <polygonVertex at="6 10 -10 -16 4 6"/>
+    </SelectManifestation>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="8 13 -8 -13 6 9"/>
+      <polygonVertex at="9 15 -7 -11 7 11"/>
+      <polygonVertex at="8 13 -8 -13 8 13"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+    </SelectManifestation>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -11 -18 7 11"/>
+      <polygonVertex at="8 13 -10 -17 6 9"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -11 -18 7 11"/>
+      <polygonVertex at="8 13 -10 -17 6 9"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -11 -18 7 11"/>
+      <polygonVertex at="8 13 -10 -17 6 9"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5 -9 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+      <polygonVertex at="25 41 11 19 -9 -15"/>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -1 -2 -3 14 23"/>
+      <polygonVertex at="-2 -4 0 0 16 26"/>
+      <polygonVertex at="0 0 0 0 16 26"/>
+      <polygonVertex at="2 3 -2 -3 14 23"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -1 -2 -3 14 23"/>
+      <polygonVertex at="-1 -2 -4 -6 14 23"/>
+      <polygonVertex at="-3 -5 -2 -3 16 26"/>
+      <polygonVertex at="-2 -4 0 0 16 26"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -9 -15"/>
+      <polygonVertex at="-8 -13 -26 -43 -10 -17"/>
+      <polygonVertex at="21 35 3 5 19 31"/>
+      <polygonVertex at="20 33 4 7 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 -25 -41 -9 -15"/>
+      <polygonVertex at="-8 -13 -26 -43 -10 -17"/>
+      <polygonVertex at="21 35 3 5 19 31"/>
+      <polygonVertex at="20 33 4 7 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 -12 -20 4 6"/>
+      <polygonVertex at="5 8 -11 -18 5 8"/>
+      <polygonVertex at="7 11 -9 -15 7 11"/>
+      <polygonVertex at="8 13 -10 -17 6 9"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="9 15 -9 -15 25 41"/>
+      <polygonVertex at="10 17 -8 -13 26 43"/>
+      <polygonVertex at="-19 -31 21 35 -3 -5"/>
+      <polygonVertex at="-20 -33 20 33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="9 15 -9 -15 25 41"/>
+      <polygonVertex at="10 17 -8 -13 26 43"/>
+      <polygonVertex at="-19 -31 21 35 -3 -5"/>
+      <polygonVertex at="-20 -33 20 33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 7 11"/>
+      <polygonVertex at="-8 -13 10 17 8 13"/>
+      <polygonVertex at="-7 -11 9 15 9 15"/>
+      <polygonVertex at="-8 -13 8 13 8 13"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-17 -28 22 36 -4 -7"/>
+      <polygonVertex at="-19 -31 22 36 -3 -6"/>
+      <polygonVertex at="10 17 -7 -12 26 42"/>
+      <polygonVertex at="12 20 -7 -12 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-17 -28 22 36 -4 -7"/>
+      <polygonVertex at="-19 -31 22 36 -3 -6"/>
+      <polygonVertex at="10 17 -7 -12 26 42"/>
+      <polygonVertex at="12 20 -7 -12 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-7 -11 10 16 9 14"/>
+      <polygonVertex at="-5 -8 10 16 8 13"/>
+      <polygonVertex at="-3 -5 8 13 10 16"/>
+      <polygonVertex at="-5 -8 8 13 11 17"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-12 -20 7 12 25 41"/>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="17 28 -22 -36 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="20 31 -21 -34 6 10"/>
+      <polygonVertex at="21 33 -20 -32 5 8"/>
+      <polygonVertex at="0 1 29 46 6 10"/>
+      <polygonVertex at="2 4 28 45 5 8"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="5 8 19 30 -15 -24"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-23 -37 -13 -21 11 17"/>
+      <polygonVertex at="-24 -39 -14 -23 10 15"/>
+      <polygonVertex at="24 38 -14 -23 -9 -14"/>
+      <polygonVertex at="25 40 -13 -21 -8 -12"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="6 9 -8 -13 10 17"/>
+      <polygonVertex at="7 11 -7 -11 9 15"/>
+      <polygonVertex at="8 13 -8 -13 8 13"/>
+      <polygonVertex at="7 11 -9 -15 9 15"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-5 -9 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+      <polygonVertex at="25 41 11 19 -9 -15"/>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5 -9 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+      <polygonVertex at="25 41 11 19 -9 -15"/>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 31 -21 -35 -5 -9"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+      <polygonVertex at="-11 -19 9 15 25 41"/>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 9 15 25 41"/>
+      <polygonVertex at="-10 -17 8 13 26 43"/>
+      <polygonVertex at="19 31 -21 -35 -3 -5"/>
+      <polygonVertex at="20 33 -20 -33 -4 -7"/>
+    </SelectManifestation>
+    <SelectManifestation point="-1 -2 -2 -3 17 27"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-21 -34 -6 -10 -20 -31"/>
+      <polygonVertex at="-20 -32 -5 -8 -21 -33"/>
+      <polygonVertex at="29 46 -6 -10 0 -1"/>
+      <polygonVertex at="28 45 -5 -8 -2 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-21 -34 -6 -10 -20 -31"/>
+      <polygonVertex at="-20 -32 -5 -8 -21 -33"/>
+      <polygonVertex at="29 46 -6 -10 0 -1"/>
+      <polygonVertex at="28 45 -5 -8 -2 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-17 -28 -22 -36 4 7"/>
+      <polygonVertex at="-19 -31 -22 -36 3 6"/>
+      <polygonVertex at="10 17 7 12 -26 -42"/>
+      <polygonVertex at="12 20 7 12 -25 -41"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 -6 -10 14 23"/>
+      <polygonVertex at="-4 -6 -5 -8 13 21"/>
+      <polygonVertex at="-3 -5 -3 -5 13 21"/>
+      <polygonVertex at="-2 -3 -4 -7 14 23"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-11 -17 -23 -37 13 21"/>
+      <polygonVertex at="-10 -15 -24 -39 14 23"/>
+      <polygonVertex at="9 14 24 38 14 23"/>
+      <polygonVertex at="8 12 25 40 13 21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-11 -17 -23 -37 13 21"/>
+      <polygonVertex at="-10 -15 -24 -39 14 23"/>
+      <polygonVertex at="9 14 24 38 14 23"/>
+      <polygonVertex at="8 12 25 40 13 21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 -5 -8 13 21"/>
+      <polygonVertex at="-3 -4 -6 -10 14 23"/>
+      <polygonVertex at="-4 -6 -9 -15 14 23"/>
+      <polygonVertex at="-5 -8 -8 -13 13 21"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="21 35 5 9 19 31"/>
+      <polygonVertex at="20 33 4 7 20 33"/>
+      <polygonVertex at="-9 -15 -25 -41 -11 -19"/>
+      <polygonVertex at="-9 -15 -25 -41 -9 -15"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+      <polygonVertex at="26 43 10 17 -8 -13"/>
+      <polygonVertex at="-3 -5 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+      <polygonVertex at="26 43 10 17 -8 -13"/>
+      <polygonVertex at="-3 -5 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="25 41 9 15 -9 -15"/>
+      <polygonVertex at="26 43 10 17 -8 -13"/>
+      <polygonVertex at="-3 -5 -19 -31 21 35"/>
+      <polygonVertex at="-4 -7 -20 -33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 13 -8 -13 10 17"/>
+      <polygonVertex at="7 11 -9 -15 9 15"/>
+      <polygonVertex at="5 8 -11 -18 11 18"/>
+      <polygonVertex at="6 10 -10 -16 12 20"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 29 46 6 10"/>
+      <polygonVertex at="0 1 28 45 8 13"/>
+      <polygonVertex at="20 31 -21 -34 6 10"/>
+      <polygonVertex at="19 30 -20 -32 8 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 29 46 6 10"/>
+      <polygonVertex at="0 1 28 45 8 13"/>
+      <polygonVertex at="20 31 -21 -34 6 10"/>
+      <polygonVertex at="19 30 -20 -32 8 13"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 13 19 30 -20 -32"/>
+      <polygonVertex at="7 12 21 33 -20 -32"/>
+      <polygonVertex at="7 12 2 4 28 45"/>
+      <polygonVertex at="8 13 0 1 28 45"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 13 19 30 -20 -32"/>
+      <polygonVertex at="7 12 21 33 -20 -32"/>
+      <polygonVertex at="7 12 2 4 28 45"/>
+      <polygonVertex at="8 13 0 1 28 45"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-28 -45 5 8 -2 -4"/>
+      <polygonVertex at="-29 -46 7 11 -2 -4"/>
+      <polygonVertex at="19 31 7 11 -21 -33"/>
+      <polygonVertex at="20 32 5 8 -21 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -15 25 40 -12 -20"/>
+      <polygonVertex at="-8 -12 25 40 -13 -21"/>
+      <polygonVertex at="10 15 -25 -40 -12 -20"/>
+      <polygonVertex at="11 17 -23 -37 -13 -21"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="22" len="1 1"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="32" len="1 2"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="30" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -2 0 0 2 3"/>
+    <SelectManifestation endSegment="-1 -2 0 0 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 -1 -1 -2 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 -1 -1 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 -1 -1 -2 -3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-21 -34 -8 -13 -3 -5"/>
+    <SelectManifestation endSegment="-21 -34 -8 -13 -3 -5" startSegment="-19 -31 -6 -10 -1 -2"/>
+    <SelectManifestation point="-19 -31 -6 -10 -1 -2"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -3, 1 ], [ -2, -3, 1 ], [ -2, -3, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -3 -1 -2 0 0"/>
+    <SelectManifestation point="-2 -3 -2 -3 -2 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-3"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="19 31 21 35 5 9"/>
+      <polygonVertex at="20 33 20 33 4 7"/>
+      <polygonVertex at="-11 -19 -9 -15 -25 -41"/>
+      <polygonVertex at="-9 -15 -9 -15 -25 -41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="19 31 21 35 5 9"/>
+      <polygonVertex at="20 33 20 33 4 7"/>
+      <polygonVertex at="-11 -19 -9 -15 -25 -41"/>
+      <polygonVertex at="-9 -15 -9 -15 -25 -41"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-9 -15 25 41 9 15"/>
+      <polygonVertex at="-8 -13 26 43 10 17"/>
+      <polygonVertex at="21 35 -3 -5 -19 -31"/>
+      <polygonVertex at="20 33 -4 -7 -20 -33"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-2 -3 -1 -2 0 0" index="39" len="2 4"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <StrutCreation anchor="-2 -3 -1 -2 0 0" index="7" len="2 4"/>
+    <StrutCreation anchor="-3 -4 0 0 2 3" index="7" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3 -4 0 0 2 3" startSegment="-2 -3 -1 -2 0 0"/>
+    <SelectManifestation point="-3 -4 0 0 2 3"/>
+    <SelectManifestation endSegment="-4 -5 1 2 4 6" startSegment="-3 -4 0 0 2 3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -5 1 2 4 6"/>
+    <SelectManifestation point="-2 -3 -1 -2 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 -1 -2 0 0"/>
+    <SelectManifestation endSegment="-3 -5 -3 -5 1 1" startSegment="-2 -3 -1 -2 0 0"/>
+    <SelectManifestation endSegment="-2 -3 -1 -2 0 0" startSegment="-4 -5 1 2 4 6"/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ScalingTool name="tool-4" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -5 -3 -5 1 1" startSegment="-2 -3 -1 -2 0 0"/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="14 23 14 23 -2 -3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="19 31 21 35 5 9"/>
+      <polygonVertex at="20 33 20 33 4 7"/>
+      <polygonVertex at="-11 -19 -9 -15 -25 -41"/>
+      <polygonVertex at="-9 -15 -9 -15 -25 -41"/>
+    </SelectManifestation>
+    <StrutCreation anchor="0 0 0 0 0 0" index="8" len="2 4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -5 1 2 4 6"/>
+    <SelectManifestation endSegment="-2 -3 -1 -2 0 0" startSegment="-4 -5 1 2 4 6"/>
+    <SelectManifestation point="-2 -3 -1 -2 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -2, 1 ], [ 2, 4, 1 ], [ 4, 6, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -5 1 2 4 6"/>
+    <SelectManifestation endSegment="-2 -3 -1 -2 0 0" startSegment="-4 -5 1 2 4 6"/>
+    <SelectManifestation point="-2 -3 -1 -2 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -3 -1 -2 0 0" startSegment="-4 -5 1 2 4 6"/>
+    <SelectManifestation point="-4 -5 1 2 4 6"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 3 -1 -1 1 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -2 2 4 4 6"/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 20 31 -21 -34"/>
+      <polygonVertex at="5 8 21 33 -20 -32"/>
+      <polygonVertex at="6 10 0 1 29 46"/>
+      <polygonVertex at="5 8 2 4 28 45"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 3 -1 -1 1 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -2 2 4 4 6"/>
+    <EndBlock/>
+    <ScalingTool name="tool-5" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-25 -41 -11 -19 -9 -15"/>
+    <SelectManifestation>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation point="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation point="-23 -38 -10 -17 -5 -9"/>
+    <SelectManifestation point="-23 -38 -10 -17 -5 -9"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-18 -30 -2 -4 0 0" startSegment="-19 -32 -3 -6 -1 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-17 -27 -1 -2 2 3"/>
+      <polygonVertex at="-17 -28 -1 -2 1 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-17 -27 -1 -2 2 3"/>
+      <polygonVertex at="-17 -28 -1 -2 1 2"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-17 -27 -1 -2 2 3"/>
+      <polygonVertex at="-17 -28 -1 -2 1 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-14 -22 2 3 5 8"/>
+      <polygonVertex at="-14 -23 2 3 4 7"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="17/4 31/4 77/4 63/2 43/2 143/4" startSegment="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation endSegment="17/4 31/4 77/4 63/2 43/2 143/4" startSegment="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation endSegment="17/4 31/4 77/4 63/2 43/2 143/4" startSegment="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation endSegment="17/4 31/4 77/4 63/2 43/2 143/4" startSegment="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 -29 -46 -6 -10"/>
+      <polygonVertex at="0 1 -28 -45 -8 -13"/>
+      <polygonVertex at="20 31 21 34 -6 -10"/>
+      <polygonVertex at="19 30 20 32 -8 -13"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+      <polygonVertex at="-15 -24 1 1 4 6"/>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-14 -23 2 3 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -23 -1 -2 4 6"/>
+      <polygonVertex at="-14 -23 0 -1 2 3"/>
+      <polygonVertex at="-15 -25 1 1 3 5"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-5 -8 11 18 13 22" startSegment="-6 -10 10 16 12 20"/>
+    <SelectManifestation endSegment="-5 -8 11 18 13 22" startSegment="-6 -10 10 16 12 20"/>
+    <SelectManifestation>
+      <polygonVertex at="-6 -9 10 16 13 21"/>
+      <polygonVertex at="-5 -8 11 18 11 18"/>
+      <polygonVertex at="-4 -6 10 16 12 20"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-5 -8 11 18 11 18" startSegment="-4 -6 10 16 12 20"/>
+    <SelectManifestation endSegment="-4 -6 9 15 14 23" startSegment="-5 -8 11 18 11 18"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="-6 -10 10 16 12 20" startSegment="-5 -8 8 13 13 21"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="-13/2 -43/4 83/4 129/4 83/4 67/2" index="10" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation point="-25 -41 -11 -19 -9 -15"/>
+    <SelectManifestation point="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+    </SelectManifestation>
+    <SelectManifestation point="17/4 31/4 77/4 63/2 43/2 143/4"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation>
+      <polygonVertex at="25 41 -9 -15 9 15"/>
+      <polygonVertex at="26 43 -10 -17 8 13"/>
+      <polygonVertex at="-3 -5 19 31 -21 -35"/>
+      <polygonVertex at="-4 -7 20 33 -20 -33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <BookmarkTool name="tool-6"/>
+    <GroupSelection/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="25 41 -9 -15 9 15"/>
+      <polygonVertex at="26 43 -10 -17 8 13"/>
+      <polygonVertex at="-3 -5 19 31 -21 -35"/>
+      <polygonVertex at="-4 -7 20 33 -20 -33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <SelectManifestation>
+      <polygonVertex at="25 41 -9 -15 9 15"/>
+      <polygonVertex at="26 43 -10 -17 8 13"/>
+      <polygonVertex at="-3 -5 19 31 -21 -35"/>
+      <polygonVertex at="-4 -7 20 33 -20 -33"/>
+    </SelectManifestation>
+    <BookmarkTool name="tool-7"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <GroupSelection/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="17/4 31/4 77/4 63/2 43/2 143/4" startSegment="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="7 12 -26 -42 10 17" startSegment="5 9 -24 -39 8 14"/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-7 -12 23 38 7 12" startSegment="-7 -12 23 38 9 16"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 2 17 28 19 32" startSegment="2 4 18 30 18 30"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 5 19 31 21 35"/>
+    <SelectManifestation point="-26 -43 -10 -17 -8 -13"/>
+    <SelectManifestation point="-26 -42 -10 -17 -7 -12"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <BookmarkTool name="tool-8"/>
+    <GroupSelection/>
+    <ApplyTool name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 9 15 14 23"/>
+    <SelectManifestation point="-4 -6 9 15 14 23"/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-20 -32 8 13 19 30"/>
+      <polygonVertex at="-20 -32 7 12 21 33"/>
+      <polygonVertex at="28 45 7 12 2 4"/>
+      <polygonVertex at="28 45 8 13 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-20 -32 8 13 19 30"/>
+      <polygonVertex at="-20 -32 7 12 21 33"/>
+      <polygonVertex at="28 45 7 12 2 4"/>
+      <polygonVertex at="28 45 8 13 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <GroupSelection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-25 -41 -9 -15 -9 -15"/>
+    <SelectManifestation point="-25 -41 -11 -19 -9 -15"/>
+    <SelectManifestation point="5 9 19 31 21 35"/>
+    <SelectManifestation point="4 7 20 33 20 33"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <DeselectAll/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="5 9 19 31 21 35"/>
+    <SelectManifestation point="4 7 17 28 22 36"/>
+    <SelectManifestation point="-25 -41 -12 -20 -7 -12"/>
+    <SelectManifestation endSegment="-25 -41 -11 -19 -9 -15" startSegment="-26 -43 -10 -17 -8 -13"/>
+    <SelectManifestation point="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation point="-103/4 -169/4 -43/4 -37/2 -17/2 -57/4"/>
+    <SelectManifestation point="-25 -41 -11 -19 -9 -15"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <StrutCreation anchor="-20 -32 -16 -26 -8 -12" index="54" len="2 4"/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <GroupSelection/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-25 -41 -9 -15 -9 -15"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 20 33 20 33"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="5 9 19 31 21 35"/>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+      <polygonVertex at="-25 -41 -11 -19 -9 -15"/>
+    </SelectManifestation>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <SelectManifestation>
+      <polygonVertex at="4 7 17 28 22 36"/>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+      <polygonVertex at="-25 -41 -12 -20 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="2 4 -28 -45 -5 -8"/>
+      <polygonVertex at="3/4 9/4 -117/4 -93/2 -13/2 -43/4"/>
+      <polygonVertex at="83/4 129/4 83/4 67/2 -13/2 -43/4"/>
+      <polygonVertex at="21 33 20 32 -5 -8"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="2 4 -28 -45 -5 -8"/>
+      <polygonVertex at="3/4 9/4 -117/4 -93/2 -13/2 -43/4"/>
+      <polygonVertex at="83/4 129/4 83/4 67/2 -13/2 -43/4"/>
+      <polygonVertex at="21 33 20 32 -5 -8"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation point="3 6 19 31 22 36"/>
+    <SelectManifestation>
+      <polygonVertex at="3 6 19 31 22 36"/>
+      <polygonVertex at="3 5 19 31 21 35"/>
+      <polygonVertex at="-26 -43 -10 -17 -8 -13"/>
+      <polygonVertex at="-26 -42 -10 -17 -7 -12"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="-2 -3 -1 -2 0 0"/>
+      <polygonVertex at="-2 -3 -2 -3 -2 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-10 -15 -24 -39 14 23"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="1298.388916015625" far="2596.7734375" near="3.2459893226623535" parallel="true" stereoAngle="0.0" width="584.2759399414062">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.80901700258255" y="-0.30901700258255005" z="0.5"/>
+      <LookDirection x="0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="solid connectors">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="255,255,255" name="1371" prototype="-135/2 85/2 355/2 -110 230 -285/2"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool deleteInputs="true" id="tool-0" label="translation 0"/>
+    <Tool hidden="true" id="tool-1" label="bookmark 1" selectInputs="true"/>
+    <Tool id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool id="tool-3" label="mirror 3" selectInputs="true"/>
+    <Tool deleteInputs="true" hidden="true" id="tool-4" label="scaling 4"/>
+    <Tool deleteInputs="true" id="tool-5" label="scaling 5"/>
+    <Tool hidden="true" id="tool-6" label="bookmark 6" selectInputs="true"/>
+    <Tool id="tool-7" label="bookmark 7" selectInputs="true"/>
+    <Tool id="tool-8" label="bookmark 8" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
