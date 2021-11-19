@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="65" field="golden" version="7.0">
+  <EditHistory editNumber="579" lastStickyEdit="578">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="purple" index="9" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3/2 5/2 3/2 2 0 1/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 5/2 3/2 2 0 1/2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -1/2 3/2 5/2 3/2 2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1/2 3/2 5/2 -3/2 -2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 1/2 3/2 5/2 -3/2 -2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 -1/2 3/2 5/2 3/2 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 2 0 -1/2 3/2 5/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 5/2 3/2 2 0 -1/2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3/2 5/2 3/2 2 0 1/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 5/2 3/2 2 0 1/2"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 -1 -1"/>
+    <SelectManifestation point="0 0 2 3 1 1"/>
+    <SelectManifestation point="0 0 -2 -3 1 1"/>
+    <SelectManifestation point="0 0 -2 -3 -1 -1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 2 3 1 1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 2 3 1 1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1/2 3/2 5/2 -3/2 -2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 3 1 3/2 -1/2 -1/2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3/2 2 0 1/2 -3/2 -5/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 5/2 3/2 2 0 -1/2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3/2 2 0 -1/2 -3/2 -5/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 5/2 3/2 2 0 1/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 -1/2 3/2 5/2 -3/2 -2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 -1 -1"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 1 1"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ -1, -1, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 1 1"/>
+    <SelectManifestation point="0 0 4 6 0 0"/>
+    <SelectManifestation point="0 0 2 3 -1 -1"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 3 1 1 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 1 0 0 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="4 6 0 0 0 0" dir="purple" index="17" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 4 1 1 -2 -3"/>
+    <SelectManifestation point="5 7 0 0 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <StrutCreation anchor="4 6 0 0 0 0" dir="purple" index="2" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 4 1 1 2 3"/>
+    <SelectManifestation point="5 7 0 0 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <StrutCreation anchor="2 3 3 4 1 1" dir="purple" index="58" len="1 1"/>
+    <StrutCreation anchor="2 3 3 4 -1 -1" dir="purple" index="1" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="3/2 5/2 9/2 7 0 -1/2"/>
+    <SelectManifestation endSegment="3/2 5/2 9/2 7 0 -1/2" startSegment="2 3 3 4 1 1"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="2 3 3 4 1 1" dir="purple" index="46" len="1 1"/>
+    <StrutCreation anchor="3 4 1 1 2 3" dir="purple" index="15" len="1 1"/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <StrutCreation anchor="2 3 5 7 0 0" dir="purple" index="17" len="1 1"/>
+    <StrutCreation anchor="3 4 5 7 -2 -3" dir="purple" index="16" len="1 1"/>
+    <StrutCreation anchor="2 3 5 7 0 0" dir="purple" index="2" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 4 5 7 2 3"/>
+    <SelectManifestation point="3 4 3 4 3 4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 1 1 0 0"/>
+    <SelectManifestation endSegment="2 3 1 1 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="3/2 3 -1 -3/2 -1/2 -1/2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 1 1 0 0"/>
+    <SelectManifestation point="2 3 1 1 0 0"/>
+    <SelectManifestation point="2 3 1 1 0 0"/>
+    <SelectManifestation endSegment="2 3 1 1 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 5 7 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 5 7 -2 -3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="4 6 6 8 0 0"/>
+    <SelectManifestation point="5 7 6 8 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="2 3 -3 -4 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 0 0 -2 -3"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-3/2 -2 0 -1/2 3/2 5/2"/>
+    <SelectManifestation point="-3/2 -2 0 1/2 3/2 5/2"/>
+    <SelectManifestation endSegment="-3/2 -2 0 1/2 3/2 5/2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3 -4 3 4 3 4" startSegment="-2 -3 3 4 1 1"/>
+    <SelectManifestation point="-3 -4 3 4 3 4"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 6 6 8 0 0"/>
+    <SelectManifestation endSegment="4 6 6 8 0 0" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="4 6 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 3 4 -3 -4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5 7 0 0 -2 -3" startSegment="3 4 1 1 -2 -3"/>
+    <SelectManifestation endSegment="5 7 0 0 -2 -3" startSegment="3 4 1 1 -2 -3"/>
+    <SelectManifestation point="3 4 1 1 -2 -3"/>
+    <SelectManifestation point="3 4 3 4 3 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 3 4 3 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#6C00C6"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 4 5 3 4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 6 8 -2 -3"/>
+    <SelectManifestation point="5 7 4 5 -3 -4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="5 7 4 5 -3 -4"/>
+    <SelectManifestation endSegment="5 7 4 5 -3 -4" startSegment="3 4 3 4 -3 -4"/>
+    <SelectManifestation point="3 4 3 4 -3 -4"/>
+    <SelectManifestation endSegment="3 4 3 4 -3 -4" startSegment="3 4 5 7 -2 -3"/>
+    <SelectManifestation point="3 4 5 7 -2 -3"/>
+    <SelectManifestation endSegment="5 7 6 8 -2 -3" startSegment="3 4 5 7 -2 -3"/>
+    <SelectManifestation point="5 7 6 8 -2 -3"/>
+    <SelectManifestation endSegment="5 7 6 8 -2 -3" startSegment="4 6 6 8 0 0"/>
+    <SelectManifestation endSegment="3 4 5 7 -2 -3" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation endSegment="4 6 6 8 0 0" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation point="4 6 6 8 0 0"/>
+    <SelectManifestation endSegment="4 6 6 8 0 0" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation endSegment="4 6 6 8 0 0" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation point="2 3 5 7 0 0"/>
+    <SelectManifestation endSegment="4 6 6 8 0 0" startSegment="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 6 8 2 3"/>
+    <SelectManifestation endSegment="3 4 5 7 2 3" startSegment="2 3 5 7 0 0"/>
+    <SelectManifestation point="3 4 5 7 2 3"/>
+    <SelectManifestation endSegment="5 7 6 8 2 3" startSegment="3 4 5 7 2 3"/>
+    <SelectManifestation endSegment="5 7 4 5 3 4" startSegment="5 7 6 8 2 3"/>
+    <SelectManifestation point="5 7 4 5 3 4"/>
+    <SelectManifestation endSegment="5 7 4 5 3 4" startSegment="3 4 3 4 3 4"/>
+    <SelectManifestation endSegment="3 4 3 4 3 4" startSegment="3 4 5 7 2 3"/>
+    <SelectManifestation endSegment="2 3 5 7 0 0" startSegment="2 3 3 4 1 1"/>
+    <SelectManifestation endSegment="2 3 5 7 0 0" startSegment="2 3 3 4 -1 -1"/>
+    <SelectManifestation point="2 3 3 4 -1 -1"/>
+    <SelectManifestation endSegment="3 4 3 4 -3 -4" startSegment="2 3 3 4 -1 -1"/>
+    <SelectManifestation endSegment="3 4 1 1 -2 -3" startSegment="3 4 3 4 -3 -4"/>
+    <SelectManifestation point="3 4 1 1 -2 -3"/>
+    <SelectManifestation endSegment="5 7 0 0 -2 -3" startSegment="3 4 1 1 -2 -3"/>
+    <SelectManifestation point="5 7 0 0 -2 -3"/>
+    <SelectManifestation endSegment="2 3 1 1 0 0" startSegment="2 3 3 4 -1 -1"/>
+    <SelectManifestation point="2 3 1 1 0 0"/>
+    <SelectManifestation endSegment="3 4 1 1 -2 -3" startSegment="2 3 1 1 0 0"/>
+    <SelectManifestation endSegment="4 6 0 0 0 0" startSegment="2 3 1 1 0 0"/>
+    <SelectManifestation point="4 6 0 0 0 0"/>
+    <SelectManifestation endSegment="5 7 0 0 -2 -3" startSegment="4 6 0 0 0 0"/>
+    <SelectManifestation endSegment="2 3 1 1 0 0" startSegment="2 3 3 4 1 1"/>
+    <SelectManifestation point="2 3 3 4 1 1"/>
+    <SelectManifestation endSegment="3 4 3 4 3 4" startSegment="2 3 3 4 1 1"/>
+    <SelectManifestation point="3 4 3 4 3 4"/>
+    <SelectManifestation endSegment="3 4 3 4 3 4" startSegment="3 4 1 1 2 3"/>
+    <SelectManifestation endSegment="5 7 0 0 2 3" startSegment="3 4 1 1 2 3"/>
+    <SelectManifestation point="3 4 1 1 2 3"/>
+    <SelectManifestation endSegment="3 4 1 1 2 3" startSegment="2 3 1 1 0 0"/>
+    <SelectManifestation endSegment="5 7 0 0 2 3" startSegment="4 6 0 0 0 0"/>
+    <SelectManifestation point="5 7 0 0 2 3"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 -3 -4 -3 -4"/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-2 -3 -3 -4 -1 -1"/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-3 -4 -1 -1 -2 -3"/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-3 -4 -1 -1 -2 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-2 -3 -3 -4 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-2 -3 -3 -4 -1 -1"/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-3 -4 -1 -1 -2 -3"/>
+    <SelectManifestation endSegment="-3 -4 -3 -4 -3 -4" startSegment="-1 -1 -2 -3 -3 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -4 -6"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -6" startSegment="-1 -1 0 0 -2 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -6" startSegment="1 1 0 0 -2 -3"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1/2 -1/2 -3/2 -3 1 3/2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-1/2 -1/2 -3/2 -3 1 3/2"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 7 3 4 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-1"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="tool-1"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-2 -3 2 3 -2 -3" dir="red" index="32" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="-3 -5 2 3 0 0"/>
+    <SelectManifestation endSegment="-2 -3 2 3 -2 -3" startSegment="-3 -4 2 3 0 0"/>
+    <SelectManifestation endSegment="-2 -3 2 3 -2 -3" startSegment="-3 -4 2 3 0 0"/>
+    <SelectManifestation endSegment="-3 -5 2 3 0 0" startSegment="-2 -3 2 3 -2 -3"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -5 2 3 0 0" startSegment="-3 -5 0 0 -1 -2"/>
+    <SelectManifestation endSegment="-2 -3 0 0 -3 -5" startSegment="-3 -5 0 0 -1 -2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -3 2 3 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 5 2 3 0 0"/>
+    <SelectManifestation point="3 4 2 3 0 0"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 5 -2 -3 0 0"/>
+    <SelectManifestation point="3 4 -2 -3 0 0"/>
+    <SelectManifestation point="1 1 -3 -4 0 0"/>
+    <SelectManifestation point="1 2 -3 -5 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -1 -1 -3 -4"/>
+    <SelectManifestation point="0 0 -1 -2 -3 -5"/>
+    <SelectManifestation point="0 0 1 2 -3 -5"/>
+    <SelectManifestation point="0 0 1 1 -3 -4"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <SelectManifestation point="3 5 2 3 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Hide/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <Delete/>
+    <ShowHidden/>
+    <BookmarkTool name="tool-2"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="3 4 0 0 1 1"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="2 3 2 3 2 3" dir="green" index="21" len="2 4"/>
+    <StrutCreation anchor="2 3 -2 -3 2 3" dir="green" index="6" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="4 7 0 1 2 3" startSegment="2 3 -2 -3 2 3"/>
+    <SelectManifestation endSegment="4 7 0 -1 2 3" startSegment="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 3 0 0 -3 -4" startSegment="2 3 2 3 -2 -3"/>
+    <SelectManifestation endSegment="2 3 0 0 -3 -4" startSegment="2 3 2 3 -2 -3"/>
+    <SelectManifestation endSegment="4 7 0 -1 2 3" startSegment="2 3 2 3 2 3"/>
+    <SelectManifestation point="4 7 0 -1 2 3"/>
+    <SelectManifestation point="4 7 0 1 2 3"/>
+    <SelectManifestation endSegment="4 7 0 1 2 3" startSegment="2 3 -2 -3 2 3"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 0 0 2 3" startSegment="2 3 2 3 2 3"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <SelectManifestation point="2 3 4 6 0 0"/>
+    <SelectManifestation endSegment="2 3 4 6 0 0" startSegment="2 3 2 3 2 3"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ -2, -3, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 0 0 3 5" startSegment="0 0 1 2 3 5"/>
+    <SelectManifestation endSegment="2 3 0 0 3 5" startSegment="0 0 1 2 3 5"/>
+    <SelectManifestation point="2 3 0 0 4 6"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 0 0 2 3" startSegment="2 3 2 3 2 3"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -3, 1 ], [ 2, 3, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 0 0 2 3" startSegment="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="3 4 0 0 1 1"/>
+    <SelectManifestation point="4 6 0 0 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 0 0 2 3" startSegment="3 4 0 0 1 1"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 0 0 2 3" startSegment="3 4 0 0 1 1"/>
+    <SelectManifestation endSegment="4 6 0 0 -2 -3" startSegment="3 4 0 0 -1 -1"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 2 3 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BookmarkTool name="tool-3"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 2 3 2 3"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BookmarkTool name="tool-4"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <SelectManifestation point="2 3 0 0 -3 -4"/>
+    <SelectManifestation point="2 3 0 0 -3 -5"/>
+    <SelectManifestation point="2 3 0 0 -4 -6"/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-2 -3 2 3 2 3" dir="maroon" index="24" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 3 3 2 3"/>
+    <SelectManifestation endSegment="0 0 3 3 2 3" startSegment="-2 -3 2 3 2 3"/>
+    <SelectManifestation point="0 0 4 6 2 3"/>
+    <SelectManifestation point="0 0 3 4 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 3 3 2 3"/>
+    <SelectManifestation point="0 0 4 6 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 3 3 2 3"/>
+    <SelectManifestation endSegment="0 0 3 3 2 3" startSegment="-2 -3 2 3 2 3"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <SelectManifestation endSegment="-2 -3 0 0 3 3" startSegment="-2 -3 2 3 2 3"/>
+    <SelectManifestation point="-2 -3 2 3 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 3 3 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ -2, -3, 1 ], [ 1, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#750032"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 1 0 3 3"/>
+    <SelectManifestation point="-2 -3 0 0 3 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 0 0 3 3" startSegment="0 0 -1 0 3 3"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 0 0 -3 -3"/>
+    <SelectManifestation point="0 0 -1 0 -3 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -4 -6" startSegment="0 0 1 1 -3 -4"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -2 -3"/>
+    <SelectManifestation point="0 0 2 3 -4 -6"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 2 3"/>
+    <SelectManifestation point="0 0 4 6 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 0 -3 -3" startSegment="0 0 3 3 -2 -3"/>
+    <SelectManifestation endSegment="0 0 1 0 -3 -3" startSegment="0 0 3 3 -2 -3"/>
+    <SelectManifestation endSegment="0 0 4 6 -2 -3" startSegment="0 0 0 0 -2 -3"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BookmarkTool name="tool-5"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="3 3 2 3 0 0"/>
+    <SelectManifestation point="3 3 0 0 1 0"/>
+    <SelectManifestation point="2 3 0 0 3 3"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="3 3 2 3 0 0"/>
+      <polygonVertex at="3 3 0 0 1 0"/>
+      <polygonVertex at="2 3 0 0 3 3"/>
+      <polygonVertex at="2 3 2 3 2 3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BookmarkTool name="tool-6"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="132.8046875" far="265.6100158691406" near="0.332011878490448" parallel="true" stereoAngle="0.0" width="59.762123107910156">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="0.0" z="1.0"/>
+      <LookDirection x="-1.0" y="0.0" z="0.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="13074" prototype="5/2 -1 3/2 -3/2 1 -1"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="255,255,255" name="13075" prototype="2 -1/2 -3/2 3/2 -5/2 1"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="255,255,255" name="13104" prototype="0 -1 21 -13 3 -2"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="255,255,255" name="13103" prototype="3 -1 0 0 2 -1"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool hidden="true" id="tool-0" label="bookmark 0" selectInputs="true"/>
+    <Tool deleteInputs="true" id="tool-1" label="translation 1"/>
+    <Tool id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool id="tool-3" label="bookmark 3" selectInputs="true"/>
+    <Tool id="tool-4" label="bookmark 4" selectInputs="true"/>
+    <Tool id="tool-5" label="bookmark 5" selectInputs="true"/>
+    <Tool id="tool-6" label="bookmark 6" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
