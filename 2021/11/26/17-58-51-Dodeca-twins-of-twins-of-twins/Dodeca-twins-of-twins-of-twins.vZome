@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="65" field="golden" version="7.0">
+  <EditHistory editNumber="223" lastStickyEdit="184">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="21" len="1 1"/>
+    <SelectManifestation point="1 1 -2 -3 0 0"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 -2 -3 0 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectAll/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 1 2 3 5"/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 3 5 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 3 -2 -3 2 3"/>
+    <EndBlock/>
+    <Branch>
+      <Polygon/>
+      <MirrorTool name="tool-0"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 3 5 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 1 2 3 5"/>
+    <EndBlock/>
+    <Branch>
+      <Polygon/>
+      <MirrorTool name="tool-1"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <BookmarkTool name="tool-2"/>
+    <ApplyTool name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-2" selectInputs="true"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-5/2 -4 2 7/2 1/2 1/2" startSegment="-3 -5 0 0 1 2"/>
+    <SelectManifestation endSegment="-3 -5 0 0 1 2" startSegment="-3/2 -5/2 -1/2 -1 3 9/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -5 0 0 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -5 0 0 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <SelectManifestation point="-2 -3 -2 -3 2 3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 -2 -3 -2 -3"/>
+    <SelectManifestation point="0 0 1 2 -3 -5"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <setItemColor blue="0" green="0" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 -3 -5 0 0"/>
+    <SelectManifestation point="-2 -3 2 3 2 3"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="0 0 1 2 3 5" index="39" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -2 -1 -1 4 6"/>
+    <SelectManifestation endSegment="-1 -2 -1 -1 4 6" startSegment="0 0 1 2 3 5"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="-1 -2 3 5 0 0"/>
+    <Delete/>
+    <SelectManifestation point="2 3 -2 -3 -2 -3"/>
+    <Delete/>
+    <ShowHidden/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 3 -2 -3 2 3"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BookmarkTool name="tool-3"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 7/2 1/2 1/2 5/2 4" startSegment="2 3 -2 -3 2 3"/>
+    <SelectManifestation endSegment="2 3 -2 -3 2 3" startSegment="5/2 4 -2 -7/2 -1/2 -1/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -1 -2 3 5"/>
+    <SelectManifestation point="3 5 0 0 1 2"/>
+    <SelectManifestation point="2 3 2 3 -2 -3"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 2 3 2 3"/>
+    <SelectManifestation point="-1 -2 3 5 0 0"/>
+    <SelectManifestation point="-2 -3 2 3 2 3"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectAll/>
+    <BookmarkTool name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 7/2 1/2 1/2 5/2 4"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-1/2 -1/2 -5/2 -4 2 7/2"/>
+    <EndBlock/>
+    <Branch>
+      <Polygon/>
+      <MirrorTool name="tool-5"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool name="tool-5" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-4" selectInputs="true"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3 19/4 -5/4 -7/4 3/4 3/2" startSegment="2 7/2 1/2 1/2 5/2 4"/>
+    <SelectManifestation endSegment="2 7/2 1/2 1/2 5/2 4" startSegment="1/4 0 -1/2 -3/4 13/4 21/4"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1/4 0 1/2 3/4 -13/4 -21/4" startSegment="1/2 1/2 5/2 4 -2 -7/2"/>
+    <SelectManifestation endSegment="-3 -19/4 5/4 7/4 -3/4 -3/2" startSegment="-3/2 -9/4 11/4 19/4 -3/4 -1"/>
+    <SelectManifestation endSegment="-3 -19/4 5/4 7/4 -3/4 -3/2" startSegment="-3/2 -9/4 11/4 19/4 -3/4 -1"/>
+    <SelectManifestation endSegment="1/2 1/2 5/2 4 -2 -7/2" startSegment="-3/2 -9/4 11/4 19/4 -3/4 -1"/>
+    <SelectManifestation endSegment="9/4 15/4 9/4 7/2 -1 -5/4" startSegment="1/2 1/2 5/2 4 -2 -7/2"/>
+    <SelectManifestation endSegment="9/4 15/4 9/4 7/2 -1 -5/4" startSegment="1/2 1/2 5/2 4 -2 -7/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 5 0 0 -1 -2" startSegment="7/4 5/2 -1 -7/4 -11/4 -17/4"/>
+    <SelectManifestation endSegment="3 5 0 0 -1 -2" startSegment="9/4 15/4 9/4 7/2 -1 -5/4"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3/2 -9/4 11/4 19/4 -3/4 -1" startSegment="-1/2 -1 3 9/2 3/2 5/2"/>
+    <SelectManifestation endSegment="7/4 11/4 9/4 4 3/2 9/4" startSegment="-1/2 -1 3 9/2 3/2 5/2"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 7/2 1/2 1/2 5/2 4"/>
+    <EndBlock/>
+    <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <SelectAll/>
+    <BookmarkTool name="tool-6"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="7/4 5/2 -1 -7/4 -11/4 -17/4"/>
+    <SelectManifestation point="1/2 1/2 5/2 4 -2 -7/2"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-7"/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Branch>
+      <Polygon/>
+      <MirrorTool name="tool-8"/>
+    </Branch>
+    <ApplyTool name="tool-6" selectInputs="true"/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-4" selectInputs="true"/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <ApplyTool name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Hide/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="5/2 4 2 7/2 -1/2 -1/2"/>
+    <SelectManifestation point="5/2 4 2 7/2 -1/2 -1/2"/>
+    <SelectManifestation point="19/8 4 9/4 27/8 -3/8 -7/8"/>
+    <SelectManifestation point="19/8 4 9/4 27/8 -3/8 -7/8"/>
+    <SelectManifestation point="9/4 15/4 9/4 7/2 -1 -5/4"/>
+    <SelectManifestation point="9/4 15/4 9/4 7/2 -1 -5/4"/>
+    <SelectManifestation point="9/4 7/2 9/4 15/4 -1 -5/4"/>
+    <SelectManifestation point="9/4 7/2 9/4 15/4 -1 -5/4"/>
+    <SelectManifestation point="17/8 27/8 17/8 15/4 -1 -15/8"/>
+    <SelectManifestation point="17/8 27/8 17/8 15/4 -1 -15/8"/>
+    <SelectManifestation point="7/4 3 5/2 15/4 -5/4 -9/4"/>
+    <SelectManifestation point="7/4 3 5/2 15/4 -5/4 -9/4"/>
+    <SelectManifestation point="7/4 11/4 9/4 4 -3/2 -9/4"/>
+    <SelectManifestation point="7/4 11/4 9/4 4 -3/2 -9/4"/>
+    <SelectManifestation point="11/8 9/4 5/2 33/8 -11/8 -21/8"/>
+    <SelectManifestation point="11/8 9/4 5/2 33/8 -11/8 -21/8"/>
+    <SelectManifestation point="9/8 15/8 23/8 17/4 -3/2 -19/8"/>
+    <SelectManifestation point="9/8 15/8 23/8 17/4 -3/2 -19/8"/>
+    <SelectManifestation point="1 2 3 5 0 0"/>
+    <EndBlock/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="117.78718566894531" far="235.57388305664062" near="0.2944680452346802" parallel="true" stereoAngle="0.0" width="53.00422668457031">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="tiny connectors">
+    <Direction color="255,255,255" name="5306" prototype="5/16 5/8 0 0 0 1/16"/>
+    <Direction color="255,255,255" name="5305" prototype="1/8 5/32 -17/32 -3/4 1/16 1/4"/>
+    <Direction color="255,255,255" name="5304" prototype="3/32 0 0 -1/16 1/2 17/32"/>
+    <Direction color="255,255,255" name="5303" prototype="15/32 11/16 1/16 7/32 9/32 15/32"/>
+    <Direction color="255,255,255" name="5309" prototype="1/32 1/16 0 0 7/16 23/32"/>
+    <Direction color="255,255,255" name="5308" prototype="0 0 -7/16 -3/4 1/8 3/16"/>
+    <Direction color="255,255,255" name="5307" prototype="0 -1/8 -1/4 -5/8 1/4 1/8"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="255,255,255" name="5302" prototype="-7/16 -23/32 7/32 3/8 1/8 1/4"/>
+    <Direction color="255,255,255" name="5301" prototype="3/32 5/32 13/32 21/32 7/32 11/32"/>
+    <Direction color="255,255,255" name="5300" prototype="3/8 21/32 3/32 1/8 1/8 1/16"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="255,255,255" name="5317" prototype="-1/8 -1/2 1/4 -1/8 3/8 3/8"/>
+    <Direction color="255,255,255" name="5316" prototype="1/4 3/8 3/8 3/8 -3/8 0"/>
+    <Direction color="255,255,255" name="5315" prototype="3/8 1/8 1/8 -1/4 -1/2 -5/8"/>
+    <Direction color="255,255,255" name="5314" prototype="1/4 3/8 1/8 3/8 3/8 3/4"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="255,255,255" name="5319" prototype="-1/8 -3/4 -1/4 1/8 -3/8 -3/8"/>
+    <Direction color="255,255,255" name="5318" prototype="-1/8 1/8 1/8 0 1/4 5/8"/>
+    <Direction color="255,255,255" name="5276" prototype="-2 1/2 -3/2 3/2 5/2 -1"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="255,255,255" name="5313" prototype="-1/8 -5/8 1/8 1/4 0 1/8"/>
+    <Direction color="255,255,255" name="5279" prototype="1/4 1/4 -1/4 -1 -3/2 3/4"/>
+    <Direction color="255,255,255" name="5312" prototype="0 3/8 1/8 1/8 3/8 3/4"/>
+    <Direction color="255,255,255" name="5278" prototype="3/4 -1 1/2 -5/4 -1/4 3/4"/>
+    <Direction color="255,255,255" name="5311" prototype="-1/2 -1/4 0 -1/2 -1/4 0"/>
+    <Direction color="255,255,255" name="5277" prototype="3/4 -1/4 -7/4 0 1/2 1/4"/>
+    <Direction color="255,255,255" name="5310" prototype="0 3/4 1/4 1/4 -1/4 -1/4"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="255,255,255" name="5283" prototype="1/4 -11/8 5/8 -3/8 -9/8 1/2"/>
+    <Direction color="255,255,255" name="5282" prototype="1/4 3/8 11/8 -1/8 -11/8 0"/>
+    <Direction color="255,255,255" name="5281" prototype="-1/2 5/4 13/4 -7/4 3/4 0"/>
+    <Direction color="255,255,255" name="5280" prototype="3/4 3/4 5/4 -1 -1/2 1/4"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="255,255,255" name="5287" prototype="5/8 -7/8 -9/8 0 -5/4 -1/8"/>
+    <Direction color="255,255,255" name="5320" prototype="-1/8 -1/4 1/2 1/8 3/8 5/8"/>
+    <Direction color="255,255,255" name="5286" prototype="3/8 1/2 -7/4 3/8 -1/8 -5/8"/>
+    <Direction color="255,255,255" name="5285" prototype="1/4 -9/8 -1/8 -5/8 9/8 -1"/>
+    <Direction color="255,255,255" name="5284" prototype="-11/8 5/8 3/8 1/2 1/4 -9/8"/>
+    <Direction color="255,255,255" name="5289" prototype="1/4 5/8 5/8 -3/8 7/8 -3/2"/>
+    <Direction color="255,255,255" name="5288" prototype="-9/8 7/8 1/8 -1/2 -5/4 -3/8"/>
+    <Direction color="255,255,255" name="5290" prototype="3/8 -9/8 -7/8 1 1/4 -7/8"/>
+    <Direction color="255,255,255" name="5294" prototype="1/4 3/8 5/16 3/8 3/16 5/16"/>
+    <Direction color="255,255,255" name="5293" prototype="13/8 0 1/4 -7/8 5/8 -3/8"/>
+    <Direction color="255,255,255" name="5292" prototype="1/8 0 -3/4 13/8 -7/8 1/8"/>
+    <Direction color="255,255,255" name="5291" prototype="-11/8 1/2 -5/4 -3/8 1/8 -3/8"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,255,255" name="5298" prototype="-1/8 -7/32 -9/32 -9/16 1/8 3/16"/>
+    <Direction color="255,255,255" name="5297" prototype="1/32 1/16 1/16 1/8 7/16 23/32"/>
+    <Direction color="255,255,255" name="5296" prototype="1/4 3/8 1/4 1/4 1/8 3/8"/>
+    <Direction color="255,255,255" name="5295" prototype="-1/16 -19/32 3/16 13/32 3/8 15/32"/>
+    <Direction color="255,255,255" name="5299" prototype="-1/8 0 -3/8 -1/2 1/8 1/4"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool hidden="true" id="tool-0" label="mirror 0" selectInputs="true"/>
+    <Tool id="tool-1" label="mirror 1" selectInputs="true"/>
+    <Tool hidden="true" id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool id="tool-3" label="bookmark 3" selectInputs="true"/>
+    <Tool id="tool-4" label="bookmark 4" selectInputs="true"/>
+    <Tool id="tool-5" label="mirror 5" selectInputs="true"/>
+    <Tool id="tool-6" label="bookmark 6" selectInputs="true"/>
+    <Tool hidden="true" id="tool-7" label="bookmark 7" selectInputs="true"/>
+    <Tool id="tool-8" label="mirror 8" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
