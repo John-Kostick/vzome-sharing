@@ -1,1 +1,18 @@
-theme: jekyll-theme-architect
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      # This description will be used for any page/post that does not defined its own description in its front-matter.
+      description: A 3D design created in vZome.  Use your mouse or touch to interact.
+
+# Feel free to select a different theme.
+# The "minima" theme is a good default choice just because it
+#  generates a list of posts on the home page; many other themes do not.
+theme: minima
+
+exclude:
+  # Don't generate pages from vZome-created README files,
+  #  to avoid generating extra pages in Jekyll, which clutter up the
+  #  header for the minima theme, and probably others.
+  - 20*/*/*/*/README.md
