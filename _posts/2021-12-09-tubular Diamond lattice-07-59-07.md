@@ -3,7 +3,7 @@ title: tubular Diamond lattice
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/09/07-59-07-tubular Diamond lattice/tubular Diamond lattice.png
 layout: vzome
 
-Diamond Lattice with triangular composite struts enclosed by panels. Hubs are tetrahedra and octahedra.
+  Diamond Lattice with triangular composite struts enclosed by panels. Hubs are tetrahedra and octahedra.
 
 ---
 
