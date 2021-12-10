@@ -2,6 +2,8 @@
 title: Snub Dodeca Sphere
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/08/09-36-51-Snub-Dodeca-Sphere/Snub-Dodeca-Sphere.png
 layout: vzome
+description:
+  A very close approximation of a geodesic struicture.  
 ---
 
 {% comment %}
