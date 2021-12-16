@@ -2,6 +2,7 @@
 title: Tetrakis Hexahedron 2
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/06/16-33-38-Tetrakis Hexahedron 2/Tetrakis Hexahedron 2.png
 layout: vzome
+description:
    A Catalan solid with it's Archimedean dual
 ---  
  
