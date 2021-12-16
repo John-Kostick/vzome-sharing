@@ -2,7 +2,7 @@
 title: Snub Dodeca Sphere
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/08/09-36-51-Snub-Dodeca-Sphere/Snub-Dodeca-Sphere.png
 description:
-  A very close approximation of a geodesic struicture.  
+  A very close approximation of a geodesic struicture, where all the vertices lie on a sphere.  
 layout: vzome
 
   
@@ -15,7 +15,7 @@ layout: vzome
 [post]: <https://John-Kostick.github.io/vzome-sharing/2021/12/08/Snub-Dodeca-Sphere-09-36-51.html>
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2021/12/08/09-36-51-Snub-Dodeca-Sphere/>
 {% endcomment %}
-{{ page.description }}  This is a very close approximation of a Geodesic construction, where all the vertices lie on a sphere.
+A very close approximation of a Geodesic construction, where all the vertices lie on a sphere.
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/08/09-36-51-Snub-Dodeca-Sphere/Snub-Dodeca-Sphere.vZome" >
