@@ -2,8 +2,10 @@
 title: Rhombic Dodeca spaced packing
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/07/10-04-27-Rhombic-Dodeca-spaced-packing/Rhombic-Dodeca-spaced-packing.png
 layout: vzome
+description:
+   A modulated version of double honeycomb. Green strut Oct-Tet system is taken as an independent variable zone.
 ---
-  A modulated version of double honeycomb.
+ 
 
 {% comment %}
  - [***web page generated from this source***][post]
@@ -12,7 +14,7 @@ layout: vzome
 [post]: <https://John-Kostick.github.io/vzome-sharing/2021/12/07/Rhombic-Dodeca-spaced-packing-10-04-27.html>
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2021/12/07/10-04-27-Rhombic-Dodeca-spaced-packing/>
 {% endcomment %}
-Green strut Oct-Tet system is taken as an independent variable zone.
+ A modulated version of double honeycomb. Green strut Oct-Tet system is taken as an independent variable zone.
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/07/10-04-27-Rhombic-Dodeca-spaced-packing/Rhombic-Dodeca-spaced-packing.vZome" >
