@@ -2,8 +2,10 @@
 title: Jacobs octahedral ball double honeycomb
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/07/09-15-41-Jacobs-octahedral-ball-double-honeycomb/Jacobs-octahedral-ball-double-honeycomb.png
 layout: vzome
+description:
+   Buildout of an array extending from polyhedron.
 ---
-  Buildout of an array extending from polyhedron. 
+  
 
 {% comment %}
  - [***web page generated from this source***][post]
