@@ -22,3 +22,5 @@ description:
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/06/16-33-38-Tetrakis Hexahedron 2/Tetrakis Hexahedron 2.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2021/12/06/16-33-38-Tetrakis Hexahedron 2/Tetrakis Hexahedron 2.png" />
 </vzome-viewer>
+
+https://en.wikipedia.org/wiki/Catalan_solid
