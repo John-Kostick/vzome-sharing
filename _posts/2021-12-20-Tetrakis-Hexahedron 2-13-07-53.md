@@ -2,6 +2,8 @@
 title: Tetrakis Hexahedron 2
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/20/13-07-53-Tetrakis-Hexahedron 2/Tetrakis-Hexahedron 2.png
 layout: vzome
+description:
+  A Catalan Solid with its dual, a Truncated Octahedron
 ---
 
 {% comment %}
@@ -11,6 +13,11 @@ layout: vzome
 [post]: <https://John-Kostick.github.io/vzome-sharing/2021/12/20/Tetrakis-Hexahedron 2-13-07-53.html>
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2021/12/20/13-07-53-Tetrakis-Hexahedron 2/>
 {% endcomment %}
+
+
+A [Catalan Solid] [catalan] with its dual, a Truncated Octahedron
+
+[catalan]:  https://en.wikipedia.org/wiki/Catalan_solid
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/20/13-07-53-Tetrakis-Hexahedron 2/Tetrakis-Hexahedron 2.vZome" >
