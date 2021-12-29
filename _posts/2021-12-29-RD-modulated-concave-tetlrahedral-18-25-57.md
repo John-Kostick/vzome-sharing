@@ -1,6 +1,6 @@
 ---
 title: RD modulated concave tetlrahedral
-image: https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetlrahedral/RD-modulated-concave-tetlrahedral.png
+image: https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetrahedral/RD-modulated-concave-tetrahedral.png
 layout: vzome
 description:
   A zonal progression in a BCC, or diamond lattice, where successive zones are increased by a factor of √2. 
