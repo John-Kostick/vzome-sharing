@@ -1,5 +1,5 @@
 ---
-title: RD modulated concave tetlrahedral
+title: RD modulated concave tetrahedral
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetrahedral/RD-modulated-concave-tetrahedral.png
 layout: vzome
 description:
