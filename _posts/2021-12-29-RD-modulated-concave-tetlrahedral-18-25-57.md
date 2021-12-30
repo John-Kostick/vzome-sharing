@@ -10,15 +10,15 @@ description:
  - [***web page generated from this source***][post]
  - [data assets and more info][github]
 
-[post]: <https://John-Kostick.github.io/vzome-sharing/2021/12/29/RD-modulated-concave-tetlrahedral-18-25-57.html>
-[github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2021/12/29/18-25-57-RD-modulated-concave-tetlrahedral/>
+[post]: <https://John-Kostick.github.io/vzome-sharing/2021/12/29/RD-modulated-concave-tetrahedral-18-25-57.html>
+[github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2021/12/29/18-25-57-RD-modulated-concave-tetrahedral/>
 {% endcomment %}
 
   A zonal progression in a BCC, or diamond lattice, where successive zones are increased by a factor of √2. This is done in tetrahedral symmetry.
 
 <vzome-viewer style="width: 100%; height: 65vh;"
-       src="https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetlrahedral/RD-modulated-concave-tetlrahedral.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetlrahedral/RD-modulated-concave-tetlrahedral.png" />
+       src="https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetrahedral/RD-modulated-concave-tetrahedral.vZome" >
+  <img src="https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-25-57-RD-modulated-concave-tetrahedral/RD-modulated-concave-tetrahedral.png" />
 </vzome-viewer>
 
  A zonal progression in a BCC, or diamond lattice, where successive zones are increased by a factor of √2.  This is done in octahedral symmetry.
