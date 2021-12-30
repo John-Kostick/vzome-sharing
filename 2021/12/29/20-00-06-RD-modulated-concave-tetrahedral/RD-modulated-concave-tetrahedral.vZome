@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="67" field="rootTwo" version="7.0">
+  <EditHistory editNumber="811" lastStickyEdit="768">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="3" len="0 2" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 -2 0 2"/>
+    <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <BookmarkTool name="tool-0"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 -2 0 2"/>
+    <SelectManifestation point="0 2 0 -2 0 2"/>
+    <EndBlock/>
+    <Branch>
+      <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -2 0 2 0 -2"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ 0, -4, 1 ], [ 0, 0, 1 ], [ 0, -4, 1 ] ], [ [ 0, -4, 1 ], [ 0, 4, 1 ], [ 0, 0, 1 ] ], [ [ 0, -2, 1 ], [ 0, 2, 1 ], [ 0, -2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ 0, -4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 4 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool name="tool-0" selectInputs="true"/>
+      <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 4 0 4"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ 0, -2, 1 ], [ 0, -2, 1 ], [ 0, -2, 1 ] ], [ [ 0, -2, 1 ], [ 0, -2, 1 ], [ 0, 2, 1 ] ], [ [ 0, -2, 1 ], [ 0, 2, 1 ], [ 0, -2, 1 ] ], [ [ 0, -2, 1 ], [ 0, 2, 1 ], [ 0, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 2, 1 ], [ 0, -2, 1 ], [ 0, -2, 1 ] ], [ [ 0, 2, 1 ], [ 0, -2, 1 ], [ 0, 2, 1 ] ], [ [ 0, 2, 1 ], [ 0, 2, 1 ], [ 0, -2, 1 ] ], [ [ 0, 2, 1 ], [ 0, 2, 1 ], [ 0, 2, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 4, 6 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 7 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 5 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 8 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 2 0 2 0 6" dir="yellow" index="12" len="0 2" symm="octahedral"/>
+      <SelectManifestation point="0 0 0 0 0 8"/>
+      <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ 0, -2, 1 ], [ 0, -2, 1 ], [ 0, -2, 1 ] ], [ [ 0, -2, 1 ], [ 0, -2, 1 ], [ 0, 2, 1 ] ], [ [ 0, -2, 1 ], [ 0, 2, 1 ], [ 0, -2, 1 ] ], [ [ 0, -2, 1 ], [ 0, 2, 1 ], [ 0, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 2, 1 ], [ 0, -2, 1 ], [ 0, -2, 1 ] ], [ [ 0, 2, 1 ], [ 0, -2, 1 ], [ 0, 2, 1 ] ], [ [ 0, 2, 1 ], [ 0, 2, 1 ], [ 0, -2, 1 ] ], [ [ 0, 2, 1 ], [ 0, 2, 1 ], [ 0, 2, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 4, 6 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 7 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 5 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 8 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 10 0 2 0 -2"/>
+      <SelectManifestation point="0 2 0 2 0 2"/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 2 0 2"/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <EndBlock/>
+      <TranslationTool name="tool-1"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool deleteInputs="true" name="tool-1"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 4 0 12 0 -4"/>
+      <SelectManifestation endSegment="0 4 0 12 0 -4" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation point="0 2 0 10 0 -2"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <SelectManifestation point="0 4 0 12 0 0"/>
+      <SelectManifestation endSegment="0 4 0 12 0 0" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation point="0 0 0 12 0 0"/>
+      <SelectManifestation endSegment="0 0 0 12 0 0" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation endSegment="0 4 0 12 0 0" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation endSegment="0 4 0 12 0 0" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation point="0 2 0 10 0 -2"/>
+      <SelectManifestation endSegment="0 0 0 12 0 -4" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation point="0 0 0 12 0 -4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 8 0 8 0 0" startSegment="0 6 0 6 0 -2"/>
+      <SelectManifestation point="0 8 0 8 0 0"/>
+      <SelectManifestation endSegment="0 8 0 8 0 -4" startSegment="0 6 0 6 0 -2"/>
+      <SelectManifestation point="0 8 0 8 0 -4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 8 0 4 0 4" startSegment="0 6 0 2 0 2"/>
+      <SelectManifestation point="0 8 0 4 0 4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 -4 0 0 0 0" startSegment="0 -2 0 -2 0 -2"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 0 0 4 0 0"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 4 0 4 0 4" startSegment="0 2 0 6 0 2"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 4 0 4 0 0"/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 0 0 4 0 0"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 4 0 4 0 4" startSegment="0 2 0 6 0 2"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 4 0 4 0 0"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 4 0 4 0 0"/>
+      <SelectManifestation endSegment="0 2 0 6 0 2" startSegment="0 4 0 4 0 0"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 8 0 0" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation endSegment="0 2 0 10 0 -2" startSegment="0 4 0 8 0 0"/>
+      <SelectManifestation endSegment="0 4 0 8 0 -4" startSegment="0 2 0 10 0 -2"/>
+      <SelectManifestation endSegment="0 2 0 10 0 -2" startSegment="0 4 0 8 0 0"/>
+      <SelectManifestation endSegment="0 2 0 10 0 -2" startSegment="0 4 0 8 0 0"/>
+      <SelectManifestation endSegment="0 2 0 10 0 -2" startSegment="0 0 0 8 0 -4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 8 0 4 0 -4" startSegment="0 6 0 6 0 -2"/>
+      <SelectManifestation point="0 8 0 4 0 -4"/>
+      <SelectManifestation endSegment="0 8 0 4 0 -4" startSegment="0 6 0 2 0 -6"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+      <BookmarkTool name="tool-2"/>
+      <Hide>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Hide>
+      <StrutCreation anchor="0 6 0 6 0 -2" dir="yellow" index="1" len="2 0" symm="octahedral"/>
+      <StrutCreation anchor="0 4 0 8 0 0" dir="yellow" index="1" len="2 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="2 6 2 6 -2 -2" startSegment="0 6 0 6 0 -2"/>
+      <SelectManifestation point="2 6 2 6 -2 -2"/>
+      <SelectManifestation endSegment="2 4 2 8 -2 0" startSegment="0 4 0 8 0 0"/>
+      <SelectManifestation point="2 4 2 8 -2 0"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 4 0 4 0 -4" dir="yellow" index="1" len="2 0" symm="octahedral"/>
+      <StrutCreation anchor="0 8 0 4 0 0" dir="yellow" index="1" len="2 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="2 8 2 4 -2 0" startSegment="0 8 0 4 0 0"/>
+      <SelectManifestation point="2 8 2 4 -2 0"/>
+      <SelectManifestation endSegment="2 4 2 4 -2 -4" startSegment="0 4 0 4 0 -4"/>
+      <SelectManifestation point="2 4 2 4 -2 -4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 8 0 0 0 0" dir="yellow" index="1" len="4 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation point="4 8 4 0 -4 0"/>
+      <SelectManifestation endSegment="4 8 4 0 -4 0" startSegment="0 8 0 0 0 0"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 4 0 4 0 4" dir="yellow" index="14" len="4 0" symm="octahedral"/>
+      <StrutCreation anchor="0 4 0 4 0 4" dir="yellow" index="1" len="4 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 4 4 4 -4 4" startSegment="0 4 0 4 0 4"/>
+      <SelectManifestation point="4 4 4 4 -4 4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <ShowHidden/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 4 4 4 -4 4" dir="yellow" index="13" len="4 0" symm="octahedral"/>
+      <StrutCreation anchor="4 4 4 4 -4 4" dir="yellow" index="3" len="4 0" symm="octahedral"/>
+      <StrutCreation anchor="4 4 4 4 -4 4" dir="yellow" index="0" len="4 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 4 8 4 0 4" startSegment="4 4 4 4 -4 4"/>
+      <SelectManifestation endSegment="8 4 8 4 0 4" startSegment="4 4 4 4 -4 4"/>
+      <SelectManifestation endSegment="8 4 0 4 0 4" startSegment="4 4 4 4 -4 4"/>
+      <SelectManifestation endSegment="4 4 4 4 -4 4" startSegment="0 4 0 4 0 4"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -4 0 -4 0 -4"/>
+      <SelectManifestation point="-2 -4 -2 -4 -2 -4"/>
+      <EndBlock/>
+      <TranslationTool name="tool-3"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 -8 0 -4" startSegment="0 -2 0 -6 0 -6"/>
+      <SelectManifestation endSegment="0 0 0 -4 0 -8" startSegment="0 -2 0 -6 0 -6"/>
+      <SelectManifestation endSegment="0 -2 0 -6 0 -6" startSegment="0 -4 0 -4 0 -4"/>
+      <EndBlock/>
+      <StrutCreation anchor="0 6 0 2 0 -6" index="6" len="0 2" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 8 0 4 0 0" startSegment="0 6 0 2 0 2"/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 -4 0 -8" startSegment="0 -2 0 -6 0 -6"/>
+      <SelectManifestation endSegment="0 0 0 -8 0 -4" startSegment="0 -2 0 -6 0 -6"/>
+      <SelectManifestation endSegment="0 -2 0 -6 0 -6" startSegment="0 -4 0 -4 0 -4"/>
+      <SelectManifestation endSegment="0 -6 0 -6 0 -2" startSegment="0 -4 0 -4 0 -4"/>
+      <SelectManifestation endSegment="0 -4 0 -8 0 0" startSegment="0 -6 0 -6 0 -2"/>
+      <SelectManifestation endSegment="0 -8 0 -4 0 0" startSegment="0 -6 0 -6 0 -2"/>
+      <SelectManifestation endSegment="0 -6 0 -2 0 -6" startSegment="0 -4 0 -4 0 -4"/>
+      <SelectManifestation endSegment="0 -4 0 0 0 -8" startSegment="0 -6 0 -2 0 -6"/>
+      <SelectManifestation endSegment="0 -8 0 0 0 -4" startSegment="0 -6 0 -2 0 -6"/>
+      <EndBlock/>
+      <BookmarkTool name="tool-4"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <ApplyTool name="tool-4" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 -2 0 -6"/>
+      <SelectManifestation point="-2 0 -2 -4 -2 -8"/>
+      <SelectManifestation>
+        <polygonVertex at="0 2 0 -2 0 -6"/>
+        <polygonVertex at="0 0 0 -4 0 -4"/>
+        <polygonVertex at="0 -2 0 -2 0 -2"/>
+        <polygonVertex at="0 0 0 0 0 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 -8"/>
+      <SelectManifestation point="-4 0 -4 0 -4 -8"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 -2 0 -6"/>
+      <SelectManifestation point="0 0 0 -4 0 -8"/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="-4 0 -4 0 -4 -8" startSegment="0 0 0 0 0 -8"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 -2 0 -6"/>
+      <SelectManifestation point="-2 0 -2 -4 -2 -8"/>
+      <EndBlock/>
+      <ApplyTool name="tool-4" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 6 0 2 0 -8" startSegment="0 6 0 2 0 -6"/>
+      <SelectManifestation point="0 6 0 2 0 -8"/>
+      <EndBlock/>
+      <Delete/>
+      <StrutCreation anchor="0 -2 0 2 0 -6" dir="green" index="19" len="0 2" symm="octahedral"/>
+      <StrutCreation anchor="0 -2 0 2 0 -6" dir="yellow" index="15" len="4 0" symm="octahedral"/>
+      <SelectManifestation point="-2 -4 -2 0 -2 -8"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <SelectManifestation endSegment="-2 -4 -2 0 -2 -8" startSegment="0 -4 0 0 0 -8"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation point="0 -4 0 0 0 -8"/>
+      <SelectManifestation point="-4 -2 -4 2 -4 -6"/>
+      <EndBlock/>
+      <TranslationTool name="tool-5"/>
+    </Branch>
+    <Branch>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+      <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+      <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 -2 0 2"/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 2 0 2 0 2" dir="yellow" index="13" len="0 2" symm="octahedral"/>
+      <StrutCreation anchor="0 -2 0 2 0 2" dir="yellow" index="0" len="0 2" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="0 0 0 4 0 4" startSegment="0 -2 0 2 0 2"/>
+      <SelectManifestation point="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 0 0 4 0 4" startSegment="0 2 0 2 0 2"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 2 0 2 0 2" startSegment="0 0 0 0 0 0"/>
+      <SelectManifestation endSegment="0 2 0 2 0 -2" startSegment="0 0 0 0 0 0"/>
+      <SelectManifestation endSegment="0 -2 0 2 0 -2" startSegment="0 0 0 0 0 0"/>
+      <SelectManifestation endSegment="0 -2 0 2 0 2" startSegment="0 0 0 0 0 0"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 2 0 6 0 2" dir="yellow" index="0" len="4 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 2 4 6 4 2" startSegment="0 2 0 6 0 2"/>
+      <SelectManifestation point="4 2 4 6 4 2"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 2 4 2 4 6" startSegment="0 2 0 2 0 6"/>
+      <DeselectAll/>
+      <EndBlock/>
+      <StrutCreation anchor="0 0 0 4 0 4" dir="yellow" index="0" len="4 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation point="4 0 4 4 4 4"/>
+      <SelectManifestation endSegment="4 0 4 4 4 4" startSegment="0 0 0 4 0 4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 6 0 2 0 2" startSegment="0 4 0 4 0 0"/>
+      <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 2 0 2 0 2"/>
+      <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 2 0 2 0 2"/>
+      <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 2 0 2 0 2"/>
+      <SelectManifestation endSegment="0 4 0 4 0 0" startSegment="0 2 0 6 0 2"/>
+      <SelectManifestation endSegment="4 4 4 4 4 0" startSegment="0 4 0 4 0 0"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 4 0 4" startSegment="0 -2 0 2 0 2"/>
+      <SelectManifestation endSegment="0 -4 0 0 0 4" startSegment="0 -2 0 2 0 2"/>
+      <SelectManifestation endSegment="0 -4 0 4 0 0" startSegment="0 -2 0 2 0 2"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="4 0 4 4 4 4" startSegment="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 0 0 4 0 4" startSegment="0 2 0 2 0 6"/>
+      <SelectManifestation endSegment="0 -2 0 2 0 6" startSegment="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 -2 0 2 0 6" startSegment="0 0 0 4 0 4"/>
+      <SelectManifestation endSegment="0 -2 0 2 0 6" startSegment="0 0 0 4 0 4"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="0 4 0 0 0 4"/>
+        <polygonVertex at="0 2 0 -2 0 6"/>
+        <polygonVertex at="0 0 0 0 0 8"/>
+        <polygonVertex at="0 2 0 2 0 6"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 4 0 0 0 4"/>
+        <polygonVertex at="0 2 0 -2 0 6"/>
+        <polygonVertex at="0 0 0 0 0 8"/>
+        <polygonVertex at="0 2 0 2 0 6"/>
+      </SelectManifestation>
+      <SelectManifestation endSegment="0 2 0 2 0 6" startSegment="0 4 0 0 0 4"/>
+      <SelectManifestation endSegment="0 2 0 2 0 6" startSegment="0 0 0 0 0 8"/>
+      <SelectManifestation endSegment="4 2 4 2 4 6" startSegment="0 2 0 2 0 6"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 4 -4 -4 -4 0" dir="yellow" index="2" len="0 4" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 8 -4 -8 -4 -4" startSegment="4 4 -4 -4 -4 0"/>
+      <SelectManifestation point="4 8 -4 -8 -4 -4"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 2 -4 -6 -4 -2" dir="yellow" index="2" len="0 4" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 6 -4 -10 -4 -6" startSegment="4 2 -4 -6 -4 -2"/>
+      <SelectManifestation point="4 6 -4 -10 -4 -6"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 4 -4 -4 -4 -4" dir="yellow" index="2" len="0 4" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="4 8 -4 -8 -4 -8" startSegment="4 4 -4 -4 -4 -4"/>
+      <SelectManifestation point="4 8 -4 -8 -4 -8"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="4 4 -4 -4 -4 -4" startSegment="4 6 -4 -2 -4 -2"/>
+      <SelectManifestation endSegment="4 8 -4 -8 -4 -8" startSegment="4 4 -4 -4 -4 -4"/>
+      <SelectManifestation endSegment="4 4 -4 -4 -4 -4" startSegment="4 2 -4 -6 -4 -2"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 -4 0 4" startSegment="0 2 0 -6 0 2"/>
+      <SelectManifestation endSegment="-4 0 -4 -4 4 4" startSegment="0 0 0 -4 0 4"/>
+      <SelectManifestation endSegment="0 2 0 -2 0 6" startSegment="0 0 0 -4 0 4"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 0 0 -8 0 0" startSegment="0 2 0 -6 0 2"/>
+      <SelectManifestation endSegment="4 2 -4 -6 -4 2" startSegment="0 2 0 -6 0 2"/>
+      <SelectManifestation endSegment="-4 2 -4 -6 4 2" startSegment="0 2 0 -6 0 2"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="4 4 -4 -4 -4 0" startSegment="4 2 -4 -6 -4 -2"/>
+      <SelectManifestation endSegment="4 8 -4 -8 -4 -4" startSegment="4 4 -4 -4 -4 0"/>
+      <SelectManifestation endSegment="4 4 -4 -4 -4 0" startSegment="4 2 -4 -6 -4 2"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="4 0 -4 -4 -4 -4"/>
+        <polygonVertex at="4 -2 -4 -6 -4 -2"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="4 -2 -4 -2 -4 -6"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="4 2 -4 -6 -4 -2"/>
+        <polygonVertex at="4 0 -4 -8 -4 0"/>
+        <polygonVertex at="4 4 -4 -12 -4 -4"/>
+        <polygonVertex at="4 6 -4 -10 -4 -6"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="4 2 -4 -6 -4 -2"/>
+        <polygonVertex at="4 0 -4 -8 -4 0"/>
+        <polygonVertex at="4 4 -4 -12 -4 -4"/>
+        <polygonVertex at="4 6 -4 -10 -4 -6"/>
+      </SelectManifestation>
+      <SelectManifestation endSegment="4 0 -4 -8 -4 0" startSegment="4 2 -4 -6 -4 -2"/>
+      <SelectManifestation endSegment="4 6 -4 -10 -4 -6" startSegment="4 2 -4 -6 -4 -2"/>
+      <SelectManifestation endSegment="4 2 -4 -6 -4 -2" startSegment="4 0 -4 -4 -4 -4"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 4 -4 -8 -4 -8" dir="yellow" index="2" len="8 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="12 4 -12 -8 -12 -8" startSegment="4 4 -4 -8 -4 -8"/>
+      <SelectManifestation point="12 4 -12 -8 -12 -8"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <StrutCreation anchor="4 6 -4 -10 -4 -6" dir="yellow" index="2" len="8 0" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="12 6 -12 -10 -12 -6" startSegment="4 6 -4 -10 -4 -6"/>
+      <SelectManifestation point="12 6 -12 -10 -12 -6"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="4 8 -4 -8 -4 -8"/>
+      <EndBlock/>
+      <StrutCreation anchor="4 8 -4 -8 -4 -8" dir="yellow" index="2" len="8 0" symm="octahedral"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="12 8 -12 -8 -12 -8" startSegment="4 8 -4 -8 -4 -8"/>
+      <SelectManifestation endSegment="12 10 -12 -6 -12 -6" startSegment="4 10 -4 -6 -4 -6"/>
+      <SelectManifestation endSegment="12 10 -12 -6 -12 -6" startSegment="4 10 -4 -6 -4 -6"/>
+      <SelectManifestation point="12 8 -12 -8 -12 -8"/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="12 8 -12 -8 -12 -8" startSegment="4 8 -4 -8 -4 -8"/>
+      <SelectManifestation point="12 8 -12 -8 -12 -8"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="4 4 -4 -8 -4 -8" startSegment="4 6 -4 -10 -4 -6"/>
+      <SelectManifestation endSegment="12 4 -12 -8 -12 -8" startSegment="4 4 -4 -8 -4 -8"/>
+      <SelectManifestation endSegment="4 6 -4 -6 -4 -10" startSegment="4 4 -4 -8 -4 -8"/>
+      <EndBlock/>
+      <PolarZonohedron symmetry="octahedral"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-12 -8 -12 -8 12 4"/>
+      <SelectManifestation point="-4 -6 -4 -10 4 2"/>
+      <SelectManifestation point="-4 -10 -4 -6 4 2"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-4 -10 -4 -6 4 2"/>
+      <SelectManifestation endSegment="-4 -2 -4 -6 4 -2" startSegment="-4 -6 -4 -10 4 2"/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -2 -4 -6 4 -2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -4 -4 -12 4 4"/>
+        <polygonVertex at="-4 0 -4 -8 4 0"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 -4 -4 4 0"/>
+        <polygonVertex at="-4 -8 -4 -8 4 4"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -2 -4 -6 4 -2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 -4 -4 4 0"/>
+        <polygonVertex at="-4 -8 -4 -8 4 4"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -2 -4 -6 4 -2"/>
+      </SelectManifestation>
+      <SelectManifestation point="-4 -6 -4 -10 4 2"/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <DeselectAll/>
+      <SelectManifestation point="-4 -10 -4 -6 4 2"/>
+      <SelectManifestation point="-4 -6 -4 -10 4 2"/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-4 -10 -4 -6 4 2"/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <SelectManifestation point="-8 -6 0 -2 0 -2"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <SelectManifestation point="0 -2 -8 -6 0 -2"/>
+      <SelectManifestation point="-4 -6 -4 -10 4 2"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <SelectManifestation point="0 -2 -8 -6 0 -2"/>
+      <SelectManifestation point="4 -4 -4 -4 -4 -4"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="0 -2 0 -2 -8 -6"/>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation point="-4 -4 4 -4 -4 -4"/>
+      <SelectManifestation point="4 -4 -4 -4 -4 -4"/>
+      <SelectManifestation point="-4 -4 -4 -4 4 -4"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="-4 -8 -4 0 4 0" startSegment="-4 -6 -4 -2 4 -2"/>
+      <SelectManifestation endSegment="-8 -8 0 0 0 0" startSegment="-4 -8 -4 0 4 0"/>
+      <SelectManifestation endSegment="-4 -8 -4 0 4 0" startSegment="-4 -12 -4 -4 4 4"/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-12 -8 -12 -8 12 4"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="0 -2 -8 -6 0 -2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-12 -8 -12 -8 12 4"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="0 -2 -8 -6 0 -2"/>
+        <polygonVertex at="-4 -6 -4 -10 4 2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -10 -4 -6 4 2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+        <polygonVertex at="0 -2 -8 -6 0 -2"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+        <polygonVertex at="-4 -4 -4 -4 4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="-8 -6 0 -2 0 -2"/>
+        <polygonVertex at="-4 -10 4 2 -4 -6"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -6 4 2 -4 -10"/>
+        <polygonVertex at="-4 -10 4 2 -4 -6"/>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-12 -8 12 4 -12 -8"/>
+        <polygonVertex at="-4 -10 4 2 -4 -6"/>
+        <polygonVertex at="-4 -6 4 2 -4 -10"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-4 -6 4 2 -4 -10"/>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+        <polygonVertex at="0 -2 0 -2 -8 -6"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="0 -2 0 -2 -8 -6"/>
+        <polygonVertex at="-4 -4 4 -4 -4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="0 -2 0 -2 -8 -6"/>
+        <polygonVertex at="4 2 -4 -6 -4 -10"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="4 2 -4 -10 -4 -6"/>
+        <polygonVertex at="4 2 -4 -6 -4 -10"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="4 2 -4 -10 -4 -6"/>
+        <polygonVertex at="4 -4 -4 -4 -4 -4"/>
+        <polygonVertex at="0 -2 -8 -6 0 -2"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="12 4 -12 -8 -12 -8"/>
+        <polygonVertex at="4 2 -4 -6 -4 -10"/>
+        <polygonVertex at="4 2 -4 -10 -4 -6"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BookmarkTool name="tool-6"/>
+      <Hide>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Hide>
+      <StrutCreation anchor="12 8 12 8 12 8" dir="yellow" index="0" len="0 8" symm="octahedral"/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="12 16 12 16 12 16" startSegment="12 8 12 8 12 8"/>
+      <SelectManifestation point="12 16 12 16 12 16"/>
+      <EndBlock/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="12 16 12 16 12 16"/>
+      <SelectManifestation point="12 6 12 10 12 6"/>
+      <SelectManifestation point="4 4 4 12 4 4"/>
+      <SelectManifestation point="0 0 8 8 0 0"/>
+      <SelectManifestation point="-4 -4 4 12 -4 -4"/>
+      <DeselectAll/>
+      <SelectManifestation point="-12 -16 12 16 -12 -16"/>
+      <DeselectAll/>
+      <SelectManifestation point="12 16 12 16 12 16"/>
+      <SelectManifestation point="12 6 12 10 12 6"/>
+      <SelectManifestation point="4 4 4 12 4 4"/>
+      <SelectManifestation point="0 0 8 8 0 0"/>
+      <SelectManifestation point="-4 -4 4 12 -4 -4"/>
+      <SelectManifestation point="-12 -6 12 10 -12 -6"/>
+      <SelectManifestation point="-12 -16 12 16 -12 -16"/>
+      <EndBlock/>
+      <JoinPoints closedLoop="false"/>
+      <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <BookmarkTool name="tool-7"/>
+    </Branch>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="1" len="0 16" symm="octahedral"/>
+    <SelectManifestation point="0 16 0 16 0 -16"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <StrutCreation anchor="0 16 0 16 0 -16" dir="yellow" index="12" len="16 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 16 0 16 0 -16" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 16 0 16 0 -16" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-16 16 -16 16 16 -16" startSegment="0 16 0 16 0 -16"/>
+    <SelectManifestation point="-16 16 -16 16 16 -16"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-16 16 -16 16 16 -16" dir="yellow" index="3" len="2 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-14 16 -18 16 18 -16" startSegment="-16 16 -16 16 16 -16"/>
+    <SelectManifestation point="-14 16 -18 16 18 -16"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 2 0 -2 0 2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 -2 0 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 2 0 -2 0 2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="3" len="2 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 0 -2 0 2 0"/>
+    <SelectManifestation endSegment="2 0 -2 0 2 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 0 2 0 -2 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 0 -2 0 2 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 0 -2 0 -2 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-14 16 -18 16 18 -16"/>
+    <SelectManifestation endSegment="-14 16 -18 16 18 -16" startSegment="-16 16 -16 16 16 -16"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="2 0 2 0 -2 0" dir="yellow" index="1" len="0 2" symm="octahedral"/>
+    <SelectManifestation point="4 0 0 0 0 0"/>
+    <StrutCreation anchor="4 0 0 0 0 0" dir="yellow" index="1" len="0 2" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="4 2 0 2 0 -2" startSegment="4 0 0 0 0 0"/>
+    <SelectManifestation point="4 2 0 2 0 -2"/>
+    <SelectManifestation endSegment="2 2 2 2 -2 -2" startSegment="2 0 2 0 -2 0"/>
+    <SelectManifestation point="2 2 2 2 -2 -2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 0 0 0 0" startSegment="2 0 2 0 -2 0"/>
+    <SelectManifestation endSegment="0 0 4 0 0 0" startSegment="2 0 2 0 -2 0"/>
+    <SelectManifestation endSegment="2 2 2 2 -2 -2" startSegment="2 0 2 0 -2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-16 16 -16 16 16 -16"/>
+    <SelectManifestation endSegment="-16 16 -16 16 16 -16" startSegment="0 16 0 16 0 -16"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 -2 2 2 2 2" startSegment="2 0 2 0 2 0"/>
+    <SelectManifestation endSegment="2 2 2 2 2 -2" startSegment="2 0 2 0 2 0"/>
+    <SelectManifestation endSegment="2 2 2 -2 2 2" startSegment="2 0 2 0 2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 0 2 0 2 0" startSegment="4 0 0 0 0 0"/>
+    <SelectManifestation endSegment="4 2 0 2 0 -2" startSegment="4 0 0 0 0 0"/>
+    <SelectManifestation endSegment="4 2 0 -2 0 2" startSegment="4 0 0 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="2 2 2 2 -2 -2" dir="yellow" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="4 2 0 2 0 -2" dir="yellow" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="2 2 2 2 2 -2" dir="yellow" index="1" len="4 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="8 2 4 2 -4 -2" startSegment="4 2 0 2 0 -2"/>
+    <SelectManifestation point="8 2 4 2 -4 -2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 2 4 2 -4 -2" startSegment="4 2 0 2 0 -2"/>
+    <SelectManifestation point="8 2 4 2 -4 -2"/>
+    <SelectManifestation endSegment="6 2 6 2 -6 -2" startSegment="2 2 2 2 -2 -2"/>
+    <SelectManifestation point="6 2 6 2 -6 -2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 2 0 2 0 -2" startSegment="2 2 2 2 -2 -2"/>
+    <SelectManifestation endSegment="6 2 6 2 -6 -2" startSegment="2 2 2 2 -2 -2"/>
+    <SelectManifestation endSegment="2 2 2 2 -2 -2" startSegment="0 2 0 2 -4 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 2 -2 2 -2 -2" startSegment="6 2 2 2 -6 -2"/>
+    <SelectManifestation endSegment="2 0 -2 0 -2 -4" startSegment="2 2 -2 2 -2 -2"/>
+    <SelectManifestation endSegment="2 2 -2 2 -2 -2" startSegment="2 4 -2 0 -2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="6 4 2 0 -6 0" startSegment="2 4 -2 0 -2 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 2 -4 -2" startSegment="2 2 -2 2 -2 -2"/>
+    <SelectManifestation endSegment="4 2 4 2 -8 -2" startSegment="0 2 0 2 -4 -2"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -4" startSegment="0 2 0 2 -4 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 2 4 -2 0"/>
+      <polygonVertex at="-2 -2 2 2 -2 -2"/>
+      <polygonVertex at="-6 -2 6 2 2 -2"/>
+      <polygonVertex at="-6 0 6 4 2 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 2 -4 -2" startSegment="-2 2 2 2 -2 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 2 -4 -2"/>
+      <polygonVertex at="4 2 4 2 -8 -2"/>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="0 0 0 0 -4 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 2 -4 -2"/>
+      <polygonVertex at="4 2 4 2 -8 -2"/>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="0 0 0 0 -4 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="4 2 4 2 -8 -2" startSegment="0 2 0 2 -4 -2"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -4" startSegment="0 2 0 2 -4 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 2 -2 -2 -2 -2" startSegment="6 2 2 -2 -6 -2"/>
+    <SelectManifestation endSegment="2 2 -2 -2 -2 -2" startSegment="-2 2 -6 -2 -6 -2"/>
+    <SelectManifestation endSegment="2 2 -2 -2 -2 -2" startSegment="6 2 -6 -2 2 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="6 2 6 2 -6 -2" dir="yellow" index="1" len="0 4" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="6 6 6 6 -6 -6" startSegment="6 2 6 2 -6 -2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 6 6 -6 -6" startSegment="6 2 6 2 -6 -2"/>
+    <SelectManifestation point="6 6 6 6 -6 -6"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 2 -2 -2 -2 -2" startSegment="2 0 -2 0 -2 -4"/>
+    <SelectManifestation endSegment="2 0 -2 0 -2 -4" startSegment="6 0 2 0 -6 -4"/>
+    <SelectManifestation endSegment="-2 0 -6 0 -6 -4" startSegment="2 0 -2 0 -2 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -4" startSegment="2 0 -2 0 -2 -4"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -4" startSegment="4 0 4 0 -8 -4"/>
+    <SelectManifestation endSegment="0 0 0 0 -4 -4" startSegment="-4 0 -4 0 -8 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="6 2 2 2 -6 -2" dir="yellow" index="1" len="0 4" symm="octahedral"/>
+    <StrutCreation anchor="4 2 4 2 -8 -2" dir="yellow" index="1" len="0 4" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="4 6 4 6 -8 -6"/>
+    <SelectManifestation endSegment="4 6 4 6 -8 -6" startSegment="4 2 4 2 -8 -2"/>
+    <SelectManifestation point="6 6 2 6 -6 -6"/>
+    <SelectManifestation point="6 6 2 6 -6 -6"/>
+    <SelectManifestation point="6 6 2 6 -6 -6"/>
+    <SelectManifestation endSegment="6 6 2 6 -6 -6" startSegment="6 2 2 2 -6 -2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 6 6 -6 -6" startSegment="6 2 6 2 -6 -2"/>
+    <SelectManifestation endSegment="6 2 6 2 -6 -2" startSegment="8 2 4 2 -4 -2"/>
+    <SelectManifestation endSegment="4 2 4 2 -8 -2" startSegment="6 2 6 2 -6 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 2 6 -6 -6" startSegment="6 2 2 2 -6 -2"/>
+    <SelectManifestation endSegment="6 0 2 0 -6 -4" startSegment="6 2 2 2 -6 -2"/>
+    <SelectManifestation endSegment="6 2 2 2 -6 -2" startSegment="6 4 2 0 -6 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 2 4 2 -8 -2" startSegment="6 2 2 2 -6 -2"/>
+    <SelectManifestation endSegment="4 6 4 6 -8 -6" startSegment="4 2 4 2 -8 -2"/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="4 2 4 2 -8 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="4 2 4 2 -8 -2"/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="2 0 6 0 -6 -4"/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="4 4 4 4 -8 -8"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 2 2 -2 -6 -2" startSegment="6 6 2 2 -6 -6"/>
+    <SelectManifestation endSegment="6 2 2 -2 -6 -2" startSegment="6 0 2 0 -6 -4"/>
+    <SelectManifestation endSegment="2 2 -2 -2 -10 -2" startSegment="6 2 2 -2 -6 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 2 -6 -2 -6 -2" startSegment="2 2 -2 -2 -10 -2"/>
+    <SelectManifestation endSegment="-2 0 -6 0 -6 -4" startSegment="-2 2 -6 -2 -6 -2"/>
+    <SelectManifestation endSegment="-2 2 -6 -2 -6 -2" startSegment="-2 -2 -6 -6 -6 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="4 4 4 4 -8 -8"/>
+    <SelectManifestation>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+      <polygonVertex at="6 0 2 0 -6 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+      <polygonVertex at="6 0 2 0 -6 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="6 0 2 0 -6 -4"/>
+    <SelectManifestation endSegment="0 0 0 0 -12 -4" startSegment="4 0 4 0 -8 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="2 0 6 0 -6 -4"/>
+    <SelectManifestation>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="0 0 0 0 -12 -4"/>
+      <polygonVertex at="0 4 0 4 -12 -8"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 0 4 0 -8 -4"/>
+      <polygonVertex at="0 0 0 0 -12 -4"/>
+      <polygonVertex at="0 4 0 4 -12 -8"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="4 0 4 0 -8 -4" startSegment="4 4 4 4 -8 -8"/>
+    <SelectManifestation endSegment="0 0 0 0 -12 -4" startSegment="4 0 4 0 -8 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="6 6 6 6 -6 -6" dir="yellow" index="1" len="8 0" symm="octahedral"/>
+    <StrutCreation anchor="4 6 4 6 -8 -6" dir="yellow" index="1" len="8 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="14 6 14 6 -14 -6" startSegment="6 6 6 6 -6 -6"/>
+    <SelectManifestation endSegment="12 6 12 6 -16 -6" startSegment="4 6 4 6 -8 -6"/>
+    <SelectManifestation point="12 6 12 6 -16 -6"/>
+    <SelectManifestation point="0 16 0 16 0 -16"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="4 4 8 8 -4 -4"/>
+      <polygonVertex at="6 4 6 8 -2 -4"/>
+      <polygonVertex at="2 4 10 8 2 -4"/>
+      <polygonVertex at="0 4 12 8 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 4 8 8 -4 -4"/>
+      <polygonVertex at="6 4 6 8 -2 -4"/>
+      <polygonVertex at="2 4 10 8 2 -4"/>
+      <polygonVertex at="0 4 12 8 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="14 6 14 6 -14 -6" startSegment="6 6 6 6 -6 -6"/>
+    <SelectManifestation endSegment="6 6 6 6 -6 -6" startSegment="4 6 4 6 -8 -6"/>
+    <SelectManifestation endSegment="8 6 4 6 -4 -6" startSegment="6 6 6 6 -6 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 2 6 -6 -6" startSegment="14 6 10 6 -14 -6"/>
+    <SelectManifestation>
+      <polygonVertex at="6 6 2 6 -6 -6"/>
+      <polygonVertex at="6 8 2 4 -6 -4"/>
+      <polygonVertex at="6 6 2 2 -6 -6"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 6 2 6 -6 -6"/>
+      <polygonVertex at="6 8 2 4 -6 -4"/>
+      <polygonVertex at="6 6 2 2 -6 -6"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="6 4 2 4 -6 -8" startSegment="6 6 2 6 -6 -6"/>
+    <SelectManifestation endSegment="6 6 2 6 -6 -6" startSegment="6 8 2 4 -6 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 6 6 6 -6 -6" startSegment="4 6 4 6 -8 -6"/>
+    <SelectManifestation endSegment="12 6 12 6 -16 -6" startSegment="4 6 4 6 -8 -6"/>
+    <SelectManifestation endSegment="4 4 4 4 -8 -8" startSegment="4 6 4 6 -8 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 6 4 6 -8 -6" startSegment="6 6 2 6 -6 -6"/>
+    <SelectManifestation>
+      <polygonVertex at="4 6 4 6 -8 -6"/>
+      <polygonVertex at="6 6 2 6 -6 -6"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="4 6 4 6 -8 -6"/>
+      <polygonVertex at="6 6 2 6 -6 -6"/>
+      <polygonVertex at="6 4 2 4 -6 -8"/>
+      <polygonVertex at="4 4 4 4 -8 -8"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="4 4 4 4 -8 -8" startSegment="4 6 4 6 -8 -6"/>
+    <SelectManifestation endSegment="12 6 12 6 -16 -6" startSegment="4 6 4 6 -8 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 16 0 16 0 -16"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="14 6 14 6 -14 -6" dir="yellow" index="1" len="0 8" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="14 14 14 14 -14 -14" startSegment="14 6 14 6 -14 -6"/>
+    <SelectManifestation endSegment="12 6 12 6 -16 -6" startSegment="14 6 14 6 -14 -6"/>
+    <SelectManifestation endSegment="14 6 14 6 -14 -6" startSegment="16 6 12 6 -12 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="14 6 10 6 -14 -6" startSegment="14 14 10 14 -14 -14"/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 6 -14 -6"/>
+      <polygonVertex at="14 8 10 4 -14 -4"/>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="14 4 10 4 -14 -8"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 6 -14 -6"/>
+      <polygonVertex at="14 8 10 4 -14 -4"/>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="14 4 10 4 -14 -8"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="14 4 10 4 -14 -8" startSegment="14 6 10 6 -14 -6"/>
+    <SelectManifestation endSegment="14 6 10 6 -14 -6" startSegment="12 6 12 6 -16 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="16 14 12 14 -12 -14" startSegment="16 6 12 6 -12 -6"/>
+    <SelectManifestation endSegment="16 6 12 6 -12 -6" startSegment="14 6 10 6 -14 -6"/>
+    <SelectManifestation endSegment="16 8 12 4 -12 -4" startSegment="16 6 12 6 -12 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="14 14 14 14 -14 -14" dir="yellow" index="1" len="16 0" symm="octahedral"/>
+    <StrutCreation anchor="12 14 12 14 -16 -14" dir="yellow" index="1" len="16 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="28 14 28 14 -32 -14" startSegment="12 14 12 14 -16 -14"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="28 14 28 14 -32 -14" startSegment="12 14 12 14 -16 -14"/>
+    <SelectManifestation point="28 14 28 14 -32 -14"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="12 14 12 14 -16 -14" startSegment="14 14 14 14 -14 -14"/>
+    <SelectManifestation endSegment="14 14 14 14 -14 -14" startSegment="16 14 12 14 -12 -14"/>
+    <SelectManifestation endSegment="30 14 30 14 -30 -14" startSegment="14 14 14 14 -14 -14"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 2 2 -2 -6 -2" startSegment="6 6 2 2 -6 -6"/>
+    <SelectManifestation endSegment="2 2 -2 -2 -10 -2" startSegment="6 2 2 -2 -6 -2"/>
+    <SelectManifestation endSegment="6 2 2 -2 -6 -2" startSegment="10 2 -2 -2 -2 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <SelectManifestation>
+      <polygonVertex at="6 6 -2 -2 6 6"/>
+      <polygonVertex at="6 8 -2 -4 6 4"/>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+      <polygonVertex at="10 6 2 -2 2 6"/>
+    </SelectManifestation>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 2 -6 -2 -6 -2" startSegment="6 6 -6 2 -6 -6"/>
+    <SelectManifestation endSegment="6 2 -6 -2 -6 -2" startSegment="6 6 -6 -6 -6 2"/>
+    <SelectManifestation endSegment="6 2 -6 -2 -6 -2" startSegment="6 -2 -6 -6 -6 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 2 2 -6 -6" startSegment="14 6 10 2 -14 -6"/>
+    <SelectManifestation endSegment="6 6 2 2 -6 -6" startSegment="2 6 -2 2 -10 -6"/>
+    <SelectManifestation endSegment="10 6 -2 2 -2 -6" startSegment="6 6 2 2 -6 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="14 6 10 6 -14 -6" startSegment="14 14 10 14 -14 -14"/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 6 -14 -6"/>
+      <polygonVertex at="14 8 10 4 -14 -4"/>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="14 4 10 4 -14 -8"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 6 -14 -6"/>
+      <polygonVertex at="14 8 10 4 -14 -4"/>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="14 4 10 4 -14 -8"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="14 4 10 4 -14 -8" startSegment="14 6 10 6 -14 -6"/>
+    <SelectManifestation endSegment="14 6 10 6 -14 -6" startSegment="14 8 10 4 -14 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="10 2 -2 -2 -2 -2"/>
+      <polygonVertex at="10 6 -2 -6 -2 2"/>
+      <polygonVertex at="6 6 -6 -6 -6 2"/>
+      <polygonVertex at="6 2 -6 -2 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 2 -2 -2 -2 -2"/>
+      <polygonVertex at="10 6 -2 -6 -2 2"/>
+      <polygonVertex at="6 6 -6 -6 -6 2"/>
+      <polygonVertex at="6 2 -6 -2 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 2 -2 -2 -2 -2" startSegment="6 2 -6 -2 -6 -2"/>
+    <SelectManifestation endSegment="10 6 -2 -6 -2 2" startSegment="10 2 -2 -2 -2 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="10 2 -2 -2 -2 -2"/>
+      <polygonVertex at="6 2 -6 -2 -6 -2"/>
+      <polygonVertex at="6 6 -6 2 -6 -6"/>
+      <polygonVertex at="10 6 -2 2 -2 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 2 -2 -2 -2 -2"/>
+      <polygonVertex at="6 2 -6 -2 -6 -2"/>
+      <polygonVertex at="6 6 -6 2 -6 -6"/>
+      <polygonVertex at="10 6 -2 2 -2 -6"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 2 -2 -2 -2 -2" startSegment="10 6 -2 2 -2 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 6 2 6 2 -2" startSegment="10 2 2 2 2 2"/>
+    <SelectManifestation endSegment="10 4 2 0 2 0" startSegment="10 2 2 2 2 2"/>
+    <SelectManifestation endSegment="10 2 2 2 2 2" startSegment="10 6 2 -2 2 6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 8 2 -4 2 4" startSegment="10 4 2 0 2 0"/>
+    <SelectManifestation endSegment="10 4 2 0 2 0" startSegment="10 8 2 4 2 -4"/>
+    <SelectManifestation endSegment="12 4 0 0 0 0" startSegment="10 4 2 0 2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 6 6 -2 -2" startSegment="14 6 14 6 -10 -2"/>
+    <SelectManifestation endSegment="6 6 6 6 -2 -2" startSegment="10 6 2 6 2 -2"/>
+    <SelectManifestation endSegment="6 6 6 6 -2 -2" startSegment="6 8 6 4 -2 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 8 2 4 -6 -4" startSegment="6 6 2 2 -6 -6"/>
+    <SelectManifestation endSegment="6 8 2 4 -6 -4" startSegment="6 6 2 2 -6 -6"/>
+    <SelectManifestation endSegment="6 8 2 4 -6 -4" startSegment="6 6 2 2 -6 -6"/>
+    <SelectManifestation endSegment="14 8 10 4 -14 -4" startSegment="6 8 2 4 -6 -4"/>
+    <SelectManifestation endSegment="6 8 2 4 -6 -4" startSegment="10 8 -2 4 -2 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 8 4 4 -4 -4" startSegment="6 8 6 4 -2 -4"/>
+    <SelectManifestation endSegment="10 8 2 4 2 -4" startSegment="6 8 6 4 -2 -4"/>
+    <SelectManifestation endSegment="6 8 6 4 -2 -4" startSegment="14 8 14 4 -10 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 8 4 4 -4 -4" startSegment="6 8 2 4 -6 -4"/>
+    <SelectManifestation endSegment="8 8 4 4 -4 -4" startSegment="16 8 12 4 -12 -4"/>
+    <SelectManifestation>
+      <polygonVertex at="8 8 4 4 -4 -4"/>
+      <polygonVertex at="16 8 12 4 -12 -4"/>
+      <polygonVertex at="20 8 8 4 -8 -4"/>
+      <polygonVertex at="12 8 0 4 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 8 4 4 -4 -4"/>
+      <polygonVertex at="16 8 12 4 -12 -4"/>
+      <polygonVertex at="20 8 8 4 -8 -4"/>
+      <polygonVertex at="12 8 0 4 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="8 8 4 4 -4 -4" startSegment="12 8 0 4 0 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="30 14 30 14 -30 -14" dir="yellow" index="1" len="0 16" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <DeselectAll/>
+    <SelectManifestation point="30 30 30 30 -30 -30"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <DeselectAll/>
+    <SelectManifestation point="30 30 30 30 -30 -30"/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 -6 2 -6 -6" startSegment="6 2 -6 -2 -6 -10"/>
+    <SelectManifestation endSegment="6 10 -6 -2 -6 -2" startSegment="6 6 -6 2 -6 -6"/>
+    <SelectManifestation endSegment="6 6 -6 2 -6 -6" startSegment="14 6 2 2 -14 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="14 6 10 2 -14 -6" startSegment="14 14 10 10 -14 -14"/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="18 6 6 2 -10 -6"/>
+      <polygonVertex at="14 6 2 2 -14 -6"/>
+      <polygonVertex at="10 6 6 2 -18 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 10 2 -14 -6"/>
+      <polygonVertex at="18 6 6 2 -10 -6"/>
+      <polygonVertex at="14 6 2 2 -14 -6"/>
+      <polygonVertex at="10 6 6 2 -18 -6"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 6 6 2 -18 -6" startSegment="14 6 10 2 -14 -6"/>
+    <SelectManifestation endSegment="14 6 10 2 -14 -6" startSegment="18 6 6 2 -10 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 14 26 14 -30 -14" startSegment="14 14 10 14 -14 -14"/>
+    <SelectManifestation endSegment="14 16 10 12 -14 -12" startSegment="14 14 10 14 -14 -14"/>
+    <SelectManifestation endSegment="14 12 10 12 -14 -16" startSegment="14 14 10 14 -14 -14"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 30 30 30 -30 -30" startSegment="30 14 30 14 -30 -14"/>
+    <SelectManifestation endSegment="28 14 28 14 -32 -14" startSegment="30 14 30 14 -30 -14"/>
+    <SelectManifestation endSegment="30 14 30 14 -30 -14" startSegment="32 14 28 14 -28 -14"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="18 6 6 2 -10 -6" startSegment="10 6 -2 2 -2 -6"/>
+    <SelectManifestation endSegment="10 6 -2 2 -2 -6" startSegment="10 10 -2 -2 -2 -2"/>
+    <SelectManifestation endSegment="10 6 -2 2 -2 -6" startSegment="6 6 -6 2 -6 -6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="6 6 -6 -6 -6 2" startSegment="10 6 -2 -6 -2 2"/>
+    <SelectManifestation endSegment="10 6 -2 -6 -2 2" startSegment="18 6 -10 -6 6 2"/>
+    <SelectManifestation endSegment="10 10 -2 -2 -2 -2" startSegment="10 6 -2 -6 -2 2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 10 -2 -2 -2 -2" startSegment="6 10 -6 -2 -6 -2"/>
+    <SelectManifestation endSegment="6 10 -6 -2 -6 -2" startSegment="14 10 -14 -2 2 -2"/>
+    <SelectManifestation endSegment="14 10 2 -2 -14 -2" startSegment="6 10 -6 -2 -6 -2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 14 14 14 -10 -10"/>
+      <polygonVertex at="18 14 10 14 -6 -10"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 14 14 14 -10 -10"/>
+      <polygonVertex at="18 14 10 14 -6 -10"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="14 6 14 6 -10 -2" startSegment="14 14 14 14 -10 -10"/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 8 14 4 -10 -4"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 8 14 4 -10 -4"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 14 14 14 -10 -10"/>
+      <polygonVertex at="18 14 10 14 -6 -10"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 14 14 14 -10 -10"/>
+      <polygonVertex at="18 14 10 14 -6 -10"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="18 6 10 6 -6 -2" startSegment="14 6 14 6 -10 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 8 14 4 -10 -4"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 6 14 6 -10 -2"/>
+      <polygonVertex at="14 8 14 4 -10 -4"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="14 6 14 6 -10 -2" startSegment="14 8 14 4 -10 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="10 10 2 2 2 2" startSegment="10 6 2 6 2 -2"/>
+    <SelectManifestation endSegment="10 6 2 6 2 -2" startSegment="18 6 10 6 -6 -2"/>
+    <SelectManifestation endSegment="10 6 2 6 2 -2" startSegment="10 8 2 4 2 -4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 10 2 2 2 2" startSegment="10 6 2 6 2 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="10 6 2 6 2 -2"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="10 8 2 4 2 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 6 2 6 2 -2"/>
+      <polygonVertex at="18 6 10 6 -6 -2"/>
+      <polygonVertex at="18 8 10 4 -6 -4"/>
+      <polygonVertex at="10 8 2 4 2 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 6 2 6 2 -2" startSegment="18 6 10 6 -6 -2"/>
+    <SelectManifestation endSegment="10 6 2 6 2 -2" startSegment="10 8 2 4 2 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 6 2 -2 2 6" startSegment="10 10 2 2 2 2"/>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="18 6 -6 -2 10 6"/>
+      <polygonVertex at="10 6 2 -2 2 6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="18 6 -6 -2 10 6"/>
+      <polygonVertex at="10 6 2 -2 2 6"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="18 6 -6 -2 10 6" startSegment="10 6 2 -2 2 6"/>
+    <SelectManifestation endSegment="10 6 2 -2 2 6" startSegment="10 8 2 -4 2 4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="12 8 0 -4 0 4" startSegment="10 8 2 -4 2 4"/>
+    <SelectManifestation>
+      <polygonVertex at="12 8 0 -4 0 4"/>
+      <polygonVertex at="20 8 -8 -4 8 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="12 8 0 -4 0 4"/>
+      <polygonVertex at="20 8 -8 -4 8 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 8 2 -4 2 4" startSegment="18 8 -6 -4 10 4"/>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="18 12 -6 0 10 0"/>
+      <polygonVertex at="10 12 2 0 2 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 -4 2 4"/>
+      <polygonVertex at="18 8 -6 -4 10 4"/>
+      <polygonVertex at="18 12 -6 0 10 0"/>
+      <polygonVertex at="10 12 2 0 2 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 8 2 -4 2 4" startSegment="10 12 2 0 2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="10 8 2 4 2 -4" startSegment="18 8 10 4 -6 -4"/>
+    <SelectManifestation endSegment="12 8 0 4 0 -4" startSegment="10 8 2 4 2 -4"/>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 4 2 -4"/>
+      <polygonVertex at="10 12 2 0 2 0"/>
+      <polygonVertex at="12 12 0 0 0 0"/>
+      <polygonVertex at="12 8 0 4 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 8 2 4 2 -4"/>
+      <polygonVertex at="10 12 2 0 2 0"/>
+      <polygonVertex at="12 12 0 0 0 0"/>
+      <polygonVertex at="12 8 0 4 0 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="10 12 2 0 2 0" startSegment="10 8 2 4 2 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-10 -10 -2 -2 2 2" startSegment="-18 -10 6 -2 10 2"/>
+    <SelectManifestation>
+      <polygonVertex at="-10 -10 -2 -2 2 2"/>
+      <polygonVertex at="-18 -10 6 -2 10 2"/>
+      <polygonVertex at="-26 -10 -2 -2 2 2"/>
+      <polygonVertex at="-18 -10 -10 -2 -6 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-10 -10 -2 -2 2 2"/>
+      <polygonVertex at="-18 -10 6 -2 10 2"/>
+      <polygonVertex at="-26 -10 -2 -2 2 2"/>
+      <polygonVertex at="-18 -10 -10 -2 -6 2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-10 -10 -2 -2 2 2" startSegment="-18 -10 -10 -2 -6 2"/>
+    <SelectManifestation endSegment="-10 -10 -2 -2 2 2" startSegment="-10 -12 -2 0 2 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-14 -6 10 2 14 6" startSegment="-14 -14 10 10 14 14"/>
+    <SelectManifestation>
+      <polygonVertex at="-14 -6 10 2 14 6"/>
+      <polygonVertex at="-18 -6 6 2 10 6"/>
+      <polygonVertex at="-18 -14 6 10 10 14"/>
+      <polygonVertex at="-14 -14 10 10 14 14"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-14 -6 10 2 14 6"/>
+      <polygonVertex at="-18 -6 6 2 10 6"/>
+      <polygonVertex at="-18 -14 6 10 10 14"/>
+      <polygonVertex at="-14 -14 10 10 14 14"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-14 -6 10 2 14 6" startSegment="-18 -6 6 2 10 6"/>
+    <SelectManifestation endSegment="-14 -8 10 4 14 4" startSegment="-14 -6 10 2 14 6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-12 -12 0 0 0 0" startSegment="-10 -12 -2 0 2 0"/>
+    <SelectManifestation endSegment="-10 -12 -2 0 2 0" startSegment="-18 -12 -10 0 -6 0"/>
+    <SelectManifestation endSegment="-10 -12 -2 0 2 0" startSegment="-18 -12 6 0 10 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-14 -8 -14 -4 -10 -4" startSegment="-14 -16 -14 -12 -10 -12"/>
+    <SelectManifestation endSegment="-14 -8 -14 -4 -10 -4" startSegment="-18 -8 -10 -4 -6 -4"/>
+    <SelectManifestation endSegment="-16 -8 -12 -4 -12 -4" startSegment="-14 -8 -14 -4 -10 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-16 -8 -12 -4 -12 -4" startSegment="-14 -8 -10 -4 -14 -4"/>
+    <SelectManifestation endSegment="-16 -8 -12 -4 -12 -4" startSegment="-16 -16 -12 -12 -12 -12"/>
+    <SelectManifestation>
+      <polygonVertex at="-16 -8 -12 -4 -12 -4"/>
+      <polygonVertex at="-20 -8 -8 -4 -8 -4"/>
+      <polygonVertex at="-20 -16 -8 -12 -8 -12"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -8 -12 -4 -12 -4"/>
+      <polygonVertex at="-20 -8 -8 -4 -8 -4"/>
+      <polygonVertex at="-20 -16 -8 -12 -8 -12"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-16 -8 -12 -4 -12 -4" startSegment="-20 -8 -8 -4 -8 -4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-14 -14 -14 -14 -10 -14" startSegment="-16 -14 -12 -14 -12 -14"/>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+      <polygonVertex at="-30 -14 -26 -14 -30 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+      <polygonVertex at="-30 -14 -26 -14 -30 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-32 -14 -28 -14 -28 -14" startSegment="-16 -14 -12 -14 -12 -14"/>
+    <SelectManifestation endSegment="-16 -14 -12 -14 -12 -14" startSegment="-16 -16 -12 -12 -12 -12"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+      <polygonVertex at="-14 -16 -10 -12 -14 -12"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+      <polygonVertex at="-14 -16 -10 -12 -14 -12"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-16 -14 -12 -14 -12 -14" startSegment="-14 -14 -10 -14 -14 -14"/>
+    <SelectManifestation endSegment="-16 -14 -12 -14 -12 -14" startSegment="-16 -16 -12 -12 -12 -12"/>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+      <polygonVertex at="-32 -16 -28 -12 -28 -12"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+      <polygonVertex at="-32 -16 -28 -12 -28 -12"/>
+      <polygonVertex at="-16 -16 -12 -12 -12 -12"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+      <polygonVertex at="-30 -14 -26 -14 -30 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-16 -14 -12 -14 -12 -14"/>
+      <polygonVertex at="-14 -14 -10 -14 -14 -14"/>
+      <polygonVertex at="-30 -14 -26 -14 -30 -14"/>
+      <polygonVertex at="-32 -14 -28 -14 -28 -14"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-32 -14 -28 -14 -28 -14" startSegment="-16 -14 -12 -14 -12 -14"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="octahedral"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="10 0 -18 -12 6 0"/>
+      <polygonVertex at="2 0 -26 -12 -2 0"/>
+      <polygonVertex at="0 0 -28 -12 0 0"/>
+      <polygonVertex at="8 0 -20 -12 8 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="20 16 8 12 -8 -12" dir="yellow" index="1" len="0 16" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="20 32 8 28 -8 -28"/>
+    <SelectManifestation endSegment="20 32 8 28 -8 -28" startSegment="20 16 8 12 -8 -12"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="22 10 6 2 6 2" startSegment="26 10 2 2 2 2"/>
+    <SelectManifestation point="22 10 6 2 6 2"/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 6 2 6 2"/>
+      <polygonVertex at="6 6 6 6 6 6"/>
+      <polygonVertex at="14 6 -2 6 14 6"/>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 6 2 6 2"/>
+      <polygonVertex at="6 6 6 6 6 6"/>
+      <polygonVertex at="14 6 -2 6 14 6"/>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="22 10 6 2 6 2" startSegment="14 10 14 2 -2 2"/>
+    <SelectManifestation endSegment="22 10 6 2 6 2" startSegment="14 10 14 2 -2 2"/>
+    <SelectManifestation endSegment="6 6 6 6 6 6" startSegment="6 10 6 2 6 2"/>
+    <SelectManifestation endSegment="6 6 6 6 6 6" startSegment="6 10 6 2 6 2"/>
+    <SelectManifestation endSegment="22 10 6 2 6 2" startSegment="14 10 14 2 -2 2"/>
+    <SelectManifestation endSegment="14 10 -2 2 14 2" startSegment="22 10 6 2 6 2"/>
+    <SelectManifestation>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="18 10 -6 2 10 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="18 10 -6 2 10 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="18 10 -6 2 10 2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="18 10 -6 2 10 2" startSegment="26 10 2 2 2 2"/>
+    <SelectManifestation>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="26 10 2 2 2 2" startSegment="18 10 10 2 -6 2"/>
+    <SelectManifestation>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="26 10 2 2 2 2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="6 10 6 2 6 2"/>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 6 2 6 2"/>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="6 10 6 2 6 2"/>
+      <polygonVertex at="14 10 14 2 -2 2"/>
+      <polygonVertex at="22 10 6 2 6 2"/>
+      <polygonVertex at="14 10 -2 2 14 2"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="10 10 2 2 2 2"/>
+      <polygonVertex at="18 10 -6 2 10 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="18 10 -6 2 10 2"/>
+      <polygonVertex at="18 12 -6 0 10 0"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="18 10 10 2 -6 2"/>
+      <polygonVertex at="26 10 2 2 2 2"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="26 12 2 0 2 0" startSegment="26 10 2 2 2 2"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="10 12 2 0 2 0"/>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="18 12 -6 0 10 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="18 12 10 0 -6 0" startSegment="26 12 2 0 2 0"/>
+    <SelectManifestation point="26 12 2 0 2 0"/>
+    <SelectManifestation endSegment="18 12 -6 0 10 0" startSegment="26 12 2 0 2 0"/>
+    <SelectManifestation>
+      <polygonVertex at="18 12 -6 0 10 0"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+      <polygonVertex at="28 12 0 0 0 0"/>
+      <polygonVertex at="20 12 -8 0 8 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="26 12 2 0 2 0" startSegment="28 12 0 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="18 12 10 0 -6 0"/>
+      <polygonVertex at="20 12 8 0 -8 0"/>
+      <polygonVertex at="28 12 0 0 0 0"/>
+      <polygonVertex at="26 12 2 0 2 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="28 12 0 0 0 0" startSegment="20 12 8 0 -8 0"/>
+    <SelectManifestation point="28 12 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="10 10 -2 -2 -2 -2"/>
+      <polygonVertex at="10 12 -2 0 -2 0"/>
+      <polygonVertex at="18 12 -10 0 6 0"/>
+      <polygonVertex at="18 10 -10 -2 6 -2"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="12 12 0 0 0 0"/>
+      <polygonVertex at="20 12 -8 0 8 0"/>
+      <polygonVertex at="28 12 0 0 0 0"/>
+      <polygonVertex at="20 12 8 0 -8 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-32 -30 -28 -30 -28 -30"/>
+    <SelectManifestation point="-32 -16 -28 -12 -28 -12"/>
+    <SelectManifestation point="-20 -16 -8 -12 -8 -12"/>
+    <SelectManifestation point="-20 -12 -8 0 -8 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-20 -12 8 0 8 0"/>
+    <SelectManifestation endSegment="-20 -12 -8 0 -8 0" startSegment="-20 -16 -8 -12 -8 -12"/>
+    <SelectManifestation point="-20 -12 -8 0 -8 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-8"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 14 30 14 -26 -14" startSegment="30 30 30 30 -26 -30"/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <setItemColor blue="204" green="255" red="204"/>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool name="tool-6" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool name="tool-6" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-4" selectInputs="true"/>
+    <ApplyTool name="tool-7" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ShowHidden/>
+    <Delete/>
+    <SelectAll/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <DeselectAll/>
+    <StrutCreation anchor="30 15 30 15 -30 -15" dir="yellow" index="1" len="0 16" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="30 31 30 31 -30 -31" startSegment="30 15 30 15 -30 -15"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="30 31 30 31 -30 -31" startSegment="30 15 30 15 -30 -15"/>
+    <SelectManifestation point="30 31 30 31 -30 -31"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="30 16 30 14 -30 -14"/>
+    <SelectManifestation point="30 31 30 31 -30 -31"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="204,204,255">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="726.9658813476562" far="1453.936279296875" near="1.8174145221710205" parallel="true" stereoAngle="0.0" width="327.1351318359375">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.09824465215206146" y="0.9559040069580078" z="0.2762785851955414"/>
+      <LookDirection x="0.11666910350322723" y="0.2646733820438385" z="-0.9572416543960571"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
+    <Direction color="255,255,255" name="15751" prototype="0 -1/4 0 3/4 0 -3/4"/>
+    <Direction color="255,255,255" name="15752" prototype="-7/8 0 -11/8 0 -5/8 0"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="15726" prototype="1/2 1/2 1 0 1/2 1/2"/>
+    <Direction color="255,255,255" name="15705" prototype="0 -1/2 2 -1/2 0 -1/2"/>
+    <Direction color="255,255,255" name="15727" prototype="-5/4 0 -3/4 0 -5/4 0"/>
+    <Direction color="255,255,255" name="15724" prototype="3/4 0 3/4 0 1 0"/>
+    <Direction color="255,255,255" name="15725" prototype="1/2 1/4 0 3/4 1/2 1/2"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,255,255" name="15723" prototype="1/4 1/2 1/4 1/2 0 1"/>
+    <Direction color="255,255,255" name="15753" prototype="9/8 0 9/8 0 7/8 0"/>
+    <Direction color="255,255,255" name="15930" prototype="15/16 0 17/16 0 -17/16 0"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="15706" prototype="-1/4 0 -5/4 0 -3/4 0"/>
+    <Direction color="255,255,255" name="15728" prototype="-1/4 -1/2 1/4 -1/2 -1/4 -1/2"/>
+    <Direction color="255,255,255" name="15707" prototype="1/2 1/2 1/2 0 1/2 1/2"/>
+    <Direction color="255,255,255" name="15729" prototype="-1/2 -1/2 1/2 -1/2 -1/2 -1/2"/>
+    <Direction color="107,53,26" name="brown"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="synestructics" renderingStyle="small octahedra">
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="220,76,0" name="orange"/>
+      <Direction color="255,41,183" name="magenta"/>
+      <Direction color="107,53,26" name="brown"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool id="tool-0" label="bookmark 0" selectInputs="true"/>
+    <Tool deleteInputs="true" id="tool-1" label="translation 1"/>
+    <Tool id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool deleteInputs="true" hidden="true" id="tool-3" label="translation 3"/>
+    <Tool id="tool-4" label="bookmark 4" selectInputs="true"/>
+    <Tool deleteInputs="true" id="tool-5" label="translation 5"/>
+    <Tool id="tool-6" label="bookmark 6" selectInputs="true"/>
+    <Tool id="tool-7" label="bookmark 7" selectInputs="true"/>
+    <Tool id="tool-8" label="bookmark 8" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
