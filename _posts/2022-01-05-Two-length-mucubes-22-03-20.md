@@ -3,7 +3,7 @@ title: Two length mucubes
 image: https://John-Kostick.github.io/vzome-sharing/2022/01/05/22-03-20-Two-length-mucubes/Two-length-mucubes.png
 layout: vzome
 descrotion:
-  A construction of a two length mucube, a [skew-apeirohedron}
+  A construction of a two length mucube, a skew apeirohedron
 ---
 
 {% comment %}
@@ -14,7 +14,7 @@ descrotion:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/01/05/22-03-20-Two-length-mucubes/>
 {% endcomment %}
 
-  A construction of a two length mucube, a [skew apeirohedron}
+  A construction of a two length mucube, a skew apeirohedron
   
   
 [Skew apeirohedron]: https://en.wikipedia.org/wiki/Skew_apeirohedron
