@@ -15,6 +15,10 @@ descrotion:
 {% endcomment %}
 
   A construction of a two length mucube, a [skew-apeirohedron}
+  
+  
+[Skew-apeirohedron]: https://en.wikipedia.org/wiki/Skew_apeirohedron
+
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/01/05/22-03-20-Two-length-mucubes/Two-length-mucubes.vZome" >
@@ -28,5 +32,3 @@ descrotion:
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/01/02/14-14-13-mucubes-2/mucubes-2.png" />
 </vzome-viewer>
 
-
-[Skew-apeirohedron]: https://en.wikipedia.org/wiki/Skew_apeirohedron
