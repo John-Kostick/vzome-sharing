@@ -14,10 +14,10 @@ descrotion:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/01/05/22-03-20-Two-length-mucubes/>
 {% endcomment %}
 
-  A construction of a two length mucube, a [skew-apeirohedron}
+  A construction of a two length mucube, a [skew apeirohedron}
   
   
-[Skew-apeirohedron]: https://en.wikipedia.org/wiki/Skew_apeirohedron
+[Skew apeirohedron]: https://en.wikipedia.org/wiki/Skew_apeirohedron
 
 
 <vzome-viewer style="width: 100%; height: 100vh;"
