@@ -13,7 +13,7 @@ description:
 [post]: <https://John-Kostick.github.io/vzome-sharing/2022/01/26/Six-axis-as-tensegrity-07-35-59.html>
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/01/26/07-35-59-Six-axis-as-tensegrity/>
 {% endcomment %}
-  A set of 30 non-intersecting red struts representing compression members in a tensegrity.  Blue and green struts re
+  A set of 30 non-intersecting red struts representing compression members in a tensegrity.  Blue and green struts represent tension members.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/01/26/07-35-59-Six-axis-as-tensegrity/Six-axis-as-tensegrity.vZome" >
