@@ -27,6 +27,6 @@ A six-axis construction, such as can be made in wood.  "Heartlines" of the 30 id
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/01/26/08-17-18-6- axis/6- axis.png" />
 </vzome-viewer>
 
-A wood six-axis, magnetically connected.
+A wood six-axis, magnetically connected. End cuts of sticks are rosette style.
 
 ![6416141_orig](https://user-images.githubusercontent.com/78830166/151176309-d836ddfc-6a97-4ad0-982b-27c89a4aaaba.jpg)
