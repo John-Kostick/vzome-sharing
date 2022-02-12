@@ -12,7 +12,7 @@ layout: vzome
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/02/12/16-20-46-Geodesic-on-cube-vZome/>
 {% endcomment %}
 
-<vzome-viewer style="width: 100%; height: 65vh;"
+<vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/16-20-46-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/16-20-46-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.png" />
 </vzome-viewer>
