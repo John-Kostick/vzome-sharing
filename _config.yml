@@ -1,3 +1,9 @@
+title: John's vZome Designs
+author: John Kostick
+
+description: > # this means to ignore newlines until "defaults:"
+  Geometric designs and stories,
+  all created with vZome (https://vzome.com).
 
 defaults:
   - scope:
@@ -5,6 +11,9 @@ defaults:
     values:
       # This description will be used for any page/post that does not defined its own description in its front-matter.
       description: A 3D design created in vZome.  Use your mouse or touch to interact.
+
+header_pages:
+- about.md
 
 # Feel free to select a different theme.
 # The "minima" theme is a good default choice just because it
@@ -16,3 +25,7 @@ exclude:
   #  to avoid generating extra pages in Jekyll, which clutter up the
   #  header for the minima theme, and probably others.
   - 20*/*/*/*/README.md
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
