@@ -11,5 +11,5 @@ description:
   all created with vZome (https://vzome.com).
 ---
 
-John Kostick's designs
+John Kostick's models.
 
