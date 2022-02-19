@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="69" field="polygon36" version="7.0">
+  <EditHistory editNumber="339" lastStickyEdit="196">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 1 0 0 0 0 0 0 0 0" symm="octahedral"/>
+    <StrutCreation anchor="0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 1 0 0 0 0 0 0 0 0" symm="octahedral"/>
+    <StrutCreation anchor="0 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 1 0 0 0 0 0 0 0 0" symm="octahedral"/>
+    <SelectManifestation endSegment="0 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <CentralSymmetry>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </CentralSymmetry>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="symmetry.builtin/polygonal antiprism around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="9" len="3/2 0 0 0 0 0 3/2 0 9/2 0 6 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 0 0 3/2 0 9/2 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0" index="27" len="0 0 0 0 3/2 0 9/2 0 9/2 0 3/2 0" symm="antiprism36"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 0 0 3/2 0 9/2 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 0 0 3/2 0 9/2 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectNeighbors/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0"/>
+    <EndBlock/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" dir="red" index="0" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0" dir="red" index="0" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="0" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="0" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="0" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+    <EndBlock/>
+    <CentralSymmetry>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </CentralSymmetry>
+    <DeselectAll/>
+    <StrutCreation anchor="0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="36" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <StrutCreation anchor="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="36" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <StrutCreation anchor="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="36" len="3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0" symm="antiprism36"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/2 0 0 0 -3/2 0 -3 0 0 0 9/2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9/4 0 0 0 9/4 0 9/2 0 0 0 -27/4 0"/>
+    <SelectManifestation point="0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/4 0 0 0 3/4 0 3/2 0 0 0 -9/4 0"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 -3/4 0 0 0 3/4 0 3/2 0 0 0 -9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 -3/4 0 0 0 3/4 0 3/2 0 0 0 -9/4 0"/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <ConvexHull3d mode=""/>
+    <Branch>
+      <BookmarkTool name="tool-0"/>
+      <setItemColor blue="0" green="0" red="255"/>
+      <ApplyTool name="tool-0" selectInputs="true"/>
+      <Branch>
+        <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+        <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+        <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+        <DeselectAll/>
+        <Branch>
+          <ApplyTool name="tool-0" selectInputs="true"/>
+          <setItemColor blue="0" green="255" red="0"/>
+          <SelectAll/>
+          <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+          <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+          <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+          <DeselectAll/>
+          <ApplyTool name="tool-0" selectInputs="true"/>
+          <setItemColor blue="255" green="0" red="0"/>
+          <BeginBlock/>
+          <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+          <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+          <EndBlock/>
+          <BookmarkTool name="tool-1"/>
+        </Branch>
+      </Branch>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <DeselectAll/>
+      <ApplyTool name="tool-0" selectInputs="true"/>
+      <setItemColor blue="0" green="255" red="0"/>
+      <SelectAll/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <ApplyTool deleteInputs="true" name="antiprism36 rotation.builtin/rotate around red through origin"/>
+      <DeselectAll/>
+      <ApplyTool name="tool-0" selectInputs="true"/>
+      <setItemColor blue="255" green="0" red="0"/>
+      <BeginBlock/>
+      <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
+      <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+      <EndBlock/>
+      <BookmarkTool name="tool-2"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism36 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/4 0 0 0 3/4 0 3/2 0 0 0 -9/4 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <ApplyTool name="antiprism36 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 0 3 0 3/2 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 -3 0 -3 0 -3 0 3/2 0 3 0 3 0 0 0 -3 0 -3/2 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 3 0 3 0 3 0 -3/2 0 -3 0 3 0 0 0 -3 0 -3/2 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3/2 0 3 0 3/2 0 0 0 0 0 0 0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 3/2 0 3 0 3/2 0 0 0 0 0 0 0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 3/2 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 3 0 3 0 3 0 -3/2 0 -3 0 -3 0 0 0 3 0 3/2 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 3 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3 0 -3 0 -3 0 3/2 0 3 0 -3 0 0 0 3 0 3/2 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3 0 -3 0 -3 0 3/2 0 3 0 -3 0 0 0 3 0 3/2 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-3"/>
+    <setItemColor blue="255" green="153" red="102"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <GroupSelection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <EndBlock/>
+    <GroupSelection grouping="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 3/2 0 6 0 3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0" startSegment="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 3/4 0 0 0 -3/4 0 -3/2 0 0 0 9/4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9/4 0 0 0 -9/4 0 -9/2 0 0 0 27/4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0 0 0 0 0">{
+  "field" : "polygon36",
+  "vertices" : [ [ [ 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, -3, 0, -6, 0, -3, 2 ], [ 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, -3, 0, -6, 0, -3, 2 ], [ 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 0, 0, -6, 0, -3, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, 6, 0, -3, 0, -12, 0, -6, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, 6, 0, -3, 0, -12, 0, -6, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, -3, 0, -6, 0, -3, 2 ], [ 0, 0, 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, -3, 0, -6, 0, -3, 2 ], [ 0, 0, 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, -6, 0, -6, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, -6, 0, -6, 0, 0, 0, 6, 0, -3, 0, -6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, -6, 0, -6, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 6, 0, 6, 0, 0, 0, -6, 0, 3, 0, 6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, -12, 0, -3, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, -3, 0, 0, 0, 3, 0, 6, 0, -3, 0, -6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, -12, 0, -3, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, 3, 0, 0, 0, -3, 0, -6, 0, 3, 0, 6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, -3, 0, 0, 0, 0, 0, 0, 0, -6, 0, -6, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, 0, 0, -6, 0, -9, 0, -12, 0, 0, 0, 6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, 0, 0, 6, 0, 9, 0, 12, 0, 0, 0, -6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, -6, 0, -6, 0, 0, 0, 6, 0, -3, 0, -6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 0, 0, -6, 0, -6, 0, -6, 0, 3, 0, 6, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 0, 0, 6, 0, 6, 0, 6, 0, -3, 0, -6, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 6, 0, 6, 0, 0, 0, -6, 0, 3, 0, 6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, -3, 0, 0, 0, 3, 0, 6, 0, -3, 0, -6, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 2 ], [ 0, 3, 0, 0, 0, -3, 0, -6, 0, 3, 0, 6, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, -6, 0, -6, 0, -3, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 6, 0, 6, 0, 3, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ -51, 0, -51, 0, 6, 0, 6, 0, -3, 0, -3, 0, 16 ], [ 0, 0, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 27, 0, 27, 0, -30, 0, -30, 0, 3, 0, 3, 0, 16 ], [ -24, 0, 21, 0, 21, 0, 24, 0, 24, 0, -48, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ -45, 0, -45, 0, 2, 0, 2, 0, -1, 0, -1, 0, 16 ], [ 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 23, 0, 23, 0, -26, 0, -26, 0, 2, 0, 2, 0, 16 ], [ 22, 0, -21, 0, -21, 0, -21, 0, -21, 0, 44, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ 27, 0, 27, 0, -24, 0, -24, 0, 0, 0, 0, 0, 16 ], [ 24, 0, -21, 0, -21, 0, -27, 0, -27, 0, 48, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ 0, 12, 0, 3, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, -3, 0, 0, 0, 0, 0, 0, 0, -6, 0, -6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, 12, 0, 3, 0, -6, 0, -3, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ -3, 0, -3, 0, 24, 0, 24, 0, -24, 0, -24, 0, 16 ], [ 24, 0, 3, 0, 3, 0, -27, 0, -27, 0, 48, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 23, 0, 23, 0, -20, 0, -20, 0, -1, 0, -1, 0, 16 ], [ -22, 0, 21, 0, 21, 0, 24, 0, 24, 0, -44, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -2, 0, -2, 0, 23, 0, 23, 0, -23, 0, -23, 0, 16 ], [ -21, 0, -2, 0, -2, 0, 23, 0, 23, 0, -42, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 0, 0, 0, 0, 21, 0, 21, 0, -21, 0, -21, 0, 16 ], [ -27, 0, 0, 0, 0, 0, 27, 0, 27, 0, -54, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 1, 0, 1, 0, 20, 0, 20, 0, -20, 0, -20, 0, 16 ], [ 24, 0, -1, 0, -1, 0, -23, 0, -23, 0, 48, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ -24, 0, -24, 0, 3, 0, 3, 0, -3, 0, -3, 0, 16 ], [ -3, 0, -24, 0, -24, 0, 27, 0, 27, 0, -6, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ -21, 0, -21, 0, 1, 0, 1, 0, -2, 0, -2, 0, 16 ], [ 1, 0, 23, 0, 23, 0, -23, 0, -23, 0, 2, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -27, 0, -27, 0, 3, 0, 3, 0, 0, 0, 0, 0, 16 ], [ 3, 0, 21, 0, 21, 0, -27, 0, -27, 0, 6, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ -24, 0, -24, 0, 1, 0, 1, 0, 1, 0, 1, 0, 16 ], [ -1, 0, -20, 0, -20, 0, 23, 0, 23, 0, -2, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ 0, 6, 0, -3, 0, -12, 0, -3, 0, 6, 0, 3, 2 ], [ 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 6, 0, -3, 0, -12, 0, -3, 0, 6, 0, 3, 2 ], [ 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 27, 0, 27, 0, -51, 0, -51, 0, 24, 0, 24, 0, 16 ], [ 3, 0, 21, 0, 21, 0, -3, 0, -3, 0, 6, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 11, 0, 11, 0, -23, 0, -23, 0, 11, 0, 11, 0, 8 ], [ -1, 0, -10, 0, -10, 0, 1, 0, 1, 0, -2, 0, 8 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 15, 0, 15, 0, -24, 0, -24, 0, 12, 0, 12, 0, 8 ], [ 0, 0, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0, 2 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 25, 0, 25, 0, -43, 0, -43, 0, 22, 0, 22, 0, 16 ], [ -1, 0, 23, 0, 23, 0, 1, 0, 1, 0, -2, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ -25, 0, -25, 0, 43, 0, 43, 0, -22, 0, -22, 0, 16 ], [ 1, 0, -23, 0, -23, 0, -1, 0, -1, 0, 2, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -15, 0, -15, 0, 24, 0, 24, 0, -12, 0, -12, 0, 8 ], [ 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 2 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ -11, 0, -11, 0, 23, 0, 23, 0, -11, 0, -11, 0, 8 ], [ 1, 0, 10, 0, 10, 0, -1, 0, -1, 0, 2, 0, 8 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -27, 0, -27, 0, 51, 0, 51, 0, -24, 0, -24, 0, 16 ], [ -3, 0, -21, 0, -21, 0, 3, 0, 3, 0, -6, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ 0, -6, 0, 3, 0, 12, 0, 3, 0, -6, 0, -3, 2 ], [ 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, -6, 0, 3, 0, 12, 0, 3, 0, -6, 0, -3, 2 ], [ 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 24, 0, 24, 0, -1, 0, -1, 0, -1, 0, -1, 0, 16 ], [ 1, 0, 20, 0, 20, 0, -23, 0, -23, 0, 2, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 27, 0, 27, 0, -3, 0, -3, 0, 0, 0, 0, 0, 16 ], [ -3, 0, -21, 0, -21, 0, 27, 0, 27, 0, -6, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 21, 0, 21, 0, -1, 0, -1, 0, 2, 0, 2, 0, 16 ], [ -1, 0, -23, 0, -23, 0, 23, 0, 23, 0, -2, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 24, 0, 24, 0, -3, 0, -3, 0, 3, 0, 3, 0, 16 ], [ 3, 0, 24, 0, 24, 0, -27, 0, -27, 0, 6, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ -1, 0, -1, 0, -20, 0, -20, 0, 20, 0, 20, 0, 16 ], [ -24, 0, 1, 0, 1, 0, 23, 0, 23, 0, -48, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ 0, 12, 0, 0, 0, -12, 0, -3, 0, 6, 0, 3, 2 ], [ 0, 0, 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 12, 0, 0, 0, -12, 0, -3, 0, 6, 0, 3, 2 ], [ 0, 0, 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 0, 0, 0, -21, 0, -21, 0, 21, 0, 21, 0, 16 ], [ 27, 0, 0, 0, 0, 0, -27, 0, -27, 0, 54, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ 2, 0, 2, 0, -23, 0, -23, 0, 23, 0, 23, 0, 16 ], [ 21, 0, 2, 0, 2, 0, -23, 0, -23, 0, 42, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -23, 0, -23, 0, 20, 0, 20, 0, 1, 0, 1, 0, 16 ], [ 22, 0, -21, 0, -21, 0, -24, 0, -24, 0, 44, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 3, 0, 3, 0, -24, 0, -24, 0, 24, 0, 24, 0, 16 ], [ -24, 0, -3, 0, -3, 0, 27, 0, 27, 0, -48, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ 0, -12, 0, -3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, -3, 0, 0, 0, 0, 0, 0, 0, -6, 0, -6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, -12, 0, -3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ -27, 0, -27, 0, 24, 0, 24, 0, 0, 0, 0, 0, 16 ], [ -24, 0, 21, 0, 21, 0, 27, 0, 27, 0, -48, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ -23, 0, -23, 0, 26, 0, 26, 0, -2, 0, -2, 0, 16 ], [ -22, 0, 21, 0, 21, 0, 21, 0, 21, 0, -44, 0, 16 ], [ -54, 2, 0, 2, 54, -23, 108, -29, 0, 23, -162, 27, 16 ] ], [ [ 45, 0, 45, 0, -2, 0, -2, 0, 1, 0, 1, 0, 16 ], [ 0, 0, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0, 16 ], [ -54, -2, 0, -2, 54, 23, 108, 29, 0, -23, -162, -27, 16 ] ], [ [ -27, 0, -27, 0, 30, 0, 30, 0, -3, 0, -3, 0, 16 ], [ 24, 0, -21, 0, -21, 0, -24, 0, -24, 0, 48, 0, 16 ], [ -54, 0, 0, 0, 54, -21, 108, -21, 0, 21, -162, 21, 16 ] ], [ [ 51, 0, 51, 0, -6, 0, -6, 0, 3, 0, 3, 0, 16 ], [ 0, 0, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 16 ], [ -54, 0, 0, 0, 54, 21, 108, 21, 0, -21, -162, -21, 16 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, -6, 0, -6, 0, -3, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 6, 0, 6, 0, 3, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, 0, 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 2 ], [ 0, -3, 0, 0, 0, 3, 0, 6, 0, -3, 0, -6, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, 0, 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 2 ], [ 0, 3, 0, 0, 0, -3, 0, -6, 0, 3, 0, 6, 2 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 0, 0, -6, 0, -6, 0, -6, 0, 3, 0, 6, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 0, 0, 6, 0, 6, 0, 6, 0, -3, 0, -6, 2 ], [ -15, 0, 0, 0, 15, 0, 30, 0, 0, 0, -45, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -39, 0, 0, 0, 39, 0, 78, 0, 0, 0, -117, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, 0, 0, 6, 0, 3, 2 ], [ 0, 0, 0, -6, 0, -9, 0, -12, 0, 0, 0, 6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, 0, 0, 6, 0, 3, 2 ], [ 0, 0, 0, 6, 0, 9, 0, 12, 0, 0, 0, -6, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, -3, 0, 0, 0, 0, 0, 0, 0, -6, 0, -6, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 0, 0, -6, 0, -12, 0, 0, 0, 6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, -3, 0, 0, 0, 6, 0, 12, 0, 0, 0, -6, 2 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 0, 0, 0, 0, 0, 0, 6, 0, 6, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -3, 0, 0, 0, 3, 0, 6, 0, 0, 0, -9, 0, 8 ] ], [ [ 0, 6, 0, 6, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, -6, 0, -6, 0, 0, 0, 6, 0, -3, 0, -6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, 6, 0, 6, 0, 6, 0, 3, 0, 0, 0, 0, 2 ], [ 0, 6, 0, 6, 0, 0, 0, -6, 0, 3, 0, 6, 2 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 3, 0, 6, 0, 3, 2 ], [ 0, 0, 0, 0, 0, -3, 0, -6, 0, -3, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 3, 0, 6, 0, 3, 2 ], [ 0, 0, 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 2 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ], [ [ 0, -6, 0, 3, 0, 12, 0, 6, 0, 0, 0, 0, 2 ], [ 0, 3, 0, 6, 0, 0, 0, -6, 0, -3, 0, 0, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, -6, 0, 3, 0, 12, 0, 6, 0, 0, 0, 0, 2 ], [ 0, -3, 0, -6, 0, 0, 0, 6, 0, 3, 0, 0, 2 ], [ 9, 0, 0, 0, -9, 0, -18, 0, 0, 0, 27, 0, 8 ] ], [ [ 0, 6, 0, 0, 0, -6, 0, 0, 0, 6, 0, 3, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 45, 0, 0, 0, -45, 0, -90, 0, 0, 0, 135, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 3, 0, 6, 0, 3, 2 ], [ 0, -3, 0, -6, 0, -3, 0, 0, 0, 0, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, 6, 0, 3, 0, 0, 0, 3, 0, 6, 0, 3, 2 ], [ 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 0, 0, 2 ], [ 33, 0, 0, 0, -33, 0, -66, 0, 0, 0, 99, 0, 8 ] ], [ [ 0, 0, 0, 3, 0, 6, 0, 3, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 21, 0, 0, 0, -21, 0, -42, 0, 0, 0, 63, 0, 8 ] ] ],
+  "balls" : [ {
+    "vertex" : 82,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 24,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 25,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 54,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 78,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 79,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 55,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 19,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 18,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 81,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 76,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 44,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 22,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 16,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 21,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 43,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 75,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 80,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 63,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 51,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 39,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 28,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 31,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 41,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 53,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 66,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 73,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 37,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 47,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 59,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 72,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 69,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 57,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 45,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 34,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 27,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 70,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 30,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 58,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 48,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 38,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 29,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 36,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 46,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 56,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 65,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 40,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 50,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 60,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 71,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 64,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 52,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 42,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 35,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 20,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 62,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 87,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 89,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 86,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 61,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 17,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 33,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 84,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 95,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 94,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 83,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 32,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 77,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 93,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 99,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 92,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 74,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 88,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 98,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 97,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 85,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 23,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 26,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 91,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 96,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 90,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 67,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 14,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 68,
+    "color" : "#FFCC33"
+  }, {
+    "vertex" : 49,
+    "color" : "#FFCC33"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 73, 29 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 38, 66 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 48, 53 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 58, 41 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 70, 31 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 65, 28 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 56, 39 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 36, 63 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 51, 46 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 42, 59 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 35, 72 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 30, 69 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 40, 57 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 50, 45 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 60, 34 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 27, 71 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 37, 64 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 52, 47 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 35, 19 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 19, 28 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 30, 18 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 18, 31 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 40, 24 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 24, 41 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 50, 54 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 54, 53 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 60, 78 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 78, 66 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 71, 82 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 82, 73 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 64, 79 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 79, 63 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 52, 55 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 55, 51 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 42, 25 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 25, 39 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 69, 81 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 81, 70 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 72, 80 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 80, 65 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 59, 75 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 75, 56 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 47, 43 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 43, 46 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 37, 21 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 21, 36 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 27, 16 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 16, 29 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 34, 22 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 22, 38 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 45, 44 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 44, 48 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 57, 76 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 76, 58 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 22, 20 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 20, 44 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 44, 62 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 62, 76 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 76, 87 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 87, 81 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 81, 89 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 89, 80 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 80, 86 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 86, 75 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 75, 61 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 61, 43 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 43, 17 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 17, 21 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 21, 10 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 10, 16 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 16, 11 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 11, 22 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 20, 33 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 33, 62 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 62, 84 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 84, 87 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 87, 95 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 95, 89 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 89, 94 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 94, 86 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 86, 83 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 83, 61 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 61, 32 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 32, 17 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 17, 8 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 8, 10 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 10, 3 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 3, 11 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 11, 9 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 9, 20 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 33, 77 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 77, 84 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 84, 93 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 93, 95 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 95, 99 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 99, 94 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 94, 92 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 92, 83 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 83, 74 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 74, 32 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 32, 12 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 12, 8 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 8, 1 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 2, 9 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 9, 13 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 13, 33 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 77, 88 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 88, 93 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 93, 98 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 98, 99 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 99, 97 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 97, 92 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 92, 85 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 85, 74 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 74, 23 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 23, 12 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 12, 6 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 6, 1 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 2, 7 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 7, 13 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 13, 26 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 26, 77 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 88, 91 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 91, 98 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 98, 96 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 96, 97 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 97, 90 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 90, 85 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 85, 67 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 67, 23 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 23, 14 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 14, 6 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 6, 4 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 0, 5 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 5, 7 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 7, 15 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 15, 26 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 26, 68 ],
+    "color" : "#FFCC33"
+  }, {
+    "vertices" : [ 68, 88 ],
+    "color" : "#FFCC33"
+  } ],
+  "panels" : [ {
+    "vertices" : [ 90, 97, 92, 85 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 67, 85, 74, 23 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 14, 23, 12, 6 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 4, 6, 1, 0 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 5, 0, 2, 7 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 15, 7, 13, 26 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 68, 26, 77, 88 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 91, 88, 93, 98 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 96, 98, 99, 97 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 85, 92, 83, 74 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 23, 74, 32, 12 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 6, 12, 8, 1 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 0, 1, 3, 2 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 7, 2, 9, 13 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 26, 13, 33, 77 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 88, 77, 84, 93 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 98, 93, 95, 99 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 97, 99, 94, 92 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 74, 83, 61, 32 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 12, 32, 17, 8 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 1, 8, 10, 3 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 3, 11, 9 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 13, 9, 20, 33 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 77, 33, 62, 84 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 93, 84, 87, 95 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 99, 95, 89, 94 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 92, 94, 86, 83 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 32, 61, 43, 17 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 8, 17, 21, 10 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 10, 16, 11 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 9, 11, 22, 20 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 33, 20, 44, 62 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 84, 62, 76, 87 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 94, 89, 80, 86 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 83, 86, 75, 61 ],
+    "color" : "#FFFFFF"
+  } ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 3 0 6 0 0 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    <SelectManifestation point="0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+    <SelectManifestation point="0 -6 0 0 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 3 0 6 0 0 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 3 0 6 0 0 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 3 0 3 0 3 0 -3/2 0 -3 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 0 0 3 0 3/2 0 0 0 0 0 0 0 -3 0 -3 0 -3 0 3/2 0 3 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 -3 0 -6 0 0 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 -3 0 -9/2 0 -6 0 0 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 -3 0 -6 0 0 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3/2 0 3 0 3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 -15/8 0 0 0 15/8 0 15/4 0 0 0 -45/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="186" green="232" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 -3/2 0 0 0 3/2 0 3 0 -3/2 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 0 0 -3 0 -3/2 0 3/2 0 0 0 -3/2 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 3 0 6 0 0 0 -3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 3 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 -3 0 -6 0 0 0 3 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 -3 0 -9/2 0 -6 0 0 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 -3 0 -9/2 0 -6 0 0 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 6 0 0 0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 -3/8 0 0 0 3/8 0 3/4 0 0 0 -9/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="97" green="155" red="204"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 3 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 -3 0 -9/2 0 -6 0 0 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 -3 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -6 0 0 0 6 0 0 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3 0 -3 0 -3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 6 0 3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 0 0 -3 0 0 0 3 0 3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 3/2 0 6 0 3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 9/8 0 0 0 -9/8 0 -9/4 0 0 0 27/8 0"/>
+      <polygonVertex at="0 0 0 3 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 6 0 0 0 -6 0 0 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 3 0 6 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3 0 3 0 3/2 0 0 0 0 0 3 0 3 0 0 0 -3 0 3/2 0 3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 0 0 3 0 0 0 -3 0 -3/2 0 0 0 3 0 9/2 0 6 0 0 0 -3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 0 0 0 0 0 0 3 0 3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 3/2 0 3 0 3 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 3 0 3 0 3/2 0 0 0 0 0 -3 0 -3 0 0 0 3 0 -3/2 0 -3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 3/2 0 3 0 3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -6 0 -3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 0 0 3/2 0 3 0 3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 3 0 3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -3 0 0 0 3 0 0 0 -3 0 -3/2 0 0 0 -3 0 -9/2 0 -6 0 0 0 3 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 0 0 0 0 0 0 -3/2 0 -3 0 -3 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 0 0 0 0 0 0 -3 0 -3 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3 0 0 0 0 0 3/2 0 3 0 0 0 -3 0 -3/2 0 0 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 0 0 -3 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 3 0 -3/2 0 -6 0 -3 0 0 0 0 0 -3/2 0 -3 0 0 0 3 0 3/2 0 0 45/8 0 0 0 -45/8 0 -45/4 0 0 0 135/8 0"/>
+      <polygonVertex at="0 0 0 -3 0 -6 0 -3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+      <polygonVertex at="0 -3 0 -3/2 0 0 0 -3/2 0 -3 0 -3/2 0 3/2 0 3 0 3/2 0 0 0 0 0 0 21/8 0 0 0 -21/8 0 -21/4 0 0 0 63/8 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 -3/2 0 -3 0 -3/2 0 0 0 0 0 3/2 0 3 0 3/2 0 0 33/8 0 0 0 -33/8 0 -33/4 0 0 0 99/8 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="97" green="133" red="204"/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="497.14385986328125" far="994.2857055664062" near="1.2428593635559082" parallel="true" stereoAngle="0.0" width="223.7149200439453">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.11045964807271957" y="0.07490059733390808" z="-0.9910420179367065"/>
+      <LookDirection x="0.6738712191581726" y="0.727304995059967" z="0.13007836043834686"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+    <Direction color="255,255,255" name="15089" prototype="2295/4 0 -495 0 1593/4 0 -1161/4 0 351/2 0 -117/2 0 1917/4 0 -414 0 1341/4 0 -981/4 0 297/2 0 -99/2 0 0 144 0 -351/2 0 198 0 -423/2 0 216 0 -108"/>
+    <Direction color="255,255,255" name="15087" prototype="-3/2 19/8 0 -9/4 0 17/8 0 -33/16 0 2 0 -1 0 3 0 -25/8 -3/2 9/2 3/2 -47/8 0 93/16 0 -23/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15088" prototype="3/2 -27/8 0 27/8 0 -27/8 0 57/16 0 -15/4 0 15/8 0 -21/8 0 21/8 3/2 -33/8 -3/2 45/8 0 -87/16 0 21/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15085" prototype="0 -1/2 -3/2 2 3/2 -7/2 3/2 17/8 -3/2 -3/4 0 3/8 -3/2 4 3/2 -21/4 0 21/4 0 -21/4 0 43/8 0 -11/4 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15086" prototype="0 -3/4 3/2 -3/4 -3/2 9/4 -3/2 -3/4 3/2 -3/4 0 3/8 3/2 -9/2 -3/2 6 0 -6 0 6 0 -6 0 3 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="121" prototype="-495 0 855/2 0 -351 0 1053/4 0 -657/4 0 225/4 0 837/2 0 -360 0 585/2 0 -873/4 0 549/4 0 -189/4 0 0 360 0 -855/2 0 486 0 -531 0 558 0 -567/2"/>
+    <Direction color="255,255,255" name="15072" prototype="0 -3 -3/2 75/16 3/2 -51/8 0 99/16 0 -6 0 3 3/2 -15/16 -3/2 9/4 0 -9/4 0 9/4 -3/2 -3/4 3/2 -3/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15094" prototype="-351/4 0 72 0 -225/4 0 171/4 0 -27 0 9 0 1917/4 0 -414 0 1341/4 0 -981/4 0 297/2 0 -99/2 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+    <Direction color="255,255,255" name="15073" prototype="0 23/8 3/2 -35/8 -3/2 47/8 0 -23/4 0 45/8 0 -45/16 3/2 -7/8 -3/2 17/8 0 -33/16 0 2 -3/2 -5/8 3/2 -3/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15095" prototype="-369 0 639/2 0 -261 0 387/2 0 -477/4 0 81/2 0 621/2 0 -270 0 441/2 0 -162 0 387/4 0 -63/2 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+    <Direction color="255,255,255" name="15092" prototype="-2799/4 0 603 0 -1953/4 0 360 0 -441/2 0 297/4 0 999/4 0 -216 0 711/4 0 -135 0 171/2 0 -117/4 0 0 144 0 -351/2 0 198 0 -423/2 0 216 0 -108"/>
+    <Direction color="255,255,255" name="15071" prototype="0 5/2 3/2 -61/16 -3/2 41/8 0 -83/16 0 21/4 0 -21/8 -3/2 29/16 3/2 -13/4 0 27/8 0 -7/2 3/2 17/8 -3/2 -3/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15093" prototype="738 0 -639 0 522 0 -387 0 477/2 0 -81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 0 -351/2 0 198 0 -423/2 0 216 0 -108"/>
+    <Direction color="255,255,255" name="123" prototype="-612 0 531 0 -432 0 1269/4 0 -387/2 0 261/4 0 -459/2 0 198 0 -315/2 0 441/4 0 -63 0 81/4 0 0 -360 0 855/2 0 -486 0 531 0 -558 0 567/2"/>
+    <Direction color="255,255,255" name="15090" prototype="126 0 -108 0 90 0 -279/4 0 45 0 -63/4 0 729 0 -630 0 513 0 -1521/4 0 234 0 -315/4 0 0 144 0 -351/2 0 198 0 -423/2 0 216 0 -108"/>
+    <Direction color="255,255,255" name="122" prototype="-117 0 207/2 0 -81 0 54 0 -117/4 0 9 0 -648 0 558 0 -450 0 657/2 0 -801/4 0 135/2 0 0 360 0 -855/2 0 486 0 -531 0 558 0 -567/2"/>
+    <Direction color="255,255,255" name="15091" prototype="-369 0 639/2 0 -261 0 387/2 0 -477/4 0 81/2 0 648 0 -558 0 450 0 -657/2 0 801/4 0 -135/2 0 0 144 0 -351/2 0 198 0 -423/2 0 216 0 -108"/>
+    <Direction color="255,255,255" name="15078" prototype="0 3/8 3/2 -33/16 -3/2 15/4 -3/2 -9/4 3/2 3/4 0 -3/8 -3/2 69/16 3/2 -45/8 0 45/8 0 -45/8 0 93/16 0 -3 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15079" prototype="0 -19/8 0 19/8 0 -19/8 -3/2 29/8 3/2 -39/8 0 39/16 0 -25/8 0 25/8 0 -51/16 0 13/4 3/2 -19/4 -3/2 25/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15076" prototype="3/2 -21/8 0 39/16 0 -9/4 0 9/4 0 -9/4 0 9/8 0 51/16 0 -27/8 -3/2 39/8 3/2 -51/8 0 99/16 0 -3 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15098" prototype="1827/4 0 -783/2 0 1269/4 0 -945/4 0 585/4 0 -99/2 0 675/4 0 -144 0 459/4 0 -333/4 0 207/4 0 -18 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+    <Direction color="255,255,255" name="15077" prototype="0 5/8 -3/2 11/16 3/2 -2 3/2 5/8 -3/2 3/4 0 -3/8 3/2 -67/16 -3/2 45/8 0 -45/8 0 45/8 0 -89/16 0 11/4 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="15074" prototype="0 -21/8 -3/2 33/8 3/2 -45/8 0 45/8 0 -45/8 0 45/16 -3/2 15/8 3/2 -27/8 0 57/16 0 -15/4 3/2 9/4 -3/2 -3/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15096" prototype="-486 0 423 0 -342 0 495/2 0 -297/2 0 99/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+    <Direction color="255,255,255" name="15075" prototype="-3/2 25/8 0 -51/16 0 13/4 0 -27/8 0 7/2 0 -7/4 0 -39/16 0 19/8 3/2 -15/4 -3/2 41/8 0 -81/16 0 5/2 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15097" prototype="243 0 -423/2 0 171 0 -495/4 0 297/4 0 -99/4 0 -837/2 0 360 0 -585/2 0 873/4 0 -549/4 0 189/4 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,255,255" name="93" prototype="1323/2 0 -567 0 909/2 0 -333 0 405/2 0 -135/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 0 855/2 0 -486 0 531 0 -558 0 567/2"/>
+    <Direction color="255,255,255" name="15083" prototype="0 -25/8 0 25/8 0 -25/8 -3/2 73/16 3/2 -6 0 3 0 19/8 0 -19/8 0 9/4 0 -17/8 -3/2 55/16 3/2 -19/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15084" prototype="0 21/8 0 -21/8 0 21/8 3/2 -63/16 -3/2 21/4 0 -21/8 0 -27/8 0 27/8 0 -27/8 0 27/8 3/2 -81/16 -3/2 27/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15081" prototype="3 -11/2 0 87/16 0 -43/8 0 87/16 0 -11/2 0 11/4 0 -9/16 0 3/4 0 -3/4 0 3/4 0 -3/4 0 3/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+    <Direction color="255,255,255" name="15082" prototype="-3 6 0 -93/16 0 45/8 0 -93/16 0 6 0 -3 0 -9/16 0 3/4 0 -3/4 0 3/4 0 -3/4 0 3/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="15080" prototype="0 27/8 0 -27/8 0 27/8 3/2 -39/8 -3/2 51/8 0 -51/16 0 21/8 0 -21/8 0 39/16 0 -9/4 -3/2 15/4 3/2 -21/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+    <Direction color="255,255,255" name="94" prototype="-1323/4 0 567/2 0 -909/4 0 333/2 0 -405/4 0 135/4 0 2241/4 0 -486 0 1593/4 0 -297 0 729/4 0 -243/4 0 0 360 0 -855/2 0 486 0 -531 0 558 0 -567/2"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="antiprism36" renderingStyle="thin antiprism">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="255,255,255" name="15010" prototype="-2295/4 0 495 0 -1593/4 0 1161/4 0 -351/2 0 117/2 0 -1917/4 0 414 0 -1341/4 0 981/4 0 -297/2 0 99/2 0 0 -144 0 351/2 0 -198 0 423/2 0 -216 0 108"/>
+      <Direction color="255,255,255" name="20149" prototype="0 21/8 0 -21/8 0 21/8 3/2 -63/16 -3/2 21/4 0 -21/8 0 -27/8 0 27/8 0 -27/8 0 27/8 3/2 -81/16 -3/2 27/8 -21/8 0 21/8 0 -21/8 0 21/8 -3/2 -21/16 3/2 0 0"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="255,255,255" name="15008" prototype="0 9/4 0 -9/4 0 27/4 0 -9 0 45/4 0 -27/4 0 135/4 0 -153/4 0 171/4 0 -99/2 0 225/4 0 -117/4 -117/2 0 99/2 0 -81/2 0 63/2 0 -45/2 0 9 0"/>
+      <Direction color="255,255,255" name="15009" prototype="-486 0 423 0 -342 0 495/2 0 -297/2 0 99/2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -414 0 495 0 -558 0 603 0 -630 0 639/2"/>
+      <Direction color="255,255,255" name="20150" prototype="3 -11/2 0 87/16 0 -43/8 0 87/16 0 -11/2 0 11/4 0 -9/16 0 3/4 0 -3/4 0 3/4 0 -3/4 0 3/8 25/8 0 -25/8 0 25/8 0 -3 3/2 21/16 -3/2 1/8 0"/>
+      <Direction color="255,255,255" name="92" prototype="0 3 0 -3 0 3 0 -3 0 3 0 -3/2 0 -3 0 3 0 -9/2 0 6 0 -6 0 3 3 0 -3 0 3 0 -3 0 3/2 0 0 0"/>
+      <Direction color="255,255,255" name="91" prototype="3/4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3/4 0 0 0 0 0 0 0 0 0 0 0"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="240,160,0" name="yellow"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool id="tool-0" label="cube" selectInputs="true"/>
+    <Tool hidden="true" id="tool-1" label="3 cube frame" selectInputs="true"/>
+    <Tool id="tool-2" label="frame" selectInputs="true"/>
+    <Tool id="tool-3" label="bookmark 3" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
