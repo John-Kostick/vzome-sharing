@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="69" field="polygon30" version="7.0">
+  <EditHistory editNumber="6" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="2 0 3 0 1 0 0 0" symm="antiprism30"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <ApplyTool name="antiprism30 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <SelectAll/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="163,163,163">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="165.4848175048828" far="330.9695739746094" near="0.4137120544910431" parallel="true" stereoAngle="0.0" width="74.46817779541016">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="240,160,0" name="yellow"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="antiprism30" renderingStyle="thin antiprism">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="175,0,0" name="red"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
