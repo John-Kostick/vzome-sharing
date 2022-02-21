@@ -21,7 +21,5 @@ Description:
 
 Three plane star.
 
-
-
-https://user-images.githubusercontent.com/78830166/154968674-dccbe368-e6b6-46aa-a0bb-1eb5920d8184.mov
+https://user-images.githubusercontent.com/78830166/154970127-c3a97cb9-157b-4092-8a07-ae6d661ddac2.mov
 
