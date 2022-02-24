@@ -21,7 +21,11 @@ Description:
 
 Three plane star.
 
-[MVI_0712 copy.mov.zip](https://github.com/John-Kostick/vzome-sharing/files/8109983/MVI_0712.copy.mov.zip)
+<video width="548" height="440" name="John Kostick's Great Circle video" 
+        controls loop muted>
+  
+<source src="https://user-images.githubusercontent.com/78830166/155587943-37570041-b521-4f5d-a414-763e637ec44f.MOV">
+
 
 
 
