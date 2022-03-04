@@ -27,7 +27,7 @@ Another Hybrid array, with yellow and green struts.  In this model, the lengths 
   <img src="https://John-Kostick.github.io/vzome-sharing/2021/12/07/09-15-41-Jacobs-octahedral-ball-double-honeycomb/Jacobs-octahedral-ball-double-honeycomb.png" />
 </vzome-viewer>
 
-Adjusting lengths to a different ratio, this is a sample of an Oct-Tet lattice with separation between it's polyhedra by bands of struts that are parallel with edges of Rhombic Dodecahedra. 
+Adjusting lengths to a different ratio, this is a sample of an Oct-Tet lattice with separation between it's polyhedra by bands of struts that are parallel with edges of Rhombic Dodecahedra. At center is an RD.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/07/15-58-29-Oct-Tet-lattice-spaced/Oct-Tet-lattice-spaced.vZome" >
