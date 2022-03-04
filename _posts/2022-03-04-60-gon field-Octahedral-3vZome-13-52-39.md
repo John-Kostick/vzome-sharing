@@ -12,8 +12,7 @@ Description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/03/04/13-52-39-60-gon field-Octahedral-3vZome/>
 {% endcomment %}
 
-A lattice combining BCC (Yellow strut) and FCC, or Oct-Tet (Green strut) lattices.  Plane elements are squares, rhombi, equilateral triangles , and hexagons.  Polyhedra are 28-hedra, with a bridgework of truncated tetrahedra, hexagonal prisms, rhombic and triangular prisms.  Overall symmetry is tetrahedral.  One truncated tetrahedron in the center of the array has yellow faces, for visibility.  All other panels are on square faces.  In this model, lengths of yellow and green struts are adjusted to an equal length, so this array can be called regular.    
-
+  A lattice combining BCC (Yellow strut) and FCC, or Oct-Tet (Green strut) lattices. Polyhedra are 28-hedra, truncated tetrahedra, tetrahedra, triangular, rhombic, and hexagonal prisms.  In this model, lengths of green ang yellow struts have been adjusted to be equal, so this array can be considered regular.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/03/04/13-52-39-60-gon field-Octahedral-3vZome/60-gon field-Octahedral-3vZome.vZome" >
