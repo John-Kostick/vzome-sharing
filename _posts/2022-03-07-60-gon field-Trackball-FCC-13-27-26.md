@@ -14,7 +14,7 @@ Description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/03/07/13-27-26-60-gon field-Trackball-FCC/>
 {% endcomment %}
 
-  vZome representation of [close packing of spheres], both FCC and HCP.  Polyhedra are in contact at vertices equidistant from their centers. First is FCC. 
+  vZome representation of [Close Packing of spheres], both FCC and HCP.  Polyhedra are in contact at vertices equidistant from their centers. First is FCC. 
   
   [Close Packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres)
 
