@@ -1,9 +1,10 @@
 ---
-title: RD Modulated field 3
+title: Modulated RD Array
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/07/10-46-21-RD Modulated field 3/RD Modulated field 3.png
 layout: vzome
+Description:
+  An array of Rhombic Dodecahedra with zones of different lengths
 ---
-  Rhombic Dodecahedra with zones of different lengths
 
 {% comment %}
  - [***web page generated from this source***][post]
