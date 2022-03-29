@@ -2,7 +2,7 @@
 title: 60 gon field Paraboloid dome
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.png
 layout: vzome
-Description:
+description:
   A paraboloid surface intersecting a cubic frame, such as could be built as a domed roof.
 ---
 
