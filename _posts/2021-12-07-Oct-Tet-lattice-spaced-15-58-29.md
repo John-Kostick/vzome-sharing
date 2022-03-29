@@ -17,7 +17,7 @@ description:
 
 This is a sample of an Oct-Tet lattice with separation between it's polyhedra by bands of struts that are parallel with edges of Rhombic Dodecahedra.
 
-<vzome-viewer style="width: 100%; height: 65vh;"
+<vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2021/12/07/15-58-29-Oct-Tet-lattice-spaced/Oct-Tet-lattice-spaced.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2021/12/07/15-58-29-Oct-Tet-lattice-spaced/Oct-Tet-lattice-spaced.png" />
 </vzome-viewer>
