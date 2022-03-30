@@ -20,7 +20,7 @@ description:
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/30/09-18-28-Deltoidal-Hexecontahedron/Deltoidal-Hexecontahedron.png" />
 </vzome-viewer>
 
-A Deltiodal Icositetrahedron, a related Catalan solid, with it's dual, a Rhombicuboctahedron
+A Deltiodal Icositetrahedron, a related Catalan solid, with it's dual, a Rhombicuboctahedron. All Catalan solids can be constucted with vZome.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/03/30/09-17-51-Deltoidal-Icositetraheron/Deltoidal-Icositetraheron.vZome" >
