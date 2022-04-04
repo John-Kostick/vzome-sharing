@@ -37,7 +37,7 @@ Here, a sample of this  array is shown with a set of 3 parallel zones indicated 
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/03/10-52-47-concavo-convex triacon array/concavo-convex triacon array.png" />
 </vzome-viewer>
 
-Another array of 12 convex RT cells stacked in icosahedral symmetry, with 20 dimpled RTs between them. These are dimpled on 3-fold axes.  Within the RT array is a set of 20 hexahedra with the origin point as a shared vertex.  Thus, space is filled concentrically with convex and dimpled RTs, with subcells in interstices, all constructed from only 6 coordinate directions of edges. 
+Another array,  with 12 convex RT cells stacked in icosahedral symmetry, and 20 dimpled RTs between them. These are dimpled on 3-fold axes. Many panels have been left out for viewing. Within the RT array is a set of 20 hexahedra with the origin point as a shared vertex.  Thus far, space is filled concentrically with a combination of convex and dimpled RTs, with subcells in interstices, all constructed from only 6 coordinate directions of edges. 
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/04/09-48-40-Triacon-concentric-array-3/Triacon-concentric-array-3.vZome" >
