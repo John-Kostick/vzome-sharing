@@ -37,7 +37,14 @@ Many domes have been built throughout history, with spherical form, typically wi
 
 While many are grand scale, construction of smaller scale domed roofs has been widely practiced since antiquity.  This is a parabolic form, with the portions of the curve that intersect the cube frame representing outlines of squinches, or structures that carry support from walls to the circular base  of the dome.  Notably, [Hassan Fathy](https://en.wikipedia.org/wiki/Hassan_Fathy) used traditional mud block construction of domes and vaulted roofs.
 
-<vzome-viewer style="width: 100%; height: 100vh;"
+<vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.png" />
+</vzome-viewer>
+
+Geodesic domes are certainly impressive and inspiring.  In my explorations of them, though, I became aware of some of the limitations and disadvantages of their application for habition.  In this [article](https://en.wikipedia.org/wiki/Geodesic_dome), there is a critique of these limitations, which I find accurate.  I would add, though, that one apect that can address some of the issues mentioned is orientation.  Many domes I have seen are oriented with a fivefold axis as vertical.  By orienting with a 2-fold axis as vertical, it becomes easier to integrate  with more standard xyz coordinated structures and plans, and more natural to inhabit.  We do, after all, have an anatomy that is 2-fold, or bilateral, with paired hands, eyes, etc.  This model is an example of how a geodesic form could be adjoined with a typical kind of building that accomodates partitioning for amenites, utility spaces, etc., and allows for window placement to be more standard.  This particular interior surface of the dome allows for insulation, wiring, etc.  
+
+<vzome-viewer style="width: 100%; height: 65vh;"
+       src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/20-13-26-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.vZome" >
+  <img src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/20-13-26-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.png" />
 </vzome-viewer>
