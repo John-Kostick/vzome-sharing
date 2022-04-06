@@ -1,6 +1,6 @@
 ---
 title: Domes
-image: https://John-Kostick.github.io/vzome-sharing/2022/03/15/12-18-15-60-gon field-Octahedral-Dome/60-gon field-Octahedral-Dome.png
+image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.png
 layout: vzome
 description:
   Various ways that domes can be constructed.  
@@ -35,7 +35,7 @@ Many domes have been built in history, with spherical form, typically with a pol
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/16/11-57-40-32-gon-octa-sphere-3vZome/32-gon-octa-sphere-3vZome.png" />
 </vzome-viewer>
 
-While many are grand scale, construction of smaller scale domed roofs has been widely practiced since antiquity.  This is a parabolic form, with the portions of the curve that intersect the cube frame representing outlines of squinches, or structures that carry support from walls to the circular base  of the dome.  Notably,[Hassan Fathy](https://en.wikipedia.org/wiki/Hassan_Fathy) used traditional mud block construction of domes and vaulted roofs.
+While many are grand scale, construction of smaller scale domed roofs has been widely practiced since antiquity.  This is a parabolic form, with the portions of the curve that intersect the cube frame representing outlines of squinches, or structures that carry support from walls to the circular base  of the dome.  Notably, [Hassan Fathy](https://en.wikipedia.org/wiki/Hassan_Fathy) used traditional mud block construction of domes and vaulted roofs.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.vZome" >
