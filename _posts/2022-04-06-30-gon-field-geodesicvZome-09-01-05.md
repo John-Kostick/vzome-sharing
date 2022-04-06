@@ -42,7 +42,7 @@ While many are grand scale, construction of smaller scale domed roofs has been w
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.png" />
 </vzome-viewer>
 
-Geodesic domes are certainly impressive and inspiring.  In my explorations of them, though, I became aware of some of the limitations and disadvantages of their application for habition.  In this [article](https://en.wikipedia.org/wiki/Geodesic_dome), there is a critique of these limitations, which I find accurate.  I would add, though, that one apect that can address some of the issues mentioned is orientation.  Many domes I have seen are oriented with a fivefold axis as vertical.  By orienting with a 2-fold axis as vertical, it becomes easier to integrate  with more standard xyz coordinated structures and plans, and more natural to inhabit.  We do, after all, have an anatomy that is 2-fold, or bilateral, with paired hands, eyes, a front and back, up and down,etc.  This model is an example of how a geodesic form can be adjoined with a conventional kind of building that accomodates partitioning for amenites, utility spaces, etc., and allows for window selection and placement to be more standard.  This particular interior surface of the dome accomodates insulation, wiring, and relative ease of finishing.  
+Geodesic domes are certainly impressive and inspiring.  In my explorations of them, though, I became aware of some of the limitations and disadvantages of their application for habition.  In this [article](https://en.wikipedia.org/wiki/Geodesic_dome), there is a critique of these limitations, which I find accurate.  I would add, though, that one apect that can address some of the issues mentioned is orientation.  Many domes I have seen are oriented with a fivefold axis as vertical.  By orienting with a 2-fold axis as vertical, it becomes easier to integrate  with more standard xyz coordinated structures and plans, and more natural to inhabit.  We do, after all, have an anatomy that is 2-fold, or bilateral, with paired hands, eyes, a front and back, up and down, etc.  This model is an example of how a geodesic form can be adjoined with a conventional kind of building that facilitates partitioning for amenites, utility spaces, etc., and allows for window selection and placement to be more standard.  This particular interior surface of the dome accomodates insulation, wiring, and relative ease of finishing.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/20-13-26-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.vZome" >
@@ -56,7 +56,7 @@ From these and other considerations about domes, over time I developed a system 
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-22-19-Spherical-Octant/Spherical-Octant.png" />
 </vzome-viewer>
 
-Spherical domes are elegant, and have a certain celestial association.  However, this constraint does not make them optimal for living spaces, as has been noted.  The √n grid system can be readily adapted to forms like this, which is an elliptical ellipsoid.  This illustrates several features of this kind of plan.  Because of tyhe composition of arcs in horizontal and vertical planes, the dome can be cut to build walls with doors, or to merge with adjacent structures.  Partitions can be built within the dome, and floors can be built, aligned with framework.  In this model, the frame is shown as planar elements that couple to each other in triple groups, forming a bridgework between an inner surface that is concentric with the outer hull.  
+Spherical domes are elegant, and have a certain celestial association.  However, this constraint does not make them optimal for living spaces, as has been noted.  The √n grid system can be readily adapted to forms like this, which is an Elliptical Ellipsoid.  This illustrates several features of this kind of plan.  Because of the composition of arcs in horizontal and vertical planes, the dome can be cut to build walls with doors, or to merge with adjacent structures.  Partitions can be built within the dome, and floors can be built, aligned with framework.  In this model, the frame is shown as planar elements that couple to each other in triple groups, forming a bridgework between an inner surface that is concentric with the outer hull.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-47-57-Elliptical-EllipsoidvZome/Elliptical-EllipsoidvZome.vZome" >
@@ -70,7 +70,7 @@ It became apparent to me that this layout system could be applied in a whole ran
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/14-16-20-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" />
 </vzome-viewer>
 
-Some other related models are
+Some other related models can be viewed here.
 
 [Ellipsoid Shell](https://skfb.ly/opoGE)
 
