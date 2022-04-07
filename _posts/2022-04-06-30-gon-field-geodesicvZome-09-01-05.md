@@ -63,7 +63,7 @@ Spherical domes are elegant, and have a certain celestial association.  However,
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-47-57-Elliptical-EllipsoidvZome/Elliptical-EllipsoidvZome.png" />
 </vzome-viewer>
 
-It became apparent to me that this layout system could be applied in a whole range of Quadric surface constructions, such as paraboloids, hyperboloids, as well as ellipsoids.  This model shows a simplified framing for an Elliptical Paraboloid, such as can be built with standard materials and tools.  
+It became apparent to me that this layout system could be applied in a whole range of Quadric surface constructions, such as paraboloids, hyperboloids, as well as ellipsoids.  This model shows a simplified framing for an Elliptical Paraboloid, such as can be built with standard materials and tools. Apart from the frame is shown a sample of how an arch is composed from a straight board, cut to a parabola line and recombined.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/14-16-20-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
