@@ -3,7 +3,7 @@ title: Domes
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.png
 layout: vzome
 description:
-  Various ways that domes can be constructed.  
+  Various ways that domes can be constructed with vZome.  
 ---
 
 {% comment %}
@@ -14,7 +14,7 @@ description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/03/15/12-18-15-60-gon field-Octahedral-Dome/>
 {% endcomment %}
 
-  Various ways that domes can be constructed.  [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry.  They can be seen as a subdivision of icosahedron, like this.
+  Various ways that domes can be constructed with vZome.  [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry.  They can be seen as a subdivision of icosahedron, like this.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.vZome" >
