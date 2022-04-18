@@ -1,7 +1,7 @@
 
 ## How to Use or Share this Design
 
- - [raw vZome file](https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2022/04/18/11-54-50-Box-beam-1x2 /Box-beam-1x2 .vZome) to use in vZome desktop or vZome Online
+ - [raw vZome file](<https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2022/04/18/11-54-50-Box-beam-1x2 /Box-beam-1x2 .vZome>) to use in vZome desktop or vZome Online
  
  HTML custom element for embedding in any web page:
  ```html
