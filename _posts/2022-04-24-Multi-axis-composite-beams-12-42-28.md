@@ -2,7 +2,7 @@
 title: Multi axis composite beams
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/24/12-42-28-Multi-axis-composite-beams/Multi-axis-composite-beams.png
-published: false
+published: true
 layout: vzome
 description:
   Sets of parallel struts that surround lines that intersect symmetrically.  
