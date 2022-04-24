@@ -1,5 +1,5 @@
 ---
-title: 5 beams AntiprismvZome
+title: 5 beams Antiprism StarsvZome
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/24/09-46-01-5-beams-AntiprismvZome/5-beams-AntiprismvZome.png
 published: true
