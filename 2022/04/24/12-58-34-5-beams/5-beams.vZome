@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="75" field="sqrtPhi" version="7.0">
+  <EditHistory editNumber="524" lastStickyEdit="297">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 3" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 2 0 3 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 2 0 3 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <PolarZonohedron symmetry="pentagonal"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 3 0 5 0 0 0 0 -2 0 -3 0" startSegment="0 1 0 2 0 0 0 0 -2 0 -3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 1 0 2 0 0 0 0 -2 0 -3 0"/>
+    <SelectManifestation point="0 3 0 5 0 0 0 0 -2 0 -3 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1 0 2 0 0 0 0 -2 0 -3 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 1 0 2 0 0 0 0 -2 0 -3 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 4 0 7 0 -4 0 -7 -3 0 -4 0"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1 0 3/2 0 -1 0 -3/2 -5/2 0 -4 0" startSegment="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <PolarZonohedron symmetry="pentagonal"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 0 0 1/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -1 0 -3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 0 0 1/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 -1 0 -3/2 -1/2 0 -1 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 0 0 -1/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 2 0 7/2 0 1 0 3/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 0 0 1/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 0 0 -1/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 2 0 7/2 0 1 0 3/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 0 0 -1/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 2 0 7/2 0 1 0 3/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0" startSegment="0 2 0 7/2 0 2 0 7/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 2 0 7/2 0 2 0 7/2 -1/2 0 -1 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 3 0 9/2 1/2 0 1 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 2 0 7/2 0 0 0 -1/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 2 0 7/2 0 1 0 3/2 1/2 0 1 0"/>
+      <polygonVertex at="0 2 0 7/2 0 -1 0 -3/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 1 0 3/2 0 2 0 7/2 -5/2 0 -4 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 -5/2 0 -4 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 1 0 3/2 0 2 0 7/2 -5/2 0 -4 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 2 0 7/2 -5/2 0 -4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 3 0 9/2 0 -2 0 -5/2 -3/2 0 -3 0" startSegment="0 1 0 3/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <SelectManifestation>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 1 0 3/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 1 0 3/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -1 0 -3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 1 0 3/2 -1/2 0 -1 0"/>
+      <polygonVertex at="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 3 0 9/2 0 -2 0 -5/2 -3/2 0 -3 0" startSegment="0 1 0 3/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1/2 0 1 0 3/2 -9/2 0 -7 0"/>
+    <SelectManifestation point="0 1 0 3/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 2 0 7/2 0 -1 0 -3/2 1/2 0 1 0"/>
+      <polygonVertex at="0 1 0 3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 1 0 3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 0 0 1/2 3/2 0 2 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 0 0 1/2 3/2 0 2 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 0 0 1/2 3/2 0 2 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 0 0 1/2 3/2 0 2 0"/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 0 0 0 -1/2 7/2 0 6 0" startSegment="0 -3 0 -9/2 0 2 0 5/2 3/2 0 3 0"/>
+    <EndBlock/>
+    <LinePlaneIntersect/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -1 0 -3/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 0 0 -1/2 0 -1 0 -3/2 9/2 0 7 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 -2 0 -7/2 1/2 0 1 0" startSegment="0 -2 0 -7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -2 0 -5/2 3/2 0 2 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -2 0 -7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -2 0 -7/2 5/2 0 4 0" startSegment="0 -1 0 -3/2 0 -2 0 -7/2 5/2 0 4 0"/>
+    <SelectManifestation point="0 -1 0 -3/2 0 -2 0 -7/2 5/2 0 4 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 -2 0 -7/2 5/2 0 4 0" startSegment="0 -1 0 -3/2 0 -2 0 -7/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -2 0 -7/2 5/2 0 4 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 -2 0 -7/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 0 0 0 -1/2 7/2 0 6 0" startSegment="0 -3 0 -9/2 0 2 0 5/2 3/2 0 3 0"/>
+    <SelectManifestation point="0 -1 0 -3/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation endSegment="0 0 0 -1/2 0 -1 0 -3/2 9/2 0 7 0" startSegment="0 -1 0 -3/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -3 0 -9/2 0 2 0 5/2 3/2 0 3 0"/>
+    <SelectManifestation point="0 0 0 -1/2 0 -1 0 -3/2 9/2 0 7 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -1 0 -3/2 5/2 0 4 0" startSegment="0 2 0 7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 -1 0 -3/2 5/2 0 4 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 2 0 7/2 0 -1 0 -3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 1/2 0 -2 0 -7/2 -3/2 0 -2 0" startSegment="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <PolarZonohedron symmetry="pentagonal"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 0 7/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 2 0 7/2 0 0 0 -1/2 -3/2 0 -2 0"/>
+      <polygonVertex at="0 2 0 7/2 0 1 0 3/2 1/2 0 1 0"/>
+      <polygonVertex at="0 2 0 7/2 0 -1 0 -3/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 1 0 3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+      <polygonVertex at="0 1 0 3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+      <polygonVertex at="0 -1 0 -3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0" startSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 0 0 1/2 -7/2 0 -6 0" startSegment="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0" startSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 0 0 1/2 -7/2 0 -6 0" startSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <Delete/>
+    <Branch>
+      <SelectAll/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 7/2 0 11/2 0 -1/2 0 -1/2 6 0 19/2 0"/>
+      <SelectManifestation point="0 7/2 0 11/2 0 -9/2 0 -15/2 -1 0 -3/2 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 7/2 0 11/2 0 1/2 0 1/2 -6 0 -19/2 0"/>
+      <SelectManifestation point="0 7/2 0 11/2 0 -9/2 0 -15/2 -1 0 -3/2 0"/>
+      <SelectManifestation point="0 7/2 0 11/2 0 -9/2 0 -15/2 -1 0 -3/2 0"/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="0 3/2 0 5/2 0 -3/2 0 -5/2 -4 0 -13/2 0"/>
+        <polygonVertex at="0 -3/2 0 -5/2 0 -3/2 0 -5/2 -4 0 -13/2 0"/>
+        <polygonVertex at="0 -3/2 0 -5/2 0 3/2 0 5/2 -4 0 -13/2 0"/>
+        <polygonVertex at="0 3/2 0 5/2 0 3/2 0 5/2 -4 0 -13/2 0"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="0 -3/2 0 -5/2 0 3/2 0 5/2 -4 0 -13/2 0"/>
+        <polygonVertex at="0 -7/2 0 -11/2 0 3/2 0 5/2 -1 0 -3/2 0"/>
+        <polygonVertex at="0 -7/2 0 -11/2 0 7/2 0 11/2 2 0 7/2 0"/>
+        <polygonVertex at="0 -3/2 0 -5/2 0 7/2 0 11/2 -1 0 -3/2 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 -3/2 0 -5/2 0 3/2 0 5/2 -4 0 -13/2 0"/>
+        <polygonVertex at="0 -7/2 0 -11/2 0 3/2 0 5/2 -1 0 -3/2 0"/>
+        <polygonVertex at="0 -7/2 0 -11/2 0 7/2 0 11/2 2 0 7/2 0"/>
+        <polygonVertex at="0 -3/2 0 -5/2 0 7/2 0 11/2 -1 0 -3/2 0"/>
+      </SelectManifestation>
+      <SelectManifestation endSegment="0 -7/2 0 -11/2 0 3/2 0 5/2 -1 0 -3/2 0" startSegment="0 -7/2 0 -11/2 0 7/2 0 11/2 2 0 7/2 0"/>
+      <SelectManifestation endSegment="0 -3/2 0 -5/2 0 7/2 0 11/2 -1 0 -3/2 0" startSegment="0 -7/2 0 -11/2 0 7/2 0 11/2 2 0 7/2 0"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <PolarZonohedron symmetry="pentagonal"/>
+      <Delete/>
+      <SelectAll/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -3 0 -9/2 0 2 0 5/2 3/2 0 3 0"/>
+      <SelectManifestation endSegment="0 0 0 -1/2 0 -1 0 -3/2 9/2 0 7 0" startSegment="0 -3 0 -9/2 0 2 0 5/2 3/2 0 3 0"/>
+      <SelectManifestation point="0 0 0 -1/2 0 -1 0 -3/2 9/2 0 7 0"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <ApplyTool copyColors="true" name="symmetry.builtin/pentagonal antiprism around origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 2 0 7/2 0 2 0 7/2 5/2 0 4 0"/>
+      <SelectManifestation endSegment="0 2 0 7/2 0 2 0 7/2 5/2 0 4 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 5/2 0 4 0"/>
+      <SelectManifestation point="0 -2 0 -7/2 0 2 0 7/2 5/2 0 4 0"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <Delete/>
+      <SelectManifestation endSegment="0 3 0 9/2 0 1 0 3/2 5/2 0 4 0" startSegment="0 3 0 9/2 0 -2 0 -5/2 -3/2 0 -3 0"/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation point="0 3 0 9/2 0 -2 0 -5/2 -3/2 0 -3 0"/>
+      <SelectManifestation endSegment="0 3 0 9/2 0 -2 0 -5/2 -3/2 0 -3 0" startSegment="0 0 0 1/2 0 1 0 3/2 -9/2 0 -7 0"/>
+      <SelectManifestation point="0 0 0 1/2 0 1 0 3/2 -9/2 0 -7 0"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <Delete/>
+      <SelectAll/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="1/2 0 0 0 3/2 0 4 0 0 -1 0 1/2"/>
+      <SelectManifestation endSegment="3/2 0 3 0 1/2 0 1 0 0 1 0 3/2" startSegment="1/2 0 0 0 3/2 0 4 0 0 -1 0 1/2"/>
+      <SelectManifestation point="3/2 0 3 0 1/2 0 1 0 0 1 0 3/2"/>
+      <DeselectAll/>
+      <SelectManifestation point="1/2 0 0 0 3/2 0 4 0 0 -1 0 1/2"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0 0 0">{
+  "field" : "sqrtPhi",
+  "vertices" : [ [ [ -1, 0, -3, 0, 1 ], [ 1, 0, 3, 0, 1 ], [ 0, -2, 0, -1, 1 ] ], [ [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="1/2 0 0 0 3/2 0 4 0 0 -1 0 1/2"/>
+      <SelectManifestation endSegment="1/2 0 0 0 3/2 0 4 0 0 -1 0 1/2" startSegment="-1/2 0 -3 0 5/2 0 7 0 0 -3 0 -1/2"/>
+      <SelectManifestation point="-1/2 0 -3 0 5/2 0 7 0 0 -3 0 -1/2"/>
+      <DeselectAll/>
+      <SelectManifestation point="3/2 0 3 0 1/2 0 1 0 0 1 0 3/2"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0 0 0">{
+  "field" : "sqrtPhi",
+  "vertices" : [ [ [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ] ], [ [ 1, 0, 3, 0, 1 ], [ -1, 0, -3, 0, 1 ], [ 0, 2, 0, 1, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2"/>
+      <SelectManifestation endSegment="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2" startSegment="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <SelectManifestation point="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <DeselectAll/>
+      <SelectManifestation point="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0 0 0">{
+  "field" : "sqrtPhi",
+  "vertices" : [ [ [ 0, 0, 0, 0, 1 ], [ -3, 0, -4, 0, 1 ], [ 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <DeselectAll/>
+      <SelectManifestation point="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <SelectManifestation endSegment="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2" startSegment="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <SelectManifestation point="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2"/>
+      <DeselectAll/>
+      <SelectManifestation point="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0 0 0">{
+  "field" : "sqrtPhi",
+  "vertices" : [ [ [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 1 ], [ 3, 0, 4, 0, 1 ], [ 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="9/2 0 6 0 3/2 0 2 0 0 -1 0 -3/2" startSegment="3/2 0 2 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <SelectManifestation point="3/2 0 2 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <SelectManifestation endSegment="3/2 0 2 0 3/2 0 2 0 0 -1 0 -3/2" startSegment="-3/2 0 -2 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <SelectManifestation point="-3/2 0 -2 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <SelectManifestation endSegment="-3/2 0 -2 0 3/2 0 2 0 0 -1 0 -3/2" startSegment="-9/2 0 -6 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation point="-9/2 0 -6 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <SelectManifestation point="9/2 0 6 0 3/2 0 2 0 0 -1 0 -3/2"/>
+      <EndBlock/>
+      <JoinPoints closedLoop="false"/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2" startSegment="-1/2 0 0 0 9/2 0 6 0 0 -1 0 -5/2"/>
+      <SelectManifestation point="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <SelectManifestation endSegment="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2" startSegment="-1/2 0 0 0 3/2 0 2 0 0 -1 0 -5/2"/>
+      <SelectManifestation point="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2"/>
+      <SelectManifestation endSegment="-1/2 0 0 0 -9/2 0 -6 0 0 -1 0 -5/2" startSegment="-1/2 0 0 0 -3/2 0 -2 0 0 -1 0 -5/2"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation point="-1/2 0 0 0 -9/2 0 -6 0 0 -1 0 -5/2"/>
+      <SelectManifestation point="-1/2 0 0 0 9/2 0 6 0 0 -1 0 -5/2"/>
+      <EndBlock/>
+      <JoinPoints closedLoop="false"/>
+      <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectAll/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+      <DeselectAll/>
+      <StrutCreation anchor="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0" index="0" len="0 2 0 3" symm="pentagonal"/>
+      <SelectManifestation endSegment="0 3 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <Midpoint>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Midpoint>
+      <SelectManifestation endSegment="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <Midpoint>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Midpoint>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -2 0 0 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 0 0 0 0 1 0 1/2 -1/2 0 -1 0"/>
+      <DeselectAll/>
+      <SelectManifestation endSegment="0 3 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation endSegment="0 3 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation endSegment="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -2 0 0 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 0 0 0 0 1 0 1/2 -1/2 0 -1 0"/>
+      <EndBlock/>
+      <TranslationTool name="tool-1"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation endSegment="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation endSegment="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation endSegment="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0" startSegment="0 -3 0 -3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 -1 0 3/2 0 1 0 1/2 -1/2 0 -1 0"/>
+      <SelectManifestation point="0 -2 0 0 0 1 0 1/2 -1/2 0 -1 0"/>
+      <EndBlock/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="tool-1"/>
+      <BookmarkTool name="tool-2"/>
+    </Branch>
+    <BeginBlock/>
+    <SelectManifestation point="0 -2 0 -7/2 0 2 0 7/2 5/2 0 4 0"/>
+    <SelectManifestation endSegment="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+    <SelectManifestation endSegment="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 2 0 7/2 5/2 0 4 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 5/2 0 4 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 2 0 7/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -2 0 -7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 -2 0 -7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 -2 0 -7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -3 0 -9/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+    <SelectManifestation endSegment="0 0 0 -1/2 0 -4 0 -11/2 1/2 0 0 0" startSegment="0 -3 0 -9/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+    <SelectManifestation point="0 0 0 -1/2 0 -4 0 -11/2 1/2 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 2 0 7/2 0 -3 0 -9/2 -1/2 0 -1 0" startSegment="0 2 0 7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <SelectManifestation point="0 2 0 7/2 0 0 0 -1/2 7/2 0 6 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BookmarkTool name="tool-3"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <BookmarkTool name="tool-4"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <StrutCreation anchor="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0" index="0" len="3 0 5 0" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <SelectManifestation endSegment="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0" startSegment="0 1 0 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0" index="5" len="3 0 5 0" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3 -1 -5 -3/2 0 1 0 3/2 5/2 0 4 0" startSegment="0 -1 0 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <SelectManifestation point="-3 -1 -5 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <StrutCreation anchor="0 -1 0 -3/2 0 -1 0 -3/2 5/2 0 4 0" dir="green" index="1" len="0 2 0 -1" symm="pentagonal"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1/2 0 0 0 1/2 5/2 0 4 0"/>
+    <SelectManifestation endSegment="0 0 0 1/2 0 0 0 1/2 5/2 0 4 0" startSegment="0 -1 0 -3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="0 1 0 3/2 0 -1 0 -3/2 5/2 0 4 0" index="8" len="3 0 5 0" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 1 0 3/2 2 -1 3 -3/2 5/2 2 4 3" startSegment="0 1 0 3/2 0 -1 0 -3/2 5/2 0 4 0"/>
+    <SelectManifestation point="0 1 0 3/2 2 -1 3 -3/2 5/2 2 4 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 1 0 3/2 0 -2 0 -7/2 1/2 0 1 0" index="3" len="3 0 5 0" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 1 0 3/2 -2 -2 -3 -7/2 1/2 -2 1 -3"/>
+    <SelectManifestation endSegment="0 1 0 3/2 -2 -2 -3 -7/2 1/2 -2 1 -3" startSegment="0 1 0 3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 -1/2 0 2 0 7/2 3/2 0 2 0" startSegment="0 -2 0 -7/2 0 2 0 7/2 3/2 0 2 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <PolarZonohedron symmetry="pentagonal"/>
+    <BookmarkTool name="tool-5"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation point="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <SelectManifestation point="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3" startSegment="0 -1 0 -3/2 0 2 0 7/2 -1/2 0 -1 0"/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 -2 1 -3 3/2 -5/2 -2 -4 -3" startSegment="0 -1 0 -3/2 0 1 0 3/2 -5/2 0 -4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3" startSegment="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 2 0 7/2 -3 -1 -5 -3/2 1/2 0 1 0"/>
+    <SelectManifestation point="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 -3/2 0 -2 0 -7/2 1/2 2 1 3" startSegment="0 -1 0 -3/2 0 -2 0 -7/2 1/2 0 1 0"/>
+    <SelectManifestation endSegment="2 0 3 1/2 0 -2 0 -7/2 -3/2 -2 -2 -3" startSegment="0 0 0 1/2 0 -2 0 -7/2 -3/2 0 -2 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0" startSegment="0 2 0 7/2 -3 -1 -5 -3/2 1/2 0 1 0"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3"/>
+    <SelectManifestation point="0 -2 0 -7/2 3 1 5 3/2 -1/2 0 -1 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <JoinPoints closedLoop="false"/>
+    <SelectManifestation endSegment="0 -2 0 -7/2 3 1 5 3/2 -1/2 0 -1 0" startSegment="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3"/>
+    <SelectManifestation point="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <SelectManifestation point="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3"/>
+    <SelectManifestation point="-2 1 -3 3/2 2 1 3 3/2 -5/2 -1 -4 -2"/>
+    <SelectManifestation point="-3 -1 -5 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3" startSegment="-2 -1 -3 -3/2 0 -2 0 -7/2 1/2 2 1 3"/>
+    <SelectManifestation endSegment="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3" startSegment="-2 -1 -3 -3/2 0 -2 0 -7/2 1/2 2 1 3"/>
+    <SelectManifestation endSegment="-2 -2 -3 -7/2 2 0 3 1/2 3/2 -1 2 -2" startSegment="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3"/>
+    <SelectManifestation point="3 1 5 3/2 0 -1 0 -3/2 -5/2 0 -4 0"/>
+    <SelectManifestation point="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <SelectManifestation point="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1 0 3/2 2 -1 3 -3/2 5/2 2 4 3" startSegment="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 1 0 3/2 2 -1 3 -3/2 5/2 2 4 3"/>
+    <SelectManifestation point="-3 -1 -5 -3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <SelectManifestation point="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0" startSegment="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <SelectManifestation point="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <SelectManifestation point="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <SelectManifestation point="0 -1 0 -3/2 2 2 3 7/2 -1/2 2 -1 3"/>
+    <SelectManifestation point="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <SelectManifestation point="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 -3 -1/2 0 2 0 7/2 3/2 2 2 3"/>
+    <SelectManifestation point="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <SelectManifestation point="3 1 5 3/2 0 1 0 3/2 5/2 0 4 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0" index="6" len="0 8 0 13" symm="pentagonal"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 0 -8 0 5 0 8 -5 0 -8 0"/>
+    <SelectManifestation endSegment="0 -5 0 -8 0 5 0 8 -5 0 -8 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="symmetry.builtin/pentagonal antiprism around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -8 0 -13 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -5 0 -8 0 0 0 0 8 0 13 0" startSegment="0 -8 0 -13 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 -8 0 -13 0 0 0 0"/>
+    <SelectManifestation point="0 5 0 8 0 -5 0 -8 5 0 8 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 -8 0 -13 0 0 0 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 5 0 8 0 -5 0 -8 5 0 8 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 5 0 8 8 0 13 0" startSegment="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 5 0 8 8 0 13 0" startSegment="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation endSegment="0 5 0 8 0 -5 0 -8 5 0 8 0" startSegment="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation endSegment="0 -5 0 -8 0 0 0 0 8 0 13 0" startSegment="0 0 0 0 0 -8 0 -13 0 0 0 0"/>
+    <SelectManifestation endSegment="0 -5 0 -8 0 0 0 0 8 0 13 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 5 0 8 0 -5 0 -8 5 0 8 0"/>
+    <SelectManifestation endSegment="0 5 0 8 0 -5 0 -8 5 0 8 0" startSegment="0 0 0 0 0 -8 0 -13 0 0 0 0"/>
+    <SelectManifestation endSegment="0 5 0 8 0 -5 0 -8 5 0 8 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 8 0 13 0 0 8 0 13" startSegment="8 0 13 0 -8 0 -13 0 0 5 0 8"/>
+    <SelectManifestation endSegment="8 0 13 0 -8 0 -13 0 0 5 0 8" startSegment="-8 0 -13 0 0 0 0 0 0 8 0 13"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="0 0 0 0 -13 0 -21 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="-13 0 -21 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="0 0 0 0 -13 0 -21 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 8 0 13 0 0 8 0 13" startSegment="8 0 13 0 -8 0 -13 0 0 5 0 8"/>
+    <SelectManifestation endSegment="13 0 21 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 8 0 13 0 0 8 0 13"/>
+    <SelectManifestation endSegment="0 0 0 0 13 0 21 0 0 0 0 0" startSegment="13 0 21 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 13 0 21 0 0 0 0 0" startSegment="13 0 21 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="13 0 21 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 13 0 21 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 1 -3 3/2 2 1 3 3/2 -5/2 -1 -4 -2" startSegment="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <SelectManifestation endSegment="-2 1 -3 3/2 2 1 3 3/2 -5/2 -1 -4 -2" startSegment="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <SelectManifestation endSegment="2 1 3 3/2 0 2 0 7/2 -1/2 -2 -1 -3" startSegment="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2"/>
+    <SelectManifestation endSegment="2 2 3 7/2 -2 0 -3 -1/2 -3/2 1 -2 2" startSegment="0 2 0 7/2 3 1 5 3/2 1/2 0 1 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="0 0 0 0 -13 0 -21 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-8 0 -13 0 0 0 0 0 0 8 0 13"/>
+    <SelectManifestation point="0 0 0 0 -13 0 -21 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 13 0 21 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-13 0 -21 0 0 0 0 0 0 0 0 0" startSegment="-8 0 -13 0 8 0 13 0 0 -5 0 -8"/>
+    <SelectManifestation endSegment="-13 0 -21 0 0 0 0 0 0 0 0 0" startSegment="-8 0 -13 0 8 0 13 0 0 -5 0 -8"/>
+    <SelectManifestation point="-8 0 -13 0 8 0 13 0 0 -5 0 -8"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-8 0 -13 0 0 0 0 0 0 8 0 13" startSegment="0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -5 0 -8 0 0 0 0 8 0 13 0"/>
+    <SelectManifestation point="0 0 0 0 0 -8 0 -13 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 13 0 21 0 0 0 0 0"/>
+    <SelectManifestation point="-8 0 -13 0 8 0 13 0 0 -5 0 -8"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 13 0 21 0 0 0 0 0"/>
+    <SelectManifestation point="-8 0 -13 0 8 0 13 0 0 -5 0 -8"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -8 0 -13 0 0 0 0 0"/>
+    <SelectManifestation point="-5 0 -8 0 0 0 0 0 0 5 0 8"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -13 0 -21 0 0 0 0 0"/>
+    <EndBlock/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="255,233,191">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="295.562255859375" far="591.1233520507812" near="0.7389072179794312" parallel="true" stereoAngle="0.0" width="133.00332641601562">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.6687402725219727" y="-0.6687402725219727" z="-0.3249197006225586"/>
+      <LookDirection x="0.7071068286895752" y="0.7071068286895752" z="0.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="pentagonal" renderingStyle="Kostick">
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="18830" prototype="0 0 0 0 0 0 0 0 0 0 -1 0"/>
+    <Direction color="255,255,255" name="22932" prototype="0 2 0 -1 0 3 0 -2 0 0 1 0"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="23096" prototype="0 0 1 0 1 2 -1 -1 -1 2 0 -1"/>
+    <Direction color="255,255,255" name="23095" prototype="-1 0 0 0 -1 -1 0 1 0 0 -1 0"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,255,255" name="23103" prototype="0 -3 0 2 0 3 0 -2 -3 0 3 0"/>
+    <Direction color="255,255,255" name="23102" prototype="0 1 0 -1 0 1 0 0 1 0 0 0"/>
+    <Direction color="255,255,255" name="23101" prototype="4 -3 -3 2 -1 -5 0 3 0 -6 0 3"/>
+    <Direction color="255,255,255" name="23100" prototype="-2 -1 1 0 2 0 -1 0 -1 3 1 -2"/>
+    <Direction color="255,255,255" name="23099" prototype="-1 1 0 -1 1 -1 -1 1 0 1 0 -1"/>
+    <Direction color="255,255,255" name="23098" prototype="1 3 -1 -2 0 -2 0 1 2 1 -1 0"/>
+    <Direction color="255,255,255" name="23097" prototype="1 -1 -1 1 -1 -1 1 0 -1 -2 0 1"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="icosahedral" renderingStyle="tiny icosahedra">
+      <Direction color="255,255,255" name="18832" prototype="0 0 0 0 1 0 0 0 0 1 0 0"/>
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="255,255,255" name="18831" prototype="1 0 0 0 0 0 0 0 0 -1 0 0"/>
+      <Direction color="154,117,74" name="sand"/>
+      <Direction color="255,255,255" name="18833" prototype="1 0 0 0 -1 0 0 0 0 -1 0 1"/>
+      <Direction color="18,73,48" name="spruce"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="255,126,106" name="coral"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="230,245,62" name="sulfur"/>
+      <Direction color="255,51,143" name="rose"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="116,195,0" name="apple"/>
+      <Direction color="136,37,0" name="cinnamon"/>
+      <Direction color="108,0,198" name="purple"/>
+      <Direction color="220,76,0" name="orange"/>
+      <Direction color="0,0,153" name="navy"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="100,113,0" name="olive"/>
+    </SymmetrySystem>
+    <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="108,126,142" name="slate"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="228,225,199" name="ivory"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="137,104,112" name="mauve"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="true" id="tool-0" label="translation 0" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-1" label="translation 1" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-3" label="Heartlines" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-4" label="panels" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-5" label="PZ" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
