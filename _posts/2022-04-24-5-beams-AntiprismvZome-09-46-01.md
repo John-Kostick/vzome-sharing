@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 
-  A set of pentagrams extending from faces of a penatgonal antiprism. The Antiprism has 5 lines from it's vertices through the origin that intersect at 90° and at arc sin 1/√𝜑 = 51.827...°
+  A set of pentagrams extending from faces of a penatgonal antiprism. The Antiprism has 5 lines from it's vertices through the origin that intersect at 90° and at arcsin 1/√𝜑 = 51.827...°
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
