@@ -73,14 +73,14 @@ Another type of composite beam is this.  5 pairs of struts are shown as chords o
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/24/12-57-55-5-pair-as-chords/5-pair-as-chords.png" />
 </vzome-viewer>
 
-It's noteworthy that while this intersection of 5 lines derives fro a Dodecahedron, it only has one axis of symmetry.  The lines themselves are not axes of symmetry in the same sense, but are intersecting axes that can accomodate rotation about each that is balanced, as it is in crankshafts.  Because there is only polar symmetry, the lines can be adjusted to any angle vis a vis the polar axis.  Here is shown 5 pairs of beams that have heart lines that intersect at a different suite of angles, and extend to vertices of a "taller" Pentagonal Antiprism.  In this arrangement, the 5 lines intersect at 90° between non-adjacents and arcsin 1/√𝜑 = 51 827...° between adjacents.  This can be called a normalized 5-directional system, which has very interesting features, and is the basis of the √𝜑 field in vZome.  
+It's noteworthy that while this intersection of 5 lines derives from a Dodecahedron, it only has one axis of symmetry.  The lines themselves are not axes of symmetry in the same sense, but are intersecting axes that can accomodate rotation about each that is balanced, as it is in crankshafts.  Because there is only polar symmetry, the lines can be adjusted to any angle vis a vis the polar axis.  Here is shown 5 pairs of beams that have heart lines that intersect at a different suite of angles, and extend to vertices of a "taller" Pentagonal Antiprism.  In this arrangement, the 5 lines intersect at 90° between non-adjacents and arcsin 1/√𝜑 = 51 827...° between adjacents.  This can be called a normalized 5-directional system, which has very interesting features, and is the basis of the √𝜑 field in vZome.  
 
 <vzome-viewer style="width: 100%; height: 100vh;"
       src="https://John-Kostick.github.io/vzome-sharing/2022/04/24/12-58-34-5-beams/5-beams.vZome" >
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/24/12-58-34-5-beams/5-beams.png" />
 </vzome-viewer>
 
-Many related composite beam arrangements can be built with polar symmetry, such as 6 directional, 7 directional, etc.  There are also multiples of these primary composite beams, as shown [Here](https://john-kostick.github.io/vzome-sharing/2022/01/17/Cartesian-array-14-21-50.htm)
+Many related composite beam arrangements can be built with polar symmetry, such as 6 directional, 7 directional, etc.  There are also multiples of these primary composite beams, as shown [Here](https://john-kostick.github.io/vzome-sharing/2022/01/17/Cartesian-array-14-21-50.html)
 
 These configurations have been made as artwork for many years, as shown on this web [page](http://www.kosticks.com/star-photos.html)
 
