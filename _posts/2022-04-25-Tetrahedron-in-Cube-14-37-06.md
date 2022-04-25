@@ -2,7 +2,7 @@
 title: Tetrahedron in Cube
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/25/14-37-06-Tetrahedron-in-Cube/Tetrahedron-in-Cube.png
-published: false
+published: true
 layout: vzome
 description:
   A tetrahedron inscribed in a cube.
