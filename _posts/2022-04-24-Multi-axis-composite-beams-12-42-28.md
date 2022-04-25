@@ -82,7 +82,7 @@ It's noteworthy that while this intersection of 5 lines derives from a Dodecahed
 
 Many related composite beam arrangements can be built with polar symmetry, such as 6 directional, 7 directional, etc.  There are also multiples of these primary composite beams, one example shown [Here](https://john-kostick.github.io/vzome-sharing/2022/01/17/Cartesian-array-14-21-50.html)
 
-These arrays of parallel struts as beams can be defined as chords of polyhedra, but can also be arrived at by [Transformations of edges of polyhedra](https://john-kostick.github.io/vzome-sharing/2022/03/01/6-strut-tensegrity-13-10-58.html)as discussed.  This can be accomplished in [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) form, using simple materials, like sticks and string.  Once defined, the parallel groups can be drawn together into contact, and the tension members can be replaced.  This represents a 4-axis tensegrity composition, with the struts extended as beams.  
+These arrays of parallel struts as beams can be defined as chords of polyhedra, but can also be arrived at by [Transformations of edges of polyhedra](https://john-kostick.github.io/vzome-sharing/2022/03/01/6-strut-tensegrity-13-10-58.html) as discussed.  This can be accomplished in [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) form, using simple materials, like sticks and string.  Once defined, the parallel groups can be drawn together into contact, and the tension members can be replaced.  This represents a 4-axis tensegrity composition, with the struts extended as beams.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
       src="https://John-Kostick.github.io/vzome-sharing/2022/04/25/13-14-32-Tetraxis-as-Tensegrity-extendedvZome/Tetraxis-as-Tensegrity-extendedvZome.vZome" >
