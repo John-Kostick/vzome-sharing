@@ -93,5 +93,7 @@ Using round rods with the beams drawn together, this object has great structural
 
 These configurations have been made as artwork for many years, as shown on this Web[Page](http://www.kosticks.com/star-photos.html)
 
+Many of the same structures have been independently dicovered and explored by others, notably [Akio Hizume](http://starcage.org/englishindex.html)  
+
 
 
