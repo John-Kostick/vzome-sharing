@@ -95,5 +95,7 @@ These configurations have been made as artwork for many years, as shown on this 
 
 Many of the same structures have been independently dicovered and explored by others, notably [Akio Hizume](http://starcage.org/englishindex.html)  
 
+More about these arrays can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/04/27/Six-block-TO-07-49-35.html)
+
 
 
