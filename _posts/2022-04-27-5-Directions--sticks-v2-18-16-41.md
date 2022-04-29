@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/04/27/18-16-41-5-Directions--sticks-v2/>)
  
 {% endcomment %}
-  An assembly of 20 shaped sticks that completely enclose a Rhombic Icosahedron. Sticks are prismatic, with [Kepler Triangle](https://en.wikipedia.org/wiki/Kepler_triangle)cross-section.  They are in 5 sets of parallels, 4 in each set. End cuts are shown as one of several possible styles.
+  An assembly of 20 shaped sticks that completely enclose a Rhombic Icosahedron. Sticks are prismatic, with [Kepler Triangle](https://en.wikipedia.org/wiki/Kepler_triangle) cross-section.  They are in 5 sets of parallels, 4 in each set. End cuts are shown as one of several possible styles.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
