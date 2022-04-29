@@ -1,5 +1,5 @@
 ---
-title:Five Directions sticks surrounding a Rhombic Icosahedron
+title: Five Directions sticks surrounding a Rhombic Icosahedron
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/27/18-16-41-5-Directions--sticks-v2/5-Directions--sticks-v2.png
 published: true
