@@ -1,5 +1,5 @@
 ---
-title: 6  axis with heartlines
+title: 6 axis with heartlines
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/27/16-33-32-6--axis-with-heartlines/6--axis-with-heartlines.png
 published: false
