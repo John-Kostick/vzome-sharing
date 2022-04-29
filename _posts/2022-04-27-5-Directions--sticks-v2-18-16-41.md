@@ -22,7 +22,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/27/18-16-41-5-Directions--sticks-v2/5-Directions--sticks-v2.png" />
 </vzome-viewer>
 
-Showing the Rhombic Icosahedron with one of the five sets of 4 sticks.  This is an affine RI, with 10 square faces and 10 rhombic faces with Arcsin 1/√𝜑 = 51 827...°  between edges.  A remarkable feature of this variant of RI is, the same suite of angles that 
+Showing the Rhombic Icosahedron with one of the five sets of 4 sticks.  This is an affine RI, with 10 square faces and 10 rhombic faces with Arcsin 1/√𝜑 = 51.827...°  between edges.  A remarkable feature of this variant of RI is, the same suite of angles that 
 occur as dihedrals, also are the face angles. This can be seen in the opening view of this model, where the faces of the Kepler triangle sticks are aligned with the faces of the polyhedron.   
 
 
