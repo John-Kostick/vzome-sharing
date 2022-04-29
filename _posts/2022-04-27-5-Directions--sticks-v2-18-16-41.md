@@ -9,7 +9,7 @@ description:
 ---
 
 {% comment %}
- - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2022/04/27/5-Directions--sticks-v2-18-16-41.html>)
+ - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2022/04/27/5-Directions-sticks-v2-18-16-41.html>)
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/04/27/18-16-41-5-Directions--sticks-v2/>)
  
 {% endcomment %}
