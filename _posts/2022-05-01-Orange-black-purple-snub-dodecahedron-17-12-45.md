@@ -25,6 +25,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
 Here some of the struts are used to represent tension elements in a 30 strut [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity), where the reds represent compression elements.  The red struts are in parallel sets of 5, aligned with 6 axes of symmetry.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/05/01/17-19-37-30-strut-spectrum/30-strut-spectrum.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/01/17-19-37-30-strut-spectrum/30-strut-spectrum.png" />
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/01/18-00-10-30-strut-tensegrity/30-strut-tensegrity.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/01/18-00-10-30-strut-tensegrity/30-strut-tensegrity.png" />
 </vzome-viewer>
