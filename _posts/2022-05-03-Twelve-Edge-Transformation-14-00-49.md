@@ -2,7 +2,7 @@
 title: Twelve Edge Transformation Part 1
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-00-49-Twelve-Edge-Transformation/Twelve-Edge-Transformation.png
-published: false
+published: true
 layout: vzome
 description:
   Edges of an Octahedron transforming to edges of a Cube.
