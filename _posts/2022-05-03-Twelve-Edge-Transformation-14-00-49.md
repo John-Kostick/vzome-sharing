@@ -12,7 +12,7 @@ description:
  - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2022/05/03/Twelve-Edge-Transformation-14-00-49.html>)
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/03/14-00-49-Twelve-Edge-Transformation/>)
  
-{% endcomment %}https://en.wikipedia.org/wiki/Tensegrity) mode, with the rotated edges representing compression elements, or sticks.
+{% endcomment %}
   Edges of an Octahedron transforming to edges of a Cube. In this series of models edges are shown rotating about radial lines from the origin to their midpoints. The first model shows a template as a fan of colored struts that are the directions of rotated edges.  This series depicts the transformation in [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) mode, with the rotated edges representing compression elements, or sticks. 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
@@ -22,14 +22,14 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-00-49-Twelve-Edge-Transformation/Twelve-Edge-Transformation.png" />
 </vzome-viewer>
 
-This shows an Octahedron and a Cube that share midpoints of their edges.
+This shows an Octahedron and a Cube that share midpoints of their edges, as frame of reference.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-02-18-Octahedron-to-cube-transform/Octahedron-to-cube-transform.vZome" >
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-02-18-Octahedron-to-cube-transform/Octahedron-to-cube-transform.png" />
 </vzome-viewer>
 
-The first stage in the transformation, showing olive colored struts rotated from edge positions.
+The first stage in the transformation, showing olive colored struts rotated from edge positions. Octahedron is included as reference frame.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-48-09-Octahedron-olive-10/Octahedron-olive-10.vZome" >
@@ -57,4 +57,4 @@ In this model, the rotated edges have become oriented into four parallel sets of
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-49-57-Cube-to-yellow-6/Cube-to-yellow-6.png" />
 </vzome-viewer>
 
-A continuation of this series can be seen at [Twelve Edge Transformation Part 2](
+A continuation of this series can be seen at [Twelve Edge Transformation Part 2](https://john-kostick.github.io/vzome-sharing/2022/05/03/Cube-to-yellow-6-14-49-57.html)
