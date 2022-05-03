@@ -18,8 +18,8 @@ description:
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-00-49-Twelve-Edge-Transformation/Twelve-Edge-Transformation.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-00-49-Twelve-Edge-Transformation/Twelve-Edge-Transformation.png" />
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/19-34-27-Twelve-Edge-Transformation-2/Twelve-Edge-Transformation-2.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/19-34-27-Twelve-Edge-Transformation-2/Twelve-Edge-Transformation-2.png" />
 </vzome-viewer>
 
 This shows an Octahedron and a Cube that share midpoints of their edges, as frame of reference.
