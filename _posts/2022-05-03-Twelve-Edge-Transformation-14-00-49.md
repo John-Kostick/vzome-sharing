@@ -43,7 +43,7 @@ Second stage, turquoise struts.
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-48-40-Octahedron-turquoise-9/Octahedron-turquoise-9.png" />
 </vzome-viewer>
 
-Third stage,white struts.
+Third stage, white struts.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-49-04-Octahedron-white-green-8/Octahedron-white-green-8.vZome" >
@@ -57,3 +57,4 @@ In this model, the rotated edges have become oriented into four parallel sets of
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-49-57-Cube-to-yellow-6/Cube-to-yellow-6.png" />
 </vzome-viewer>
 
+A continuation of this series can be seen at [Twelve Edge Transformation Part 2](
