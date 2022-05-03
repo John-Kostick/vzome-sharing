@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/03/14-00-49-Twelve-Edge-Transformation/>)
  
 {% endcomment %}
-  Edges of an Octahedron transforming to edges of a Cube. In this series of models edges are shown rotating about radial lines from the origin to their midpoints. The first model shows a template as a fan of colored struts that are the directions of rotated edges.  This series depicts the transformation in [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) mode, with the rotated edges representing compression elements, or sticks. 
+  Edges of an Octahedron transforming to edges of a Cube. In this series of models edges are shown rotating about radial lines from the origin to their midpoints. The first model shows a template as a "fan" of colored struts that are the directions of rotated edges, in relation to Octahedron and Cube. These models are all chiral, there could be another set of directions that mirror these.  This series depicts the transformation in [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) mode, with the rotated edges representing compression elements, or sticks. 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
