@@ -1,5 +1,5 @@
 ---
-title: Thirty Edge Transform
+title: Thirty Edge Transform Part1
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-27-17-Thirty-Edge-Transform/Thirty-Edge-Transform.png
 published: false
@@ -36,7 +36,7 @@ Second stage is sulfur colored orientation.
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-30-44-Sulfur-2/Sulfur-2.png" />
 </vzome-viewer>
 
-Next stage, further askew from Icosahedron is olive colored.
+Next stage, further askew from Icosahedron, is olive colored.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-31-56-Olive-3/Olive-3.vZome" >
@@ -50,5 +50,10 @@ Purple orientation.  If extended, these directions can intersect as equilateral 
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-32-45-Purple-4/Purple-4.png" />
 </vzome-viewer>
 
-At this stage, the struts are rotated into alignment as 6 sets of parallel groups, 5 in each.  These groups, or beams are oriented around 6 axes of icosahedral symmetry.  
+At this stage, the struts are rotated into alignment as 6 sets of parallel groups, 5 in each.  These groups, or beams are oriented around 6 axes of icosahedral symmetry. 
+
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-33-56-Red-5/Red-5.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-33-56-Red-5/Red-5.png" />
+</vzome-viewer>
 
