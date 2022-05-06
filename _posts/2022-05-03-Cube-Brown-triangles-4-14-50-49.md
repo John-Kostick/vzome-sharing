@@ -53,7 +53,7 @@ Six interlinked pentagrams.
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-49-14-Orange-8-pentagram/Orange-8-pentagram.png" />
 </vzome-viewer>
 
-These polylink models are show here as intersecting lines, but can be constructed with rods that pass by each other and are coupled together by some form of tension bonds.  This is an example of such an arrangement.  In structures like this, there are typically two variants, one just "before" the rods would intersect, and one just "after."
+These polylink models are shown here as intersecting lines, but can be constructed with rods that pass by each other and are coupled together by some form of tension bonds.  This is an example of such an arrangement.  In structures like this, there are typically two variants, one just "before" the rods would intersect, and one just "after."
 
 ![3083470_orig](https://user-images.githubusercontent.com/78830166/167195387-741a539b-f658-4730-af93-1e493848bbbb.jpg)
 
