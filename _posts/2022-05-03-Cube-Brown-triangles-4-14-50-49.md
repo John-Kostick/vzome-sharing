@@ -47,3 +47,8 @@ Six interlinked pentagons.
 </vzome-viewer>
 
 Six interlinked pentagrams.  
+
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-49-14-Orange-8-pentagram/Orange-8-pentagram.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-49-14-Orange-8-pentagram/Orange-8-pentagram.png" />
+</vzome-viewer>
