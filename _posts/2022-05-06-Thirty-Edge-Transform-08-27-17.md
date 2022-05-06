@@ -1,5 +1,5 @@
 ---
-title: Thirty Edge Transform Part1
+title: Thirty Edge Transform Part 1
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-27-17-Thirty-Edge-Transform/Thirty-Edge-Transform.png
 published: true
