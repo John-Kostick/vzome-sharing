@@ -57,4 +57,4 @@ At this stage, the struts are rotated into alignment as 6 sets of parallel group
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/06/08-33-56-Red-5/Red-5.png" />
 </vzome-viewer>
 
-A continuation of this series can be seen at [Thirty Edge Transform Part 2]
+A continuation of this series can be seen at [Thirty Edge Transform Part 2](https://john-kostick.github.io/vzome-sharing/2022/05/06/Red-6-08-34-28.html)
