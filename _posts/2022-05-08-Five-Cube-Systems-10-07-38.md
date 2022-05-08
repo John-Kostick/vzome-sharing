@@ -36,6 +36,8 @@ Projecting the 30 squares further out, to align with faces of a Great Rhombicosi
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-39-14-Five-Cube-expansion/Five-Cube-expansion.png" />
 </vzome-viewer>
 
+For a different rendering, see [5 Cartesian Systems Emerging](https://skfb.ly/6WOOo)
+
 The Great Rhombicosidodecahedron can be seen as a zonohedron with 15 zones. Its decagon and hexagon faces are dissected into rhombi, following zones. This is shown with edges colored to indicate parallel directions matching the 5 sets that originate as edges of cubes.  There is not only one way to make these dissections.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
@@ -50,7 +52,7 @@ Zones can be grouped into 5 sets of 3, with the 3 directions in each cubic syste
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-50-17-5-cube-zones/5-cube-zones.png" />
 </vzome-viewer>
 
-This shows the same progression, but with zones colored in solid, to see in succession what is being reduced to zero.
+This shows the same progression, but with zones colored in solid, to see in succession what is being reduced to zero, that is to say, eliminated.  Green zone, red zone, blue zone, orange, leaving purple.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-54-27-5-cube-zones-2/5-cube-zones-2.vZome" >
