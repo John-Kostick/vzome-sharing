@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="76" field="heptagon" version="7.0">
+  <EditHistory editNumber="229" lastStickyEdit="-1">
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "heptagon",
+  "vertices" : [ [ [ 0, -2, -1, 1 ], [ 0, 0, 0, 1 ], [ 0, 2, 1, 1 ] ], [ [ -2, 1, -2, 1 ], [ 2, -1, 2, 1 ], [ 0, 2, 1, 1 ] ], [ [ 1, -2, 0, 1 ], [ -2, 1, -2, 1 ], [ 0, 2, 1, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 2, 1, 1 ], [ 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 2, 1, 1 ], [ 0, 2, 1, 1 ] ], [ [ -1, 2, 0, 1 ], [ 0, -2, -1, 1 ], [ 0, 2, 1, 1 ] ], [ [ 2, -1, 2, 1 ], [ -1, 2, 0, 1 ], [ 0, 2, 1, 1 ] ], [ [ 0, 2, 1, 1 ], [ 1, -2, 0, 1 ], [ 0, 2, 1, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 3, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 5 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 5 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 0 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 6 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 8 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 7 ],
+    "color" : "#FFFFFF"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 1 -2 2 -1 2 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 -2 -1 0 0 0 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 2 0 0 -2 -1 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="2 -1 2 -1 2 0 0 2 1"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 4 1 2 -1 2 0 10 5"/>
+      <polygonVertex at="0 2 1 0 0 0 0 12 6"/>
+      <polygonVertex at="0 0 0 0 0 0 0 14 7"/>
+      <polygonVertex at="-1 2 0 2 -1 2 0 12 6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 4 1 2 -1 2 0 10 5"/>
+      <polygonVertex at="0 2 1 0 0 0 0 12 6"/>
+      <polygonVertex at="0 0 0 0 0 0 0 14 7"/>
+      <polygonVertex at="-1 2 0 2 -1 2 0 12 6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 2 0 2 -1 2 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation endSegment="0 2 1 0 0 0 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation endSegment="2 -1 2 -2 1 -2 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="-2 1 -2 1 -2 0 0 12 6"/>
+    <SelectManifestation endSegment="0 -2 -1 -1 2 0 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation>
+      <polygonVertex at="1 -4 -1 -1 4 1 0 10 5"/>
+      <polygonVertex at="1 -2 0 0 2 1 0 12 6"/>
+      <polygonVertex at="0 0 0 0 0 0 0 14 7"/>
+      <polygonVertex at="0 -2 -1 -1 2 0 0 12 6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 -4 -1 -1 4 1 0 10 5"/>
+      <polygonVertex at="1 -2 0 0 2 1 0 12 6"/>
+      <polygonVertex at="0 0 0 0 0 0 0 14 7"/>
+      <polygonVertex at="0 -2 -1 -1 2 0 0 12 6"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 -2 -1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 -2 -1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 -2 -1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 2 1 1 -2 0 0 2 1"/>
+      <polygonVertex at="2 1 3 0 0 0 0 4 2"/>
+      <polygonVertex at="2 -1 2 -1 2 0 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 2 1 1 -2 0 0 2 1"/>
+      <polygonVertex at="2 1 3 0 0 0 0 4 2"/>
+      <polygonVertex at="2 -1 2 -1 2 0 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 2 1 1 -2 0 0 2 1"/>
+      <polygonVertex at="2 1 3 0 0 0 0 4 2"/>
+      <polygonVertex at="2 -1 2 -1 2 0 0 2 1"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 0 -2 -1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 0 2 1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 0 -2 -1" startSegment="0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="2 -1 2 -1 4 1 0 0 0"/>
+      <polygonVertex at="2 -1 2 -1 6 2 0 -2 -1"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 0 0 1 3 3 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 1 3 3 0 2 1" startSegment="2 -1 2 -1 4 1 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 4 1 0 0 0" startSegment="4 -2 4 -2 6 1 0 2 1"/>
+    <SelectManifestation endSegment="2 1 3 0 2 1 0 -2 -1" startSegment="2 -1 2 -1 4 1 0 0 0"/>
+    <SelectManifestation endSegment="2 -1 2 -1 4 1 0 0 0" startSegment="2 -1 2 -1 6 2 0 -2 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 5 -1 4 1 0 0 0" startSegment="2 1 3 1 3 3 0 2 1"/>
+    <SelectManifestation endSegment="4 0 5 -1 4 1 0 0 0" startSegment="2 1 3 1 3 3 0 2 1"/>
+    <SelectManifestation endSegment="4 0 5 -1 4 1 0 0 0" startSegment="2 1 3 1 3 3 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 5 -1 4 1 0 0 0" startSegment="2 1 3 1 3 3 0 2 1"/>
+    <SelectManifestation endSegment="4 -2 4 -2 6 1 0 2 1" startSegment="4 0 5 -1 4 1 0 0 0"/>
+    <SelectManifestation endSegment="4 0 5 -1 4 1 0 0 0" startSegment="2 1 3 0 2 1 0 2 1"/>
+    <SelectManifestation endSegment="4 2 6 0 2 1 0 2 1" startSegment="4 0 5 -1 4 1 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 -2 -1 1 5 4 0 2 1"/>
+      <polygonVertex at="-2 -1 -3 3 4 6 0 0 0"/>
+      <polygonVertex at="-2 1 -2 3 4 6 0 -2 -1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 1 3 3 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="2 -1 2 -1 6 2 0 -2 -1"/>
+      <polygonVertex at="2 1 3 0 4 2 0 -4 -2"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 -1 2 -1 6 2 0 -2 -1"/>
+      <polygonVertex at="2 1 3 0 4 2 0 -4 -2"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="2 -1 2 -1 6 2 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="2 1 3 1 5 4 0 0 0"/>
+      <polygonVertex at="2 -1 2 0 7 4 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="2 1 3 1 5 4 0 0 0"/>
+      <polygonVertex at="2 -1 2 0 7 4 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 1 5 4 0 0 0" startSegment="0 2 1 2 3 4 0 -2 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 1 -2 3 4 6 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 1 3 3 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 1 -2 3 4 6 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 1 -2 3 4 6 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 1 3 3 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="2 -1 2 -1 6 2 0 -2 -1"/>
+      <polygonVertex at="2 1 3 0 4 2 0 -4 -2"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 -1 2 -1 6 2 0 -2 -1"/>
+      <polygonVertex at="2 1 3 0 4 2 0 -4 -2"/>
+      <polygonVertex at="0 2 1 2 3 4 0 -2 -1"/>
+      <polygonVertex at="0 0 0 1 5 4 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="2 -1 2 -1 6 2 0 -2 -1" startSegment="0 0 0 1 5 4 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 1 5 4 0 0 0" startSegment="0 2 1 2 3 4 0 -2 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="2 3 4 1 0 1 0 4 2"/>
+      <polygonVertex at="2 1 3 0 2 1 0 6 3"/>
+      <polygonVertex at="0 2 1 2 1 3 0 8 4"/>
+      <polygonVertex at="0 4 2 3 -1 3 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 3 4 1 0 1 0 4 2"/>
+      <polygonVertex at="2 1 3 0 2 1 0 6 3"/>
+      <polygonVertex at="0 2 1 2 1 3 0 8 4"/>
+      <polygonVertex at="0 4 2 3 -1 3 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 3 4 1 0 1 0 4 2"/>
+      <polygonVertex at="2 1 3 0 2 1 0 6 3"/>
+      <polygonVertex at="0 2 1 2 1 3 0 8 4"/>
+      <polygonVertex at="0 4 2 3 -1 3 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 4 2 3 -1 3 0 6 3" startSegment="2 3 4 1 0 1 0 4 2"/>
+    <SelectManifestation endSegment="2 3 4 1 0 1 0 4 2" startSegment="1 5 4 1 -2 0 0 6 3"/>
+    <SelectManifestation>
+      <polygonVertex at="2 3 4 1 0 1 0 4 2"/>
+      <polygonVertex at="2 1 3 0 2 1 0 6 3"/>
+      <polygonVertex at="0 2 1 2 1 3 0 8 4"/>
+      <polygonVertex at="0 4 2 3 -1 3 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 3 4 1 0 1 0 4 2"/>
+      <polygonVertex at="2 1 3 0 2 1 0 6 3"/>
+      <polygonVertex at="0 2 1 2 1 3 0 8 4"/>
+      <polygonVertex at="0 4 2 3 -1 3 0 6 3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 3 3 0 0 0 0 8 4" startSegment="1 3 3 0 -2 -1 0 6 3"/>
+    <SelectManifestation endSegment="1 3 3 0 -2 -1 0 6 3" startSegment="2 1 3 -2 -1 -3 0 8 4"/>
+    <SelectManifestation endSegment="1 3 3 0 -2 -1 0 6 3" startSegment="0 5 3 0 -4 -2 0 4 2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="2 1 3 0 2 1 0 -6 -3"/>
+      <polygonVertex at="1 3 3 0 0 0 0 -8 -4"/>
+      <polygonVertex at="-1 4 1 2 -1 2 0 -10 -5"/>
+      <polygonVertex at="0 2 1 2 1 3 0 -8 -4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="2 1 3 0 2 1 0 -6 -3" startSegment="1 3 3 0 0 0 0 -8 -4"/>
+    <SelectManifestation endSegment="2 1 3 0 4 2 0 -4 -2" startSegment="2 1 3 0 2 1 0 -6 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 0 -8 -4" startSegment="2 1 3 0 2 1 0 -6 -3"/>
+    <SelectManifestation endSegment="2 1 3 0 2 1 0 -6 -3" startSegment="1 3 3 0 0 0 0 -8 -4"/>
+    <SelectManifestation endSegment="2 1 3 0 4 2 0 -4 -2" startSegment="2 1 3 0 2 1 0 -6 -3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-4 0 -5 4 0 5 0 0 0"/>
+      <polygonVertex at="-2 -1 -3 3 2 5 0 -2 -1"/>
+      <polygonVertex at="-2 -1 -3 3 4 6 0 0 0"/>
+      <polygonVertex at="-4 0 -5 4 2 6 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-4 0 -5 4 0 5 0 0 0" startSegment="-2 -1 -3 3 2 5 0 -2 -1"/>
+    <SelectManifestation endSegment="-2 -3 -4 3 2 5 0 -4 -2" startSegment="-2 -1 -3 3 2 5 0 -2 -1"/>
+    <SelectManifestation endSegment="-2 -1 -3 3 2 5 0 -2 -1" startSegment="-2 -1 -3 3 4 6 0 0 0"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4 -2 -6 4 0 5 0 -2 -1" startSegment="-4 0 -5 4 0 5 0 0 0"/>
+    <SelectManifestation endSegment="-4 -2 -6 4 0 5 0 -2 -1" startSegment="-3 -4 -6 2 1 3 0 0 0"/>
+    <SelectManifestation endSegment="-4 -2 -6 4 2 6 0 0 0" startSegment="-4 -2 -6 4 0 5 0 -2 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -2 -5 2 1 3 0 2 1" startSegment="-3 -2 -5 2 -1 2 0 4 2"/>
+    <SelectManifestation endSegment="-3 -4 -6 2 1 3 0 0 0" startSegment="-3 -2 -5 2 1 3 0 2 1"/>
+    <SelectManifestation endSegment="-3 -2 -5 2 1 3 0 2 1" startSegment="-3 -2 -5 2 3 4 0 4 2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4 0 -5 2 -3 1 0 6 3" startSegment="-3 -2 -5 2 -1 2 0 4 2"/>
+    <SelectManifestation endSegment="-3 -2 -5 2 -1 2 0 4 2" startSegment="-3 -4 -6 2 -1 2 0 2 1"/>
+    <SelectManifestation endSegment="-3 -2 -5 2 -1 2 0 4 2" startSegment="-3 -2 -5 2 1 3 0 6 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4 -2 -6 2 -3 1 0 4 2" startSegment="-4 0 -5 2 -3 1 0 6 3"/>
+    <SelectManifestation endSegment="-4 0 -5 2 -3 1 0 6 3" startSegment="-4 0 -5 2 -1 2 0 8 4"/>
+    <SelectManifestation endSegment="-4 0 -5 2 -3 1 0 6 3" startSegment="-2 -1 -3 0 -2 -1 0 8 4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 -2 -1 0 8 4"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 0 10 5"/>
+      <polygonVertex at="-2 -1 -3 1 -4 -1 0 8 4"/>
+      <polygonVertex at="-2 -3 -4 0 -2 -1 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 -1 -3 0 -2 -1 0 8 4"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 0 10 5"/>
+      <polygonVertex at="-2 -1 -3 1 -4 -1 0 8 4"/>
+      <polygonVertex at="-2 -3 -4 0 -2 -1 0 6 3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-2 1 -2 1 -4 -1 0 10 5" startSegment="-2 -1 -3 0 -2 -1 0 8 4"/>
+    <SelectManifestation endSegment="-2 -1 -3 0 -2 -1 0 8 4" startSegment="-2 -1 -3 0 0 0 0 10 5"/>
+    <SelectManifestation endSegment="-2 -3 -4 0 -2 -1 0 6 3" startSegment="-2 -1 -3 0 -2 -1 0 8 4"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 -1 2 -2 1 -2 0 12 6" startSegment="2 -1 2 -2 -1 -3 0 10 5"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 0 10 5" startSegment="1 1 2 -2 -3 -4 0 8 4"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 0 10 5" startSegment="0 0 0 0 -2 -1 0 12 6"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 -3 2 -4 0 -5 0 8 4" startSegment="2 -1 2 -2 -1 -3 0 10 5"/>
+    <SelectManifestation endSegment="3 -3 2 -4 0 -5 0 8 4" startSegment="1 -2 0 -2 -1 -3 0 10 5"/>
+    <SelectManifestation endSegment="3 -3 2 -4 0 -5 0 8 4" startSegment="2 -1 2 -4 -2 -6 0 6 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 -2 0 -3 -2 -5 0 6 3"/>
+      <polygonVertex at="-1 -1 -2 -1 -3 -3 0 8 4"/>
+      <polygonVertex at="1 -2 0 -2 -1 -3 0 10 5"/>
+      <polygonVertex at="3 -3 2 -4 0 -5 0 8 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 -2 0 -3 -2 -5 0 6 3"/>
+      <polygonVertex at="-1 -1 -2 -1 -3 -3 0 8 4"/>
+      <polygonVertex at="1 -2 0 -2 -1 -3 0 10 5"/>
+      <polygonVertex at="3 -3 2 -4 0 -5 0 8 4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 -2 0 -3 -2 -5 0 6 3" startSegment="3 -3 2 -4 0 -5 0 8 4"/>
+    <SelectManifestation endSegment="1 -2 0 -3 -2 -5 0 6 3" startSegment="-1 -1 -2 -1 -3 -3 0 8 4"/>
+    <SelectManifestation endSegment="1 -2 0 -3 -2 -5 0 6 3" startSegment="0 0 0 -3 -4 -6 0 4 2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -3 -2 -5 0 6 3" startSegment="1 -4 -1 -3 -2 -5 0 4 2"/>
+    <SelectManifestation endSegment="-1 -3 -3 -1 -3 -3 0 6 3" startSegment="1 -4 -1 -3 -2 -5 0 4 2"/>
+    <SelectManifestation endSegment="0 -2 -1 -3 -4 -6 0 2 1" startSegment="1 -4 -1 -3 -2 -5 0 4 2"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -6 -2 -4 0 -5 0 2 1" startSegment="-1 -5 -4 -2 -1 -3 0 0 0"/>
+    <SelectManifestation endSegment="-3 -4 -6 0 -2 -1 0 2 1" startSegment="-1 -5 -4 -2 -1 -3 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 -2 -3 -4 0 -4 -2" startSegment="-1 -3 -3 -2 -1 -3 0 -2 -1"/>
+    <SelectManifestation endSegment="-1 -3 -3 -2 -1 -3 0 -2 -1" startSegment="0 -5 -3 -2 1 -2 0 -4 -2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="1 -2 0 -2 1 -2 0 12 6"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="-2 1 -2 1 -2 0 0 12 6"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="0 -2 -1 0 0 0 0 12 6"/>
+    <SelectManifestation endSegment="0 -2 -1 -1 2 0 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="-2 1 -2 2 -1 2 0 12 6"/>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <SelectManifestation>
+      <polygonVertex at="1 -2 0 0 2 1 0 12 6"/>
+      <polygonVertex at="0 0 0 0 0 0 0 14 7"/>
+      <polygonVertex at="0 0 0 0 2 1 0 12 6"/>
+      <polygonVertex at="1 -2 0 0 4 2 0 10 5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 14 7" startSegment="0 0 0 0 2 1 0 12 6"/>
+    <SelectManifestation endSegment="-1 2 0 2 -1 2 0 12 6" startSegment="0 0 0 0 0 0 0 14 7"/>
+    <EndBlock/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="204,204,204">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="361.00054931640625" far="722.0026245117188" near="0.90250164270401" parallel="true" stereoAngle="0.0" width="162.45030212402344">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.07198193669319153" y="-0.1472550481557846" z="0.9864495992660522"/>
+      <LookDirection x="-0.9966525435447693" y="0.027846841141581535" z="0.07688386738300323"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="heptagonal antiprism corrected" renderingStyle="heptagonal antiprism">
+    <Direction color="255,255,255" name="1041" prototype="2 2 -2 -4 0 2 0 0 0"/>
+    <Direction color="255,255,255" name="1040" prototype="1 0 -1 -1 -1 1 1 0 0"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="1022" prototype="1 0 -1 -1 0 1 0 -1 1"/>
+    <Direction color="255,255,255" name="1044" prototype="2 -2 1 2 -2 1 1 -1 0"/>
+    <Direction color="255,255,255" name="1021" prototype="-2 0 1 2 2 -2 -2 0 1"/>
+    <Direction color="255,255,255" name="1043" prototype="1 -1 0 1 -2 1 1 -1 0"/>
+    <Direction color="255,255,255" name="1020" prototype="1 0 0 -2 -1 2 -2 0 1"/>
+    <Direction color="255,255,255" name="1042" prototype="2 -3 1 2 -2 1 -1 1 -1"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="1012" prototype="-1 1 0 1 1 -1 -1 1 0"/>
+    <Direction color="255,255,255" name="1034" prototype="-1 1 -1 -1 1 0 1 -1 0"/>
+    <Direction color="255,255,255" name="1011" prototype="2 -1 0 1 -1 0 -1 1 0"/>
+    <Direction color="255,255,255" name="1033" prototype="0 0 0 0 -1 0 -1 1 0"/>
+    <Direction color="255,255,255" name="1010" prototype="0 0 0 1 0 0 1 0 0"/>
+    <Direction color="255,255,255" name="1016" prototype="-2 2 0 -1 2 -1 1 0 0"/>
+    <Direction color="255,255,255" name="1038" prototype="1 -1 0 1 -1 0 0 -1 1"/>
+    <Direction color="255,255,255" name="1015" prototype="1 0 0 -1 0 0 1 0 0"/>
+    <Direction color="255,255,255" name="1037" prototype="1 0 0 0 -1 1 0 -1 1"/>
+    <Direction color="255,255,255" name="1014" prototype="-1 -1 1 1 1 -1 -1 1 0"/>
+    <Direction color="255,255,255" name="1036" prototype="0 2 -2 -2 2 0 0 0 0"/>
+    <Direction color="255,255,255" name="1013" prototype="2 -1 0 0 -2 2 -1 1 0"/>
+    <Direction color="255,255,255" name="1035" prototype="1 1 -1 -1 0 0 1 0 0"/>
+    <Direction color="255,255,255" name="1019" prototype="0 1 0 0 1 -1 0 -1 1"/>
+    <Direction color="255,255,255" name="1018" prototype="1 -2 1 1 -1 1 1 0 0"/>
+    <Direction color="255,255,255" name="1017" prototype="1 1 -1 -1 1 0 1 1 -1"/>
+    <Direction color="255,255,255" name="1039" prototype="1 0 0 1 0 0 1 0 0"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="240,160,0" name="yellow"/>
+    </SymmetrySystem>
+    <SymmetrySystem name="heptagonal antiprism" renderingStyle="heptagonal antiprism">
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,0,0" name="red"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
