@@ -22,7 +22,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-07-38-Five-Cube-Systems/Five-Cube-Systems.png" />
 </vzome-viewer>
 
-Here the color coded planes of the 5 cubes are projected out to 30 squares aligned with a Rhobicosidodecahedron.  Within this polyhedron, the 5 cubic systems are at least partially intersecting each other.  From this hull outward, the 5 3-axis systems can emerge from intersection.  
+Here the color coded planes of the 5 cubes are projected out to 30 squares aligned with a Rhombicosidodecahedron.  Within this polyhedron, the 5 cubic systems are at least partially entangled with each other.  From this hull outward, the 5 3-axis systems can emerge from intersection.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-08-46-Rhombicosidodeca/Rhombicosidodeca.vZome" >
@@ -36,7 +36,7 @@ Projecting the 30 squares further out, to align with faces of a Great Rhombicosi
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-39-14-Five-Cube-expansion/Five-Cube-expansion.png" />
 </vzome-viewer>
 
-The Great Rhombicosidodecahedron can be seen as a zonohedron with 15 zones. Its decagon and hexagon faces are dissected into rhombi, following zones. This is shown with edges colored to indicate parallel directions matching the 5 sets that originate as edges of cubes.  
+The Great Rhombicosidodecahedron can be seen as a zonohedron with 15 zones. Its decagon and hexagon faces are dissected into rhombi, following zones. This is shown with edges colored to indicate parallel directions matching the 5 sets that originate as edges of cubes.  There is not only one way to make these dissections.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-40-16-Five-cube-zonohedron/Five-cube-zonohedron.vZome" >
