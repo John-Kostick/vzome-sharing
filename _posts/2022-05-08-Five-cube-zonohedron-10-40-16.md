@@ -1,0 +1,20 @@
+---
+title: Five cube zonohedron
+description: A 3D design created in vZome.  Use your mouse or touch to interact.
+image: https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-40-16-Five-cube-zonohedron/Five-cube-zonohedron.png
+published: false
+layout: vzome
+---
+
+{% comment %}
+ - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2022/05/08/Five-cube-zonohedron-10-40-16.html>)
+ - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/08/10-40-16-Five-cube-zonohedron/>)
+ 
+{% endcomment %}
+
+A 3D design created in vZome.  Use your mouse or touch to interact.
+
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+       src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-40-16-Five-cube-zonohedron/Five-cube-zonohedron.vZome" >
+  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/08/10-40-16-Five-cube-zonohedron/Five-cube-zonohedron.png" />
+</vzome-viewer>
