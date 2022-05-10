@@ -22,7 +22,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/10/18-29-07-Curved-rhombic-dodecahedron-12-gon/Curved-rhombic-dodecahedron-12-gon.png" />
 </vzome-viewer>
 
-Another curved Rhombic Dodecahedron, with 16 directions of edges.  This is built out more, having some features of spirallohedra.  Branches, or arms are compoosed of hexahedra.
+Another curved Rhombic Dodecahedron, with 16 directions of edges.  This is built out more, having some features of spirallohedra.  Branches, or arms are composed of hexahedra.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/10/18-24-49-Curved-RD-2/Curved-RD-2.vZome" >
