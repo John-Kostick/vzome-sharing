@@ -22,7 +22,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/12/12-17-45-three-armed-rhombic-spirallohedron-12-gon/three-armed-rhombic-spirallohedron-12-gon.png" />
 </vzome-viewer>
 
-A three armed spirallohedron with 3 cpies adjacent to it, showing how these pack together to fill space with no gaps.  
+A three armed spirallohedron with 3 copies adjacent to it, showing how these pack together to fill space with no gaps.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/12/12-16-39-three-armed-rhombic-spirallohedra-12-gon/three-armed-rhombic-spirallohedra-12-gon.vZome" >
