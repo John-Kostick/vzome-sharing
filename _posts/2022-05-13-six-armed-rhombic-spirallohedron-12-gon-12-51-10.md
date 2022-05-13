@@ -22,9 +22,9 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/13/12-51-10-six-armed-rhombic-spirallohedron-12-gon/six-armed-rhombic-spirallohedron-12-gon.png" />
 </vzome-viewer>
 
-This shows the unfilled spaces between layers of polyhedra.  
+This shows a sample of the unfilled spaces between layers of polyhedra.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/05/13/12-52-07-six-armed-negative-space-12-gon/six-armed-negative-space-12-gon.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/13/12-52-07-six-armed-negative-space-12-gon/six-armed-negative-space-12-gon.png" />
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/13/14-06-27-six-armed-negative-space-12-gon/six-armed-negative-space-12-gon.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/13/14-06-27-six-armed-negative-space-12-gon/six-armed-negative-space-12-gon.png" />
 </vzome-viewer>
