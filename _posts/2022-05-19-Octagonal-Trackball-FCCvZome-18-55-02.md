@@ -14,20 +14,13 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/>)
  
 {% endcomment %}
-  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. Some polyhedra have vertices in requisite positions to compose arrays, where spheres, indicated by vertices, are close packed.  The first example is this, which has a set of vertices that allow building the FCC pattern. 
+  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. Some polyhedra have vertices in requisite positions to compose arrays, where spheres, indicated by vertices, are close packed.  The first example is this, which has a set of vertices that allow building the FCC pattern. However, it does not have all the vertices needed to compose HCP packing.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/Octagonal-Trackball-FCCvZome.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/Octagonal-Trackball-FCCvZome.png" />
-</vzome-viewer>
-
-However, it does not have all the vertices needed to compose HCP packing.  One can introduce these vertices by reflection, which looks like this.  While interesting, this is not, in my judgement, a particularly elegant or efficient solution.  
-
-<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-57-48-60-gon-field-Trackball-2-mirrored/60-gon-field-Trackball-2-mirrored.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-57-48-60-gon-field-Trackball-2-mirrored/60-gon-field-Trackball-2-mirrored.png" />
 </vzome-viewer>
 
 A study of this Polar Triacontahedron reveals that some of the vertices as well as the centers of some of the faces are all equidistant from the origin, and are in the right positions to represent spheres in close packing arrays.  
