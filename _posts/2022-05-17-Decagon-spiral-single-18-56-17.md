@@ -29,4 +29,4 @@ An array of five armed spiralloheda nested together.  While this array has unfil
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/17/10-45-06-Decagon-spiral/Decagon-spiral.png" />
 </vzome-viewer>
 
-This model is an example of related [Five directional space filling](https://skfb.ly/ouAR7)
+This model is an example of related [Five directional space filling](https://skfb.ly/ouBoX)
