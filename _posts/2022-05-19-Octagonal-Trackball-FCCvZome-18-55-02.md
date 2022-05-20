@@ -30,7 +30,7 @@ Here, Cuboctahedra are sharing vertices to compose an FCC array.  These also lac
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-03-06-FCC-with-cuboctas/FCC-with-cuboctas.png" />
 </vzome-viewer>
 
-Anticuboctahedra can be used ton build HCP arrays,but not FCC.
+Anticuboctahedra can be used to build HCP arrays, but not FCC.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-19-44-HCP-with-anti-cuboctas/HCP-with-anti-cuboctas.vZome" >
@@ -45,7 +45,7 @@ A study of this Polar Triacontahedron reveals that some of the vertices as well 
 </vzome-viewer>
 
 
-We can add chords between these selected points, and build this type of Ortho Birotunda, which has all the points needed. This has the vertices of cuboctahedra and anticuboctahedra.  
+We can add chords between these selected points, and build this type of Ortho Birotunda, which has all the points needed. It has the vertices of both Cuboctahedra and Anticuboctahedra.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/20-18-45-Polar-Triacon-chords-2/Polar-Triacon-chords-2.vZome" >
