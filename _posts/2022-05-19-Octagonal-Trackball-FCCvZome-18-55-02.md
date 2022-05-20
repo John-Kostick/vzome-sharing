@@ -14,7 +14,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/>)
  
 {% endcomment %}
-  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. While many polyhedra have some or all of their vertices on an indicated spherical surface, only some have vertices in requisite positions to compose arrays that represent close packing.  The first example is this, which vZome users will recognisew as Octahedral Symmetry Trackball. It has a set of vertices that allow building the FCC pattern. However, it does not have all the vertices needed to compose HCP packing.
+  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. While many polyhedra have some or all of their vertices on an indicated spherical surface, only some have vertices in requisite positions to compose arrays that represent close packing.  The first example is this, which vZome users will recognise as Octahedral Symmetry Trackball. It has a set of vertices that allow building the FCC pattern. However, it does not have all the vertices needed to compose HCP packing.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -23,7 +23,21 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/Octagonal-Trackball-FCCvZome.png" />
 </vzome-viewer>
 
-A study of this Polar Triacontahedron reveals that some of the vertices as well as the centers of some of the faces are all equidistant from the origin, and are in the right positions to represent spheres in close packing arrays.  
+Here, Cuboctahedra are sharing vertices to compose an FCC array.  These also lack the vertices for HCP.  
+
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-03-06-FCC-with-cuboctas/FCC-with-cuboctas.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-03-06-FCC-with-cuboctas/FCC-with-cuboctas.png" />
+</vzome-viewer>
+
+Anticuboctahedra can be used ton build HCP arrays,but not FCC.
+
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-19-44-HCP-with-anti-cuboctas/HCP-with-anti-cuboctas.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/20/09-19-44-HCP-with-anti-cuboctas/HCP-with-anti-cuboctas.png" />
+</vzome-viewer>
+
+A study of this Polar Triacontahedron reveals that some of the vertices as well as the centers of some of the faces are all equidistant from the origin, and are in the right positions to represent spheres in close packing arrays. 
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/19-01-23-Polar-Triacon-single/Polar-Triacon-single.vZome" >
@@ -31,7 +45,7 @@ A study of this Polar Triacontahedron reveals that some of the vertices as well 
 </vzome-viewer>
 
 
-We can add chords between these selected points, and build this type of Ortho Birotunda, which has all the points needed.  
+We can add chords between these selected points, and build this type of Ortho Birotunda, which has all the points needed. This has the vertices of cuboctahedra and anticuboctahedra.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/20-18-45-Polar-Triacon-chords-2/Polar-Triacon-chords-2.vZome" >
