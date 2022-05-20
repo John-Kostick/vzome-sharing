@@ -2,7 +2,7 @@
 title: Packing of Spheres With Polyhedra
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/Octagonal-Trackball-FCCvZome.png
-published: false
+published: true
 layout: vzome
 description:
   Close packing of spheres represented by polyhedra.  
@@ -41,10 +41,9 @@ A study of this Polar Triacontahedron reveals that some of the vertices as well 
 We can add chords between these selected points, and build this Hexagonal Birotunda, which has all the points needed.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/19-04-16-Polar-Triacon-chords/Polar-Triacon-chords.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/19-04-16-Polar-Triacon-chords/Polar-Triacon-chords.png" />
+      src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/20-18-45-Polar-Triacon-chords-2/Polar-Triacon-chords-2.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/20-18-45-Polar-Triacon-chords-2/Polar-Triacon-chords-2.png" />
 </vzome-viewer>
-
 These polyhedra can compose FCC arrays.  Polar caps are added as open frames, just to enhance the spherical forms.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
