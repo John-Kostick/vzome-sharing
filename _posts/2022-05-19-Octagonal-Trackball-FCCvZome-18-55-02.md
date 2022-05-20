@@ -14,7 +14,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/19/18-55-02-Octagonal-Trackball-FCCvZome/>)
  
 {% endcomment %}
-  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. Some polyhedra have vertices in requisite positions to compose arrays, where spheres, indicated by vertices, are close packed.  The first example is this, which has a set of vertices that allow building the FCC pattern. However, it does not have all the vertices needed to compose HCP packing.
+  [Close packing of spheres](https://en.wikipedia.org/wiki/Close-packing_of_equal_spheres) represented by polyhedra. While many polyhedra have some or all of their vertices on an indicated spherical surface, only some have vertices in requisite positions to compose arrays that represent close packing.  The first example is this, which vZome users will recognisew as Octahedral Symmetry Trackball. It has a set of vertices that allow building the FCC pattern. However, it does not have all the vertices needed to compose HCP packing.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -31,7 +31,7 @@ A study of this Polar Triacontahedron reveals that some of the vertices as well 
 </vzome-viewer>
 
 
-We can add chords between these selected points, and build this Hexagonal Birotunda, which has all the points needed.  
+We can add chords between these selected points, and build this type of Ortho Birotunda, which has all the points needed.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/19/20-18-45-Polar-Triacon-chords-2/Polar-Triacon-chords-2.vZome" >
