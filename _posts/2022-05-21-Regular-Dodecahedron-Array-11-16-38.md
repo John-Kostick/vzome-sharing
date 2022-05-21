@@ -2,7 +2,7 @@
 title: Regular Dodecahedron Arrays
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/21/11-16-38-Regular-Dodecahedron-Array/Regular-Dodecahedron-Array.png
-published: false
+published: true
 layout: vzome
 description:
   An array of regular pentagonal Dodecahedra.
@@ -52,14 +52,14 @@ This shows how a concave dodecahedron fits between 6 convex ones, in the positio
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-52-29-Dodeca-array-2/Dodeca-array-2.png" />
 </vzome-viewer>
 
-Another kind of array is this, where the Pentagonal Dodecahedra have in common with Rhombic Dodecahedra a Cubic grid.  Both kinds of dodecahedra are truncatted into 6 blocks around a cube, which are placed sharing a common square face.  One block of each type is shown pulled out from its position in the grid, revealing how the blocks fit together.  Note that there are concave dodecahedra in the centers of the cubes where 6 of the blocks cut from pentagonal dodecahedra converge.  
+Another kind of array is this, where the Pentagonal Dodecahedra have in common with Rhombic Dodecahedra a Cubic grid.  Both kinds of dodecahedra are truncated into 6 blocks around a cube, which are placed sharing a common square face, paired with one of the other type.  One paired block of each type is shown pulled out from its position in the grid, revealing how the blocks fit together.  Note that there are concave dodecahedral spaces in the centers of the cubes where 6 of the blocks cut from pentagonal dodecahedra converge.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-56-28-Double-dodeca-2/Double-dodeca-2.vZome" >
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-56-28-Double-dodeca-2/Double-dodeca-2.png" />
 </vzome-viewer>
 
-This shows two kinds of "nets" which, if constructed with some hinging system, allows the whole configuration to fold into one or the other of the two kinds of Dodecahedron, as shown.  This displays an inversion. This has been done successfully with cubenets of 6 squares made of some durable material such as Tyvek sandwiched in between the blocks to serve as hinges.  It is also possible to make the pairs of blocks with magnets imbedded so the whole assembly can be taken apart and inverted, one paired block at a time.
+This shows two kinds of "nets" which, if constructed with some hinging system, allows the whole configuration to fold into one or the other of the two kinds of Dodecahedron, as shown.  This displays a kind of inversion. This has been done successfully with cubenets of 6 squares made of some durable material such as Tyvek, sandwiched in between the blocks to serve as hinges.  It is also possible to make the pairs of blocks with magnets imbedded so the whole assembly can be taken apart and inverted, one paired block at a time. Having multiple sets of blocks like this allows building larger arrays.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-57-49-Nets/Nets.vZome" >
