@@ -1,9 +1,13 @@
 ---
-title: Regular Dodecahedron Array
+title: Regular Dodecahedron Arrays
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/21/11-16-38-Regular-Dodecahedron-Array/Regular-Dodecahedron-Array.png
 published: false
 layout: vzome
+description:
+  An array of regular pentagonal Dodecahedra.
+  
+  
 ---
 
 {% comment %}
@@ -11,6 +15,7 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/05/21/11-16-38-Regular-Dodecahedron-Array/>)
  
 {% endcomment %}
+  An array of regular pentagonal Dodecahedra in Icosahedral symmetry. Twelve units surround an Icosidodecahedron, sharing edges with adjacent units.  
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
