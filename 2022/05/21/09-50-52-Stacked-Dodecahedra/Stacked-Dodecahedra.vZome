@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="76" field="golden" version="7.0">
+  <EditHistory editNumber="88" lastStickyEdit="83">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="5" len="1 1"/>
+    <SelectManifestation point="1 2 -1 -2 1 2"/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 1 1 2 3"/>
+    <SelectManifestation point="0 0 -1 -1 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="1 2 1 2 1 2" index="39" len="2 4"/>
+    <SelectManifestation endSegment="0 0 -1 -1 2 3" startSegment="1 2 1 2 1 2"/>
+    <Delete/>
+    <StrutCreation anchor="1 2 1 2 1 2" index="39" len="2 2"/>
+    <StrutCreation anchor="1 2 -1 -2 1 2" index="51" len="2 2"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 1 0 0 1 3" startSegment="1 2 -1 -2 1 2"/>
+    <SelectManifestation point="0 1 0 0 1 3"/>
+    <SelectManifestation endSegment="0 1 0 0 1 3" startSegment="1 2 1 2 1 2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 2 -1 -2 1 2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 1 1 2 3"/>
+    <SelectManifestation point="1 2 1 2 1 2"/>
+    <SelectManifestation point="2 3 0 0 1 1"/>
+    <SelectManifestation point="1 2 -1 -2 1 2"/>
+    <SelectManifestation point="0 0 -1 -1 2 3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <BookmarkTool name="tool-0"/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 0 0 1 1"/>
+    <SelectManifestation point="-2 -3 0 0 1 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 1 2 3 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 0 0 1 1"/>
+    <SelectManifestation point="-2 -3 0 0 1 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 1 0 0 -1 -3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ -2, -2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 1, 0, 1 ], [ 0, -1, 1 ], [ -1, -1, 1 ] ], [ [ 1, 0, 1 ], [ 0, 1, 1 ], [ -1, -1, 1 ] ], [ [ 1, 1, 1 ], [ -1, -2, 1 ], [ -2, -3, 1 ] ], [ [ 1, 1, 1 ], [ -1, -2, 1 ], [ 0, 1, 1 ] ], [ [ 1, 1, 1 ], [ 1, 2, 1 ], [ -2, -3, 1 ] ], [ [ 1, 1, 1 ], [ 1, 2, 1 ], [ 0, 1, 1 ] ], [ [ 1, 2, 1 ], [ -2, -3, 1 ], [ -1, -1, 1 ] ], [ [ 1, 2, 1 ], [ 2, 3, 1 ], [ -1, -1, 1 ] ], [ [ 2, 2, 1 ], [ 0, 0, 1 ], [ -2, -4, 1 ] ], [ [ 2, 2, 1 ], [ 0, 0, 1 ], [ 0, 2, 1 ] ], [ [ 2, 3, 1 ], [ -1, -3, 1 ], [ -1, -2, 1 ] ], [ [ 2, 3, 1 ], [ -1, -3, 1 ], [ -1, 0, 1 ] ], [ [ 2, 3, 1 ], [ -1, -1, 1 ], [ -3, -4, 1 ] ], [ [ 2, 3, 1 ], [ -1, -1, 1 ], [ 1, 2, 1 ] ], [ [ 2, 3, 1 ], [ 0, 0, 1 ], [ -1, -1, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ -3, -4, 1 ] ], [ [ 2, 3, 1 ], [ 1, 1, 1 ], [ 1, 2, 1 ] ], [ [ 2, 3, 1 ], [ 1, 3, 1 ], [ -1, -2, 1 ] ], [ [ 2, 3, 1 ], [ 1, 3, 1 ], [ -1, 0, 1 ] ], [ [ 2, 4, 1 ], [ 0, 0, 1 ], [ -2, -4, 1 ] ], [ [ 2, 4, 1 ], [ 0, 0, 1 ], [ 0, 2, 1 ] ], [ [ 3, 4, 1 ], [ -2, -3, 1 ], [ -1, -1, 1 ] ], [ [ 3, 4, 1 ], [ 2, 3, 1 ], [ -1, -1, 1 ] ], [ [ 3, 5, 1 ], [ -1, -2, 1 ], [ -2, -3, 1 ] ], [ [ 3, 5, 1 ], [ -1, -2, 1 ], [ 0, 1, 1 ] ], [ [ 3, 5, 1 ], [ 1, 2, 1 ], [ -2, -3, 1 ] ], [ [ 3, 5, 1 ], [ 1, 2, 1 ], [ 0, 1, 1 ] ], [ [ 3, 6, 1 ], [ 0, -1, 1 ], [ -1, -1, 1 ] ], [ [ 3, 6, 1 ], [ 0, 1, 1 ], [ -1, -1, 1 ] ], [ [ 4, 6, 1 ], [ 0, 0, 1 ], [ -2, -2, 1 ] ], [ [ 4, 6, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 24,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 16,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 26,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 27,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 25,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 17,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 23,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 31,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 18,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 32,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 28,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 22,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 21,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 20,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 30,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 29,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 19,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 18, 15 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 32, 31 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 24, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 26, 23 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 27, 17 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 25, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 17, 6 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 23, 25 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 7 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 26 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 31, 27 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 14, 17 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 23, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 27, 24 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 28, 18 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 24, 28 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 32, 26 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 25, 31 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 32, 28 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 18, 7 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 28, 22 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 26, 22 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 27, 21 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 20 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 27, 30 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 26, 29 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 26, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 27, 19 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 3 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 25, 21 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 28, 20 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 25, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 28, 30 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 25, 29 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 19 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 3 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ {
+    "vertices" : [ 18, 28, 32, 26, 15 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 32, 28, 24, 27, 31 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 24, 28, 18, 7, 9 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 26, 32, 31, 25, 23 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 27, 24, 9, 6, 17 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 7, 18, 15, 5, 1 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 25, 31, 27, 17, 14 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 6, 9, 7, 1, 0 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 5, 15, 26, 23, 8 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 23, 25, 14, 4, 8 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 4, 14, 17, 6, 0 ],
+    "color" : "#D77F7F"
+  }, {
+    "vertices" : [ 5, 8, 4, 0, 1 ],
+    "color" : "#D77F7F"
+  } ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 3 6 3 6"/>
+    <SelectManifestation point="1 2 3 6 3 6"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -6 1 2 3 6"/>
+    <SelectManifestation point="-1 -2 3 6 3 6"/>
+    <SelectManifestation point="-3 -6 3 6 1 2"/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Branch>
+      <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -6, -9, 1 ], [ -6, -9, 1 ], [ -6, -9, 1 ] ], [ [ -6, -9, 1 ], [ -6, -9, 1 ], [ -2, -3, 1 ] ], [ [ -6, -9, 1 ], [ -6, -9, 1 ], [ 2, 3, 1 ] ], [ [ -6, -9, 1 ], [ -6, -9, 1 ], [ 6, 9, 1 ] ], [ [ -6, -9, 1 ], [ -2, -3, 1 ], [ -6, -9, 1 ] ], [ [ -6, -9, 1 ], [ -2, -3, 1 ], [ -2, -3, 1 ] ], [ [ -6, -9, 1 ], [ -2, -3, 1 ], [ 2, 3, 1 ] ], [ [ -6, -9, 1 ], [ -2, -3, 1 ], [ 6, 9, 1 ] ], [ [ -6, -9, 1 ], [ 2, 3, 1 ], [ -6, -9, 1 ] ], [ [ -6, -9, 1 ], [ 2, 3, 1 ], [ -2, -3, 1 ] ], [ [ -6, -9, 1 ], [ 2, 3, 1 ], [ 2, 3, 1 ] ], [ [ -6, -9, 1 ], [ 2, 3, 1 ], [ 6, 9, 1 ] ], [ [ -6, -9, 1 ], [ 6, 9, 1 ], [ -6, -9, 1 ] ], [ [ -6, -9, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ -6, -9, 1 ], [ 6, 9, 1 ], [ 2, 3, 1 ] ], [ [ -6, -9, 1 ], [ 6, 9, 1 ], [ 6, 9, 1 ] ], [ [ -5, -8, 1 ], [ -5, -7, 1 ], [ -4, -6, 1 ] ], [ [ -5, -8, 1 ], [ -5, -7, 1 ], [ 4, 6, 1 ] ], [ [ -5, -8, 1 ], [ -3, -5, 1 ], [ -4, -6, 1 ] ], [ [ -5, -8, 1 ], [ -3, -5, 1 ], [ 4, 6, 1 ] ], [ [ -5, -8, 1 ], [ -1, -1, 1 ], [ 0, 0, 1 ] ], [ [ -5, -8, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ], [ [ -5, -8, 1 ], [ 3, 5, 1 ], [ -4, -6, 1 ] ], [ [ -5, -8, 1 ], [ 3, 5, 1 ], [ 4, 6, 1 ] ], [ [ -5, -8, 1 ], [ 5, 7, 1 ], [ -4, -6, 1 ] ], [ [ -5, -8, 1 ], [ 5, 7, 1 ], [ 4, 6, 1 ] ], [ [ -5, -7, 1 ], [ -4, -6, 1 ], [ -5, -8, 1 ] ], [ [ -5, -7, 1 ], [ -4, -6, 1 ], [ -3, -4, 1 ] ], [ [ -5, -7, 1 ], [ -4, -6, 1 ], [ 3, 4, 1 ] ], [ [ -5, -7, 1 ], [ -4, -6, 1 ], [ 5, 8, 1 ] ], [ [ -5, -7, 1 ], [ 0, 0, 1 ], [ -1, -2, 1 ] ], [ [ -5, -7, 1 ], [ 0, 0, 1 ], [ 1, 2, 1 ] ], [ [ -5, -7, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ -5, -7, 1 ], [ 4, 6, 1 ], [ -3, -4, 1 ] ], [ [ -5, -7, 1 ], [ 4, 6, 1 ], [ 3, 4, 1 ] ], [ [ -5, -7, 1 ], [ 4, 6, 1 ], [ 5, 8, 1 ] ], [ [ -4, -6, 1 ], [ -5, -8, 1 ], [ -5, -7, 1 ] ], [ [ -4, -6, 1 ], [ -5, -8, 1 ], [ -3, -5, 1 ] ], [ [ -4, -6, 1 ], [ -5, -8, 1 ], [ 3, 5, 1 ] ], [ [ -4, -6, 1 ], [ -5, -8, 1 ], [ 5, 7, 1 ] ], [ [ -4, -6, 1 ], [ -3, -4, 1 ], [ -5, -7, 1 ] ], [ [ -4, -6, 1 ], [ -3, -4, 1 ], [ -3, -5, 1 ] ], [ [ -4, -6, 1 ], [ -3, -4, 1 ], [ 3, 5, 1 ] ], [ [ -4, -6, 1 ], [ -3, -4, 1 ], [ 5, 7, 1 ] ], [ [ -4, -6, 1 ], [ -1, -2, 1 ], [ -1, -1, 1 ] ], [ [ -4, -6, 1 ], [ -1, -2, 1 ], [ 1, 1, 1 ] ], [ [ -4, -6, 1 ], [ 1, 2, 1 ], [ -1, -1, 1 ] ], [ [ -4, -6, 1 ], [ 1, 2, 1 ], [ 1, 1, 1 ] ], [ [ -4, -6, 1 ], [ 3, 4, 1 ], [ -5, -7, 1 ] ], [ [ -4, -6, 1 ], [ 3, 4, 1 ], [ -3, -5, 1 ] ], [ [ -4, -6, 1 ], [ 3, 4, 1 ], [ 3, 5, 1 ] ], [ [ -4, -6, 1 ], [ 3, 4, 1 ], [ 5, 7, 1 ] ], [ [ -4, -6, 1 ], [ 5, 8, 1 ], [ -5, -7, 1 ] ], [ [ -4, -6, 1 ], [ 5, 8, 1 ], [ -3, -5, 1 ] ], [ [ -4, -6, 1 ], [ 5, 8, 1 ], [ 3, 5, 1 ] ], [ [ -4, -6, 1 ], [ 5, 8, 1 ], [ 5, 7, 1 ] ], [ [ -3, -5, 1 ], [ -4, -6, 1 ], [ -5, -8, 1 ] ], [ [ -3, -5, 1 ], [ -4, -6, 1 ], [ -3, -4, 1 ] ], [ [ -3, -5, 1 ], [ -4, -6, 1 ], [ 3, 4, 1 ] ], [ [ -3, -5, 1 ], [ -4, -6, 1 ], [ 5, 8, 1 ] ], [ [ -3, -5, 1 ], [ 0, 0, 1 ], [ -1, -2, 1 ] ], [ [ -3, -5, 1 ], [ 0, 0, 1 ], [ 1, 2, 1 ] ], [ [ -3, -5, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ -3, -5, 1 ], [ 4, 6, 1 ], [ -3, -4, 1 ] ], [ [ -3, -5, 1 ], [ 4, 6, 1 ], [ 3, 4, 1 ] ], [ [ -3, -5, 1 ], [ 4, 6, 1 ], [ 5, 8, 1 ] ], [ [ -3, -4, 1 ], [ -5, -7, 1 ], [ -4, -6, 1 ] ], [ [ -3, -4, 1 ], [ -5, -7, 1 ], [ 4, 6, 1 ] ], [ [ -3, -4, 1 ], [ -3, -5, 1 ], [ -4, -6, 1 ] ], [ [ -3, -4, 1 ], [ -3, -5, 1 ], [ 4, 6, 1 ] ], [ [ -3, -4, 1 ], [ -1, -1, 1 ], [ 0, 0, 1 ] ], [ [ -3, -4, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ], [ [ -3, -4, 1 ], [ 3, 5, 1 ], [ -4, -6, 1 ] ], [ [ -3, -4, 1 ], [ 3, 5, 1 ], [ 4, 6, 1 ] ], [ [ -3, -4, 1 ], [ 5, 7, 1 ], [ -4, -6, 1 ] ], [ [ -3, -4, 1 ], [ 5, 7, 1 ], [ 4, 6, 1 ] ], [ [ -2, -3, 1 ], [ -6, -9, 1 ], [ -6, -9, 1 ] ], [ [ -2, -3, 1 ], [ -6, -9, 1 ], [ -2, -3, 1 ] ], [ [ -2, -3, 1 ], [ -6, -9, 1 ], [ 2, 3, 1 ] ], [ [ -2, -3, 1 ], [ -6, -9, 1 ], [ 6, 9, 1 ] ], [ [ -2, -3, 1 ], [ -2, -3, 1 ], [ -6, -9, 1 ] ], [ [ -2, -3, 1 ], [ -2, -3, 1 ], [ -2, -3, 1 ] ], [ [ -2, -3, 1 ], [ -2, -3, 1 ], [ 2, 3, 1 ] ], [ [ -2, -3, 1 ], [ -2, -3, 1 ], [ 6, 9, 1 ] ], [ [ -2, -3, 1 ], [ 2, 3, 1 ], [ -6, -9, 1 ] ], [ [ -2, -3, 1 ], [ 2, 3, 1 ], [ -2, -3, 1 ] ], [ [ -2, -3, 1 ], [ 2, 3, 1 ], [ 2, 3, 1 ] ], [ [ -2, -3, 1 ], [ 2, 3, 1 ], [ 6, 9, 1 ] ], [ [ -2, -3, 1 ], [ 6, 9, 1 ], [ -6, -9, 1 ] ], [ [ -2, -3, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ -2, -3, 1 ], [ 6, 9, 1 ], [ 2, 3, 1 ] ], [ [ -2, -3, 1 ], [ 6, 9, 1 ], [ 6, 9, 1 ] ], [ [ -1, -2, 1 ], [ -5, -7, 1 ], [ 0, 0, 1 ] ], [ [ -1, -2, 1 ], [ -3, -5, 1 ], [ 0, 0, 1 ] ], [ [ -1, -2, 1 ], [ -1, -1, 1 ], [ -4, -6, 1 ] ], [ [ -1, -2, 1 ], [ -1, -1, 1 ], [ 4, 6, 1 ] ], [ [ -1, -2, 1 ], [ 1, 1, 1 ], [ -4, -6, 1 ] ], [ [ -1, -2, 1 ], [ 1, 1, 1 ], [ 4, 6, 1 ] ], [ [ -1, -2, 1 ], [ 3, 5, 1 ], [ 0, 0, 1 ] ], [ [ -1, -2, 1 ], [ 5, 7, 1 ], [ 0, 0, 1 ] ], [ [ -1, -1, 1 ], [ -4, -6, 1 ], [ -1, -2, 1 ] ], [ [ -1, -1, 1 ], [ -4, -6, 1 ], [ 1, 2, 1 ] ], [ [ -1, -1, 1 ], [ 0, 0, 1 ], [ -5, -8, 1 ] ], [ [ -1, -1, 1 ], [ 0, 0, 1 ], [ -3, -4, 1 ] ], [ [ -1, -1, 1 ], [ 0, 0, 1 ], [ 3, 4, 1 ] ], [ [ -1, -1, 1 ], [ 0, 0, 1 ], [ 5, 8, 1 ] ], [ [ -1, -1, 1 ], [ 4, 6, 1 ], [ -1, -2, 1 ] ], [ [ -1, -1, 1 ], [ 4, 6, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ -5, -8, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ -5, -8, 1 ], [ 1, 1, 1 ] ], [ [ 0, 0, 1 ], [ -3, -4, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ -3, -4, 1 ], [ 1, 1, 1 ] ], [ [ 0, 0, 1 ], [ -1, -2, 1 ], [ -5, -7, 1 ] ], [ [ 0, 0, 1 ], [ -1, -2, 1 ], [ -3, -5, 1 ] ], [ [ 0, 0, 1 ], [ -1, -2, 1 ], [ 3, 5, 1 ] ], [ [ 0, 0, 1 ], [ -1, -2, 1 ], [ 5, 7, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 1, 2, 1 ], [ -5, -7, 1 ] ], [ [ 0, 0, 1 ], [ 1, 2, 1 ], [ -3, -5, 1 ] ], [ [ 0, 0, 1 ], [ 1, 2, 1 ], [ 3, 5, 1 ] ], [ [ 0, 0, 1 ], [ 1, 2, 1 ], [ 5, 7, 1 ] ], [ [ 0, 0, 1 ], [ 3, 4, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ 3, 4, 1 ], [ 1, 1, 1 ] ], [ [ 0, 0, 1 ], [ 5, 8, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ 5, 8, 1 ], [ 1, 1, 1 ] ], [ [ 1, 1, 1 ], [ -4, -6, 1 ], [ -1, -2, 1 ] ], [ [ 1, 1, 1 ], [ -4, -6, 1 ], [ 1, 2, 1 ] ], [ [ 1, 1, 1 ], [ 0, 0, 1 ], [ -5, -8, 1 ] ], [ [ 1, 1, 1 ], [ 0, 0, 1 ], [ -3, -4, 1 ] ], [ [ 1, 1, 1 ], [ 0, 0, 1 ], [ 3, 4, 1 ] ], [ [ 1, 1, 1 ], [ 0, 0, 1 ], [ 5, 8, 1 ] ], [ [ 1, 1, 1 ], [ 4, 6, 1 ], [ -1, -2, 1 ] ], [ [ 1, 1, 1 ], [ 4, 6, 1 ], [ 1, 2, 1 ] ], [ [ 1, 2, 1 ], [ -5, -7, 1 ], [ 0, 0, 1 ] ], [ [ 1, 2, 1 ], [ -3, -5, 1 ], [ 0, 0, 1 ] ], [ [ 1, 2, 1 ], [ -1, -1, 1 ], [ -4, -6, 1 ] ], [ [ 1, 2, 1 ], [ -1, -1, 1 ], [ 4, 6, 1 ] ], [ [ 1, 2, 1 ], [ 1, 1, 1 ], [ -4, -6, 1 ] ], [ [ 1, 2, 1 ], [ 1, 1, 1 ], [ 4, 6, 1 ] ], [ [ 1, 2, 1 ], [ 3, 5, 1 ], [ 0, 0, 1 ] ], [ [ 1, 2, 1 ], [ 5, 7, 1 ], [ 0, 0, 1 ] ], [ [ 2, 3, 1 ], [ -6, -9, 1 ], [ -6, -9, 1 ] ], [ [ 2, 3, 1 ], [ -6, -9, 1 ], [ -2, -3, 1 ] ], [ [ 2, 3, 1 ], [ -6, -9, 1 ], [ 2, 3, 1 ] ], [ [ 2, 3, 1 ], [ -6, -9, 1 ], [ 6, 9, 1 ] ], [ [ 2, 3, 1 ], [ -2, -3, 1 ], [ -6, -9, 1 ] ], [ [ 2, 3, 1 ], [ -2, -3, 1 ], [ -2, -3, 1 ] ], [ [ 2, 3, 1 ], [ -2, -3, 1 ], [ 2, 3, 1 ] ], [ [ 2, 3, 1 ], [ -2, -3, 1 ], [ 6, 9, 1 ] ], [ [ 2, 3, 1 ], [ 2, 3, 1 ], [ -6, -9, 1 ] ], [ [ 2, 3, 1 ], [ 2, 3, 1 ], [ -2, -3, 1 ] ], [ [ 2, 3, 1 ], [ 2, 3, 1 ], [ 2, 3, 1 ] ], [ [ 2, 3, 1 ], [ 2, 3, 1 ], [ 6, 9, 1 ] ], [ [ 2, 3, 1 ], [ 6, 9, 1 ], [ -6, -9, 1 ] ], [ [ 2, 3, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ 2, 3, 1 ], [ 6, 9, 1 ], [ 2, 3, 1 ] ], [ [ 2, 3, 1 ], [ 6, 9, 1 ], [ 6, 9, 1 ] ], [ [ 3, 4, 1 ], [ -5, -7, 1 ], [ -4, -6, 1 ] ], [ [ 3, 4, 1 ], [ -5, -7, 1 ], [ 4, 6, 1 ] ], [ [ 3, 4, 1 ], [ -3, -5, 1 ], [ -4, -6, 1 ] ], [ [ 3, 4, 1 ], [ -3, -5, 1 ], [ 4, 6, 1 ] ], [ [ 3, 4, 1 ], [ -1, -1, 1 ], [ 0, 0, 1 ] ], [ [ 3, 4, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ], [ [ 3, 4, 1 ], [ 3, 5, 1 ], [ -4, -6, 1 ] ], [ [ 3, 4, 1 ], [ 3, 5, 1 ], [ 4, 6, 1 ] ], [ [ 3, 4, 1 ], [ 5, 7, 1 ], [ -4, -6, 1 ] ], [ [ 3, 4, 1 ], [ 5, 7, 1 ], [ 4, 6, 1 ] ], [ [ 3, 5, 1 ], [ -4, -6, 1 ], [ -5, -8, 1 ] ], [ [ 3, 5, 1 ], [ -4, -6, 1 ], [ -3, -4, 1 ] ], [ [ 3, 5, 1 ], [ -4, -6, 1 ], [ 3, 4, 1 ] ], [ [ 3, 5, 1 ], [ -4, -6, 1 ], [ 5, 8, 1 ] ], [ [ 3, 5, 1 ], [ 0, 0, 1 ], [ -1, -2, 1 ] ], [ [ 3, 5, 1 ], [ 0, 0, 1 ], [ 1, 2, 1 ] ], [ [ 3, 5, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ 3, 5, 1 ], [ 4, 6, 1 ], [ -3, -4, 1 ] ], [ [ 3, 5, 1 ], [ 4, 6, 1 ], [ 3, 4, 1 ] ], [ [ 3, 5, 1 ], [ 4, 6, 1 ], [ 5, 8, 1 ] ], [ [ 4, 6, 1 ], [ -5, -8, 1 ], [ -5, -7, 1 ] ], [ [ 4, 6, 1 ], [ -5, -8, 1 ], [ -3, -5, 1 ] ], [ [ 4, 6, 1 ], [ -5, -8, 1 ], [ 3, 5, 1 ] ], [ [ 4, 6, 1 ], [ -5, -8, 1 ], [ 5, 7, 1 ] ], [ [ 4, 6, 1 ], [ -3, -4, 1 ], [ -5, -7, 1 ] ], [ [ 4, 6, 1 ], [ -3, -4, 1 ], [ -3, -5, 1 ] ], [ [ 4, 6, 1 ], [ -3, -4, 1 ], [ 3, 5, 1 ] ], [ [ 4, 6, 1 ], [ -3, -4, 1 ], [ 5, 7, 1 ] ], [ [ 4, 6, 1 ], [ -1, -2, 1 ], [ -1, -1, 1 ] ], [ [ 4, 6, 1 ], [ -1, -2, 1 ], [ 1, 1, 1 ] ], [ [ 4, 6, 1 ], [ 1, 2, 1 ], [ -1, -1, 1 ] ], [ [ 4, 6, 1 ], [ 1, 2, 1 ], [ 1, 1, 1 ] ], [ [ 4, 6, 1 ], [ 3, 4, 1 ], [ -5, -7, 1 ] ], [ [ 4, 6, 1 ], [ 3, 4, 1 ], [ -3, -5, 1 ] ], [ [ 4, 6, 1 ], [ 3, 4, 1 ], [ 3, 5, 1 ] ], [ [ 4, 6, 1 ], [ 3, 4, 1 ], [ 5, 7, 1 ] ], [ [ 4, 6, 1 ], [ 5, 8, 1 ], [ -5, -7, 1 ] ], [ [ 4, 6, 1 ], [ 5, 8, 1 ], [ -3, -5, 1 ] ], [ [ 4, 6, 1 ], [ 5, 8, 1 ], [ 3, 5, 1 ] ], [ [ 4, 6, 1 ], [ 5, 8, 1 ], [ 5, 7, 1 ] ], [ [ 5, 7, 1 ], [ -4, -6, 1 ], [ -5, -8, 1 ] ], [ [ 5, 7, 1 ], [ -4, -6, 1 ], [ -3, -4, 1 ] ], [ [ 5, 7, 1 ], [ -4, -6, 1 ], [ 3, 4, 1 ] ], [ [ 5, 7, 1 ], [ -4, -6, 1 ], [ 5, 8, 1 ] ], [ [ 5, 7, 1 ], [ 0, 0, 1 ], [ -1, -2, 1 ] ], [ [ 5, 7, 1 ], [ 0, 0, 1 ], [ 1, 2, 1 ] ], [ [ 5, 7, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ 5, 7, 1 ], [ 4, 6, 1 ], [ -3, -4, 1 ] ], [ [ 5, 7, 1 ], [ 4, 6, 1 ], [ 3, 4, 1 ] ], [ [ 5, 7, 1 ], [ 4, 6, 1 ], [ 5, 8, 1 ] ], [ [ 5, 8, 1 ], [ -5, -7, 1 ], [ -4, -6, 1 ] ], [ [ 5, 8, 1 ], [ -5, -7, 1 ], [ 4, 6, 1 ] ], [ [ 5, 8, 1 ], [ -3, -5, 1 ], [ -4, -6, 1 ] ], [ [ 5, 8, 1 ], [ -3, -5, 1 ], [ 4, 6, 1 ] ], [ [ 5, 8, 1 ], [ -1, -1, 1 ], [ 0, 0, 1 ] ], [ [ 5, 8, 1 ], [ 1, 1, 1 ], [ 0, 0, 1 ] ], [ [ 5, 8, 1 ], [ 3, 5, 1 ], [ -4, -6, 1 ] ], [ [ 5, 8, 1 ], [ 3, 5, 1 ], [ 4, 6, 1 ] ], [ [ 5, 8, 1 ], [ 5, 7, 1 ], [ -4, -6, 1 ] ], [ [ 5, 8, 1 ], [ 5, 7, 1 ], [ 4, 6, 1 ] ], [ [ 6, 9, 1 ], [ -6, -9, 1 ], [ -6, -9, 1 ] ], [ [ 6, 9, 1 ], [ -6, -9, 1 ], [ -2, -3, 1 ] ], [ [ 6, 9, 1 ], [ -6, -9, 1 ], [ 2, 3, 1 ] ], [ [ 6, 9, 1 ], [ -6, -9, 1 ], [ 6, 9, 1 ] ], [ [ 6, 9, 1 ], [ -2, -3, 1 ], [ -6, -9, 1 ] ], [ [ 6, 9, 1 ], [ -2, -3, 1 ], [ -2, -3, 1 ] ], [ [ 6, 9, 1 ], [ -2, -3, 1 ], [ 2, 3, 1 ] ], [ [ 6, 9, 1 ], [ -2, -3, 1 ], [ 6, 9, 1 ] ], [ [ 6, 9, 1 ], [ 2, 3, 1 ], [ -6, -9, 1 ] ], [ [ 6, 9, 1 ], [ 2, 3, 1 ], [ -2, -3, 1 ] ], [ [ 6, 9, 1 ], [ 2, 3, 1 ], [ 2, 3, 1 ] ], [ [ 6, 9, 1 ], [ 2, 3, 1 ], [ 6, 9, 1 ] ], [ [ 6, 9, 1 ], [ 6, 9, 1 ], [ -6, -9, 1 ] ], [ [ 6, 9, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ 6, 9, 1 ], [ 6, 9, 1 ], [ 2, 3, 1 ] ], [ [ 6, 9, 1 ], [ 6, 9, 1 ], [ 6, 9, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 116,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ {
+    "vertices" : [ 105, 120, 87 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 105, 83, 115 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 120, 115, 105 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 112, 117, 102 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 140, 99, 123 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 133, 92, 109 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 202, 201, 211 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 201, 202, 212 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 115, 120, 130 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 117, 112, 127 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 92, 133, 108 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 99, 140, 124 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 31, 30, 21 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 30, 31, 20 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 102, 112, 80 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 123, 140, 154 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 109, 133, 143 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 211, 202, 223 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 212, 201, 226 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 130, 115, 148 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 127, 117, 149 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 108, 92, 77 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 124, 99, 90 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 21, 31, 10 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 20, 30, 5 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 102, 84, 117 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 123, 89, 99 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 109, 78, 92 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 211, 222, 201 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 212, 227, 202 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 130, 152, 120 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 127, 145, 112 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 108, 142, 133 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 124, 155, 140 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 21, 9, 30 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 20, 6, 31 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 87, 97, 105 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 80, 94, 102 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 154, 131, 123 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 143, 126, 109 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 223, 186, 211 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 226, 187, 212 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 148, 136, 130 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 149, 137, 127 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 77, 100, 108 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 90, 107, 124 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 10, 47, 21 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 5, 44, 20 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 104, 97, 86 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 103, 94, 81 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 121, 131, 150 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 111, 126, 147 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 161, 186, 147 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 162, 187, 150 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 129, 136, 147 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 128, 137, 150 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 110, 100, 81 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 122, 107, 86 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 71, 47, 86 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 70, 44, 81 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 104, 97, 105 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 103, 94, 102 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 121, 131, 123 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 111, 126, 109 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 161, 186, 211 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 162, 187, 212 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 129, 136, 130 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 128, 137, 127 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 110, 100, 108 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 122, 107, 124 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 71, 47, 21 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 70, 44, 20 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 95, 104, 105 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 96, 103, 102 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 106, 121, 123 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 101, 111, 109 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 185, 161, 211 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 188, 162, 212 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 138, 129, 130 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 135, 128, 127 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 125, 110, 108 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 132, 122, 124 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 46, 71, 21 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 45, 70, 20 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 95, 83, 105 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 96, 84, 102 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 106, 89, 123 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 101, 78, 109 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 185, 222, 211 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 188, 227, 212 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 138, 152, 130 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 135, 145, 127 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 125, 142, 108 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 132, 155, 124 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 46, 9, 21 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 45, 6, 20 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 104, 95 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 103, 96 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 121, 106 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 111, 101 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 161, 185 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 162, 188 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 129, 138 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 128, 135 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 110, 125 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 122, 132 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 71, 46 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 70, 45 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 95, 83, 115 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 96, 84, 117 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 106, 89, 99 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 101, 78, 92 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 185, 222, 201 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 188, 227, 202 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 138, 152, 120 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 135, 145, 112 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 125, 142, 133 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 132, 155, 140 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 46, 9, 30 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 45, 6, 31 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 114, 95, 82 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 118, 96, 85 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 98, 106, 85 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 93, 101, 82 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 171, 185, 146 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 172, 188, 151 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 119, 138, 151 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 113, 135, 146 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 134, 125, 146 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 139, 132, 151 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 60, 46, 85 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 61, 45, 82 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 136, 115, 148 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 137, 117, 149 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 107, 99, 90 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 100, 92, 77 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 187, 201, 226 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 186, 202, 223 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 97, 120, 87 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 94, 112, 80 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 126, 133, 143 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 131, 140, 154 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 44, 30, 5 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 47, 31, 10 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 136, 114 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 137, 118 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 107, 98 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 100, 93 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 187, 171 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 186, 172 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 97, 119 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 94, 113 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 126, 134 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 131, 139 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 44, 60 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 47, 61 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 136, 115, 95 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 137, 117, 96 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 107, 99, 106 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 100, 92, 101 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 187, 201, 185 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 186, 202, 188 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 97, 120, 138 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 94, 112, 135 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 126, 133, 125 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 131, 140, 132 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 44, 30, 46 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 47, 31, 45 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 136, 114, 95 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 137, 118, 96 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 107, 98, 106 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 100, 93, 101 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 187, 171, 185 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 186, 172, 188 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 97, 119, 138 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 94, 113, 135 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 126, 134, 125 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 131, 139, 132 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 44, 60, 46 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 47, 61, 45 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 111, 134 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 121, 139 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 71, 61 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 70, 60 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 128, 118 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 129, 114 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 122, 98 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 110, 93 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 161, 172 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 162, 171 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 103, 113 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 104, 119 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 111, 93 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 121, 98 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 71, 60 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 70, 61 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 128, 113 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 129, 119 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 122, 139 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 110, 134 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 161, 171 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 162, 172 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 103, 118 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 104, 114 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 93, 111, 134 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 98, 121, 139 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 60, 71, 61 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 61, 70, 60 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 113, 128, 118 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 119, 129, 114 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 139, 122, 98 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 134, 110, 93 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 171, 161, 172 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 172, 162, 171 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 118, 103, 113 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 114, 104, 119 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 49, 63 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 42, 58 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 159, 182 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 164, 191 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 58, 69 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 63, 72 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 182, 168 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 191, 175 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 85, 72, 49 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 82, 69, 42 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 151, 175, 164 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 146, 168, 159 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 183, 169 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 190, 174 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 73, 50 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 68, 41 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 174, 163 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 169, 160 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 50, 64 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 41, 57 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 147, 160, 183 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 150, 163, 190 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 81, 57, 68 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 86, 64, 73 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 49, 53, 63 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 42, 38, 58 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 159, 209, 182 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 164, 214, 191 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 58, 59, 69 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 63, 62, 72 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 182, 178, 168 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 191, 195, 175 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 72, 22, 49 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 69, 19, 42 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 175, 176, 164 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 168, 167, 159 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 183, 179, 169 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 190, 194, 174 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 73, 23, 50 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 68, 18, 41 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 174, 173, 163 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 169, 170, 160 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 50, 54, 64 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 41, 37, 57 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 160, 210, 183 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 163, 213, 190 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 57, 56, 68 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 64, 65, 73 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 89, 63, 53 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 78, 58, 38 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 222, 182, 209 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 227, 191, 214 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 83, 69, 59 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 84, 72, 62 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 142, 168, 178 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 155, 175, 195 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 9, 49, 22 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 6, 42, 19 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 152, 164, 176 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 145, 159, 167 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 143, 169, 179 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 154, 174, 194 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 10, 50, 23 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 5, 41, 18 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 149, 163, 173 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 148, 160, 170 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 90, 64, 54 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 77, 57, 37 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 223, 183, 210 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 226, 190, 213 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 80, 68, 56 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 87, 73, 65 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 63, 62, 74 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 58, 59, 67 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 182, 178, 198 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 191, 195, 205 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 69, 19, 43 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 72, 22, 48 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 168, 167, 157 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 175, 176, 166 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 49, 53, 33 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 42, 38, 28 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 164, 214, 192 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 159, 209, 181 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 169, 170, 158 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 174, 173, 165 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 50, 54, 34 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 41, 37, 27 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 163, 213, 189 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 160, 210, 184 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 64, 65, 75 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 57, 56, 66 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 183, 179, 199 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 190, 194, 204 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 68, 18, 40 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 73, 23, 51 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 89, 74, 63 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 78, 67, 58 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 222, 198, 182 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 227, 205, 191 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 83, 43, 69 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 84, 48, 72 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 142, 157, 168 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 155, 166, 175 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 9, 33, 49 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 6, 28, 42 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 152, 192, 164 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 145, 181, 159 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 143, 158, 169 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 154, 165, 174 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 10, 34, 50 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 5, 27, 41 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 149, 189, 163 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 148, 184, 160 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 90, 75, 64 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 77, 66, 57 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 223, 199, 183 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 226, 204, 190 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 80, 40, 68 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 87, 51, 73 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 89, 74, 53 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 78, 67, 38 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 222, 198, 209 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 227, 205, 214 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 83, 43, 59 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 84, 48, 62 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 142, 157, 178 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 155, 166, 195 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 9, 33, 22 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 6, 28, 19 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 152, 192, 176 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 145, 181, 167 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 143, 158, 179 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 154, 165, 194 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 10, 34, 23 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 5, 27, 18 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 149, 189, 173 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 148, 184, 170 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 90, 75, 54 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 77, 66, 37 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 223, 199, 210 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 226, 204, 213 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 80, 40, 56 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 87, 51, 65 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 13, 33, 53 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 2, 28, 38 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 221, 181, 209 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 228, 192, 214 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 79, 67, 59 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 88, 74, 62 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 218, 198, 178 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 231, 205, 195 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 8, 48, 22 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 7, 43, 19 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 156, 166, 176 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 141, 157, 167 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 219, 199, 179 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 230, 204, 194 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 11, 51, 23 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 4, 40, 18 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 153, 165, 173 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 144, 158, 170 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 14, 34, 54 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 1, 27, 37 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 224, 184, 210 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 225, 189, 213 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 76, 66, 56 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 91, 75, 65 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 22, 8, 32 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 19, 7, 29 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 167, 141, 177 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 176, 156, 196 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 38, 2, 17 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 53, 13, 24 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 209, 221, 197 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 214, 228, 206 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 62, 88, 52 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 59, 79, 39 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 195, 231, 216 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 178, 218, 207 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 210, 224, 200 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 213, 225, 203 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 65, 91, 55 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 56, 76, 36 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 194, 230, 215 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 179, 219, 208 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 23, 11, 35 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 18, 4, 26 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 170, 144, 180 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 173, 153, 193 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 37, 1, 16 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 54, 14, 25 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 48, 32, 8 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 43, 29, 7 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 157, 177, 141 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 166, 196, 156 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 28, 17, 2 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 33, 24, 13 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 181, 197, 221 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 192, 206, 228 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 74, 52, 88 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 67, 39, 79 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 205, 216, 231 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 198, 207, 218 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 184, 200, 224 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 189, 203, 225 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 75, 55, 91 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 66, 36, 76 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 204, 215, 230 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 199, 208, 219 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 51, 35, 11 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 40, 26, 4 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 158, 180, 144 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 165, 193, 153 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 27, 16, 1 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 34, 25, 14 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 52, 48, 62 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 39, 43, 59 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 207, 157, 178 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 216, 166, 195 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 29, 28, 19 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 32, 33, 22 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 177, 181, 167 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 196, 192, 176 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 24, 74, 53 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 17, 67, 38 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 206, 205, 214 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 197, 198, 209 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 180, 184, 170 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 193, 189, 173 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 25, 75, 54 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 16, 66, 37 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 203, 204, 213 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 200, 199, 210 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 55, 51, 65 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 36, 40, 56 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 208, 158, 179 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 215, 165, 194 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 26, 27, 18 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 35, 34, 23 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 32, 48, 52 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 29, 43, 39 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 177, 157, 207 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 196, 166, 216 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 17, 28, 29 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 24, 33, 32 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 197, 181, 177 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 206, 192, 196 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 52, 74, 24 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 39, 67, 17 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 216, 205, 206 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 207, 198, 197 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 200, 184, 180 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 203, 189, 193 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 55, 75, 25 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 36, 66, 16 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 215, 204, 203 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 208, 199, 200 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 35, 51, 55 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 26, 40, 36 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 180, 158, 208 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 193, 165, 215 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 16, 27, 26 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 25, 34, 35 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 12, 32, 52 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 3, 29, 39 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 217, 177, 207 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 232, 196, 216 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 3, 17, 29 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 12, 24, 32 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 217, 197, 177 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 232, 206, 196 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 12, 52, 24 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 3, 39, 17 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 232, 216, 206 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 217, 207, 197 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 220, 200, 180 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 229, 203, 193 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 15, 55, 25 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 0, 36, 16 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 229, 215, 203 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 220, 208, 200 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 15, 35, 55 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 0, 26, 36 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 220, 180, 208 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 229, 193, 215 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 0, 16, 26 ],
+    "color" : "#FFFFCC"
+  }, {
+    "vertices" : [ 15, 25, 35 ],
+    "color" : "#FFFFCC"
+  } ]
+}
+</ImportColoredMeshJson>
+      <BookmarkTool name="tool-1"/>
+    </Branch>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <setItemColor blue="153" green="255" red="255"/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <Hide/>
+    <SelectAll/>
+    <BookmarkTool name="tool-2"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="224,239,255">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="218.95790100097656" far="437.9151916503906" near="0.5473949313163757" parallel="true" stereoAngle="0.0" width="98.5309829711914">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="false" id="tool-0" label="unit" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-1" label="Concave" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-2" label="Dodeca array" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
