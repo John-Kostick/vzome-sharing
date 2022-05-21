@@ -31,7 +31,7 @@ Further out from the center, a larger Icosahedral symmetry array can be built, l
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/10-38-32-Giant-dideca-array/Giant-dideca-array.png" />
 </vzome-viewer>
 
-Another composition of arrays of Dodecahedra is this, with faces of units coplanar with faces of neighbors.  faces do not fully coincide, but have rhombi as the shared part of both pentagons.  The dodecahedra are thus shifted, and the array is in Octahedral symmetry.  In this arrangement, the Dodecahedra are stacked more compactly, and all the spaces between them are filled with one kind of concave dodecahedron. 
+Another composition of arrays of Dodecahedra is this, with faces of units coplanar with faces of neighbors.  Faces do not fully coincide, but have rhombi as the shared part of both pentagons.  The dodecahedra are thus shifted, and the array is in Octahedral symmetry.  In this arrangement, the Dodecahedra are stacked more compactly, and all the spaces between them are filled with one kind of concave dodecahedron. 
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-50-52-Stacked-Dodecahedra/Stacked-Dodecahedra.vZome" >
