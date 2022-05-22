@@ -45,7 +45,7 @@ An extended array, with exterior green lines, showing how the rows of Dodecahedr
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-53-37-Dodeca-array/Dodeca-array.png" />
 </vzome-viewer>
 
-This shows how a concave dodecahedron fits between 6 convex ones, in the positions they are in as part of an Octahedral array.
+This shows how a 6 concave dodecahedra surrounding a convex one fit between 6 convex ones, in the positions they are in as part of an Octahedral array.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-52-29-Dodeca-array-2/Dodeca-array-2.vZome" >
