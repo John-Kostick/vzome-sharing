@@ -52,7 +52,7 @@ This shows how a 6 concave dodecahedra surrounding a convex one fit between 6 co
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-52-29-Dodeca-array-2/Dodeca-array-2.png" />
 </vzome-viewer>
 
-Another kind of array is this, where the Pentagonal Dodecahedra have in common with Rhombic Dodecahedra a Cubic grid.  Both kinds of dodecahedra are truncated into 6 blocks around a cube, which are placed sharing a common square face, paired with one of the other type.  One paired block of each type is shown pulled out from its position in the grid, revealing how the blocks fit together.  Note that there are concave dodecahedral spaces in the centers of the cubes where 6 of the blocks cut from pentagonal dodecahedra converge.  
+Another kind of array is this, where the Pentagonal Dodecahedra have a Cubic grid in common with Rhombic Dodecahedra.  Both kinds of dodecahedra are truncated into 6 blocks around a cube, which are placed sharing a common square face, paired with one of the other type.  One paired block of each type is shown pulled out from its position in the grid, revealing how the blocks fit together.  Note that there are concave dodecahedral spaces in the centers of the cubes where 6 of the blocks cut from pentagonal dodecahedra converge.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-56-28-Double-dodeca-2/Double-dodeca-2.vZome" >
