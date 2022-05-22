@@ -59,7 +59,7 @@ Another kind of array is this, where the Pentagonal Dodecahedra have in common w
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-56-28-Double-dodeca-2/Double-dodeca-2.png" />
 </vzome-viewer>
 
-This shows two kinds of "nets" which, if constructed with some hinging system, allows the whole configuration to fold into one or the other of the two kinds of Dodecahedron, as shown.  This displays a kind of inversion. This has been done successfully with cubenets of 6 squares made of some durable material such as Tyvek, sandwiched in between the blocks to serve as hinges.  It is also possible to make the pairs of blocks with magnets imbedded so the whole assembly can be taken apart and inverted, one paired block at a time. Having multiple sets of blocks like this allows building larger arrays.
+This shows two kinds of "nets" which, if constructed with some hinging system, allows the whole configuration to fold into one or the other of the two kinds of Dodecahedron, as shown.  This displays a kind of inversion. This has been done successfully with cubenets of 6 squares made of some durable material such as Tyvek, sandwiched in between the blocks to serve as hinges.  It is also possible to make the pairs of blocks with magnets imbedded so the whole assembly can be taken apart and inverted, one paired block at a time. Having multiple sets of blocks like this allows building larger arrays. We call sets of 6 of these paired blocks a Double Dodecahedron.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/05/21/09-57-49-Nets/Nets.vZome" >
