@@ -1,5 +1,5 @@
 ---
-title: Polar Triacon array
+title: Filling Space With Six Directional Polar Zonohedra
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/06/04/10-17-01-Polar-Triacon-array/Polar-Triacon-array.png
 published: false
