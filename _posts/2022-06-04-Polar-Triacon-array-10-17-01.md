@@ -61,7 +61,7 @@ This shows a chiral arrangement, where two of the first type of Polar Triacon ha
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/09-23-18-Polar-Triacon-Self-Similar/Polar-Triacon-Self-Similar.png" />
 </vzome-viewer>
 
-Here is shown an array of affine Polar Triacons, with their associated dodecahedra and hexahedra.
+Here is shown an array of affine Polar Triacons, with their associated dodecahedra and hexahedra.For reference an affine hexagon is delineated in the center of the array, as it appears on opening.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/09-42-40-Affine-six-directional-array/Affine-six-directional-array.vZome" >
