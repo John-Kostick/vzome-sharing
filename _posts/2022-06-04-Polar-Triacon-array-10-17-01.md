@@ -18,9 +18,9 @@ This is related to [Filling Space in a five directional System](https://john-kos
 
 A 3D design created in vZome.  Use your mouse or touch to interact. 
 
-There are two types of Polar zonohedra inn this study.  The first type has six-fold symmetry about the polar axis.  
+There are two types of six directional polar zonohedra in this study.  The first type has six-fold symmetry about the polar axis.  
 
-This model shows a basic array of two of this type of Polar Triacontahedra sharing a polar vertex, with six dodecahedral cells also sharing the same origin point.  
+This model shows a basic array of two of this type of Polar Triacontahedron sharing a polar vertex, with six dodecahedral cells also sharing the same origin point.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/06/04/10-17-01-Polar-Triacon-array/Polar-Triacon-array.vZome" >
@@ -39,7 +39,7 @@ This is a model of an extended array, in which can be seen how this packing can 
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/08-38-08-Polar-triacon-array/Polar-triacon-array.png" />
 </vzome-viewer>
 
-This shows a pair of the second type of Polar Triacontahedron.  This also has two sets of cubic systems, but rotated around their respective three-fold axes only 44.48° from each other, which makes them aligned with two of the five orientations of cubic systems in icosahedral symmetry. One cube each of the two orientations are shown "drawn out" from their positions in the Polar Triacons. The faces in this set of polyhedra are squares, 72° rhombi, 60° rhombi, and 36° rhombi.    
+This shows a pair of the second type of Polar Triacontahedron.  This type also has two sets of cubic systems, but rotated around their respective three-fold axes only 44.48° from each other, which makes them aligned with two of the five orientations of cubic systems in icosahedral symmetry. One cube each of the two orientations are shown "drawn out" from their positions in the Polar Triacons. The faces in this set of polyhedra are squares, 72° rhombi, 60° rhombi, and 36° rhombi.    
 
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
@@ -61,7 +61,7 @@ This shows a chiral arrangement, where two of the first type of Polar Triacon ha
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/09-23-18-Polar-Triacon-Self-Similar/Polar-Triacon-Self-Similar.png" />
 </vzome-viewer>
 
-Here is shown an array of affine Polar Triacons, with their associated dodecahedra and hexahedra.For reference an affine hexagon is delineated in the center of the array, as it appears on opening.
+Here is shown an array of affine Polar Triacons, with their associated dodecahedra and hexahedra. For reference an affine hexagon is delineated in the center of the array, as it appears on opening.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/09-42-40-Affine-six-directional-array/Affine-six-directional-array.vZome" >
