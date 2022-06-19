@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/06/19/11-13-12-Octahedron-Puzzle-3/>)
  
 {% endcomment %}
-A coordinated motion puzzle. Six identical sub-assemblies slide together to form an Octahedron.  All pieces that compose sub-assemblies are made from stock with triangular cross-section. Triangles are isoscelese with ratio of altitude to base = √2/2.
+  A coordinated motion puzzle. Six identical sub-assemblies slide together to form an Octahedron.  All pieces that compose sub-assemblies are made from stock with triangular cross-section. Triangles are isoscelese with ratio of altitude to base = √2/2.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
