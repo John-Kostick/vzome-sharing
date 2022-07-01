@@ -2,7 +2,7 @@
 title: Octahedron Puzzle 
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/06/19/11-13-12-Octahedron-Puzzle-3/Octahedron-Puzzle-3.png
-published: true
+published: false
 layout: vzome
 description: 
   A coordinated motion puzzle.
