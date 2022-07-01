@@ -30,7 +30,7 @@ This model shows a basic array of two of this type of Polar Triacontahedron shar
 This shows [Dissections of this type of Polar Triacon.](https://skfb.ly/ouqn7)
 
 Note that the array model above uses only two types of polyhedra drawn from this dissection, in addition to the Polar Triacons. These are dodecahedra and cubes.  Cubes are in two orientations, rotated about their respective three-fold axes 60° from each other, about the polar axis.   
-Faces in this set of polyhedra are squares, ArcCos 1/3 = 70.528...°rhombi and ArcSin 2/3 = 41.81...° rhombi.
+Faces in this set of polyhedra are squares, ArcCos 1/3 = 70.528...°rhombi and Arccos 2/3 = 48.1896..° rhombi.
 
 This is a model of an extended array, in which can be seen how this packing can have full hexagonal symmetry about the polar axis, and also how the array can be periodic along the axis.   
 
