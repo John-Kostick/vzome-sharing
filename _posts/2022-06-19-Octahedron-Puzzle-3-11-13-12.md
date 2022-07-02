@@ -17,14 +17,8 @@ description:
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
-<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"  show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/07/01/08-03-11-Octahedron-Puzzle-3a/Octahedron-Puzzle-3a.vZome" >
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/01/08-03-11-Octahedron-Puzzle-3a/Octahedron-Puzzle-3a.png" />
 </vzome-viewer>
 
-Pieces poised for assembly
-
-<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/07/01/08-05-52-Octahedron-Puzzle-3b/Octahedron-Puzzle-3b.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/01/08-05-52-Octahedron-Puzzle-3b/Octahedron-Puzzle-3b.png" />
-</vzome-viewer>
