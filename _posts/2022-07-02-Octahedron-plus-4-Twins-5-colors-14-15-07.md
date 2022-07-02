@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/07/02/14-15-07-Octahedron-plus-4-Twins-5-colors/>)
  
 {% endcomment %}
-  An Octahedron is duplicated four ways by reflection.  Each "twin" of the original shares the same center. Original is yellow.   
+  An Octahedron is duplicated four ways by reflection.  Each "twin" of the original shares the same center. Original is yellow. This can be seen as extending the planes of the original faces of the Octahedron to form hexagrams.  
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
