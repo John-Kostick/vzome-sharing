@@ -18,6 +18,6 @@ description:
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/07/05/09-20-39-12-gon-field-affinevZome/12-gon-field-affinevZome.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/05/09-20-39-12-gon-field-affinevZome/12-gon-field-affinevZome.png" />
+      src="https://John-Kostick.github.io/vzome-sharing/2022/07/05/16-44-18-12-gon-field-affine-2vZome/12-gon-field-affine-2vZome.vZome" >
+ <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/05/16-44-18-12-gon-field-affine-2vZome/12-gon-field-affine-2vZome.png" />
 </vzome-viewer>
