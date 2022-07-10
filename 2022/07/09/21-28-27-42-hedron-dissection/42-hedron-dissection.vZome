@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="80" field="heptagon" version="7.0">
+  <EditHistory editNumber="768" lastStickyEdit="-1">
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0"/>
+    <ImportColoredMeshJson scale="1 0 0">{
+  "field" : "heptagon",
+  "vertices" : [ [ [ 0, -2, -1, 1 ], [ -1, 2, 0, 1 ], [ 5, 0, 5, 1 ] ], [ [ -2, 1, -2, 1 ], [ 1, -2, 0, 1 ], [ 5, 0, 5, 1 ] ], [ [ 1, -2, 0, 1 ], [ 0, 2, 1, 1 ], [ 5, 0, 5, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, -2, -1, 1 ], [ 5, 0, 5, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 1 ], [ 0, 0, 0, 1 ], [ 7, 0, 7, 1 ] ], [ [ -1, 2, 0, 1 ], [ 2, -1, 2, 1 ], [ 5, 0, 5, 1 ] ], [ [ 2, -1, 2, 1 ], [ -2, 1, -2, 1 ], [ 5, 0, 5, 1 ] ], [ [ 0, 2, 1, 1 ], [ 0, 0, 0, 1 ], [ 5, 0, 5, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 3, 5 ],
+    "color" : "#FF6666"
+  }, {
+    "vertices" : [ 7, 5 ],
+    "color" : "#FF9933"
+  }, {
+    "vertices" : [ 8, 5 ],
+    "color" : "#FFFF33"
+  }, {
+    "vertices" : [ 6, 5 ],
+    "color" : "#33CC00"
+  }, {
+    "vertices" : [ 2, 5 ],
+    "color" : "#6699FF"
+  }, {
+    "vertices" : [ 0, 5 ],
+    "color" : "#9966FF"
+  }, {
+    "vertices" : [ 1, 5 ],
+    "color" : "#CCCCCC"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectParallelStruts dir="15977" index="0" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="102" green="51" red="255"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="2 -1 2 -2 1 -2 5 0 5"/>
+    <SelectParallelStruts dir="15977" index="1" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="153" red="255"/>
+    <SelectParallelStruts dir="15977" index="2" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation endSegment="-2 -1 -3 2 -1 2 -3 0 -3" startSegment="-2 -1 -3 2 1 3 -1 0 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="15977" index="3" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="255" red="0"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="1 -2 0 0 2 1 5 0 5"/>
+    <SelectManifestation endSegment="0 -2 -1 -1 2 0 5 0 5" startSegment="1 -4 -1 -1 4 1 3 0 3"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="15977" index="4" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="255" green="153" red="51"/>
+    <SelectParallelStruts dir="15977" index="5" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="255" green="102" red="102"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-2 1 -2 1 -2 0 5 0 5"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-2 1 -2 1 -2 0 5 0 5"/>
+    <EndBlock/>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="1 -2 0 0 2 1 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 2 1 0 0 0 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="1 -2 0 0 2 1 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 -2 -1 -1 2 0 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 2 1 0 0 0 5 0 5"/>
+      <polygonVertex at="0 2 1 0 -2 -1 3 0 3"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 2 1 0 0 0 5 0 5"/>
+      <polygonVertex at="0 2 1 0 -2 -1 3 0 3"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 2 1 0 0 0 5 0 5"/>
+      <polygonVertex at="0 2 1 0 -2 -1 3 0 3"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 2 1 0 0 0 5 0 5"/>
+      <polygonVertex at="0 2 1 0 -2 -1 3 0 3"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="2 -1 2 -2 1 -2 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 2 1 0 0 0 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="-2 1 -2 1 -2 0 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 -2 -1 -1 2 0 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="0 2 1 0 -2 -1 3 0 3"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="-1 2 0 2 -3 1 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="1 -2 0 0 0 0 3 0 3"/>
+    <SelectManifestation endSegment="-1 2 0 2 -3 1 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="0 -2 -1 -1 0 -1 3 0 3"/>
+      <polygonVertex at="-2 -1 -3 0 -2 -1 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="0 -2 -1 -1 0 -1 3 0 3"/>
+      <polygonVertex at="1 -4 -1 -1 2 0 1 0 1"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="-2 1 -2 1 -4 -1 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="0 -2 -1 -1 0 -1 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="1 -2 0 0 0 0 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 0 0 0 3 0 3" startSegment="-1 -3 -3 0 2 1 1 0 1"/>
+    <SelectManifestation endSegment="-1 -3 -3 0 0 0 -1 0 -1" startSegment="-1 -3 -3 0 2 1 1 0 1"/>
+    <SelectManifestation endSegment="-1 -3 -3 0 2 1 1 0 1" startSegment="1 -4 -1 -1 4 1 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 1 0 -2 -1 3 0 3"/>
+      <polygonVertex at="-1 4 1 2 -3 1 1 0 1"/>
+      <polygonVertex at="1 3 3 0 -2 -1 -1 0 -1"/>
+      <polygonVertex at="2 1 3 -2 -1 -3 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-1 4 1 2 -1 2 3 0 3" startSegment="1 3 3 0 0 0 1 0 1"/>
+    <SelectManifestation endSegment="1 3 3 0 0 0 1 0 1" startSegment="2 1 3 -2 1 -2 3 0 3"/>
+    <SelectManifestation endSegment="1 3 3 0 0 0 1 0 1" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 2 0 2 -1 2 5 0 5" startSegment="-1 2 0 2 -3 1 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 2 1 3 3 0 3" startSegment="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation endSegment="-1 2 0 2 -1 2 5 0 5" startSegment="-1 4 1 2 -1 2 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 5 0 5" startSegment="0 0 0 2 1 3 3 0 3"/>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 5 0 5" startSegment="0 0 0 2 1 3 3 0 3"/>
+    <SelectManifestation endSegment="1 -2 0 0 2 1 5 0 5" startSegment="0 0 0 2 1 3 3 0 3"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 2 1 3 3 0 3"/>
+      <polygonVertex at="0 0 0 2 -1 2 1 0 1"/>
+      <polygonVertex at="0 2 1 2 -1 2 -1 0 -1"/>
+      <polygonVertex at="0 2 1 2 1 3 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 2 1 3 3 0 3"/>
+      <polygonVertex at="0 0 0 2 -1 2 1 0 1"/>
+      <polygonVertex at="0 2 1 2 -1 2 -1 0 -1"/>
+      <polygonVertex at="0 2 1 2 1 3 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 2 1 3 3 0 3" startSegment="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation endSegment="0 -2 -1 1 3 3 1 0 1" startSegment="0 0 0 2 1 3 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 2 1 3 3 0 3"/>
+      <polygonVertex at="0 -2 -1 1 3 3 1 0 1"/>
+      <polygonVertex at="1 -4 -1 -1 4 1 3 0 3"/>
+      <polygonVertex at="1 -2 0 0 2 1 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 -2 -1 1 3 3 1 0 1" startSegment="0 0 0 2 1 3 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 2 1 3 3 0 3" startSegment="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation endSegment="0 0 0 2 1 3 3 0 3" startSegment="0 2 1 2 1 3 1 0 1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -4 -1 -1 4 1 3 0 3" startSegment="0 -2 -1 1 3 3 1 0 1"/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 -1 1 3 3 1 0 1"/>
+      <polygonVertex at="0 -2 -1 1 1 2 -1 0 -1"/>
+      <polygonVertex at="1 -4 -1 -1 2 0 1 0 1"/>
+      <polygonVertex at="1 -4 -1 -1 4 1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 -1 1 3 3 1 0 1"/>
+      <polygonVertex at="0 -2 -1 1 1 2 -1 0 -1"/>
+      <polygonVertex at="1 -4 -1 -1 2 0 1 0 1"/>
+      <polygonVertex at="1 -4 -1 -1 4 1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 -4 -1 -1 4 1 3 0 3" startSegment="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation endSegment="-1 -3 -3 0 2 1 1 0 1" startSegment="1 -4 -1 -1 4 1 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="2 1 3 0 2 1 -1 0 -1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="0 2 1 2 -1 2 -1 0 -1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="-1 4 1 2 -1 2 3 0 3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+      <polygonVertex at="-2 1 -2 1 -4 -1 3 0 3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="1 -2 0 0 0 0 3 0 3"/>
+    <SelectManifestation endSegment="-1 2 0 2 -3 1 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="1 -2 0 0 0 0 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 0 -2 -1 5 0 5" startSegment="-2 1 -2 1 -4 -1 3 0 3"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="2 -1 2 -2 -1 -3 3 0 3"/>
+      <polygonVertex at="2 -1 2 -2 1 -2 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 7 0 7"/>
+      <polygonVertex at="0 0 0 0 -2 -1 5 0 5"/>
+      <polygonVertex at="2 -1 2 -2 -1 -3 3 0 3"/>
+      <polygonVertex at="2 -1 2 -2 1 -2 5 0 5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 2 0 -2 -1 1 0 1" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <SelectManifestation endSegment="-1 4 1 2 -3 1 1 0 1" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <SelectManifestation endSegment="2 1 3 0 0 0 -3 0 -3" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 -1 -3 -3 1 0 1" startSegment="-2 1 -2 1 -4 -1 3 0 3"/>
+    <SelectManifestation endSegment="0 0 0 -1 -3 -3 1 0 1" startSegment="0 -2 -1 -2 -1 -3 -1 0 -1"/>
+    <SelectManifestation endSegment="0 0 0 -1 -3 -3 1 0 1" startSegment="1 -2 0 -1 -1 -2 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -1 -1 -2 -1 0 -1" startSegment="-1 -1 -2 1 -2 0 1 0 1"/>
+    <SelectManifestation>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="3 -3 2 -2 1 -2 1 0 1"/>
+      <polygonVertex at="1 -2 0 -1 -1 -2 -1 0 -1"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 -2 0 0 0 0 3 0 3"/>
+      <polygonVertex at="3 -3 2 -2 1 -2 1 0 1"/>
+      <polygonVertex at="1 -2 0 -1 -1 -2 -1 0 -1"/>
+      <polygonVertex at="-1 -1 -2 1 -2 0 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-1 -1 -2 1 -2 0 1 0 1" startSegment="1 -2 0 0 0 0 3 0 3"/>
+    <SelectManifestation endSegment="-1 -1 -2 1 -2 0 1 0 1" startSegment="-1 -3 -3 0 0 0 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 -3 2 -2 1 -2 1 0 1" startSegment="2 -1 2 0 0 0 -1 0 -1"/>
+    <SelectManifestation endSegment="1 -2 0 0 0 0 3 0 3" startSegment="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation endSegment="3 -5 1 -3 3 -2 -1 0 -1" startSegment="3 -3 2 -2 1 -2 1 0 1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 2 -1 2 -3 0 -3" startSegment="0 -2 -1 1 1 2 -1 0 -1"/>
+    <SelectManifestation endSegment="0 -2 -1 0 0 0 -5 0 -5" startSegment="-2 -1 -3 2 -1 2 -3 0 -3"/>
+    <SelectManifestation endSegment="-1 -3 -3 0 0 0 -1 0 -1" startSegment="-2 -1 -3 2 -1 2 -3 0 -3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 -1 2 0 0 0 -1 0 -1" startSegment="2 1 3 0 0 0 -3 0 -3"/>
+    <SelectManifestation endSegment="2 -1 2 0 0 0 -1 0 -1" startSegment="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation endSegment="2 -1 2 0 0 0 -1 0 -1" startSegment="0 0 0 2 -1 2 1 0 1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 -5 0 -5" startSegment="2 1 3 0 0 0 -3 0 -3"/>
+    <SelectManifestation endSegment="2 -1 2 -1 4 1 -3 0 -3" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <SelectManifestation endSegment="0 0 0 1 1 2 -3 0 -3" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -1 -3 2 1 3 -1 0 -1" startSegment="0 -2 -1 1 3 3 1 0 1"/>
+    <SelectManifestation endSegment="-2 -1 -3 2 1 3 -1 0 -1" startSegment="-2 1 -2 2 1 3 -3 0 -3"/>
+    <SelectManifestation endSegment="-2 -1 -3 2 -1 2 -3 0 -3" startSegment="-2 -1 -3 2 1 3 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 1 -2 2 -1 2 -5 0 -5" startSegment="0 0 0 1 1 2 -3 0 -3"/>
+    <SelectManifestation endSegment="-2 1 -2 2 -1 2 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <SelectManifestation endSegment="-2 -1 -3 2 -1 2 -3 0 -3" startSegment="-2 1 -2 2 -1 2 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 -5 0 -5" startSegment="2 -1 2 -1 4 1 -3 0 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <SelectManifestation endSegment="-2 1 -2 2 1 3 -3 0 -3" startSegment="0 0 0 0 2 1 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 -2 -1 -3 -3 0 -3" startSegment="0 -2 -1 -2 -1 -3 -1 0 -1"/>
+    <SelectManifestation endSegment="0 0 0 -1 -3 -3 1 0 1" startSegment="0 -2 -1 -2 -1 -3 -1 0 -1"/>
+    <SelectManifestation endSegment="0 -2 -1 -2 -1 -3 -1 0 -1" startSegment="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -7 0 -7" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <SelectManifestation endSegment="0 -2 -1 0 0 0 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 -2 0 -1 -1 -2 -1 0 -1" startSegment="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation endSegment="3 -3 2 -2 1 -2 1 0 1" startSegment="1 -2 0 -1 -1 -2 -1 0 -1"/>
+    <SelectManifestation endSegment="1 -2 0 -1 -1 -2 -1 0 -1" startSegment="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 -5 1 -3 3 -2 -1 0 -1" startSegment="3 -3 2 -3 3 -2 -3 0 -3"/>
+    <SelectManifestation endSegment="3 -3 2 -3 3 -2 -3 0 -3" startSegment="3 -1 3 -2 1 -2 -1 0 -1"/>
+    <SelectManifestation endSegment="3 -3 2 -3 3 -2 -3 0 -3" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 3 3 0 -2 -1 -1 0 -1" startSegment="2 1 3 -2 -1 -3 1 0 1"/>
+    <SelectManifestation endSegment="1 1 2 0 -2 -1 1 0 1" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <SelectManifestation endSegment="2 1 3 0 0 0 -3 0 -3" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 1 3 -2 -1 -3 1 0 1" startSegment="2 -1 2 -2 -1 -3 3 0 3"/>
+    <SelectManifestation endSegment="2 1 3 -2 -1 -3 1 0 1" startSegment="0 2 1 -1 -3 -3 -1 0 -1"/>
+    <SelectManifestation endSegment="2 1 3 -2 -1 -3 1 0 1" startSegment="3 -1 3 -2 1 -2 -1 0 -1"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 1 3 0 0 0 -3 0 -3" startSegment="3 -1 3 -2 1 -2 -1 0 -1"/>
+    <SelectManifestation endSegment="2 1 3 0 0 0 -3 0 -3" startSegment="1 3 3 0 -2 -1 -1 0 -1"/>
+    <SelectManifestation endSegment="2 1 3 0 0 0 -3 0 -3" startSegment="0 2 1 1 -2 0 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 -3 2 -3 3 -2 -3 0 -3" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <SelectManifestation endSegment="2 -1 2 -1 2 0 -5 0 -5" startSegment="2 1 3 0 0 0 -3 0 -3"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 2 1 -5 0 -5"/>
+      <polygonVertex at="2 -1 2 -1 4 1 -3 0 -3"/>
+      <polygonVertex at="2 -1 2 -1 2 0 -5 0 -5"/>
+      <polygonVertex at="0 0 0 0 0 0 -7 0 -7"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 2 1 -5 0 -5"/>
+      <polygonVertex at="2 -1 2 -1 4 1 -3 0 -3"/>
+      <polygonVertex at="2 -1 2 -1 2 0 -5 0 -5"/>
+      <polygonVertex at="0 0 0 0 0 0 -7 0 -7"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 0 0 0 -7 0 -7" startSegment="2 -1 2 -1 2 0 -5 0 -5"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 2 1 1 -2 0 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <SelectManifestation endSegment="-1 2 0 0 -2 -1 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <SelectManifestation endSegment="1 -2 0 -2 1 -2 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <EndBlock/>
+    <PolarZonohedron symmetry="heptagonal antiprism corrected"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 2 1 -5 0 -5" startSegment="0 0 0 0 0 0 -7 0 -7"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="15977" index="0" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="102" green="51" red="255"/>
+    <SelectParallelStruts dir="15977" index="1" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="153" red="255"/>
+    <SelectParallelStruts dir="15977" index="2" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="255" red="255"/>
+    <SelectParallelStruts dir="15977" index="3" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="0" green="255" red="0"/>
+    <SelectParallelStruts dir="15977" index="4" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="255" green="153" red="0"/>
+    <SelectParallelStruts dir="15977" index="5" orbit="15977" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="255" green="51" red="102"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 2 1 -5 0 -5"/>
+      <polygonVertex at="-2 1 -2 2 1 3 -3 0 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 -1 0 -1"/>
+      <polygonVertex at="2 -1 2 -1 4 1 -3 0 -3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation point="-2 -1 -3 2 -1 2 -3 0 -3"/>
+    <SelectManifestation point="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1 1 2 -3 0 -3"/>
+    <SelectManifestation point="-2 1 -2 2 1 3 -3 0 -3"/>
+    <SelectManifestation point="-2 -1 -3 2 -1 2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 1 -2 2 1 3 -3 0 -3"/>
+    <SelectManifestation point="2 -1 2 -1 4 1 -3 0 -3"/>
+    <SelectManifestation point="0 0 0 1 1 2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 1 1 2 -3 0 -3"/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation point="-2 -1 -3 2 -1 2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 -1 2 -1 4 1 -3 0 -3"/>
+    <SelectManifestation point="2 1 3 0 0 0 -3 0 -3"/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation point="2 -1 2 -1 4 1 -3 0 -3"/>
+    <SelectManifestation point="0 0 0 1 1 2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation point="3 -3 2 -3 3 -2 -3 0 -3"/>
+    <SelectManifestation point="2 1 3 0 0 0 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation point="3 -3 2 -3 3 -2 -3 0 -3"/>
+    <SelectManifestation point="2 1 3 0 0 0 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <SelectManifestation point="2 -3 1 -1 2 0 -3 0 -3"/>
+    <SelectManifestation point="3 -3 2 -3 3 -2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <SelectManifestation point="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation point="3 -3 2 -3 3 -2 -3 0 -3"/>
+    <SelectManifestation point="1 -4 -1 -2 1 -2 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation point="0 0 0 -2 -1 -3 -3 0 -3"/>
+    <SelectManifestation point="-1 4 1 1 -4 -1 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 0 1 -1 -1 -2 -3 0 -3"/>
+    <SelectManifestation point="-1 4 1 1 -4 -1 -3 0 -3"/>
+    <SelectManifestation point="2 1 3 0 0 0 -3 0 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 -1 -3 -3 1 0 1"/>
+    <SelectManifestation endSegment="1 -4 -1 -1 2 0 1 0 1" startSegment="-1 -3 -3 0 0 0 -1 0 -1"/>
+    <SelectManifestation endSegment="1 -4 -1 -1 2 0 1 0 1" startSegment="-1 -3 -3 0 0 0 -1 0 -1"/>
+    <SelectManifestation point="-1 -1 -2 1 -2 0 1 0 1"/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -1 -2 1 -2 0 1 0 1"/>
+    <SelectManifestation point="-2 -1 -3 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="0 0 0 -1 -3 -3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 1 3 -2 -1 -3 1 0 1"/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation point="0 0 0 -1 -3 -3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 3 3 0 0 0 1 0 1"/>
+    <SelectManifestation point="-1 4 1 2 -3 1 1 0 1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="0 2 1 2 -1 2 -1 0 -1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="0 2 1 2 -1 2 -1 0 -1"/>
+    <SelectManifestation point="0 2 1 2 1 3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 2 1 3 3 0 3" startSegment="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation endSegment="0 0 0 -1 -3 -3 1 0 1" startSegment="1 -2 0 -1 -1 -2 -1 0 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="0 2 1 2 -1 2 -1 0 -1"/>
+    <SelectManifestation endSegment="0 2 1 2 1 3 1 0 1" startSegment="0 2 1 2 -1 2 -1 0 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation point="0 2 1 2 1 3 1 0 1"/>
+    <SelectManifestation point="-1 4 1 2 -3 1 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation point="0 -2 -1 1 3 3 1 0 1"/>
+    <SelectManifestation point="0 2 1 2 1 3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation point="0 -2 -1 1 3 3 1 0 1"/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation point="-1 -3 -3 0 2 1 1 0 1"/>
+    <SelectManifestation point="0 -2 -1 1 3 3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation point="-2 -1 -3 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="-1 -3 -3 0 2 1 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -1 -2 1 -2 0 1 0 1"/>
+    <SelectManifestation point="-2 -1 -3 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation point="-1 -1 -2 1 -2 0 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 2 -1 2 1 0 1"/>
+      <polygonVertex at="0 -2 -1 1 3 3 1 0 1"/>
+      <polygonVertex at="0 2 1 2 1 3 1 0 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 2 -1 2 1 0 1"/>
+      <polygonVertex at="0 -2 -1 1 3 3 1 0 1"/>
+      <polygonVertex at="0 2 1 2 1 3 1 0 1"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 -4 -1 -1 2 0 1 0 1"/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation point="1 1 2 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="2 1 3 -2 -1 -3 1 0 1"/>
+    <EndBlock/>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation point="1 1 2 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="2 1 3 -2 -1 -3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 1 3 -2 -1 -3 1 0 1"/>
+    <SelectManifestation point="1 1 2 0 -2 -1 1 0 1"/>
+    <SelectManifestation point="-1 4 1 2 -3 1 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 4 1 2 -3 1 1 0 1"/>
+    <SelectManifestation point="1 3 3 0 0 0 1 0 1"/>
+    <SelectManifestation point="2 1 3 -2 -1 -3 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation point="-1 4 1 2 -3 1 1 0 1"/>
+    <SelectManifestation point="1 1 2 0 -2 -1 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 2 -1 2 1 0 1"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 -1 -3 -3 1 0 1"/>
+    <SelectManifestation endSegment="2 -1 2 -2 -1 -3 3 0 3" startSegment="0 0 0 -1 -3 -3 1 0 1"/>
+    <SelectManifestation point="3 -3 2 -2 1 -2 1 0 1"/>
+    <SelectManifestation point="1 1 2 0 -2 -1 1 0 1"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation point="-1 2 0 2 -1 2 5 0 5"/>
+    <SelectManifestation point="1 -2 0 0 2 1 5 0 5"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation point="0 2 1 0 0 0 5 0 5"/>
+    <SelectManifestation point="2 -1 2 -2 1 -2 5 0 5"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <ApplyTool copyColors="true" name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 -2 -1 -5 0 -5"/>
+      <polygonVertex at="0 2 1 0 0 0 -5 0 -5"/>
+      <polygonVertex at="2 -1 2 -2 1 -2 -5 0 -5"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 2 1 0 0 0 5 0 5"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 7 0 7" startSegment="0 2 1 0 0 0 5 0 5"/>
+    <SelectManifestation point="0 2 1 0 0 0 5 0 5"/>
+    <SelectManifestation point="-1 2 0 2 -1 2 5 0 5"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 -2 0 0 2 1 5 0 5"/>
+    <SelectManifestation point="0 -2 -1 -1 2 0 5 0 5"/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -2 -1 -1 2 0 5 0 5"/>
+    <SelectManifestation point="-2 1 -2 1 -2 0 5 0 5"/>
+    <SelectManifestation point="0 0 0 0 -2 -1 5 0 5"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 4 1 4 0 5 0 -6 -3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+      <polygonVertex at="-1 4 1 4 0 5 0 -6 -3"/>
+      <polygonVertex at="0 0 0 1 3 3 0 -6 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 4 1 4 0 5 0 -6 -3"/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 -6 -3" startSegment="2 1 3 -2 1 -2 0 -10 -5"/>
+    <SelectManifestation endSegment="1 5 4 0 0 0 0 -6 -3" startSegment="2 1 3 -2 1 -2 0 -10 -5"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 -6 -3"/>
+    <SelectManifestation endSegment="0 0 0 3 4 6 0 -2 -1" startSegment="0 0 0 1 3 3 0 -6 -3"/>
+    <SelectManifestation endSegment="0 0 0 3 4 6 0 -2 -1" startSegment="0 0 0 1 3 3 0 -6 -3"/>
+    <SelectManifestation endSegment="0 0 0 3 4 6 0 -2 -1" startSegment="0 0 0 1 3 3 0 -6 -3"/>
+    <SelectManifestation endSegment="0 0 0 3 4 6 0 -2 -1" startSegment="0 0 0 1 3 3 0 -6 -3"/>
+    <SelectManifestation point="0 0 0 1 3 3 0 -6 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+      <polygonVertex at="-3 5 -1 3 -5 1 0 -6 -3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 1 3 3 0 -6 -3"/>
+    <SelectManifestation point="-3 3 -2 2 -1 2 0 -6 -3"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 -6 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <setItemColor blue="255" green="255" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 1 3 3 0 -6 -3"/>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+      <polygonVertex at="-1 -5 -4 -1 4 1 0 -6 -3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+      <polygonVertex at="-3 5 -1 3 -5 1 0 -6 -3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1 5 4 0 0 0 0 -6 -3"/>
+    <SelectManifestation point="-3 5 -1 3 -5 1 0 -6 -3"/>
+    <SelectManifestation point="-3 3 -2 2 -1 2 0 -6 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 1 -1 -3 -3 0 -6 -3"/>
+      <polygonVertex at="-3 5 -1 3 -5 1 0 -6 -3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="153" red="51"/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 1 -1 -3 -3 0 -6 -3"/>
+      <polygonVertex at="4 0 5 -4 0 -5 0 -6 -3"/>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="4 0 5 -4 0 -5 0 -6 -3"/>
+    <SelectManifestation point="0 2 1 -1 -3 -3 0 -6 -3"/>
+    <SelectManifestation point="1 5 4 0 0 0 0 -6 -3"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 1 -1 -3 -3 0 -6 -3"/>
+      <polygonVertex at="0 0 0 -1 -5 -4 0 -6 -3"/>
+      <polygonVertex at="4 0 5 -4 0 -5 0 -6 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="255" green="153" red="51"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 0 0 0 0 -6 -3"/>
+      <polygonVertex at="-3 5 -1 3 -5 1 0 -6 -3"/>
+      <polygonVertex at="-3 3 -2 2 -1 2 0 -6 -3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 4 1 2 -1 2 0 -10 -5" startSegment="1 5 4 0 0 0 0 -6 -3"/>
+    <SelectManifestation endSegment="-3 5 -1 3 -5 1 0 -6 -3" startSegment="-1 4 1 2 -1 2 0 -10 -5"/>
+    <SelectManifestation endSegment="-3 3 -2 2 -1 2 0 -6 -3" startSegment="-1 4 1 2 -1 2 0 -10 -5"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="15977" index="0" orbit="15977" outbound="false" symm="heptagonal antiprism corrected" symmetry="heptagonal antiprism corrected"/>
+    <setItemColor blue="102" green="102" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="-3 5 -1 1 -4 -1 0 2 1"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="0 0 0 -3 -4 -6 0 2 1"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 5 4 1 -4 -1 0 6 3" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="1 5 4 1 -4 -1 0 6 3" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="0 0 0 -3 -4 -6 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 -1 -5 -4 0 2 1"/>
+      <polygonVertex at="-3 5 -1 1 -4 -1 0 2 1"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 0 2 1"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="-3 5 -1 1 -4 -1 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 5 4 -1 -5 -4 0 2 1"/>
+      <polygonVertex at="-3 5 -1 1 -4 -1 0 2 1"/>
+      <polygonVertex at="0 0 0 -3 -4 -6 0 2 1"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="1 5 4 -1 -5 -4 0 2 1" startSegment="2 1 3 -3 -4 -6 0 -2 -1"/>
+    <SelectManifestation endSegment="1 5 4 -1 -5 -4 0 2 1" startSegment="2 1 3 -3 -4 -6 0 -2 -1"/>
+    <SelectManifestation point="-3 5 -1 1 -4 -1 0 2 1"/>
+    <SelectManifestation point="0 0 0 -1 4 1 0 2 1"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -1 4 1 0 2 1"/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 -1 4 1 0 2 1"/>
+    <SelectManifestation point="-3 5 -1 1 -4 -1 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 3 -2 -1 -3 0 2 1"/>
+    <SelectManifestation point="-3 5 -1 1 -4 -1 0 2 1"/>
+    <SelectManifestation endSegment="0 0 0 -3 -4 -6 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="-3 5 -1 1 -4 -1 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="1 3 3 -2 -1 -3 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 1 -2 2 1 3 0 10 5"/>
+      <polygonVertex at="-2 -1 -3 2 -1 2 0 10 5"/>
+      <polygonVertex at="0 0 0 -2 -1 -3 0 10 5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 0 -3 -4 -6 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="1 3 3 -2 -1 -3 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="-3 5 -1 1 -4 -1 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 -3 -4 -6 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation>
+      <polygonVertex at="-3 5 -1 1 -4 -1 0 2 1"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 2 1"/>
+      <polygonVertex at="1 5 4 -1 -5 -4 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 5 -1 1 -4 -1 0 2 1"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 2 1"/>
+      <polygonVertex at="1 5 4 -1 -5 -4 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-3 5 -1 1 -4 -1 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation>
+      <polygonVertex at="-3 5 -1 1 -4 -1 0 2 1"/>
+      <polygonVertex at="1 3 3 -2 -1 -3 0 2 1"/>
+      <polygonVertex at="1 5 4 -1 -5 -4 0 2 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 3 3 -2 -1 -3 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 5 -1 1 -4 -1 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <SelectManifestation endSegment="0 0 0 -1 4 1 0 2 1" startSegment="2 -1 2 -3 3 -2 0 6 3"/>
+    <SelectManifestation endSegment="0 0 0 -1 4 1 0 2 1" startSegment="2 -1 2 -3 3 -2 0 6 3"/>
+    <SelectManifestation endSegment="0 0 0 -3 -4 -6 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="1 3 3 -2 -1 -3 0 2 1" startSegment="1 5 4 -1 -5 -4 0 2 1"/>
+    <Delete/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="221,217,217">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="333.2454528808594" far="666.4894409179688" near="0.83311527967453" parallel="true" stereoAngle="0.0" width="149.96066284179688">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.03783216327428818" y="0.25834742188453674" z="-0.9652742743492126"/>
+      <LookDirection x="0.13601678609848022" y="0.9556636214256287" z="0.26109594106674194"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="heptagonal antiprism corrected" renderingStyle="heptagonal antiprism">
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,255,255" name="15979" prototype="0 -2 2 6 2 -4 -1 1 0"/>
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="15983" prototype="-8 0 4 2 4 -4 1 1 -1"/>
+    <Direction color="255,255,255" name="15982" prototype="2 2 -2 -2 -2 2 1 0 0"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="15985" prototype="-4 2 0 -2 2 0 1 0 0"/>
+    <Direction color="255,255,255" name="15984" prototype="6 2 -4 0 -2 2 1 1 -1"/>
+    <Direction color="255,255,255" name="15987" prototype="2 2 -2 -10 -4 8 -2 0 1"/>
+    <Direction color="255,255,255" name="15986" prototype="2 2 -2 6 4 -6 -2 0 1"/>
+    <Direction color="255,255,255" name="15978" prototype="2 4 -4 0 2 -2 -1 1 0"/>
+    <Direction color="255,255,255" name="15989" prototype="10 4 -8 -10 -4 8 -2 0 1"/>
+    <Direction color="255,255,255" name="15977" prototype="0 0 0 1 0 0 2 2 -2"/>
+    <Direction color="255,255,255" name="15988" prototype="-6 -4 6 12 4 -8 -2 0 1"/>
+    <Direction color="255,255,255" name="15981" prototype="-6 -2 4 6 2 -4 -1 1 0"/>
+    <Direction color="255,255,255" name="15980" prototype="2 4 -4 -8 0 4 -1 1 0"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="240,160,0" name="yellow"/>
+    </SymmetrySystem>
+    <SymmetrySystem name="heptagonal antiprism" renderingStyle="heptagonal antiprism">
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,0,0" name="red"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
