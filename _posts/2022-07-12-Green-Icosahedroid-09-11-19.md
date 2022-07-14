@@ -29,7 +29,7 @@ This is evidenced by looking at the 30 square faces as mid-section planes of 5 s
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/14/12-15-30-Green-Icosahedroid-octas/Green-Icosahedroid-octas.png" />
 </vzome-viewer>
 
-Here is shown the zonohedral part of the composition. A pair of oblate polar Enneacontahedra, with 10 directions and 90 faces each are shown in the framework. The full poyhedron can be seen as a merge of 12 such Enneacons, only retaining the outer part of each of them.
+Here is shown the zonohedral part of the composition. A pair of oblate polar Enneacontahedra, with 10 directions and 90 faces each are shown in the framework. The full poyhedron can be seen as a merge of 12 such Enneacons, only retaining the outer part of each of them that conforms to the convex hull.  
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/07/14/12-24-54-Green-Icosahedroid-Enneas/Green-Icosahedroid-Enneas.vZome" >
