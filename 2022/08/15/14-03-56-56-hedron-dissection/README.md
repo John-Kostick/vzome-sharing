@@ -3,12 +3,18 @@
 
  - [raw vZome file](<https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2022/08/15/14-03-56-56-hedron-dissection/56-hedron-dissection.vZome>) to use in vZome desktop or vZome Online
  
- HTML custom element for embedding in any web page:
+ HTML for embedding in any web page:
  ```html
-<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
+<figure style="width: 87%; margin: 5%">
+  <vzome-viewer style="width: 100%; height: 60vh"
        src="https://John-Kostick.github.io/vzome-sharing/2022/08/15/14-03-56-56-hedron-dissection/56-hedron-dissection.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2022/08/15/14-03-56-56-hedron-dissection/56-hedron-dissection.png" />
-</vzome-viewer>
+    <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2022/08/15/14-03-56-56-hedron-dissection/56-hedron-dissection.png" >
+  </vzome-viewer>
+  <figcaption style="text-align: center; font-style: italic;">
+     REPLACE this caption!
+  </figcaption>
+</figure>
  ```
 
 [vZome Sharing documentation](https://vzome.github.io/vzome/sharing.html#how-it-works)
