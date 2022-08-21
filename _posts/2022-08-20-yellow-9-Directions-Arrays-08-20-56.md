@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 
-  This page shows some compositions of 9 directional Paler Zonohedra. Arrays of these 72-hedra are built symmetrically around a polar axis.  Spaces between the major cells are occupied with subcells, which are rhombic hexahedra and dodecahedra with all edges being unit lengths parallel with some of the original 9 coordinate directions.  Major cells can be connected by shared vertices at poles, and can be connected by shasred edges with adjacent cells.  
+  This page shows some compositions of 9 directional Polar Zonohedra. Arrays of these 72-hedra are built symmetrically around a polar axis.  Spaces between the major cells are occupied with subcells, which are rhombic hexahedra and dodecahedra with all edges being unit lengths parallel with some of the original 9 coordinate directions.  Major cells can be connected by shared vertices at poles, and can be connected by shared edges with adjacent cells.  
   
   This is a continuation of the series including [8 Direction Arrays](https://john-kostick.github.io/vzome-sharing/2022/08/15/8-Direction-Arrays-07-49-43.html) and others.
 
