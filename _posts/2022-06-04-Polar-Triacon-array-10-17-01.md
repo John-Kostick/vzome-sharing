@@ -39,6 +39,19 @@ This is a model of an extended array, in which can be seen how this packing can 
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/08-38-08-Polar-triacon-array/Polar-triacon-array.png" />
 </vzome-viewer>
 
+Below is a second type of packing of Polar Triacons, where the central axis is surrounded by a ring of six major cells, connected at shared vertices, rather than faces.  This arrangement uses eccentric rhombic icosahedra from the dissection, in addition to the cubes and dodecahedral cells.  This pattern can be extended.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/13-39-15-Polar-triacon-Array-2/Polar-triacon-Array-2.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/13-39-15-Polar-triacon-Array-2/Polar-triacon-Array-2.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Another type of space filling array
+ </figcaption>
+</figure>
+
 This shows a pair of the second type of Polar Triacontahedron.  This type also has two sets of cubic systems, but rotated around their respective three-fold axes only 44.48° from each other, which makes them aligned with two of the five orientations of cubic systems in icosahedral symmetry. One cube each of the two orientations are shown "drawn out" from their positions in the Polar Triacons. The faces in this set of polyhedra are squares, 72° rhombi, 60° rhombi, and 36° rhombi.    
 
 
