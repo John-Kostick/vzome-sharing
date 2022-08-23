@@ -39,7 +39,7 @@ This is a model of an extended array, in which can be seen how this packing can 
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/06/05/08-38-08-Polar-triacon-array/Polar-triacon-array.png" />
 </vzome-viewer>
 
-Below is a second type of packing of Polar Triacons, where the central axis is surrounded by a ring of six major cells, connected at shared vertices, rather than faces.  This arrangement uses eccentric rhombic icosahedra from the dissection, in addition to the cubes and dodecahedral cells.  This pattern can be extended.  
+Below is a second type of packing of Polar Triacons, where the central axis is surrounded by a ring of six major cells, connected at shared vertices, rather than faces.  This arrangement uses a secong type of rhombic dodecahedra from the dissection, in addition to the cubes and dodecahedral cellsused on the first type of packing. This pattern can also be extended.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
