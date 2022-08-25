@@ -1,4 +1,5 @@
 ---
+published: false
 title: Tetraxis as Tensegrity Mirror pair combined
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/01/13-19-26-Tetraxis-as-Tensegrity-Mirror-pair-combined/Tetraxis-as-Tensegrity-Mirror-pair-combined.png
 layout: vzome
