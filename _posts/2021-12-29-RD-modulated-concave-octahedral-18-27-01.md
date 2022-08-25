@@ -1,4 +1,5 @@
 ---
+published: false
 title: RD modulated concave octahedral
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/29/18-27-01-RD-modulated-concave-octahedral/RD-modulated-concave-octahedral.png
 layout: vzome
