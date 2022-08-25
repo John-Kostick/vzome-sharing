@@ -1,4 +1,5 @@
 ---
+published: false
 title: Six axis as tensegrity Transform
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/01/13-26-09-Six-axis-as-tensegrity-Transform/Six-axis-as-tensegrity-Transform.png
 layout: vzome
