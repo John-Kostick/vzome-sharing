@@ -1,5 +1,5 @@
 ---
-title: Giant dideca array
+title: Giant dodeca array
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/21/10-38-32-Giant-dideca-array/Giant-dideca-array.png
 published: false
