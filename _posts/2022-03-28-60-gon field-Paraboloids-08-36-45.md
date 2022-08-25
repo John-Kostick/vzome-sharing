@@ -1,4 +1,5 @@
 ---
+published: false
 title: 60 gon field Paraboloids
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/28/08-36-45-60-gon field-Paraboloids/60-gon field-Paraboloids.png
 layout: vzome
