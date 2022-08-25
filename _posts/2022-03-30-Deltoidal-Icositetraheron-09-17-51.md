@@ -1,4 +1,5 @@
 ---
+published: false
 title: Deltoidal Icositetraheron
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/30/09-17-51-Deltoidal-Icositetraheron/Deltoidal-Icositetraheron.png
 layout: vzome
