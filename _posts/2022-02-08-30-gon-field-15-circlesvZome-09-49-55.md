@@ -1,4 +1,5 @@
 ---
+published: false
 title: 30 gon field 15 circlesvZome
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/08/09-49-55-30-gon-field-15-circlesvZome/30-gon-field-15-circlesvZome.png
 layout: vzome
