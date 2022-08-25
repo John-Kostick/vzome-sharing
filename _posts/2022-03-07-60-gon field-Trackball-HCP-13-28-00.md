@@ -1,4 +1,5 @@
 ---
+published: false
 title: 60 gon field Trackball HCP
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/07/13-28-00-60-gon field-Trackball-HCP/60-gon field-Trackball-HCP.png
 layout: vzome
