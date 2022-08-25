@@ -1,4 +1,5 @@
 ---
+published: false
 title: Deltoidal Hexecontahedron
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/30/09-18-28-Deltoidal-Hexecontahedron/Deltoidal-Hexecontahedron.png
 layout: vzome
