@@ -1,4 +1,5 @@
 ---
+published: false
 title: Half Icositetrahedron
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/15/12-22-59-Half-Icositetrahedron/Half-Icositetrahedron.png
 layout: vzome
