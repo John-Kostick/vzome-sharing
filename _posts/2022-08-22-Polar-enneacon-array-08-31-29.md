@@ -28,7 +28,7 @@ description:
   </figcaption>
 </figure>
 
-In the above figure, spaces between origin centered major cell and a ring od 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, doedecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this, Type I array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configurationc of bridgework betewwen major cells can be built, which have reduced symmetry, but none are shown here. 
+In the above figure, spaces between origin centered major cell and a ring od 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, doedecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configuration of bridgework between major cells can be built, which have reduced symmetry, but none are shown here. 
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
@@ -41,7 +41,7 @@ In the above figure, spaces between origin centered major cell and a ring od 10 
  </figcaption>
 </figure>
 
-In the Type II arrays, the surrounding major cell chains have the centers of the cells coplanar with an origin point which is a shared polar vertex of 2 major cells.  
+In this Type II array, the surrounding major cell chains have the centers of the cells coplanar with an origin point which is a shared polar vertex of 2 major cells.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
@@ -55,3 +55,54 @@ In the Type II arrays, the surrounding major cell chains have the centers of the
 </figure>
 
 In the array above, the bridgework is left partially open, for viewing how minor cells can be placed.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-42-09-12-D-array/12-D-array.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-42-09-12-D-array/12-D-array.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+     A Type I 12-directional array
+ </figcaption>
+</figure>
+
+In the above array, the surrounding major cell chains have the centers of the cells coplanar with an origin point which is a shared polar vertex of 2 major cells.  The bridgework of minor cells includes polar triacontahedra. which are in a ring of 12 surrounding the polar axis. Openings in the bridgework can be filled with dodecahedral cells.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-39-43-12-D-Array-3/12-D-Array-3.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-39-43-12-D-Array-3/12-D-Array-3.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Type II 12 dirctional array.  
+ </figcaption>
+</figure>
+
+Likewise, openings could be filled with dodecahedral cells.  In this array, centers of the 12 major cells that compose the ring are coplanar with the origin at the center of a major cell.
+
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-43-24-182-hedron-3/182-hedron-3.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-43-24-182-hedron-3/182-hedron-3.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Type I 14 directional array
+ </figcaption>
+</figure>
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-48-34-182-hedron-2/182-hedron-2.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-48-34-182-hedron-2/182-hedron-2.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Type II 14 directional array
+ </figcaption>
+</figure>
+
+This features zones marked in blue, showing the zonal character of the whole array.
