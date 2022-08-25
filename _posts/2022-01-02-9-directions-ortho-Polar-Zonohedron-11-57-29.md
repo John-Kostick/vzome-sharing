@@ -1,4 +1,5 @@
 ---
+published: false
 title: 9 directions ortho Polar Zonohedron
 image: https://John-Kostick.github.io/vzome-sharing/2022/01/02/11-57-29-9-directions-ortho-Polar-Zonohedron/9-directions-ortho-Polar-Zonohedron.png
 layout: vzome
