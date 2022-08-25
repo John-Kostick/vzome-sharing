@@ -1,4 +1,5 @@
 ---
+published: false
 title: 32 gon octa sphere 3vZome
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/16/11-57-40-32-gon-octa-sphere-3vZome/32-gon-octa-sphere-3vZome.png
 layout: vzome
