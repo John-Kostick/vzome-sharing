@@ -1,4 +1,5 @@
 ---
+published: false
 title: Double RD single pc
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/20/16-55-06-Double-RD-single-pc/Double-RD-single-pc.png
 layout: vzome
