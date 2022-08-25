@@ -1,4 +1,5 @@
 ---
+published: false
 title: Tetraxis as Tensegrity
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/25/16-19-37-Tetraxis-as-Tensegrity/Tetraxis-as-Tensegrity.png
 layout: vzome
