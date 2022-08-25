@@ -1,4 +1,5 @@
 ---
+published: false
 title: Tetraxis Burr partial
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/20/14-10-05-Tetraxis-Burr-partial/Tetraxis-Burr-partial.png
 layout: vzome
