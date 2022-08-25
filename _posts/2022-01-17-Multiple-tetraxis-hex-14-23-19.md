@@ -1,4 +1,5 @@
 ---
+published: false
 title: Multiple tetraxis hex
 image: https://John-Kostick.github.io/vzome-sharing/2022/01/17/14-23-19-Multiple-tetraxis-hex/Multiple-tetraxis-hex.png
 layout: vzome
