@@ -76,7 +76,7 @@ In the above array, the surrounding major cell chains have the centers of the ce
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-39-43-12-D-Array-3/12-D-Array-3.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    A Type II 12 dirctional array.  
+    A Type II 12 directional array.  
  </figcaption>
 </figure>
 
