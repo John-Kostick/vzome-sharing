@@ -2,7 +2,7 @@
 title: Arrays of Polar Zonohedra with 10, 12, and 14 directions
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-31-29-Polar-enneacon-array/Polar-enneacon-array.png
-published: false
+published: true
 layout: vzome
 description:
   Here are examples of related arrays of polar zonohedra.  
@@ -28,7 +28,7 @@ description:
   </figcaption>
 </figure>
 
-In the above figure, spaces between origin centered major cell and a ring od 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, doedecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configuration of bridgework between major cells can be built, which have reduced symmetry, but none are shown here. 
+In the above figure, spaces between origin centered major cell and a ring of 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, dodecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configurations of bridgework between major cells can be built, which have reduced symmetry, but none are shown here. 
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
