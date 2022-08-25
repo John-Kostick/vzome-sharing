@@ -1,4 +1,5 @@
 ---
+published: false
 title: 5 pair tensegrities with mirror
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/01/13-30-24-5-pair-tensegrities-with-mirror/5-pair-tensegrities-with-mirror.png
 layout: vzome
