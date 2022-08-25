@@ -1,4 +1,5 @@
 ---
+published: false
 title: 6 strut tensegrity transform 2vZome
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/01/13-15-09-6-strut-tensegrity-transform-2vZome/6-strut-tensegrity-transform-2vZome.png
 layout: vzome
