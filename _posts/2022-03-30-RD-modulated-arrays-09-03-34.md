@@ -1,4 +1,5 @@
 ---
+published: false
 title: RD modulated arrays
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/30/09-03-34-RD-modulated-arrays/RD-modulated-arrays.png
 layout: vzome
