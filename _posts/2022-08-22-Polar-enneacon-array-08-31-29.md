@@ -24,10 +24,34 @@ description:
        src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-31-29-Polar-enneacon-array/Polar-enneacon-array.png" >
   </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
-    Fig. 1  A Type I array of 10-directioanl Polar Enneacontahedra 
+    A Type I array of 10-directional Polar Enneacontahedra 
   </figcaption>
 </figure>
 
-In Fig. 1, spaces between origin centered major cell and a ring od 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, doedecahedra, and icosahedra.  In this, Type I array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have a plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  
+In the above figure, spaces between origin centered major cell and a ring od 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, doedecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this, Type I array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configurationc of bridgework betewwen major cells can be built, which have reduced symmetry, but none are shown here. 
 
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-35-22-Polar-Enneacon-type-2-array/Polar-Enneacon-type-2-array.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/22/08-35-22-Polar-Enneacon-type-2-array/Polar-Enneacon-type-2-array.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Type II array of polar Enneacontahedra
+ </figcaption>
+</figure>
 
+In the Type II arrays, the surrounding major cell chains have the centers of the cells coplanar with an origin point which is a shared polar vertex of 2 major cells.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/25/08-33-32-Polar-enneacon-array-extended/Polar-enneacon-array-extended.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/25/08-33-32-Polar-enneacon-array-extended/Polar-enneacon-array-extended.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    An extended Type I array
+ </figcaption>
+</figure>
+
+In the array above, the bridgework is left partially open, for viewing how minor cells can be placed.  
