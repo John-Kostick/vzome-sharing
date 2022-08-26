@@ -1,4 +1,5 @@
 ---
+published: false
 title: 6 strut tensegrity condensed 3
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/19/13-42-28-6-strut-tensegrity-condensed-3/6-strut-tensegrity-condensed-3.png
