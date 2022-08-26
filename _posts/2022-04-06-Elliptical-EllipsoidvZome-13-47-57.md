@@ -1,4 +1,5 @@
 ---
+published: false
 title: Elliptical EllipsoidvZome
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-47-57-Elliptical-EllipsoidvZome/Elliptical-EllipsoidvZome.png
 layout: vzome
