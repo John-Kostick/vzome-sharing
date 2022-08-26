@@ -1,4 +1,5 @@
 ---
+published: false
 title: Rhombicuboctahedron blocks
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/19/14-01-36-Rhombicuboctahedron-blocks/Rhombicuboctahedron-blocks.png
