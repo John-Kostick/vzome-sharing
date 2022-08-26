@@ -1,4 +1,5 @@
 ---
+published: false
 title: Triacon concentric array 3
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/04/09-48-40-Triacon-concentric-array-3/Triacon-concentric-array-3.png
 layout: vzome
