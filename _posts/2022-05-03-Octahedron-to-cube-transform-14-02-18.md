@@ -1,4 +1,5 @@
 ---
+published: false
 title: Octahedron to cube transform
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-02-18-Octahedron-to-cube-transform/Octahedron-to-cube-transform.png
