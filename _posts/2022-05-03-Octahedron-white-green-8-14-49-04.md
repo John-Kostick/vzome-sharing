@@ -1,4 +1,5 @@
 ---
+published: false
 title: Octahedron white green 8
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-49-04-Octahedron-white-green-8/Octahedron-white-green-8.png
