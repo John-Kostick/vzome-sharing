@@ -1,4 +1,5 @@
 ---
+published: false
 title: Triacon Array w:zones
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/04/09-58-11-Triacon Array w:zones/Triacon Array w:zones.png
 layout: vzome
