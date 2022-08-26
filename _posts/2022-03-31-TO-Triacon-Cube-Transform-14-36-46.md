@@ -1,4 +1,5 @@
 ---
+published: false
 title: TO Triacon Cube Transform
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/31/14-36-46-TO-Triacon-Cube-Transform/TO-Triacon-Cube-Transform.png
 layout: vzome
