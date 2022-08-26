@@ -1,4 +1,5 @@
 ---
+published: false
 title: Corner frames with cornice
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/15/09-45-49-Corner-frames-with-cornice/Corner-frames-with-cornice.png
 layout: vzome
