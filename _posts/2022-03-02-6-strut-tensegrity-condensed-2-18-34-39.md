@@ -1,4 +1,5 @@
 ---
+published: false
 title: 6 strut tensegrity condensed 2
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/02/18-34-39-6-strut-tensegrity-condensed-2/6-strut-tensegrity-condensed-2.png
 layout: vzome
