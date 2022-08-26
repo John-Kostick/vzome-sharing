@@ -1,4 +1,5 @@
 ---
+published: false
 title: Octahedron turquoise 9
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-48-40-Octahedron-turquoise-9/Octahedron-turquoise-9.png
