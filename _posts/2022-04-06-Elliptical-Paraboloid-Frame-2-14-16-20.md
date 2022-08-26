@@ -1,4 +1,5 @@
 ---
+published: false
 title: Elliptical Paraboloid Frame 2
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/14-16-20-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png
 layout: vzome
