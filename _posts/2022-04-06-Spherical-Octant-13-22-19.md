@@ -1,4 +1,5 @@
 ---
+published: false
 title: Spherical Octant
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-22-19-Spherical-Octant/Spherical-Octant.png
 layout: vzome
