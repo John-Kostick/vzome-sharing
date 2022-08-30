@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="5" field="rootTwo" version="7.1">
-  <EditHistory editNumber="1272" lastStickyEdit="1269">
+  <EditHistory editNumber="1315" lastStickyEdit="1315">
     <LoadVEF scale="1 0">vZome VEF 6 field rootTwo
 
 18
@@ -3304,34 +3304,87 @@
     <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
     <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
     <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <Hide/>
+    <SelectAll/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="9"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="2 0 0 0 10 0"/>
+      <polygonVertex at="2 0 8 0 2 0"/>
+      <polygonVertex at="2 0 4 0 2 0"/>
+      <polygonVertex at="2 0 -2 0 8 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="2 0 0 0 10 0"/>
+      <polygonVertex at="2 0 8 0 2 0"/>
+      <polygonVertex at="2 0 4 0 2 0"/>
+      <polygonVertex at="2 0 -2 0 8 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <Snapshot id="10"/>
+    </Branch>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <Snapshot id="11"/>
+    </Branch>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="12"/>
   </EditHistory>
   <notes>
-    <page snapshot="5" title="Single ">
-      <ViewModel distance="94.52642822265625" far="189.05288696289062" near="0.2363162785768509" parallel="true" stereoAngle="0.0" width="42.53688430786133">
+    <page snapshot="9" title="Single unit">
+      <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459605187177658" parallel="false" stereoAngle="0.0" width="44.27284622192383">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.009189071133732796" y="-0.007841866463422775" z="0.9998863935470581"/>
+        <LookDirection x="-0.9992850422859192" y="0.0363428108394146" z="0.009471734054386616"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="10" title="Beginning Assembly">
+      <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459605187177658" parallel="false" stereoAngle="0.0" width="44.27284622192383">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="0.0" z="1.0"/>
         <LookDirection x="-1.0" y="0.0" z="0.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="6" title="pre-assembly">
-      <ViewModel distance="117.78718566894531" far="235.57440185546875" near="0.29446810483932495" parallel="true" stereoAngle="0.0" width="53.00421142578125">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.0" y="0.0" z="1.0"/>
-        <LookDirection x="-1.0" y="0.0" z="0.0"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
-    <page snapshot="7" title="Begin assembly">
-      <ViewModel distance="117.78718566894531" far="235.57440185546875" near="0.29446810483932495" parallel="true" stereoAngle="0.0" width="53.00421142578125">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.0" y="0.0" z="1.0"/>
-        <LookDirection x="-1.0" y="0.0" z="0.0"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
-    <page snapshot="8" title="Assembling">
-      <ViewModel distance="117.78718566894531" far="235.57440185546875" near="0.29446810483932495" parallel="true" stereoAngle="0.0" width="53.00421142578125">
+    <page snapshot="11" title="Sliding together">
+      <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459605187177658" parallel="false" stereoAngle="0.0" width="44.27284622192383">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="0.0" z="1.0"/>
         <LookDirection x="-1.0" y="0.0" z="0.0"/>
@@ -3345,10 +3398,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459605187177658" parallel="true" stereoAngle="0.0" width="44.27284622192383">
+    <ViewModel distance="98.38412475585938" far="196.76828002929688" near="0.2459605187177658" parallel="false" stereoAngle="0.0" width="44.27284622192383">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.0818033218383789" y="0.005956569686532021" z="0.9965910911560059"/>
-      <LookDirection x="-0.9959600567817688" y="0.03739403188228607" z="0.08153099566698074"/>
+      <UpDirection x="-0.07620042562484741" y="-0.0048581333830952644" z="0.9970399141311646"/>
+      <LookDirection x="-0.9958990216255188" y="0.049091875553131104" z="-0.07587087154388428"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
