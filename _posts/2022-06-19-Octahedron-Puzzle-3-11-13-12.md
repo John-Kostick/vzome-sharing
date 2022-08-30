@@ -15,10 +15,14 @@ description:
 {% endcomment %}
   A coordinated motion puzzle. Six identical sub assemblies slide together to form an Octahedron.  All pieces that compose sub assemblies are made from stock with triangular cross section. Triangles are isoscelese with ratio of altitude to base of √2 to 2.
 
-A 3D design created in vZome.  Use your mouse or touch to interact.
 
-<vzome-viewer style="width: 87%; height: 60vh; margin: 5%"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/07/02/08-10-42-Octahedron-Puzzle-3-d/Octahedron-Puzzle-3-d.vZome" >
- <img src="https://John-Kostick.github.io/vzome-sharing/2022/07/02/08-10-42-Octahedron-Puzzle-3-d/Octahedron-Puzzle-3-d.png" />
-</vzome-viewer>
- 
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/30/17-01-18-Octahedron-Puzzle-3/Octahedron-Puzzle-3.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/08/30/17-01-18-Octahedron-Puzzle-3/Octahedron-Puzzle-3.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Coordinated Motion Puzzle
+ </figcaption>
+</figure>
