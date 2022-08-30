@@ -17,7 +17,7 @@ description:
 
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
+ <vzome-viewer style="width: 100%; height: 60vh.  "show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/30/17-01-18-Octahedron-Puzzle-3/Octahedron-Puzzle-3.vZome" >
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/30/17-01-18-Octahedron-Puzzle-3/Octahedron-Puzzle-3.png" >
