@@ -1,4 +1,5 @@
 ---
+published: false
 title: Multi Icosa study 
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/16/11-36-25-Multil-Icosa-study-2/Multil-Icosa-study-2.png
 layout: vzome
