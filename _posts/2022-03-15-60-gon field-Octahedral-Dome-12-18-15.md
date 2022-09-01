@@ -1,4 +1,5 @@
 ---
+published: false
 title: Domes
 image: https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.png
 layout: vzome
