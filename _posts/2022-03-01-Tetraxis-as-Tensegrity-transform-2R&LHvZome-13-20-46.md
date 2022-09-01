@@ -1,4 +1,5 @@
----published: false
+---
+published: false
 title: Tetraxis as Tensegrity transform 2R&LHvZome
 image: https://John-Kostick.github.io/vzome-sharing/2022/03/01/13-20-46-Tetraxis-as-Tensegrity-transform-2R&LHvZome/Tetraxis-as-Tensegrity-transform-2R&LHvZome.png
 layout: vzome
