@@ -1,4 +1,5 @@
 ---
+published: false
 title: 60 gon field Yellow strut construction
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/17/13-49-12-60-gon field-Yellow-strut/60-gon field-Yellow-strut.png
 layout: vzome
