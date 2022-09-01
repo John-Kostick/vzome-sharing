@@ -1,4 +1,5 @@
 ---
+published: false
 title: Octahedron puzzle 4
 image: https://John-Kostick.github.io/vzome-sharing/2021/12/12/20-17-38-Octahedron puzzle 4/Octahedron puzzle 4.png
 layout: vzome
