@@ -1,4 +1,5 @@
 ---
+published: false
 title: Three 60gons in 30gon field
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/20/08-11-07-Three-60gons-in-30gon-field/Three-60gons-in-30gon-field.png
 layout: vzome
