@@ -2,7 +2,7 @@
 title: 6 plane star extended
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/01/15-50-38-6-plane-star-extended/6-plane-star-extended.png
-published: false
+published: true
 layout: vzome
 ---
 
