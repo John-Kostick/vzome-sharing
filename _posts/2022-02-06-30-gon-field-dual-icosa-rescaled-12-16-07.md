@@ -1,4 +1,5 @@
 ---
+published: false
 title: 30 gon field dual icosa rescaled
 image: https://John-Kostick.github.io/vzome-sharing/2022/02/06/12-16-07-30-gon-field-dual-icosa-rescaled/30-gon-field-dual-icosa-rescaled.png
 layout: vzome
