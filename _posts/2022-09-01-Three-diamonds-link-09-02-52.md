@@ -2,7 +2,7 @@
 title: Intersecting Planes Part 1
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/01/09-02-52-Three-diamonds-link/Three-diamonds-link.png
-published: false
+published: true
 layout: vzome
 description:
   This is a study of interlinked polyhedra.
@@ -55,4 +55,40 @@ This is intended to illustrate the weaving concept displayed in the following vi
   </figcaption>
 </figure>
 
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/04/11-35-21-Four-triangles/Four-triangles.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/04/11-35-21-Four-triangles/Four-triangles.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Four interlinked triangles
+ </figcaption>
+</figure>
 
+In the above model, the edges of equilateral triangles are chords of a Coboctahedron.  In the model below, these triangles are doubled with another set of four with alternate position, forming four hexagrams, also called a Cubocta Star
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/01/10-44-40-Cuboctastar-single/Cuboctastar-single.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/01/10-44-40-Cuboctastar-single/Cuboctastar-single.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Cubocta Star
+ </figcaption>
+</figure>
+
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/03/18-36-59-Cuboctastar-array/Cuboctastar-array.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/03/18-36-59-Cuboctastar-array/Cuboctastar-array.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    ubocta Star Array
+ </figcaption>
+</figure>
+
+The above model shows the Cubocta Star in a periodic array.  
