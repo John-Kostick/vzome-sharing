@@ -107,5 +107,5 @@ Here is a Cubocta Star paneled. This design works very nicely as a porch light.
  </figcaption>
 </figure>
 
-For a continuation of this study, see [Intersecting Planes Part 2](https://john-kostick.github.io/vzome-sharing/2022/09/05/6-ring-interlink-12-14-14.html)
+A continuation of this study can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/09/05/6-ring-interlink-12-14-14.html)
 
