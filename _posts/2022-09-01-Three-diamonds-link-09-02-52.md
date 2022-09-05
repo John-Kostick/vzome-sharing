@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2022/09/01/09-02-52-Three-di
 published: true
 layout: vzome
 description:
-  This is a study of interlinked polyhedra.
+  This is a study of interlinked polygons.
 ---
 
 {% comment %}
@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/01/09-02-52-Three-diamonds-link/>)
  
 {% endcomment %}
-  This is a study of interlinked polyhedra. There are several kinds of such "polylinks." Here we are focussed on those that define planes that intersect at a commmon origin point. This is a continuation of 
+  This is a study of interlinked polygons. There are several kinds of such "polylinks." Here we are focused on those that define planes that intersect at a commmon origin point. This is a continuation of 
 the subject material of [31 Great Circles](https://john-kostick.github.io/vzome-sharing/2022/02/07/30-gon-field-31-Circles-22-59-44.html)
 In this first part, three and four plane models and expansions of them are featured.  
 
