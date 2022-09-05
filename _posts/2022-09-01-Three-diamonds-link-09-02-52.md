@@ -37,7 +37,7 @@ The above model shows three rhombi interlinked. As in the model below, this illu
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/05/09-36-24-3-affine-dodecagons/3-affine-dodecagons.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    REPLACE this caption!
+    Three interlinked 12 point stars
  </figcaption>
 </figure>
 
@@ -106,3 +106,4 @@ Here is a Cubocta Star paneled. This design works very nicely as a porch light.
     Stella 12
  </figcaption>
 </figure>
+
