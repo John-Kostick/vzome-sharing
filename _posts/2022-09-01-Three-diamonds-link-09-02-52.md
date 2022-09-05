@@ -37,12 +37,12 @@ The above model shows three rhombi interlinked. As in the model below, this illu
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/05/09-36-24-3-affine-dodecagons/3-affine-dodecagons.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    Three interlinked 12 point stars
+    REPLACE this caption!
  </figcaption>
 </figure>
 
 Not that in the above model, the planar stars do not intersect each other.  In the scenes dropdown menu, there is a view of 3 slightly elliptical dodecagons which interlink.  
-This is intended to illustrate the weaving concept displayed in the following video, where the planes are composed of closed circles that must pass by each other to form a symmetrical structure.  
+This is intended to illustrate the weaving concept displayed in the following video, where the planes are composed of closed circles that are interwoven to form a symmetrical structure.  
 
 <figure style="width: 87%; margin: 5%">
      <video width="548" height="440" name="Four Planes Star video" 
@@ -87,8 +87,22 @@ In the above model, the edges of equilateral triangles are chords of a Coboctahe
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/03/18-36-59-Cuboctastar-array/Cuboctastar-array.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    ubocta Star Array
+    Cubocta Star Array
  </figcaption>
 </figure>
 
 The above model shows the Cubocta Star in a periodic array.  
+
+
+Here is a Cubocta Star paneled. This design works very nicely as a porch light. 
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/01/10-38-21-Stella-12/Stella-12.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/01/10-38-21-Stella-12/Stella-12.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Stella 12
+ </figcaption>
+</figure>
