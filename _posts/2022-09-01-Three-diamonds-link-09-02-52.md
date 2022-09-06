@@ -41,7 +41,7 @@ The above model shows three rhombi interlinked. As in the model below, this illu
  </figcaption>
 </figure>
 
-Not that in the above model, the planar stars do not intersect each other.  In the scenes dropdown menu, there is a view of 3 slightly elliptical dodecagons which interlink.  
+Note that in the above model, the planar stars do not intersect each other.  In the scenes dropdown menu, there is a view of 3 slightly elliptical dodecagons which interlink without intersecting each other 
 This is intended to illustrate the weaving concept displayed in the following video, where the planes are composed of closed circles that are interwoven to form a symmetrical structure.  
 
 <figure style="width: 87%; margin: 5%">
