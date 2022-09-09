@@ -66,7 +66,7 @@ This is intended to illustrate the weaving concept displayed in the following vi
  </figcaption>
 </figure>
 
-In the above model, the edges of equilateral triangles are chords of a Coboctahedron.  In the model below, these triangles are doubled with another set of four with alternate position, forming four hexagrams, also called a Cubocta Star
+In the above model, the edges of equilateral triangles are chords of a Cuboctahedron.  In the model below, these triangles are doubled with another set of four with alternate position, forming four hexagrams, also called a Cubocta Star
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
