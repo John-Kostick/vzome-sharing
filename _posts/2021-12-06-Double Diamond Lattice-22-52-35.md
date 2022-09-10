@@ -1,9 +1,9 @@
 ---
 title: Double Diamond Lattice
-image: https://John-Kostick.github.io/vzome-sharing/2021/12/06/22-52-35-Double Diamond Lattice/Double Diamond Lattice.png
+image: https://John-Kostick.github.io/vzome-sharing/2021/12/06/22-52-35-Double-Diamond-Lattice/Double Diamond Lattice.png
 layout: vzome
 description:
-  A sample of double diamond lattice. Two diamond lattices can perfectly interleave, complementing one another
+  This shows a sample of double diamond lattice. Two diamond lattices can perfectly interlink, complementing one another
 ---
   
 
