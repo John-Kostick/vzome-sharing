@@ -1,6 +1,6 @@
 ---
 title: Double Diamond Lattice
-image: https://John-Kostick.github.io/vzome-sharing/2021/12/06/22-52-35-Double-Diamond-Lattice/Double Diamond Lattice.png
+image: https://John-Kostick.github.io/vzome-sharing/2021/12/06/22-52-35-Double-Diamond-Lattice/Double-Diamond-Lattice.png
 layout: vzome
 description:
   This shows a sample of double diamond lattice. 
