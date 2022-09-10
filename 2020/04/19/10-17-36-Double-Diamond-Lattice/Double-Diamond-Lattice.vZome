@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="5" field="golden" version="7.1">
+  <EditHistory editNumber="101" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="9" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 2 1 2 1 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="1 2 1 2 1 2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="1 2 1 2 1 2" dir="yellow" index="3" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 4 2 4 0 0" startSegment="1 2 1 2 1 2"/>
+    <SelectManifestation point="2 4 2 4 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 2 4 2 4" dir="yellow" index="39" len="1 1"/>
+    <StrutCreation anchor="-2 -4 0 0 2 4" dir="yellow" index="9" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -2 1 2 3 6" startSegment="-2 -4 0 0 2 4"/>
+    <SelectManifestation point="-1 -2 1 2 3 6"/>
+    <SelectManifestation endSegment="-1 -2 1 2 3 6" startSegment="0 0 2 4 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-1 -2 3 6 1 2" dir="yellow" index="39" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 2 4 2 4" startSegment="-1 -2 3 6 1 2"/>
+    <SelectManifestation point="-2 -4 2 4 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="3 6 1 2 -1 -2" dir="yellow" index="5" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="4 8 0 0 0 0"/>
+    <SelectManifestation endSegment="4 8 0 0 0 0" startSegment="3 6 1 2 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 4 8"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Centroid>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Centroid>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 2 4" dir="yellow" index="9" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <SelectManifestation endSegment="1 2 1 2 3 6" startSegment="0 0 0 0 2 4"/>
+    <SelectManifestation point="1 2 1 2 3 6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 2 4" dir="yellow" index="24" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 -1 -2 1 2"/>
+    <SelectManifestation endSegment="1 2 -1 -2 1 2" startSegment="0 0 0 0 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-1 -2 -1 -2 3 6" dir="yellow" index="19" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 2 4" startSegment="-1 -2 -1 -2 3 6"/>
+    <SelectManifestation point="-2 -4 -2 -4 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="1 2 1 2 3 6" dir="yellow" index="39" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -3 -6 -1 -2"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-3 -6 -1 -2 -1 -2"/>
+    <SelectManifestation point="-2 -4 -2 -4 -2 -4"/>
+    <SelectManifestation point="-2 -4 -2 -4 -2 -4"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -1 -2 -3 -6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 -1 -2 -1 -2"/>
+    <SelectManifestation point="-2 -4 -2 -4 -2 -4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -1 -2 -1 -2"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -1 -2 -1 -2"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -1 -2 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -1 -2 -3 -6"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-1 -2 -3 -6 -1 -2"/>
+    <SelectManifestation endSegment="-2 -4 -2 -4 -2 -4" startSegment="-3 -6 -1 -2 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectAll/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="224,239,255">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="90.81999206542969" far="181.63999938964844" near="0.22705000638961792" parallel="false" stereoAngle="0.0" width="40.86899948120117">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="-1.0" y="0.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
