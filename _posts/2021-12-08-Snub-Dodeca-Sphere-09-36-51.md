@@ -17,8 +17,8 @@ layout: vzome
 {% endcomment %}
 This shows a very close approximation of a Geodesic construction, where all the vertices lie on a sphere.
 
-<figure style="width: 87%; margin: 5%">  show-scenes="true"
- <vzome-viewer style="width: 100%; height: 60vh"
+<figure style="width: 87%; margin: 5%"> 
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/16/13-05-57-Snub-Dodeca-Sphere/Snub-Dodeca-Sphere.vZome" >
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/16/13-05-57-Snub-Dodeca-Sphere/Snub-Dodeca-Sphere.png" >
