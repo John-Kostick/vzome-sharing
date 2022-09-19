@@ -16,7 +16,7 @@ description:
 This is a study of a 9-directional polar zonohedron. One set of 3 directions is increased in length.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+  <vzome-viewer style="width: 100%; height: 60vh"
        src="https://John-Kostick.github.io/vzome-sharing/2022/09/12/09-23-18-Modulated-9-zone-cell/Modulated-9-zone-cell.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/09/12/09-23-18-Modulated-9-zone-cell/Modulated-9-zone-cell.png" >
