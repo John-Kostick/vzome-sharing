@@ -2,8 +2,10 @@
 title: Modulated 9 zone cell
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/12/09-23-18-Modulated-9-zone-cell/Modulated-9-zone-cell.png
-published: false
+published: true
 layout: vzome
+description:
+  This is a study of a 9-directional polar zonohedron.
 ---
 
 {% comment %}
@@ -11,8 +13,7 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/12/09-23-18-Modulated-9-zone-cell/>)
  
 {% endcomment %}
-
-A 3D design created in vZome.  Use your mouse or touch to interact.
+This is a study of a 9-directional polar zonohedron. One set of 3 directions is increased in length.
 
 <figure style="width: 87%; margin: 5%">
   <vzome-viewer style="width: 100%; height: 60vh"
