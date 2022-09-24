@@ -26,6 +26,7 @@ This is an exploration of some stellations of Enneacontahedra. Planes of regular
  </figcaption>
 </figure>
 
+Another kind of stellation is shown below.  Scenes dropdown shows some frameworks used to derive these forms.
 
 
 <figure style="width: 87%; margin: 5%">
