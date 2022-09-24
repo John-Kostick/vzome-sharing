@@ -16,15 +16,13 @@ description:
 
   A pentagonal Dodecahedron has 5 alternates, or twins, formed by reflection. Scenes dropdown shows further developments.
 
-
-
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/09-17-51-Dodecahedron-plus-five-twins/Dodecahedron-plus-five-twins.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/09-17-51-Dodecahedron-plus-five-twins/Dodecahedron-plus-five-twins.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
-    Dodecahedron plus five twins
-  </figcaption>
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/09-17-51-Dodecahedron-plus-five-twins/Dodecahedron-plus-five-twins.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/09-17-51-Dodecahedron-plus-five-twins/Dodecahedron-plus-five-twins.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Dodecahedron Plus Five Twins
+ </figcaption>
 </figure>
