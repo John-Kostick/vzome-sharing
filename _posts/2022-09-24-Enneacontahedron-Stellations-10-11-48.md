@@ -13,14 +13,13 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/24/10-11-48-Enneacontahedron-Stellations/>)
  
 {% endcomment %}
-This is an exploration of some stellations of Enneacontahedra. Planes of regular Enneacons in Icosahedral symmetry are used to compose these forms.  Scenes dropdown menus show frames from which stellations are derived. 
+This is an exploration of some stellations of Enneacontahedra. Planes of regular Enneacons in Icosahedral symmetry are used to compose these forms.  
 
 
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh  "show-scenes="true"
-  
-       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.vZome" >
+  <vzome-viewer style="width: 100%; height: 60vh  
+   src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.png" >
   </vzome-viewer>
@@ -30,9 +29,8 @@ This is an exploration of some stellations of Enneacontahedra. Planes of regular
 </figure>
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"  "show-scenes="true"
- 
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
+ <vzome-viewer style="width: 100%; height: 60vh" 
+  src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
  </vzome-viewer>
