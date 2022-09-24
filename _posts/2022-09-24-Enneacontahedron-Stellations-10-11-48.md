@@ -16,7 +16,7 @@ description:
 This is an exploration of some stellations of Enneacontahedra. Planes of regular Enneacons in Icosahedral symmetry are used to compose these forms.  
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.vZome" >
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.png" >
@@ -29,7 +29,7 @@ This is an exploration of some stellations of Enneacontahedra. Planes of regular
 
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
