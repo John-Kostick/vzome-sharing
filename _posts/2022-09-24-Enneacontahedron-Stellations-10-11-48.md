@@ -2,8 +2,10 @@
 title: Enneacontahedron Stellations
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.png
-published: false
+published: true
 layout: vzome
+description:
+  This is an exploration of some stellations of Enneacontahedra.  
 ---
 
 {% comment %}
@@ -11,16 +13,28 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/24/10-11-48-Enneacontahedron-Stellations/>)
  
 {% endcomment %}
+This is an exploration of some stellations of Enneacontahedra. Planes of regular Enneacons in Icosahedral symmetry are used to compose these forms.  Scenes dropdown menus show frames from which stellations are derived. 
 
-A 3D design created in vZome.  Use your mouse or touch to interact.
+
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh  "show-scenes="true"
        src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.png" >
   </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
-    Enneacontahedron Stellations
+    Enneacontahedron Stellation
   </figcaption>
+</figure>
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"  "show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Another Enneacon stellation
+ </figcaption>
 </figure>
