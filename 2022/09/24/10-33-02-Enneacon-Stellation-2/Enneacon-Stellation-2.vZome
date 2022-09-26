@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="5" field="golden" version="7.1">
-  <EditHistory editNumber="196" lastStickyEdit="194">
+  <EditHistory editNumber="231" lastStickyEdit="215">
     <BeginBlock/>
     <SelectManifestation point="0 0 0 0 0 0"/>
     <DeselectAll/>
@@ -617,6 +617,51 @@
     <Snapshot id="1"/>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <Hide/>
+    <SelectAll/>
+    <BookmarkTool name="tool-3"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 5 8 3 5"/>
+    <SelectManifestation point="5 8 5 8 5 8"/>
+    <SelectManifestation point="3 5 0 0 5 8"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BookmarkTool name="tool-4"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5 -8 0 0 8 13"/>
+    <SelectManifestation point="0 0 3 5 8 13"/>
+    <SelectManifestation point="5 8 0 0 8 13"/>
+    <SelectManifestation point="0 0 -3 -5 8 13"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-8 -13 -5 -8 0 0"/>
+      <polygonVertex at="-3 -5 0 0 5 8"/>
+      <polygonVertex at="0 0 8 13 5 8"/>
+      <polygonVertex at="-5 -8 3 5 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-8 -13 -5 -8 0 0"/>
+      <polygonVertex at="-3 -5 0 0 5 8"/>
+      <polygonVertex at="0 0 8 13 5 8"/>
+      <polygonVertex at="-5 -8 3 5 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 8 13 5 8" startSegment="-3 -5 0 0 5 8"/>
+    <SelectManifestation endSegment="0 0 8 13 5 8" startSegment="3 5 0 0 5 8"/>
+    <EndBlock/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Stellation in cage">
@@ -642,10 +687,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="158.99606323242188" far="317.9917907714844" near="0.3974904417991638" parallel="false" stereoAngle="0.0" width="71.5481948852539">
+    <ViewModel distance="241.9858856201172" far="483.9710998535156" near="0.6049652099609375" parallel="true" stereoAngle="0.0" width="108.89358520507812">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.0" y="1.0" z="0.0"/>
-      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      <UpDirection x="-0.0015793925849720836" y="0.9997667074203491" z="0.0212108101695776"/>
+      <LookDirection x="-0.017326220870018005" y="0.021195583045482635" z="-0.9996106624603271"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
@@ -689,5 +734,7 @@
     <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-0" label="Stellation panels" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-1" label="Cage" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-2" label="Panels" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-3" label="stellation" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-4" label="panels cage" selectInputs="true"/>
   </Tools>
 </vzome:vZome>
