@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/26/16-19-58-60-gon-field-Corner-steps/>)
  
 {% endcomment %}
-This shows a series of steps built in a corner. Step sequence follows a paraboloid curve.
+This shows a series of steps built in a corner between two walls, or fences. The step sequence follows a paraboloid curve.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -28,7 +28,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-In the model below, the sequence is carried out three courses of steps futher. Many parameters can be varied with this system.  
+In the model below, the sequence is carried out three courses of steps further. Many parameters can be varied with this system. For example, in these models, the footprint of each course is semi-circular, but could be elliptical, so that the branch along one wall is longer than the other.
 
 
 <figure style="width: 87%; margin: 5%">
