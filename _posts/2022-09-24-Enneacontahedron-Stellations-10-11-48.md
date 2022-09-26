@@ -26,20 +26,19 @@ This is an exploration of some stellations of Enneacontahedra. Planes of regular
  </figcaption>
 </figure>
 
-Another kind of stellation is shown below. In this model, only the  Arc sin 2/3 = (41.81...°) rhombi are used. Scenes dropdown shows some frameworks used to derive these forms.
+Another kind of stellation is shown below. In this model, only the  Arc sin 2/3 = (41.81...°) rhombi are used. Scenes dropdown shows planar extension, and some frameworks used to derive these forms.
 
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/09-35-47-Enneacon-Stellation-3/Enneacon-Stellation-3.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/09-35-47-Enneacon-Stellation-3/Enneacon-Stellation-3.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     Another Stellation
  </figcaption>
 </figure>
-
 
 Below is a stellation using both types of planes of Enneacontahedron.
 The points of this stellation coincide with vertices of a Triacontahedron, as shown in dropdown menu.
