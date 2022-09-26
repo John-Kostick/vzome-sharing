@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="5" field="golden" version="7.1">
-  <EditHistory editNumber="231" lastStickyEdit="215">
+  <EditHistory editNumber="210" lastStickyEdit="206">
     <BeginBlock/>
     <SelectManifestation point="0 0 0 0 0 0"/>
     <DeselectAll/>
@@ -626,42 +626,22 @@
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
-    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
-    <BeginBlock/>
-    <DeselectAll/>
-    <SelectManifestation point="0 0 5 8 3 5"/>
-    <SelectManifestation point="5 8 5 8 5 8"/>
-    <SelectManifestation point="3 5 0 0 5 8"/>
-    <EndBlock/>
-    <Polygon/>
-    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
-    <BookmarkTool name="tool-4"/>
-    <DeselectAll/>
-    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
-    <BeginBlock/>
-    <DeselectAll/>
-    <SelectManifestation point="-5 -8 0 0 8 13"/>
-    <SelectManifestation point="0 0 3 5 8 13"/>
-    <SelectManifestation point="5 8 0 0 8 13"/>
-    <SelectManifestation point="0 0 -3 -5 8 13"/>
-    <DeselectAll/>
-    <SelectManifestation>
-      <polygonVertex at="-8 -13 -5 -8 0 0"/>
-      <polygonVertex at="-3 -5 0 0 5 8"/>
-      <polygonVertex at="0 0 8 13 5 8"/>
-      <polygonVertex at="-5 -8 3 5 0 0"/>
-    </SelectManifestation>
-    <SelectManifestation>
-      <polygonVertex at="-8 -13 -5 -8 0 0"/>
-      <polygonVertex at="-3 -5 0 0 5 8"/>
-      <polygonVertex at="0 0 8 13 5 8"/>
-      <polygonVertex at="-5 -8 3 5 0 0"/>
-    </SelectManifestation>
-    <SelectManifestation endSegment="0 0 8 13 5 8" startSegment="-3 -5 0 0 5 8"/>
-    <SelectManifestation endSegment="0 0 8 13 5 8" startSegment="3 5 0 0 5 8"/>
-    <EndBlock/>
-    <DeselectAll/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 5 8 3 5"/>
+      <SelectManifestation point="5 8 5 8 5 8"/>
+      <SelectManifestation point="3 5 0 0 5 8"/>
+      <EndBlock/>
+      <Polygon/>
+      <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+      <BookmarkTool name="tool-4"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-4" selectInputs="true"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <Hide/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Stellation in cage">
