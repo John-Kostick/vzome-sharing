@@ -40,7 +40,8 @@ Another kind of stellation is shown below.  Scenes dropdown shows some framework
  </figcaption>
 </figure>
 
-Below is a stellation using both types of planes of Enneacontahedron; Arc cos 1/3 =(70.528...°), and Arc sin 2/3 =(41.81...°) rhombi. The points of this stellation coincide with vertices of a Triacontahedron.
+Below is a stellation using both types of planes of Enneacontahedron;
+Arc cos 1/3 = (70.528...°), and Arc sin 2/3 = (41.81...°) rhombi. The points of this stellation coincide with vertices of a Triacontahedron.
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
