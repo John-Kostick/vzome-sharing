@@ -2,7 +2,7 @@
 title: Corner steps
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/26/16-19-58-60-gon-field-Corner-steps/60-gon-field-Corner-steps.png
-published: false
+published: true
 layout: vzome
 description:
   This shows a series of steps built into a corner.
