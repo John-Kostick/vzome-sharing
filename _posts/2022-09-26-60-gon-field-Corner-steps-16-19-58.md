@@ -41,3 +41,6 @@ In the model below, the sequence is carried out three courses of steps further. 
     Paraboloid Corner Steps Extended
  </figcaption>
 </figure>
+
+![IMG_0703](https://user-images.githubusercontent.com/78830166/192389072-60f286dd-82df-4795-bc7a-b66297f8a0fd.JPG)
+
