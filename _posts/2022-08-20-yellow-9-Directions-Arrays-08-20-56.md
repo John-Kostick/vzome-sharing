@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2022/08/20/08-20-56-yellow-9
 published: true
 layout: vzome
 description:
-  This page shows some compositions of 9 directional Paler Zonohedra.  
+  This page shows some compositions of 9 directional Polar Zonohedra.  
 ---
 
 {% comment %}
