@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2022/09/28/13-35-52-Dodecahe
 published: true
 layout: vzome
 description:
-  A Pentagonal Dodecahedron with a twin, or alternate.  
+  This is a study of a Pentagonal Dodecahedron with a twin, or alternate.  
 ---
 
 {% comment %}
@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/28/13-35-52-Dodecahedron-plus-Twin/>)
  
 {% endcomment %}
-Here is shown a Pentagonal Dodecahedron with a twin, or alternate.  The alternate orientation can be seen as a reflection of the original, or primary Dodecahedron.  Dropdown menu shows aspects of construction, such as the reflection plane. 
+This is a study of a Pentagonal Dodecahedron with a twin, or alternate.  The alternate orientation can be seen as a reflection of the original, or primary Dodecahedron.  Dropdown menu shows aspects of construction, such as the reflection plane. 
 
 For a continuation of this study, see [Dodecahedron plus five twins](https://john-kostick.github.io/vzome-sharing/2022/09/24/Dodecahedron-plus-five-twins-09-17-51.html)
 
