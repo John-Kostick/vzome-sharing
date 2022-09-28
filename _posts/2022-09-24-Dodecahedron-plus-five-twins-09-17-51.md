@@ -15,6 +15,7 @@ description:
 {% endcomment %}
 
   A pentagonal Dodecahedron has 5 alternates, or twins, formed by reflection. Scenes dropdown shows further developments.
+  
   More about stellations of Enneacontahedra can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html) 
   
   This ia a continuation of [Dodecahedron plus Twin](https://john-kostick.github.io/vzome-sharing/2022/09/28/Dodecahedron-plus-Twin-13-35-52.html)
