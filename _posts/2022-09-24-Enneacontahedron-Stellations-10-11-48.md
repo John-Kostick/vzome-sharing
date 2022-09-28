@@ -45,9 +45,9 @@ The points of this stellation coincide with vertices of a Triacontahedron, as sh
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/11-28-03-Enneacon-Stellation-3/Enneacon-Stellation-3.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/28/17-16-26-Enneacon-Stellation-3/Enneacon-Stellation-3.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/11-28-03-Enneacon-Stellation-3/Enneacon-Stellation-3.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/28/17-16-26-Enneacon-Stellation-3/Enneacon-Stellation-3.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     Combined Stellation
