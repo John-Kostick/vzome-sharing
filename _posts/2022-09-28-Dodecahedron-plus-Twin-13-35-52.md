@@ -15,7 +15,7 @@ description:
 {% endcomment %}
 Here is shown a Pentagonal Dodecahedron with a twin, or alternate.  The alternate orientation can be seen as a reflection of the original, or primary Dodecahedron.  Dropdown menu shows aspects of construction, such as the reflection plane. 
 
-For a continuation of this study, see[Dodecahedron plus five twins](https://john-kostick.github.io/vzome-sharing/2022/09/24/Dodecahedron-plus-five-twins-09-17-51.html)
+For a continuation of this study, see [Dodecahedron plus five twins](https://john-kostick.github.io/vzome-sharing/2022/09/24/Dodecahedron-plus-five-twins-09-17-51.html)
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
