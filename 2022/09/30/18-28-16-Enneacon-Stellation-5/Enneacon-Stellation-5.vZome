@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="5" field="golden" version="7.1">
-  <EditHistory editNumber="972" lastStickyEdit="914">
+  <EditHistory editNumber="979" lastStickyEdit="977">
     <BeginBlock/>
     <SelectManifestation point="0 0 0 0 0 0"/>
     <DeselectAll/>
@@ -2772,31 +2772,22 @@
       <polygonVertex at="11/5 18/5 -51/5 -83/5 0 0"/>
       <polygonVertex at="0 0 -16 -26 0 0"/>
     </SelectManifestation>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" panels="IGNORE" struts="IGNORE"/>
+    <AdjustSelectionByClass balls="IGNORE" panels="IGNORE" struts="SELECT"/>
     <EndBlock/>
+    <BookmarkTool name="tool-19"/>
+    <Hide/>
+    <Snapshot id="6"/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
     <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="2" title="Planar extensions">
-      <ViewModel distance="246.87432861328125" far="493.7479248046875" near="0.617186427116394" parallel="false" stereoAngle="0.0" width="111.09336853027344">
+    <page snapshot="6" title="Panels onlty">
+      <ViewModel distance="477.65057373046875" far="955.2990112304688" near="1.194128155708313" parallel="false" stereoAngle="0.0" width="214.94302368164062">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
         <LookDirection x="0.0" y="0.0" z="-1.0"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
-    <page snapshot="4" title="Planar extensions both types">
-      <ViewModel distance="313.8387756347656" far="627.6761474609375" near="0.7845973372459412" parallel="false" stereoAngle="0.0" width="141.2273406982422">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.0" y="0.9999999403953552" z="0.0"/>
-        <LookDirection x="-0.9341723322868347" y="0.0" z="-0.35682210326194763"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
-    <page snapshot="5" title="Full Stellation panels only ">
-      <ViewModel distance="346.845458984375" far="693.6893310546875" near="0.8671141862869263" parallel="false" stereoAngle="0.0" width="156.0803680419922">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="-0.018431328237056732" y="0.9990627765655518" z="-0.03898978233337402"/>
-        <LookDirection x="-0.027729876339435577" y="-0.03949185460805893" z="-0.9988332390785217"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
@@ -2864,6 +2855,7 @@
     <Tool copyColors="true" deleteInputs="false" id="tool-16" label="axial symmetry 16" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-17" label="Large dodeca" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-18" label="bookmark 18" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-19" label="Balls &amp; Struts" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-2" label="Panels" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-3" label="stellation" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-4" label="Planar extensions" selectInputs="true"/>
