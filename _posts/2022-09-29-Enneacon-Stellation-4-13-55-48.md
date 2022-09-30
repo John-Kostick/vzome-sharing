@@ -7,7 +7,7 @@ layout: vzome
 description:
   This study shows stellations combining both types of planes.
   
-  This is a continuation of [Enneacontahedron Stellations Part 1](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html)
+  This is a continuation of[Enneacontahedron Stellations Part 1](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html)
 ---
 
 {% comment %}
