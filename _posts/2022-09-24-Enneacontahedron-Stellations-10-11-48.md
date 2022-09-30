@@ -1,5 +1,5 @@
 ---
-title: Enneacontahedron Stellations
+title: Enneacontahedron Stellations Part 1
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.png
 published: true
@@ -26,41 +26,18 @@ This is an exploration of some stellations of Enneacontahedra. Planes of regular
  </figcaption>
 </figure>
 
-Another kind of stellation is shown below. In this model, only the  Arc sin 2/3 = (41.81...°) rhombi are used. Scenes dropdown shows planar extension, and some frameworks used to derive these forms.
+Another kind of stellation is shown below. In this model, only the  Arc sin 2/3 = (41.81...°) rhombi are used. Scenes dropdown shows planar extension, and a framework used to derive these forms.
 
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/12-30-40-Enneacon-Stellation-2/Enneacon-Stellation-2.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-33-02-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/26/12-30-40-Enneacon-Stellation-2/Enneacon-Stellation-2.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     Another Stellation
  </figcaption>
 </figure>
-
-Below is a stellation using both types of planes of Enneacontahedron.
-The points of this stellation coincide with vertices of a Triacontahedron, as shown in dropdown menu.
-
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/28/17-16-26-Enneacon-Stellation-3/Enneacon-Stellation-3.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/28/17-16-26-Enneacon-Stellation-3/Enneacon-Stellation-3.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    Combined Stellation
- </figcaption>
-</figure>
-
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/29/12-46-48-Enneacon-Stellation-4/Enneacon-Stellation-4.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/29/12-46-48-Enneacon-Stellation-4/Enneacon-Stellation-4.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    Another combined stellation
  </figcaption>
 </figure>
