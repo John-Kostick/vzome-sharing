@@ -17,7 +17,7 @@ description:
 {% endcomment %}
 This study shows stellations combining both types of planes.  In the first model, points of the stellation coincide with a regular dodecahedron.  Scenes dropdown menu shows planar extensions.  
 
-  This is a continuation of[Enneacontahedron Stellations Part 1](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html)
+  This is a continuation of [Enneacontahedron Stellations Part 1](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html)
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
