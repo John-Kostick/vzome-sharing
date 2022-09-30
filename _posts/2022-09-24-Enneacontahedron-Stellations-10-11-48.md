@@ -15,6 +15,8 @@ description:
 {% endcomment %}
 This is an exploration of some stellations of Enneacontahedra. Planes of regular Enneacons in Icosahedral symmetry are used to compose these forms.  In the figure below, only the Arc cos 1/3 = (70.528...°) rhombi are used, as shown in scenes dropdown menu. 
 
+A continuation of this study can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/09/29/Enneacon-Stellation-4-13-55-48.html)
+
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
       src="https://John-Kostick.github.io/vzome-sharing/2022/09/24/10-11-48-Enneacontahedron-Stellations/Enneacontahedron-Stellations.vZome" >
