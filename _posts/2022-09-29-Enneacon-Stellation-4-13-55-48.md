@@ -15,7 +15,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/09/29/13-55-48-Enneacon-Stellation-4/>)
  
 {% endcomment %}
-This study shows stellations combining both types of planes.  In the first model, points of the stellation coincide with a regular dodecahedron.  Scenes dropdown menu shows planar extensions.  
+This study shows stellations combining both types of planes that are extensions of faces of the polyhedron, or parallel to them. In the first model, points of the stellation coincide with a regular dodecahedron.  Scenes dropdown menu shows planar extensions.  
 
   This is a continuation of [Enneacontahedron Stellations Part 1](https://john-kostick.github.io/vzome-sharing/2022/09/24/Enneacontahedron-Stellations-10-11-48.html)
 
