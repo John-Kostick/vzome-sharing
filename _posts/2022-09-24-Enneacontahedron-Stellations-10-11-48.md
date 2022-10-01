@@ -43,3 +43,16 @@ Another kind of stellation is shown below. In this model, only the  Arc sin 2/3 
 </figure>
  </figcaption>
 </figure>
+
+Below is a third type of stellation, using only the  Arc sin 2/3 = (41.81...°) rhombus faces of the Enneacon extended to form 30 points.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/01/11-54-57-Enneacon-Stellation-6/Enneacon-Stellation-6.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/01/11-54-57-Enneacon-Stellation-6/Enneacon-Stellation-6.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Third Stellation
+ </figcaption>
+</figure>
