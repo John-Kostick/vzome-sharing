@@ -49,11 +49,11 @@ Below is another combination, having 30 plus 20 points.
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/30/18-28-16-Enneacon-Stellation-5/Enneacon-Stellation-5.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/30/19-14-12-Enneacon-Stellation-5/Enneacon-Stellation-5.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/09/30/18-28-16-Enneacon-Stellation-5/Enneacon-Stellation-5.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/09/30/19-14-12-Enneacon-Stellation-5/Enneacon-Stellation-5.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    A Third Combination Stellation 
+   A Third Combination Stellation
  </figcaption>
 </figure>
