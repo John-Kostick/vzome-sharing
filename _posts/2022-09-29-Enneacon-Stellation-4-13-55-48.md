@@ -45,7 +45,7 @@ Below is a second stellation using both types of planes of Enneacontahedron. In 
  </figcaption>
 </figure>
 
-Bdelowq is another combination, having 30 plus 20 points.
+Below is another combination, having 30 plus 20 points.
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
