@@ -57,3 +57,7 @@ Below is another combination, having 30 plus 20 points.
    A Third Combination Stellation
  </figcaption>
 </figure>
+
+A Continuation of this study can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/10/02/Stella-62-14-01-44.html)
+
+
