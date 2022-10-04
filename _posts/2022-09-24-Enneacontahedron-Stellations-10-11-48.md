@@ -54,3 +54,16 @@ Below is a third type of stellation, using only the  Arc sin 2/3 = (41.81...°) 
     A Third Stellation
  </figcaption>
 </figure>
+
+It should be noted that two of the models shown are identical with stellations of a Rhombic Triacontahedron. As shown in the model below, the Arc sin 2/3 = (41.81...°)rhombus faces of the Enneacon can be inscribed into the faces of a Triacontahedron. Extending these planes to meet in two-fold, three-fold , and five-fold configurations is the same for both polyhedra.  
+
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/03/19-32-49-Triacon-Stellations/Triacon-Stellations.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/03/19-32-49-Triacon-Stellations/Triacon-Stellations.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Planar Extensions in Common
+ </figcaption>
+</figure>
