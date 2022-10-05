@@ -18,14 +18,14 @@ description:
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/10/04/18-22-40-Triacon-Stellations/Triacon-Stellations.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/10/04/18-22-40-Triacon-Stellations/Triacon-Stellations.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
-    A Combination of Stellations with 62 Points
-  </figcaption>
+ <vzome-viewer style="width: 100%; height: 60vh"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/05/08-07-13-Triacon-Stellations/Triacon-Stellations.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/10/05/08-07-13-Triacon-Stellations/Triacon-Stellations.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    A Combination of Stellations with 62 Points in total.
+ </figcaption>
 </figure>
 
 The model below shows a compound of five cubes, which is itself a stellation of a triacontahedron, combined with a twelve point stellation. 
