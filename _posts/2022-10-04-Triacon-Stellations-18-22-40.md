@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2022/10/04/18-22-40-Triacon-
 published: true
 layout: vzome
 description:
-  This shows some stellations of Rhombic Triacontahedra.
+  This shows stellations of Rhombic Triacontahedra.
 ---
 
 {% comment %}
@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/10/04/18-22-40-Triacon-Stellations/>)
  
 {% endcomment %}
- This shows some stellations of Rhombic Triacontahedra. These are some combinations of distinct forms, having points with two-fold, three-fold, and fivefold symmetry.  The first model below combines three forms.  
+ This shows stellations of Rhombic Triacontahedra. These are some combinations of distinct forms, having points with two-fold, three-fold, and fivefold symmetry.  The first model below combines three forms.  
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -28,7 +28,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-The model below shows a compound of five cubes, which is itself a stellation of a triacintahedron, combined with a twelve point stellation, each point having five-fold symmetry.  
+The model below shows a compound of five cubes, which is itself a stellation of a triacontahedron, combined with a twelve point stellation. 
 
 
 <figure style="width: 87%; margin: 5%">
