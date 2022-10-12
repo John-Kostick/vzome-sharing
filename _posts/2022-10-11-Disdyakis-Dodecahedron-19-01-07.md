@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/10/11/19-01-07-Disdyakis-Dodecahedron/>)
  
 {% endcomment %}
-This shows Catalan Solids with their Archimedean Duals,  Specifically, it is about how these polhedra can be built with vZome.
+This shows Catalan Solids with their Archimedean Duals.  Specifically, it is about how these Catalan Polyhedra can be built with vZome. A full description of Catalans can be seen [Here](https://en.wikipedia.org/wiki/Catalan_solid)
 
   This is a continuation of [Catalan Solids Part 1](https://john-kostick.github.io/vzome-sharing/2022/10/12/Cubocta-RD-Dual-17-21-57.html)
 
