@@ -17,7 +17,9 @@
     <EndBlock/>
     <Delete/>
     <SelectManifestation endSegment="2 3 -3 -5 -5 -8" startSegment="-2 -3 -3 -5 -5 -8"/>
-    <Midpoint/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
     <BeginBlock/>
     <DeselectAll/>
@@ -77,7 +79,9 @@
     <SelectManifestation point="0 0 -2 -7/2 -11/2 -9"/>
     <SelectManifestation point="-7/2 -11/2 0 0 -11/2 -9"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
     <DeselectAll/>
   </EditHistory>
