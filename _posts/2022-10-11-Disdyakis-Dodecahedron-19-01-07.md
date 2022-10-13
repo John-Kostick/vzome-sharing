@@ -17,7 +17,7 @@ This shows Catalan Solids with their Archimedean Duals.  Specifically, it is abo
 
   This is a continuation of [Catalan Solids Part 1](https://john-kostick.github.io/vzome-sharing/2022/10/12/Cubocta-RD-Dual-17-21-57.html)
 
-A 3D design created in vZome.  Use your mouse or touch to interact.
+ 3D designs created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
   <vzome-viewer style="width: 100%; height: 60vh"
