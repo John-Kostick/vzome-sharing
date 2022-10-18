@@ -1,9 +1,11 @@
 ---
-title: Truncared Hexagonal Trapezohedron Study
+title: Truncated Hexagonal Trapezohedron Study
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/Truncared-Hexagonal-Trapezohedron-Study.png
-published: false
+published: true
 layout: vzome
+description:
+  This is an approximate model.
 ---
 
 {% comment %}
@@ -11,16 +13,17 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/>)
  
 {% endcomment %}
+This is an approximate model of a Truncated Hexagonal Trapezohedron with vertices equidistant from center.                           
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
        src="https://John-Kostick.github.io/vzome-sharing/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/Truncared-Hexagonal-Trapezohedron-Study.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/Truncared-Hexagonal-Trapezohedron-Study.png" >
   </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
-    Truncared Hexagonal Trapezohedron Study
+    Truncated Hexagonal Trapezohedron Study
   </figcaption>
 </figure>
