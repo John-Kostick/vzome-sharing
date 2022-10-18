@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 This is an approximate model of a Truncated Hexagonal Trapezohedron.  
-It is a[Fullerene](https://en.wikipedia.org/wiki/Fullerene#Other_fullerenes) with 24 vertices.
+It is a [Fullerene](https://en.wikipedia.org/wiki/Fullerene#Other_fullerenes) with 24 vertices.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
