@@ -13,7 +13,8 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/>)
  
 {% endcomment %}
-This is an approximate model of a Truncated Hexagonal Trapezohedron with vertices equidistant from center.                           
+This is an approximate model of a Truncated Hexagonal Trapezohedron.  
+It is a[Fullerene](https://en.wikipedia.org/wiki/Fullerene#Other_fullerenes) with 24 vertices.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
