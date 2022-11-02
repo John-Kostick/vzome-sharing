@@ -2,8 +2,10 @@
 title: Quasi equilateral C24
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/11/02/18-02-35-Quasi-equilateral-C24/Quasi-equilateral-C24.png
-published: false
-layout: vzome
+published: true
+layout: vzome 
+description:
+  This is a study of Fullerene C24 
 ---
 
 {% comment %}
@@ -11,6 +13,7 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/11/02/18-02-35-Quasi-equilateral-C24/>)
  
 {% endcomment %}
+This is a study of Fullerene C24.  Edges are close to equal in length, rings of 5 vertices are not planar.   
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
