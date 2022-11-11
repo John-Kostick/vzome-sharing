@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/11/10/13-42-36-Zonohedra-Coincidence-2/>)
  
 {% endcomment %}
-This shows five zonohedra coinciding. All share Octahedral Symmetry, having in common the 8 vertices of a cube. There is the cube itself, with 3 directions, the Rhombic Dodecahedron with 4 directions, the Triacontahedron with 6 directions, and the Enneacontahedron with 10 directions.  There is also a Truncated Octahedron, which, with its hexagonal faces subdivided into 3 Rhombuses each, is also a zonohedron with 6 directions.  The Scenes dropdown menu shows zonohedra with faces filed in, some combinations, and a view of the coincidence within a large cube, which has its faces coplanar with some of the Triacon and Enneacon faces.  
+This shows five zonohedra coinciding. All share Octahedral Symmetry, having in common the 8 vertices of a cube. There is the Cube itself, with 3 directions, the Rhombic Dodecahedron with 4 directions, the Triacontahedron with 6 directions, and the Enneacontahedron with 10 directions.  There is also a Truncated Octahedron, which, with its hexagonal faces subdivided into 3 Rhombuses each, is also a zonohedron with 6 directions.  The Scenes dropdown menu shows zonohedra with faces filed in, some combinations, and a view of the coincidence within a large cube, which has its faces coplanar with some of the Triacon and Enneacon faces.  
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
