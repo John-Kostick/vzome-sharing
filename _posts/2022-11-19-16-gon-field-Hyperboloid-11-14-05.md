@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 This is a construction in vZome of a Hyperbolic Horn.  It is of the form known as 
-[Gabriel's Horn](https://en.wikipedia.org/wiki/Gabriel%27s_horn)
+[Gabriel's Horn](https://en.wikipedia.org/wiki/Gabriel%27s_horn) Here only one half is shown.  In this construction, a hyperbola is indicated by grid points, as shown in scenes, then copied 16-fold about the vertical axis.   
 
 
 
