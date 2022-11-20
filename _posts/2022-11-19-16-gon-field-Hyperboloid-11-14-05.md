@@ -14,7 +14,9 @@ description:
  
 {% endcomment %}
 This is a construction in vZome of a Hyperbolic Horn.  It is of the form known as 
-[Gabriel's Horn](https://en.wikipedia.org/wiki/Gabriel%27s_horn) Here only one half is shown.  In this construction, a hyperbola is indicated by grid points, as shown in scenes, then copied 16-fold about the vertical axis.   
+[Gabriel's Horn](https://en.wikipedia.org/wiki/Gabriel%27s_horn) Here only one half is shown.  In this construction, a hyperbola is defined by a grid which has a series of intervals of the form 1, 1/a, 1/a^2, ...  where a= √2  The grid is formed by determining the limit of the series, which is found to be 2+√2.  This limit is incorporated into the grid on x and y axes intersecting at the origin point, as shown in "scenes." Paths of curves are shown by lines connecting grid points. It can be shown that for each indicated curve, all grid points are solutions to equations of the form X * Y =  constant, an alternate definition of hyperbola.  In this model, the x and z axes from the origin are asymptotes.  The indicated hyperbola, shown in "scenes," is copied by rotational symmetry around the z axis, with the base plane being asymptotic.     
+
+Another closely related model can be seen [Here](https://john-kostick.github.io/vzome-sharing/2022/11/19/16-gon-field-Hyperboloid-2-10-25-46.html)
 
 
 
