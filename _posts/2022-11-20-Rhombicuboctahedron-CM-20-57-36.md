@@ -2,7 +2,7 @@
 title: Rhombicuboctahedron as Coordinated Motion Assembly
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/11/20/20-57-36-Rhombicuboctahedron-CM/Rhombicuboctahedron-CM.png
-published: true
+published: false
 layout: vzome
 description:
   This is an illustration of a coordinated motion assembly puzzle.
