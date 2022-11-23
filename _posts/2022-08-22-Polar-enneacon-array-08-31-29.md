@@ -15,6 +15,8 @@ description:
 {% endcomment %}
  Here are examples of related arrays of Polar Enneacontahedra. These share characteristics of arrays that can be built from even number directional systems. Major polar zonohedra use all n directions, and these major cells can be connected to others at shared polar vertices, like strings of beads.  They can also be connected in rings that surround polar axes. This can be done in 2 ways, which lead to 2 types of array.  In Type I, rings are formed by cells sharing faces with adjacents, in Type II, by shared vertices.  
  
+ This is a continuation of [9 Directions arrays and others](https://john-kostick.github.io/vzome-sharing/2022/08/20/yellow-9-Directions-Arrays-08-20-56.html)
+ 
  <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/25/10-41-39-Polar-enneacon-array/Polar-enneacon-array.vZome" >
