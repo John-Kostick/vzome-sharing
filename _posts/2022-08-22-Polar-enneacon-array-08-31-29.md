@@ -55,4 +55,5 @@ In this Type II array, the surrounding major cell chains have the centers of the
  </figcaption>
 </figure>
 
+
 In the extended array above, the bridgework is left partially open, for viewing how minor cells can be placed.  
