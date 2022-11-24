@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="11" field="sqrtPhi" version="7.1">
-  <EditHistory editNumber="1285" lastStickyEdit="1001">
+  <EditHistory editNumber="1321" lastStickyEdit="1315">
     <LoadVEF scale="1 0 0 0">vZome VEF 6 field sqrtPhi
 
 11
@@ -2905,6 +2905,71 @@
     <PolarZonohedron symmetry="pentagonal"/>
     <ApplyTool copyColors="true" name="axial symmetry.builtin/fivefold symmetry through origin" selectInputs="true"/>
     <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-13" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 34/5 0 57/5 0 -34/5 0 -57/5 157/5 0 256/5 0"/>
+    <SelectManifestation point="0 34/5 0 57/5 0 -34/5 0 -57/5 157/5 0 256/5 0"/>
+    <SelectManifestation point="0 34/5 0 57/5 0 -34/5 0 -57/5 157/5 0 256/5 0"/>
+    <SelectManifestation point="0 -6/5 0 -13/5 0 6/5 0 13/5 187/5 0 296/5 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-19"/>
+    <BeginBlock/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 68/5 0 119/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 58/5 0 104/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 12 0 21 0 -14 0 -24 -4 0 -4 0"/>
+      <polygonVertex at="0 14 0 24 0 -14 0 -24 -4 0 -4 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 68/5 0 119/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 58/5 0 104/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 12 0 21 0 -14 0 -24 -4 0 -4 0"/>
+      <polygonVertex at="0 14 0 24 0 -14 0 -24 -4 0 -4 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 58/5 0 104/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="symmetry.builtin/fivefold rotation through origin" selectInputs="true"/>
+    <NewCentroid/>
+    <SelectManifestation>
+      <polygonVertex at="0 68/5 0 119/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 58/5 0 104/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <polygonVertex at="0 12 0 21 0 -14 0 -24 -4 0 -4 0"/>
+      <polygonVertex at="0 14 0 24 0 -14 0 -24 -4 0 -4 0"/>
+    </SelectManifestation>
+    <Branch>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation point="0 14 0 24 0 -10 0 -18 -14 0 -20 0"/>
+      <SelectManifestation point="0 58/5 0 104/5 0 -78/5 0 -134/5 -26/5 0 -28/5 0"/>
+      <EndBlock/>
+      <NewCentroid/>
+      <BeginBlock/>
+      <SelectManifestation point="0 84/5 0 147/5 0 -84/5 0 -147/5 -63/5 0 -84/5 0"/>
+      <SelectManifestation point="0 64/5 0 112/5 0 -64/5 0 -112/5 -48/5 0 -64/5 0"/>
+      <SelectManifestation point="0 64/5 0 112/5 0 -64/5 0 -112/5 -48/5 0 -64/5 0"/>
+      <SelectManifestation point="0 64/5 0 112/5 0 -64/5 0 -112/5 -48/5 0 -64/5 0"/>
+      <EndBlock/>
+      <TranslationTool name="tool-20"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-20"/>
+    <DeselectAll/>
   </EditHistory>
   <notes/>
   <sceneModel ambientLight="41,41,41" background="255,239,239">
@@ -2913,10 +2978,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="942.8239135742188" far="1885.64501953125" near="2.357071876525879" parallel="false" stereoAngle="0.0" width="424.2715148925781">
+    <ViewModel distance="942.8239135742188" far="1885.6458740234375" near="2.357072114944458" parallel="false" stereoAngle="0.0" width="424.2715148925781">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="0.4402558505535126" y="-0.6094918251037598" z="-0.6593146324157715"/>
-      <LookDirection x="-0.6798366904258728" y="0.25338679552078247" z="-0.6882003545761108"/>
+      <UpDirection x="0.5133976340293884" y="-0.6330726146697998" z="-0.5793471932411194"/>
+      <LookDirection x="-0.6283963322639465" y="0.1824178397655487" z="-0.7562031149864197"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="pentagonal" renderingStyle="Kostick">
@@ -2972,7 +3037,9 @@
     <Tool copyColors="true" deleteInputs="false" id="tool-16" label="translation 16" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-17" label="PZ 2" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" id="tool-18" label="translation 18" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-19" label="translation 19" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-2" label="mirror 2" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-20" label="translation 20" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-3" label="mirror 3" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" id="tool-4" label="mirror 4" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-5" label="mirror 5" selectInputs="true"/>
