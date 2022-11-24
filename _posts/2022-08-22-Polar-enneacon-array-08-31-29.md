@@ -46,9 +46,9 @@ In this Type II array, the surrounding major cell chains have the centers of the
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/23/16-07-33-Polar-enneacon-array-extended/Polar-enneacon-array-extended.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/24/10-36-35-Polar-enneacon-array-extended/Polar-enneacon-array-extended.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/23/16-07-33-Polar-enneacon-array-extended/Polar-enneacon-array-extended.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/24/10-36-35-Polar-enneacon-array-extended/Polar-enneacon-array-extended.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     An extended Type I array
