@@ -41,7 +41,7 @@ In the model below, the Scenes menu shows a complete dissection of the 132-hedro
  </figcaption>
 </figure>
 
-Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Two types of such arrays can be viewed here.[Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7) In Type 1, the rings of major cells  surrounding the axis are connected to adjacent cellos by shared faces.  In Type 2, theses connections are by shared vertices. 
+Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Two types of such arrays can be viewed here.[Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7) In Type 1, the rings of major cells  surrounding the axis are connected to adjacent cells by shared faces.  In Type 2, theses connections are by shared vertices. 
 
 An extended Type 1 array is shown below.  
 
