@@ -37,11 +37,11 @@ In the model below, the Scenes menu shows a complete dissection of the 132-hedro
       src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-40-10-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    132-hedron polar axis view
+    132-hedron 
  </figcaption>
 </figure>
 
-Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Two types of such arrays can be viewed here.  [Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7)
+Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Two types of such arrays can be viewed here.[Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7) In Type 1, the rings of major cells  surrounding the axis are connected to adjacent cellos by shared faces.  In Type 2, theses connections are by shared vertices. 
 
 An extended Type 1 array is shown below.  
 
