@@ -17,12 +17,12 @@ Here are shown some dissections and arrays of polar zonohedra with 12 directions
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-12-04-12-Directions-Polar-Zonohedron-dissections-and-arrays/12-Directions-Polar-Zonohedron-dissections-and-arrays.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-38-06-12-Directions-Polar-Zonohedron-dissections-and-arrays/12-Directions-Polar-Zonohedron-dissections-and-arrays.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-12-04-12-Directions-Polar-Zonohedron-dissections-and-arrays/12-Directions-Polar-Zonohedron-dissections-and-arrays.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-38-06-12-Directions-Polar-Zonohedron-dissections-and-arrays/12-Directions-Polar-Zonohedron-dissections-and-arrays.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-     12 Directions Polar Zonohedron
+    12 Directions Polar Zonohedron
  </figcaption>
 </figure>
 
@@ -32,9 +32,9 @@ In the model below, the Scenes menu shows a complete dissection of the 132-hedro
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-29-37-12-gonZonohedron-Normal/12-gonZonohedron-Normal.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-40-10-12-gonZonohedron-Normal/12-gonZonohedron-Normal.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-29-37-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-40-10-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     132-hedron polar axis view
