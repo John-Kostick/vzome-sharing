@@ -32,9 +32,9 @@ In the model below, the Scenes menu shows a complete dissection of the 132-hedro
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/12-22-00-12-gonZonohedron-Normal/12-gonZonohedron-Normal.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-29-37-12-gonZonohedron-Normal/12-gonZonohedron-Normal.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/12-22-00-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/11/27/13-29-37-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     132-hedron polar axis view
