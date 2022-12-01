@@ -2,7 +2,7 @@
 title: Quasi equilateral C24
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/11/02/18-02-35-Quasi-equilateral-C24/Quasi-equilateral-C24.png
-published: true
+published: false
 layout: vzome 
 description:
   This is a study of Fullerene C24 
