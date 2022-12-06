@@ -27,7 +27,7 @@ Here are shown some explorations of 14-directional figures.  These are all based
   </figcaption>
 </figure>
 
-Note that the pair of spirallohrdra centered along the polar axis are conected to the ring of seven units that nest into each other, but only minimally, with rhombi. This connecting bridgework can be extended with planes and polyhedra composed of unit edge lengths parallel with some of the 14 directions, but it is a complicated pattern. 
+Note that the pair of spirallohrdra centered along the polar axis are conected to the ring of seven units that nest into each other, but only minimally, with rhombi. This connecting bridgework can be extended with planes and polyhedra composed of unit edge lengths parallel with some of the 14 directions, but it is a complicated pattern thay does not resolve as cleanly as in a comparable array of convex polyhedra, as shown in [7 Directional space filling](https://john-kostick.github.io/vzome-sharing/2022/06/07/7-D-space-filling-15-03-11.html) 
 
 Another configuration of seven armed spirallohedra can be viewed [Here](https://skfb.ly/oAQDI)
 
