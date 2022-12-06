@@ -31,7 +31,7 @@ Note that the pair of spirallohrdra centered along the polar axis are conected t
 
 Another configuration of seven armed spirallohedra can be viewed [Here](https://skfb.ly/oAQDI)
 
-Here is shown a pair of 14 directional polar zonohedra, (182 faces) with a "collar" of hexahedral and dodecahedral cells connecting them.  The feature of twin zonal loops is colored red and green.  Note that while both loops have parallel edges, and share the origin point, they do not overlap.  
+Here is shown a pair of 14 directional polar zonohedra, (182 faces) with a "collar" of hexahedral and dodecahedral cells connecting them.  The feature of twin zonal loops is colored red and green.  Note that while both loops have parallel edges, they are distinct, they do not overlap,    
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
