@@ -27,7 +27,7 @@ Here are shown some explorations of 14-directional figures.  These are all based
   </figcaption>
 </figure>
 
-Note that the pair of spirallohrdra centered along the polar axis are conected to the ring of seven units that nest into each other, but only minimally, with rhombi.  
+Note that the pair of spirallohrdra centered along the polar axis are conected to the ring of seven units that nest into each other, but only minimally, with rhombi. This connecting bridgework can be extended with planes and polyhedra composed of unit edge lengths parallel with some of the 14 directions, but it is a complicated pattern. 
 
 Another configuration of seven armed spirallohedra can be viewed [Here](https://skfb.ly/oAQDI)
 
