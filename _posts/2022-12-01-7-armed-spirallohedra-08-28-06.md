@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2022/12/01/08-28-06-7-armed-spirallohedra/>)
  
 {% endcomment %}
-Here are shown some explorations of 14-directional figures.  These are all based on polar symmetry, such as constructed from a pyramid with a regular 14-gon base plane.  The first model is of a cluster of 7 armed spirallohedra.  
+Here are shown some explorations of 14-directional figures.  These are all based on polar symmetry, such as constructed from a pyramid with a regular 14-gon base plane.  The first model is of a cluster of 7 armed spirallohedra.  This follows the previous [Post](https://john-kostick.github.io/vzome-sharing/2022/11/27/12-Directions-Polar-Zonohedron-dissections-and-arrays-11-25-25.html)
 
 
 <figure style="width: 87%; margin: 5%">
