@@ -2,7 +2,7 @@
 title: 14 Directional Forms and Arrays
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/12/01/08-28-06-7-armed-spirallohedra/7-armed-spirallohedra.png
-published: false
+published: true
 layout: vzome
 description:
   Here are shown some explorations of 14-directional figures.
