@@ -38,9 +38,10 @@ Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, 
       src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/15-28-14-60-gon-field-hypar-2/60-gon-field-hypar-2.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-     Hypar, indicated by points
+    Hypar, indicated by points
  </figcaption>
 </figure>
+
 
 Below is a model of a framing system using the √n series system shown for layout of parabolas.  In this model, it is an elliptical paraboloid, rather than the circular one shown above, which is a special case.  This model shows how a standard framing member can be cut to the parabola layout line, and recombined as a curved member. Paraboloids have a property which facilitates buiding, which is that all sections parallel with coordinate planes are the same, so one template works for all in xz plane, and one for all in yz plane.  
 
