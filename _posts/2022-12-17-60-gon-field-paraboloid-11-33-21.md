@@ -42,7 +42,6 @@ Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, 
  </figcaption>
 </figure>
 
-
 Below is a model of a framing system using the √n series system shown for layout of parabolas.  In this model, it is an elliptical paraboloid, rather than the circular one shown above, which is a special case.  This model shows how a standard framing member can be cut to the parabola layout line, and recombined as a curved member. Paraboloids have a property which facilitates buiding, which is that all sections parallel with coordinate planes are the same, so one template works for all in xz plane, and one for all in yz plane.  
 
 <figure style="width: 87%; margin: 5%">
@@ -69,4 +68,10 @@ Below is another application of paraboloid surfaces in a building context.  Sect
  </figcaption>
 </figure>
 
-Another roof structure can be viewed [Here](
+Another roof structure can be viewed [Here](https://skfb.ly/6WKLJ)
+
+An elliptical paraboloid bowl
+
+![IMG_1358](https://user-images.githubusercontent.com/78830166/208523190-1459c9a7-41c3-4241-ba62-ec5f777e784d.JPG)
+
+
