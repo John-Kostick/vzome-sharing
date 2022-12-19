@@ -33,9 +33,9 @@ Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, 
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/15-28-14-60-gon-field-hypar-2/60-gon-field-hypar-2.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/16-15-31-60-gon-field-hypar/60-gon-field-hypar.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/15-28-14-60-gon-field-hypar-2/60-gon-field-hypar-2.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/16-15-31-60-gon-field-hypar/60-gon-field-hypar.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
     Hypar, indicated by points
