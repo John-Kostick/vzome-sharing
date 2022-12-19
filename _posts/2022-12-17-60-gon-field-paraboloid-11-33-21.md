@@ -2,7 +2,7 @@
 title: Paraboloid Constructions
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/12/17/11-33-21-60-gon-field-paraboloid/60-gon-field-paraboloid.png
-published: false
+published: true
 layout: vzome
 description:
   These are some models of paraboloids.
