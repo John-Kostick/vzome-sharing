@@ -42,24 +42,24 @@ Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, 
  </figcaption>
 </figure>
 
-Below is a model of a framing system using the √n series system shown for layout of parabolas.  In this model, it is an elliptical paraboloid, rather than the circular one shown above, which is a special case.  This model shows how a standard framing member can be cut to the parabola layout line, and recombined as a curved member. Paraboloids have a property which facilitates buiding, which is that all sections parallel with coordinate planes are the same, so one template works for all in xz plane, and one for all in yz plane.  
+Below is a model of a framing system using the √n series system shown for layout of parabolas.  In this model, it is an elliptical paraboloid, rather than the circular one shown above, which is a special case.  This model shows how a standard framing member can be cut to the parabola layout line, and recombined as a curved member. Paraboloids have a property which facilitates buiding, which is that all sections parallel with coordinate planes are the same, so one template works for all in xz plane, and one for all in yz plane.  Scenes shows an elliptical section plane.
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/17/11-51-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-34-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/17/11-51-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-34-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    Elliptical paraboloid framing
+   Elliptical paraboloid framing
  </figcaption>
 </figure>
 
-Below is another application of paraboloid surfaces in a building context.  Sections of circular paraboloids are reoriented and combined as petal shaped roof panels.  
+Below is another application of paraboloid surfaces in a building context.  Sections of circular paraboloids are reoriented and combined as petal shaped quadrants of a roof .  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/18/15-41-39-Paraboloid-petals/Paraboloid-petals.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/18/15-41-39-Paraboloid-petals/Paraboloid-petals.vZome" > 
    <img  style="width: 100%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/12/18/15-41-39-Paraboloid-petals/Paraboloid-petals.png" >
  </vzome-viewer>
