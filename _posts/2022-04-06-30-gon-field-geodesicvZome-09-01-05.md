@@ -42,7 +42,7 @@ While many are grand scale, construction of smaller scale domed roofs has been w
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.png" />
 </vzome-viewer>
 
-Geodesic domes are certainly impressive and inspiring.  In my explorations of them, though, I became aware of some of the limitations and disadvantages of their application for habitation.  In this [article](https://en.wikipedia.org/wiki/Geodesic_dome), there is a critique of these limitations, which I find accurate.  I would add, though, that one apect that can address some of the issues mentioned is orientation.  Many domes I have seen are oriented with a fivefold axis as vertical.  By orienting with a 2-fold axis as vertical, it becomes easier to integrate  with more standard xyz coordinated structures and plans, and more natural to inhabit.  We do, after all, have an anatomy that is 2-fold, or bilateral, with paired hands, eyes, a front and back, up and down, etc.  This model is an example of how a geodesic form can be adjoined with a conventional kind of building that facilitates partitioning for amenites, utility spaces, etc., and allows for window selection and placement to be more standard.  This particular interior surface of the dome accomodates insulation, wiring, and relative ease of finishing.  
+Geodesic domes are certainly impressive and inspiring.  In my explorations of them, though, I became aware of some of the limitations and disadvantages of their application for habitation.  In this [article](https://en.wikipedia.org/wiki/Geodesic_dome), there is a critique of these limitations, which I find accurate.  I would add, though, that one aspect that can address some of the issues mentioned is orientation.  Many domes I have seen are oriented with a fivefold axis as vertical.  By orienting with a 2-fold axis as vertical, it becomes easier to integrate  with more standard xyz coordinated structures and plans, and more natural to inhabit.  We do, after all, have an anatomy that is 2-fold, or bilateral, with paired hands, eyes, a front and back, up and down, etc.  This model is an example of how a geodesic form can be adjoined with a conventional kind of building that facilitates partitioning for amenites, utility spaces, etc., and allows for window selection and placement to be more standard.  This particular interior surface of the dome accomodates insulation, wiring, and relative ease of finishing.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/02/12/20-13-26-Geodesic-on-cube-vZome/Geodesic-on-cube-vZome.vZome" >
@@ -63,12 +63,18 @@ Spherical domes are elegant, and have a certain celestial association.  However,
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-47-57-Elliptical-EllipsoidvZome/Elliptical-EllipsoidvZome.png" />
 </vzome-viewer>
 
-It became apparent to me that this layout system could be applied in a whole range of Quadric surface constructions, such as paraboloids, hyperboloids, as well as ellipsoids.  This model shows a simplified framing for an Elliptical Paraboloid, such as can be built with standard materials and tools. Apart from the frame is shown a sample of how an arch is composed from a straight board, cut to a parabola line and recombined.  
+It became apparent to me that this layout system could be applied in a whole range of Quadric surface constructions, such as paraboloids, hyperboloids, as well as ellipsoids.  This model shows a simplified framing for an Elliptical Paraboloid, such as can be built with standard materials and tools. Apart from the frame is shown a sample of how an arch is composed from a straight board, cut to a parabola line and recombined.  Scenes shows an elliptical section plane
 
-<vzome-viewer style="width: 100%; height: 65vh;"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/14-16-20-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/14-16-20-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" />
-</vzome-viewer>
+<figure style="width: 87%; margin: 5%">
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-43-49-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-43-49-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+    Elliptical Paraboloid Framing
+ </figcaption>
+</figure>
 
 Some other related models can be viewed here.
 
