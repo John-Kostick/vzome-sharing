@@ -14,7 +14,7 @@ description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/04/06/09-01-05-30-gon-field-geodesicvZome/>
 {% endcomment %}
 
-  Domes can be constructed in various ways with vZome. [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry,like this pentakis dodecahedron with all vertices equidistant from center.
+  Domes can be constructed in various ways with vZome. [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry, like this pentakis dodecahedron with all vertices equidistant from center.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.vZome" >
