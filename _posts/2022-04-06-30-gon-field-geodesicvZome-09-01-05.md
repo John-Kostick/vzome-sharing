@@ -14,7 +14,7 @@ description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/04/06/09-01-05-30-gon-field-geodesicvZome/>
 {% endcomment %}
 
-  Domes can be constructed in various ways with vZome. [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry. like this.
+  Domes can be constructed in various ways with vZome. [Geodesic Domes](https://en.wikipedia.org/wiki/Geodesic_dome) are mostly defined and/or built with icosahedral symmetry,like this pentakis dodecahedron with all vertices equidistant from center.
 
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/09-01-05-30-gon-field-geodesicvZome/30-gon-field-geodesicvZome.vZome" >
@@ -56,7 +56,7 @@ From these and other considerations about domes, over time I developed a system 
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-22-19-Spherical-Octant/Spherical-Octant.png" />
 </vzome-viewer>
 
-Spherical domes are elegant, and have a certain celestial association.  However, this constraint does not make them optimal for living spaces, as has been noted.  The √n grid system can be readily adapted to forms like this, which is an Elliptical Ellipsoid.  This illustrates several features of this kind of plan.  Because of the composition of arcs in horizontal and vertical planes, the dome can be truncated to build walls with doors, or to merge with adjacent structures.  The footprint can be adjusted to meet lot criteria.  Partitions can be built within the dome, and floors can be built, aligned with framework.  In this model, the frame is shown as planar elements that couple to each other in triple groups, forming a bridgework of structural integrity between an inner surface that is concentric with the outer hull.  
+Spherical domes are elegant, and have a certain celestial association.  However, this constraint does not make them optimal for living spaces, as has been noted.  The √n grid system can be readily adapted to forms like this, which is an Elliptical Ellipsoid.  This illustrates several features of this kind of plan.  Because of the composition of curved lines in horizontal and vertical planes, the dome can be truncated to build walls with doors, or to merge with adjacent structures.  The footprint can be adjusted to meet lot criteria.  Partitions can be built within the dome, and floors can be built, aligned with framework.  In this model, the frame is shown as planar elements that couple to each other in triple groups, forming a bridgework of structural integrity between an inner surface and the outer hull.  
 
 <vzome-viewer style="width: 100%; height: 65vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/06/13-47-57-Elliptical-EllipsoidvZome/Elliptical-EllipsoidvZome.vZome" >
