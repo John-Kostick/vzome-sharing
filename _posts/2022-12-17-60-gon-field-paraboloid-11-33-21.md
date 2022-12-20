@@ -46,12 +46,12 @@ Below is a model of a framing system using the √n series system shown for layo
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-34-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-43-49-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-34-47-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/20-43-49-Elliptical-Paraboloid-Frame-2/Elliptical-Paraboloid-Frame-2.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-   Elliptical paraboloid framing
+    Elliptical paraboloid framing
  </figcaption>
 </figure>
 
