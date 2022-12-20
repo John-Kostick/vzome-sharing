@@ -28,8 +28,8 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-The curving surfaces in these models are indicated by points and reference lines.  The parabola shown in Scenes is generated graphically using √n values for points along x axis, and linear values on vertical axis. 
-Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, indicated by points, as with the circular one above.  Scenes shows section planes and a sample of double ruling, where the surface has two straight lines on it intersecting at each point.  
+The curving surfaces in these models are indicated by points and reference lines.  The parabola shown in Scenes is generated graphically using √n values for points along x axis, and integer or rational values on vertical axis. 
+Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, indicated by points, as with the circular one above.  Scenes shows section planes and a sample of double ruling, where the surface has two straight lines on it intersecting at each point on it.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
@@ -55,7 +55,7 @@ Below is a model of a framing system using the √n series system shown for layo
  </figcaption>
 </figure>
 
-Below is another application of paraboloid surfaces in a building context.  Sections of circular paraboloids are reoriented and combined as petal shaped quadrants of a roof .  
+Below is another application of paraboloid surfaces in a building context.  Sections of circular paraboloids are reoriented and combined as petal shaped quadrants of a roof.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"
