@@ -68,6 +68,8 @@ Below is another application of paraboloid surfaces in a building context.  Sect
  </figcaption>
 </figure>
 
+![6721708_orig](https://user-images.githubusercontent.com/78830166/208563102-cd678abb-5d4a-4002-b213-12e76cb7774a.jpeg)
+
 Another roof structure can be viewed [Here](https://skfb.ly/6WKLJ)
 
 An elliptical paraboloid bowl
