@@ -28,17 +28,24 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
+Below is a paraboloid, with panels filled in.  
+
+<vzome-viewer style="width: 100%; height: 65vh;"
+       src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.vZome" >
+  <img src="https://John-Kostick.github.io/vzome-sharing/2022/03/21/12-50-59-60-gon field-Paraboloid dome/60-gon field-Paraboloid dome.png" />
+</vzome-viewer>
+
 The curving surfaces in these models are indicated by points and reference lines.  The parabola shown in Scenes is generated graphically using √n values for points along x axis, and integer or rational values on vertical axis. 
 Below, parabolas are used to compose a hyperbolic paraboloid, known as a Hypar, indicated by points, as with the circular one above.  Scenes shows section planes and a sample of double ruling, where the surface has two straight lines on it intersecting at each point on it.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/16-15-31-60-gon-field-hypar/60-gon-field-hypar.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/20/17-57-02-60-gon-field-hypar/60-gon-field-hypar.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/12/19/16-15-31-60-gon-field-hypar/60-gon-field-hypar.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2022/12/20/17-57-02-60-gon-field-hypar/60-gon-field-hypar.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    Hypar, indicated by points
+    Hypar, or Saddle Curve
  </figcaption>
 </figure>
 
