@@ -9,8 +9,8 @@ description:
 ---
 
 {% comment %}
- - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2023/01/08/Arrangement-of-17--cubes-09-40-46.html>)
- - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/08/09-40-46-Arrangement-of-17--cubes/>)
+ - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2023/01/08/Arrangement-of-17-cubes-09-40-46.html>)
+ - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/08/09-40-46-Arrangement-of-17-cubes/>)
  
 {% endcomment %}
 17 cubes are distributed symmetrically. They share a common center point.  A primary, or original cube is copied to 4 positions.  Then each copy is copied 3 times to new positions.  
