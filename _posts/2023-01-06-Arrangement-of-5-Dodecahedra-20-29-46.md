@@ -28,7 +28,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-How this arrangement is generated can be understood by considering the Arrangement of 5 cubes shown in Scenes.  Th central grey cube can be seen as being rotated about each of its corner-to-corner axes by 60° to define, in succession, the yellow, red, blue, and green cubes. With the central original cube removed, these 4 make a symmetrical arrangement.  Given that each cube can be circumscribed by a dodecahedron that shares the 8 corner vertices, the 5 dodecahedra can be seen as built around the cubes.  By removing the original grey dodecahedron, we arrive at the arrangement of 4. 
+How this arrangement is generated can be understood by considering the Arrangement of 5 cubes shown in Scenes.  The central grey cube can be seen as being rotated about each of its corner-to-corner axes by 60° to define, in succession, the yellow, red, blue, and green cubes. With the central original cube removed, these 4 make a symmetrical arrangement.  Given that each cube can be circumscribed by a dodecahedron that shares the 8 corner vertices, the 5 dodecahedra can be seen as built around the cubes.  By removing the original grey dodecahedron, we arrive at the arrangement of 4. 
 It is possible, by a similar process, to copy the original dodecahedron by rotation about each of its corner-to-opposite corner axes to generate 10 copies. This can be seen [Here](https://john-kostick.github.io/vzome-sharing/2023/01/07/Arrangement-of-10-Dodecahedra-18-26-14.html)
 
 The symmetry of these arrangements is displayed in the convex hulls shown in Scenes.
