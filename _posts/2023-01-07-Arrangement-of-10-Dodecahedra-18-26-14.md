@@ -2,7 +2,7 @@
 title: An arrangement of 10 Dodecahedra
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/01/07/18-26-14-Arrangement-of-10-Dodecahedra/Arrangement-of-10-Dodecahedra.png
-published: false
+published: true
 layout: vzome
 description:
   This is a model of 10 Dodecahedra.
