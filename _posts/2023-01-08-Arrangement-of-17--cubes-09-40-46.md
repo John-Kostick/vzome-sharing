@@ -2,7 +2,7 @@
 title: An arrangement of 17 cubes
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/01/08/09-40-46-Arrangement-of-17-cubes/Arrangement-of-17-cubes.png
-published: true
+published: false
 layout: vzome
 description:
   17 cubes are distributed symmetrically.
