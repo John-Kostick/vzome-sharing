@@ -1,9 +1,7 @@
 
 ## How to Use or Share this Design
 
- - [***custom web page***][post] to share this design; *try it before you share it!*
- - [source file for that custom page][source]; click to customize
- - [raw vZome file][raw] to use in vZome desktop or vZome Online
+ - [raw vZome file](<https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2023/01/06/14-16-19-6-Dodecas/6-Dodecas.vZome>) to use in vZome desktop or vZome Online
  
  HTML for embedding in any web page:
  ```html
@@ -23,7 +21,3 @@
 
 ![Image](<6-Dodecas.png>)
 
-
-[post]: <https://John-Kostick.github.io/vzome-sharing/2023/01/06/6-Dodecas-14-16-19.html>
-[source]: <https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2023-01-06-6-Dodecas-14-16-19.md>
-[raw]: <https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2023/01/06/14-16-19-6-Dodecas/6-Dodecas.vZome>
