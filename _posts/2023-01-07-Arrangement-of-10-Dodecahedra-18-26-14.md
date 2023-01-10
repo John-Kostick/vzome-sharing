@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/07/18-26-14-Arrangement-of-10-Dodecahedra/>)
  
 {% endcomment %}
-This is a model of 10 Dodecahedra. They are arranged around a common center.  This ia a continuaton of [An arrangement of 5 Dodecahedra](https://john-kostick.github.io/vzome-sharing/2023/01/06/Arrangement-of-5-Dodecahedra-20-29-46.html)
+This is a model of 10 Dodecahedra. They are arranged around a common center.  This is a continuaton of [An arrangement of 5 Dodecahedra](https://john-kostick.github.io/vzome-sharing/2023/01/06/Arrangement-of-5-Dodecahedra-20-29-46.html)
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
