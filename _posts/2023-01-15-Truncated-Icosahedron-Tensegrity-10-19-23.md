@@ -2,8 +2,10 @@
 title: Truncated Icosahedron Tensegrity
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/01/15/10-19-23-Truncated-Icosahedron-Tensegrity/Truncated-Icosahedron-Tensegrity.png
-published: false
+published: true
 layout: vzome
+description:
+  This is a model of a Tensegrity construction.
 ---
 
 {% comment %}
@@ -11,11 +13,12 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/15/10-19-23-Truncated-Icosahedron-Tensegrity/>)
  
 {% endcomment %}
+This is a model of a Tensegrity construction. The ends of compression elements, colored charcoal grey, inbtersect the vertices of a atruncated Icosahedron. Tension elements are shown colored purple and blue.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
        src="https://John-Kostick.github.io/vzome-sharing/2023/01/15/10-19-23-Truncated-Icosahedron-Tensegrity/Truncated-Icosahedron-Tensegrity.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2023/01/15/10-19-23-Truncated-Icosahedron-Tensegrity/Truncated-Icosahedron-Tensegrity.png" >
