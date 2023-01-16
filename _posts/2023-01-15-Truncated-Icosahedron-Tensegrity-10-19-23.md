@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/15/10-19-23-Truncated-Icosahedron-Tensegrity/>)
  
 {% endcomment %}
-This is a model of a [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) construction. The ends of compression elements, colored charcoal grey, inbtersect the vertices of a Truncated Icosahedron. Tension elements are shown colored purple and blue.
+This is a model of a [Tensegrity](https://en.wikipedia.org/wiki/Tensegrity) construction. The ends of compression elements, colored charcoal grey, intersect the vertices of a Truncated Icosahedron. Tension elements are shown colored purple and blue.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
