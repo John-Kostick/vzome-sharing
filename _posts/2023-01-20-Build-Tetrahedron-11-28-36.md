@@ -25,6 +25,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
        src="https://John-Kostick.github.io/vzome-sharing/2023/01/20/11-28-36-Build-Tetrahedron/Build-Tetrahedron.png" >
   </vzome-viewer>
   <figcaption style="text-align: center; font-style: italic;">
-    Build Tetrahedron with mirror copies
+    Build Tetrahedron With Mirror Copies
   </figcaption>
 </figure>
