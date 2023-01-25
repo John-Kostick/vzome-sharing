@@ -41,7 +41,7 @@ In the model below, a Triacontahedron is surrounded by a Truncated Octahedron, s
  </figcaption>
 </figure>
 
-The model below is akin to the first one above, but has many more stages in the transformation.  It also includes an alternate sequnce from the Cube back out to the Truncated Octahedron. As in the first model, all polyhedra share the 8 cube corners. Scenes shows these two sequences as A set and B set.  
+The model below is akin to the first one above, but has many more stages in the transformation.  It also includes an alternate sequence from the Cube back out to the Truncated Octahedron. As in the first model, all polyhedra share the 8 cube corners. Scenes shows these two sequences as A set and B set.  
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
