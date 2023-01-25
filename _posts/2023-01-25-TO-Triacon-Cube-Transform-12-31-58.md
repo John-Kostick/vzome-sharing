@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/01/25/12-31-58-TO-Triacon-Cube-Transform/>)
  
 {% endcomment %}
-These models illustrate a sequence. A Truncated Octahedron is shown transforming to a regular Rhombic Triacontahedron, through variant triacontahedra, to a cube. All concentric polyhedra share the vertices at corners of the cube. Stages are shown in Scenes.
+These models illustrate a sequence. A Truncated Octahedron is shown transforming to a regular Rhombic Triacontahedron, through variant triacontahedra, to a Cube. All concentric polyhedra share the vertices at corners of the cube. Stages are shown in Scenes.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -54,7 +54,7 @@ The model below is akin to the first one above, but has many more stages in the 
  </figcaption>
 </figure>
 
-This video is an animation of the model above.
+This [video](https://user-images.githubusercontent.com/78830166/214673349-ded40ae1-a5d2-4023-a6e6-37f55721e183.mp4) is an animation of the model above.
 
-https://user-images.githubusercontent.com/78830166/214673349-ded40ae1-a5d2-4023-a6e6-37f55721e183.mp4
+
 
