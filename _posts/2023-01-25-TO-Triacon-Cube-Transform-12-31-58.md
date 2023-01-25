@@ -54,7 +54,9 @@ The model below is akin to the first one above, but has many more stages in the 
  </figcaption>
 </figure>
 
-This [video](https://user-images.githubusercontent.com/78830166/214673349-ded40ae1-a5d2-4023-a6e6-37f55721e183.mp4) is an animation of the model above.
+This video is an animation of the model above.
 
 
+
+https://user-images.githubusercontent.com/78830166/214677398-363091c3-2ec7-4bc7-8a0c-65e3533be265.mp4
 
