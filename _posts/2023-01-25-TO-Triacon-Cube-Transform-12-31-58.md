@@ -59,13 +59,16 @@ This video is an animation of the model above.
 <figure style="width: 87%; margin: 5%">
      <video width="548" height="440" name="TO-Triacon-Cube" 
 		controls loop muted >
-     <source src="https://user-images.githubusercontent.com/78830166/214941610-876392f5-e9ca-4058-8119-b8f55611451e.mp4">
+     <source src="https://user-images.githubusercontent.com/78830166/214943973-adea2c06-8ab6-44d5-9618-cc4427bc3416.mp4">
      This browser does not support the video tag.
    </video>
   <figcaption style="text-align: center; font-style: italic;">
     TO-Triacons-Cube 
   </figcaption>
 </figure>
+
+
+
 
 
 
