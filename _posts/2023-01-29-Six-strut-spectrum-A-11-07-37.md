@@ -1,5 +1,5 @@
 ---
-title: Tetrahedron Transformatio
+title: Tetrahedron Transformation
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/01/29/11-07-37-Six-strut-spectrum-A/Six-strut-spectrum-A.png
 published: true
@@ -18,6 +18,11 @@ This is about transformation of tetrahedra. Edges are rotated about a line betwe
 Some of the directions that appear as white in these illustrations have been colored for clarity in the video. Struts that begin as edges of a Tetrahedron are shown rotating through this parallel orientation to arrive at the other orientation of Tetrahedron. This much of the transformation is labelled the "A set." Continuing the rotation, the strut passes through the "B set," which includes an alternate orientation of the 3 pairs of parallels configuration, and ends at the starting place. 
 
 [Video](https://youtu.be/mscelzbSs-c)
+
+Related transformations can be seen 
+[Here](https://john-kostick.github.io/vzome-sharing/2022/05/03/Twelve-Edge-Transformation-14-00-49.html)
+
+and[Here](https://john-kostick.github.io/vzome-sharing/2022/05/06/Thirty-Edge-Transform-08-27-17.html)
 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
