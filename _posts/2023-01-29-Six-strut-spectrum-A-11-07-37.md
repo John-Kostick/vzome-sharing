@@ -20,9 +20,7 @@ Some of the directions that appear as white in these illustrations have been col
 [Video](https://youtu.be/mscelzbSs-c)
 
 Related transformations can be seen 
-[Here](https://john-kostick.github.io/vzome-sharing/2022/05/03/Twelve-Edge-Transformation-14-00-49.html)
-
-and[Here](https://john-kostick.github.io/vzome-sharing/2022/05/06/Thirty-Edge-Transform-08-27-17.html)
+[Here](https://john-kostick.github.io/vzome-sharing/2022/05/03/Twelve-Edge-Transformation-14-00-49.html) and [Here](https://john-kostick.github.io/vzome-sharing/2022/05/06/Thirty-Edge-Transform-08-27-17.html)
 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
