@@ -57,4 +57,8 @@ In this model, the rotated edges have become oriented into four parallel sets of
  <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/14-49-57-Cube-to-yellow-6/Cube-to-yellow-6.png" />
 </vzome-viewer>
 
+An animation of this transformation can be seen her:  [Video]https://youtu.be/lp2I2_anD6A)
+
 A continuation of this series can be seen at [Twelve Edge Transformation Part 2](https://john-kostick.github.io/vzome-sharing/2022/05/03/Cube-to-yellow-6-14-49-57.html)
+
+A precursor of this series can be seen [Here](https://john-kostick.github.io/vzome-sharing/2023/01/29/Six-strut-spectrum-A-11-07-37.html)
