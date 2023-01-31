@@ -18,3 +18,5 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
        src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/19-34-27-Twelve-Edge-Transformation-2/Twelve-Edge-Transformation-2.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/05/03/19-34-27-Twelve-Edge-Transformation-2/Twelve-Edge-Transformation-2.png" />
 </vzome-viewer>
+
+An animation of this transformation can be seen in this [Video](https://youtu.be/lp2I2_anD6A)
