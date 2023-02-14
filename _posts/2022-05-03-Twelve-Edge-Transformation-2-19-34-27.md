@@ -2,7 +2,7 @@
 title: Twelve Edge Transformation 2
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/05/03/19-34-27-Twelve-Edge-Transformation-2/Twelve-Edge-Transformation-2.png
-published: true
+published: false
 layout: vzome
 ---
 
