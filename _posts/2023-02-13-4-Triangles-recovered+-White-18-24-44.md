@@ -1,5 +1,5 @@
 ---
-title: Twelve Edge Transformation 3
+title: Twelve Edge Transformation Enhancements
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/02/13/18-24-44-4-Triangles-recovered+-White/4-Triangles-recovered+-White.png
 published: true
