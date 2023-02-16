@@ -18,14 +18,15 @@ This illustrates an aspect of the transformation of edges of an Octahedron.  As 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 
+
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/02/16/09-38-58-4-Triangles-recovered+-White/4-Triangles-recovered+-White.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2023/02/16/10-17-09-4-Triangles-recovered+-White/4-Triangles-recovered+-White.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/02/16/09-38-58-4-Triangles-recovered+-White/4-Triangles-recovered+-White.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2023/02/16/10-17-09-4-Triangles-recovered+-White/4-Triangles-recovered+-White.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-     Right-Handed 4 triangle interlink combined with left-handed 4 triangle interlink
+    Right-Handed 4 triangle interlink combined with left-handed 4 triangle interlink
  </figcaption>
 </figure>
 
