@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="19" field="golden" version="7.1">
-  <EditHistory editNumber="3583" lastStickyEdit="3572">
+  <EditHistory editNumber="3591" lastStickyEdit="3591">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="5" len="1 1"/>
     <SelectManifestation point="1 2 -1 -2 1 2"/>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
@@ -8136,6 +8136,14 @@
     <EndBlock/>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
     <Delete/>
+    <ApplyTool copyColors="true" name="tool-32" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tool-31" selectInputs="true"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-44" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-43" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="5"/>
   </EditHistory>
   <notes>
     <page snapshot="2" title="Dodger Blue-Before intersection">
@@ -8154,8 +8162,8 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="4" title="Navy- after intersection">
-      <ViewModel distance="313.8387756347656" far="627.6786499023438" near="0.7845996618270874" parallel="true" stereoAngle="0.0" width="141.2276611328125">
+    <page snapshot="5" title="Navy-After intersection">
+      <ViewModel distance="313.8387756347656" far="627.6786499023438" near="0.7845996618270874" parallel="false" stereoAngle="0.0" width="141.2276611328125">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
         <LookDirection x="0.0" y="0.0" z="-1.0"/>
