@@ -17,16 +17,6 @@ This illustrates an aspect of the transformation of edges of an Octahedron.  As 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/02/14/11-32-39-4-Triangles-recovered+-White/4-Triangles-recovered+-White.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/02/14/11-32-39-4-Triangles-recovered+-White/4-Triangles-recovered+-White.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    4 Right-Handed triangles combined with 4 left-handed triangles
- </figcaption>
-</figure>
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
