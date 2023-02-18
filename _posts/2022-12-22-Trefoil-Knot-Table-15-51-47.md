@@ -2,7 +2,7 @@
 title: Trefoil Knot Table
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/12/22/15-51-47-Trefoil-Knot-Table/Trefoil-Knot-Table.png
-published: false
+published: true
 layout: vzome
 descripion:
   These are models of trefoil knot tables.  
@@ -41,6 +41,6 @@ In both of these designs, there is an ingenious use of rectangular cross-section
  </figcaption>
 </figure>
 
-Thes have been built as table bases by [Jane Kostick](http://www.kosticks.com/koos-verhoeff.html)
+These have been built as table bases by [Jane Kostick](http://www.kosticks.com/koos-verhoeff.html)
 
 This is the 24 piece one as a table base.  
