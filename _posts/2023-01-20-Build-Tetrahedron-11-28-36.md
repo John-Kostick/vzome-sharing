@@ -2,7 +2,7 @@
 title: Build Tetrahedron
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/01/20/11-28-36-Build-Tetrahedron/Build-Tetrahedron.png
-published: true
+published: false
 layout: vzome
 description:
   This is a study of building from a certain tetrahedron.
