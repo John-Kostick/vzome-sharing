@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/02/03/18-41-58-Octahedral-Symmetry-study/>)
  
 {% endcomment %}
-This is a construction of Escher's solid. 
+This is a construction of [Escher's solid.](https://en.wikipedia.org/wiki/First_stellation_of_the_rhombic_dodecahedron) 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
