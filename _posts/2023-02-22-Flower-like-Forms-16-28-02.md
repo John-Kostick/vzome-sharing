@@ -30,8 +30,8 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
 
 Some years ago, I had the notion to make a Zometool model composed of parts of all the five-fold Polar Zonohedra that could be made, using the red, yellow blue and green struts.  Arranging them about a common axis produces a form that has a resmblance to some flowers.  When I began using vZome, I revisited this concept. With the ability to use more than one strut in pentagonal holes, and to panel, I made these models, still only using the strut colors/directions as in zometool.  [Composite flower](https://sketchfab.com/3d-models/unfolding-five-fold-c0df0f9a39114ed88c2d020c781f0f8b) and [Chain of Rhombic Icosahedra](https://sketchfab.com/3d-models/jack-be-nimble-869357ab17a44054bcb21bc6bf9dd3bb)
 
-In the model above, I used a selection of other colors/directions that are availble with vZome.  Builing these figures is not intended to represent any particular flowers, just the form in a general way.  Choices of which parts are combined are made more or less based on aesthetics, and conditions like not having the partial zonohedra overlap each other.  All colors are default.  In composing these models, there is a study of several kinds of symmetry and examples 
-of each kind that can be found using the available directions.  The model below, with it's Scenes menu, features four-fold symmetry.  The Polar Zonohedra of this kind are Rhombic Dodecahedra, which, as with the the Rhombic Icosahedra, range in proportioning, from squashed down, or oblate, to elongated, or prolate.
+In the model above, I used a selection of other colors/directions that are availble with vZome.  Building these figures is not intended to represent any particular flowers, just the form in a general way.  Choices of which parts are combined are made more or less based on aesthetics, and conditions like not having the partial zonohedra overlap each other.  All colors are default.  In composing these models, there is a study of several kinds of symmetry and examples 
+of each kind that can be found using the available directions.  The model below, with it's Scenes menu, features four-fold axial symmetry.  The Polar Zonohedra of this kind are Rhombic Dodecahedra, which, as with the the Rhombic Icosahedra, range in proportioning, from squashed down, or oblate, to elongated, or prolate.
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
@@ -40,7 +40,7 @@ of each kind that can be found using the available directions.  The model below,
       src="https://John-Kostick.github.io/vzome-sharing/2023/02/22/11-28-57-All-colors-4-fold/All-colors-4-fold.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    A Four-fold symmertry flower form
+    A Four-fold symmetry flower form
  </figcaption>
 </figure>
 
