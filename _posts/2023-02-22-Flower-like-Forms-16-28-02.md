@@ -2,7 +2,7 @@
 title: Flower like Forms
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/02/22/16-28-02-Flower-like-Forms/Flower-like-Forms.png
-published: false
+published: true
 layout: vzome
 description:
   These are geometric figures that resemble flowers.
@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/02/22/16-28-02-Flower-like-Forms/>)
  
 {% endcomment %}
-These are geometric figures that resemble flowers. A variety of Polsr Zonohedra with shared origin points are used to compose these figures,  Parts of these zonohedra are omitted.  The first model below feature five-fold symmetry.  Scenes shows different compositions.    
+These are geometric figures that resemble flowers. A variety of Polar Zonohedra with shared origin points are used to compose these figures,  Parts of these zonohedra are omitted.  The first model below feature five-fold symmetry.  Scenes shows different compositions.    
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -28,7 +28,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-Some years ago, I had the notion to make a Zometool model composed of parts of all the five-fold polar zonohedra that could be made, using the red, yellow blue and green struts.  Arranging them about a common axis produces a form that has a resmblance to some flowers.  When I began using vZome, I revisited this concept. With the ability to use more than one strut in pentagonal holes, and to panel, I made these models, still only using the strut colors/directions as in zometool.  [Composite flower](https://sketchfab.com/3d-models/unfolding-five-fold-c0df0f9a39114ed88c2d020c781f0f8b) and [Chain of Rhombic Icosahedra](https://sketchfab.com/3d-models/jack-be-nimble-869357ab17a44054bcb21bc6bf9dd3bb)
+Some years ago, I had the notion to make a Zometool model composed of parts of all the five-fold Polar Zonohedra that could be made, using the red, yellow blue and green struts.  Arranging them about a common axis produces a form that has a resmblance to some flowers.  When I began using vZome, I revisited this concept. With the ability to use more than one strut in pentagonal holes, and to panel, I made these models, still only using the strut colors/directions as in zometool.  [Composite flower](https://sketchfab.com/3d-models/unfolding-five-fold-c0df0f9a39114ed88c2d020c781f0f8b) and [Chain of Rhombic Icosahedra](https://sketchfab.com/3d-models/jack-be-nimble-869357ab17a44054bcb21bc6bf9dd3bb)
 
 In the model above, I used a selection of other colors/directions that are availble with vZome.  Builing these figures is not intended to represent any particular flowers, just the form in a general way.  Choices of which parts are combined are made more or less based on aesthetics, and conditions like not having the partial zonohedra overlap each other.  All colors are default.  In composing these models, there is a study of several kinds of symmetry and examples 
 of each kind that can be found using the available directions.  The model below, with it's Scenes menu, features four-fold symmetry.  The Polar Zonohedra of this kind are Rhombic Dodecahedra, which, as with the the Rhombic Icosahedra, range in proportioning, from squashed down, or oblate, to elongated, or prolate.
