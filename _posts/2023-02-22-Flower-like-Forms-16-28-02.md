@@ -44,7 +44,7 @@ of each kind that can be found using the available directions.  The model below,
  </figcaption>
 </figure>
 
-The models below are related, but feature examples that only have two-fold symmetry.  This is less like actual flower forms, more about types of symmetry.  In Scenes, there are also 2 examples of four-fold compositions that are constructed half from available directions and half from mirrored copies of directions.  (Green plane mirrors) The one titled Flower 4 is actually a kind of hybrid, as it has a 2-fold figure at the bottom.
+The models below are related, but feature examples that only have two-fold symmetry.  This is less like actual flower forms, more about types of symmetry.  In Scenes, there are also 2 examples of four-fold compositions that are constructed half from available directions and half from mirrored copies of directions.  (Green plane mirrors) The one titled "Flower 3 4-fold by mirroring" is actually a kind of hybrid, as it has a 2-fold figure at the bottom.
 
 
 <figure style="width: 87%; margin: 5%">
