@@ -28,7 +28,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-This[Video](https://youtu.be/1qs0ODByqDU)shows several more examples, in a sequence.  
+This [Video](https://youtu.be/1qs0ODByqDU) shows several more examples, in a sequence.  
 
 Below is shown a series of transformations about a 3-fold axis.  Scenes shows some examples that can be constructed with zometool.    
 
