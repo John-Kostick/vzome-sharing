@@ -34,12 +34,12 @@ Below is shown a series of transformations about a 3-fold axis.  Scenes shows so
 
 <figure style="width: 87%; margin: 5%">
  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/09-12-06-Rhombic-Dodecahedron-Transformations-3-foldvZome/Rhombic-Dodecahedron-Transformations-3-foldvZome.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/14-56-27-Rhombic-Dodecahedron-Transformations-3-foldvZome/Rhombic-Dodecahedron-Transformations-3-foldvZome.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/09-12-06-Rhombic-Dodecahedron-Transformations-3-foldvZome/Rhombic-Dodecahedron-Transformations-3-foldvZome.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/14-56-27-Rhombic-Dodecahedron-Transformations-3-foldvZome/Rhombic-Dodecahedron-Transformations-3-foldvZome.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-    Rhombic Dodecahedron 3-fold 
+   Rhombic Dodecahedron 3-fold 
  </figcaption>
 </figure>
 
