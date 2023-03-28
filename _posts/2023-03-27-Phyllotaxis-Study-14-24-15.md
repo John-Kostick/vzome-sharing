@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2023/03/27/14-24-15-Phyllota
 published: true
 layout: vzome
 description:
-  This is a study of Phyllotaxis.
+  This is about plant structure.
 ---
 
 {% comment %}
@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/03/27/14-24-15-Phyllotaxis-Study/>)
  
 {% endcomment %}
-This is a study of [Phyllotaxis](https://goldenratiomyth.weebly.com/phyllotaxis-the-fibonacci-sequence-in-nature.html). The model represents leaves branching out from a stem, at successive stages that are rotated about the stem by 137.52...° between stages, a close approximation to the division of the circumference of a circle by 𝜑, the "Golden angle."   Scenes shows some aspects of the construction in vZome.
+This is about plant structure, called [Phyllotaxis](https://goldenratiomyth.weebly.com/phyllotaxis-the-fibonacci-sequence-in-nature.html). The model represents leaves branching out from a stem, at successive stages that are rotated about the stem by 137.52...° between stages, a close approximation to the division of the circumference of a circle by 𝜑, the "Golden angle."   Scenes shows some aspects of the construction in vZome.
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
