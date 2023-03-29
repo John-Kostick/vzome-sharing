@@ -7,7 +7,7 @@
  HTML for embedding in any web page:
  ```html
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
        src="https://John-Kostick.github.io/vzome-sharing/2023/03/27/22-42-38-Phyllotaxis-Study/Phyllotaxis-Study.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2023/03/27/22-42-38-Phyllotaxis-Study/Phyllotaxis-Study.png" >
