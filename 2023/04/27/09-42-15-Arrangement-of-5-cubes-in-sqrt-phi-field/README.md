@@ -1,11 +1,4 @@
 
-## Blog Post Generated
-
- - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2023/04/27/Arrangement-of-5-cubes-in-sqrt-phi-field-09-42-15.html>) about this design; *try it before you share it!*
- - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2023-04-27-Arrangement-of-5-cubes-in-sqrt-phi-field-09-42-15.md>); click to customize
- 
-
-
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/>) to just share this design; *try it before you share it!*

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="20" field="sqrtPhi" version="7.1">
-  <EditHistory editNumber="3387" lastStickyEdit="3386">
+  <EditHistory editNumber="3372" lastStickyEdit="3367">
     <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0" index="1" len="0 2 0 3" symm="pentagonal"/>
     <BeginBlock/>
     <SelectManifestation point="0 1 0 2 0 -1 0 -2 1 0 2 0"/>
@@ -6814,26 +6814,38 @@
     <setItemColor blue="255" green="153" red="51"/>
     <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
     <Hide/>
-    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
-    <DeselectAll/>
-    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
-    <DeselectAll/>
-    <Snapshot id="11"/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+      <DeselectAll/>
+      <Snapshot id="11"/>
+      <SelectAll originLast="true"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <DeselectAll/>
+      <Snapshot id="12"/>
+      <Branch>
+        <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+        <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+        <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+        <Hide/>
+        <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+        <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+        <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+        <Hide/>
+        <SelectAll originLast="true"/>
+        <BookmarkTool name="tool-15"/>
+      </Branch>
+      <SelectAll originLast="true"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+      <DeselectAll/>
+      <Snapshot id="13"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-15" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
     <SelectAll originLast="true"/>
     <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <DeselectAll/>
-    <Snapshot id="12"/>
-    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <Hide/>
-    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
-    <Hide/>
-    <SelectAll originLast="true"/>
-    <BookmarkTool name="tool-15"/>
     <DeselectAll/>
   </EditHistory>
   <notes>
@@ -6853,8 +6865,8 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="12" title="10 cubes surrounding intersection of 5 cubes">
-      <ViewModel distance="458.9216613769531" far="917.8419799804688" near="1.1473057270050049" parallel="false" stereoAngle="0.0" width="206.51487731933594">
+    <page snapshot="13" title="10 cubes surrounding intersection of 5 cubes">
+      <ViewModel distance="346.845458984375" far="693.689697265625" near="0.8671151399612427" parallel="false" stereoAngle="0.0" width="156.08059692382812">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
         <LookDirection x="0.0" y="0.0" z="-1.0"/>
