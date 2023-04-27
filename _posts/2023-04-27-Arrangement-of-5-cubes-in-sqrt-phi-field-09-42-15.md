@@ -17,13 +17,14 @@ This shows five cubes arranged about a common center. They are rotated about a l
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
+
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/Arrangement-of-5-cubes-in-sqrt-phi-field.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/Arrangement-of-5-cubes-in-sqrt-phi-field.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/Arrangement-of-5-cubes-in-sqrt-phi-field.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/Arrangement-of-5-cubes-in-sqrt-phi-field.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
     Intersection of 5 cubes in sqrt phi field
-  </figcaption>
+ </figcaption>
 </figure>
