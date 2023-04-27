@@ -2,7 +2,7 @@
 title: Arrangement of 5 cubes in sqrt phi field
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/04/27/09-42-15-Arrangement-of-5-cubes-in-sqrt-phi-field/Arrangement-of-5-cubes-in-sqrt-phi-field.png
-published: true
+published: false
 layout: vzome
 description:
   This shows five cubes arranged about a common center.
