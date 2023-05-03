@@ -18,12 +18,12 @@ This is a study of stellations of a Rhombic Icosahedron. This is built in âˆšğœ
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/05/03/13-31-56-Stellated-Rhombic-Icosahedron-2/Stellated-Rhombic-Icosahedron-2.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/05/03/13-31-56-Stellated-Rhombic-Icosahedron-2/Stellated-Rhombic-Icosahedron-2.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
+ <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
+      src="https://John-Kostick.github.io/vzome-sharing/2023/05/03/13-31-56-Stellated-Rhombic-Icosahedron-2/Stellated-Rhombic-Icosahedron-2.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2023/05/03/13-31-56-Stellated-Rhombic-Icosahedron-2/Stellated-Rhombic-Icosahedron-2.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
     Second Stellation of Rhombic Icosahedron
-  </figcaption>
+ </figcaption>
 </figure>
