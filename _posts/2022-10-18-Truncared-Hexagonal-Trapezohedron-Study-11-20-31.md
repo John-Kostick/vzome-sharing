@@ -2,7 +2,7 @@
 title: Truncated Hexagonal Trapezohedron Study
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2022/10/18/11-20-31-Truncared-Hexagonal-Trapezohedron-Study/Truncared-Hexagonal-Trapezohedron-Study.png
-published: false
+published: true
 layout: vzome
 description:
   This is an approximate model.
