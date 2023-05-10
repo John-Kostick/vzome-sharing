@@ -1929,7 +1929,9 @@
     <DeselectAll/>
     <Snapshot id="0"/>
     <SelectAll originLast="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <ApplyTool copyColors="true" name="tool-23" selectInputs="true"/>
     <BeginBlock/>
     <DeselectAll/>
@@ -1941,7 +1943,9 @@
     <SelectManifestation point="-24/5 3/5 -54/5 3/5 6/5 3/5"/>
     <EndBlock/>
     <Branch>
-      <Polygon/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
       <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
       <BeginBlock/>
       <DeselectAll/>
@@ -1974,7 +1978,9 @@
             <SelectManifestation point="3/5 24/5 -27/5 24/5 -27/5 24/5"/>
             <SelectManifestation point="33/5 9/5 -27/5 9/5 3/5 9/5"/>
             <EndBlock/>
-            <Polygon/>
+            <Polygon>
+              <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+            </Polygon>
             <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
             <BeginBlock/>
             <DeselectAll/>
@@ -1995,7 +2001,9 @@
           <SelectManifestation point="111/20 -39/40 111/20 -39/40 -129/20 -39/40"/>
           <SelectManifestation point="21/20 -3/5 141/20 -3/5 -99/20 -3/5"/>
           <EndBlock/>
-          <Polygon/>
+          <Polygon>
+            <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+          </Polygon>
           <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
           <DeselectAll/>
           <Snapshot id="3"/>
@@ -2081,10 +2089,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="194.19821166992188" far="388.3954772949219" near="0.4854961335659027" parallel="false" stereoAngle="0.0" width="87.38919830322266">
+    <ViewModel distance="218.95790100097656" far="437.91473388671875" near="0.5473954081535339" parallel="false" stereoAngle="0.0" width="98.53105926513672">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.17924459278583527" y="0.9719757437705994" z="-0.15200860798358917"/>
-      <LookDirection x="-0.3928886950016022" y="-0.2123955339193344" z="-0.8947208523750305"/>
+      <UpDirection x="-0.2434128373861313" y="0.9256570339202881" z="-0.28962284326553345"/>
+      <LookDirection x="-0.4661986529827118" y="-0.37352803349494934" z="-0.8019567728042603"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
