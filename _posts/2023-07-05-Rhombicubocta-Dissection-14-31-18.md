@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2023/07/05/14-31-18-Rhombicubocta-Dissection/>)
  
 {% endcomment %}
-This is a vZome rendition of a construction by [Magnus Wenninger](https://en.wikipedia.org/wiki/Magnus_Wenninger) I'm not sure what his original name for this construction was, but it can be seen as a dissected Rhombicuboctahedron, as swown in Scenes as Convex Hull.  An image of the original is shown below. 
+This is a vZome rendition of a construction by [Magnus Wenninger](https://en.wikipedia.org/wiki/Magnus_Wenninger) I'm not sure what his original name for this construction was, but it can be seen as a dissected Rhombicuboctahedron, as shown in Scenes as Convex Hull.  An image of the original is shown below. 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
