@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="21" field="rootTwo" version="7.1">
-  <EditHistory editNumber="667" lastStickyEdit="652">
+  <EditHistory editNumber="662" lastStickyEdit="652">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="3" len="0 2" symm="octahedral"/>
     <BeginBlock/>
     <SelectManifestation point="0 2 0 -2 0 2"/>
@@ -1267,23 +1267,13 @@
       <polygonVertex at="0 2 0 0 4 0"/>
       <polygonVertex at="-4 4 0 0 0 2"/>
     </SelectManifestation>
-    <EndBlock/>
-    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
-    <BeginBlock/>
     <DeselectAll/>
     <SelectManifestation>
-      <polygonVertex at="0 2 0 2 0 2"/>
-      <polygonVertex at="4 2 0 2 0 2"/>
-      <polygonVertex at="4 0 0 2 0 0"/>
-      <polygonVertex at="0 2 0 2 4 -2"/>
-    </SelectManifestation>
-    <DeselectAll/>
-    <SelectManifestation>
-      <polygonVertex at="0 0 4 -4 0 2"/>
-      <polygonVertex at="0 0 0 -2 4 0"/>
-      <polygonVertex at="0 2 0 -2 4 2"/>
-      <polygonVertex at="0 2 0 0 4 0"/>
       <polygonVertex at="-4 4 0 0 0 2"/>
+      <polygonVertex at="0 2 0 0 4 0"/>
+      <polygonVertex at="0 2 0 2 4 2"/>
+      <polygonVertex at="0 0 0 2 4 0"/>
+      <polygonVertex at="0 0 -4 4 0 2"/>
     </SelectManifestation>
     <EndBlock/>
     <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
