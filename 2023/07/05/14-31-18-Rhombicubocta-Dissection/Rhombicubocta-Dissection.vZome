@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="21" field="rootTwo" version="7.1">
-  <EditHistory editNumber="651" lastStickyEdit="650">
+  <EditHistory editNumber="651" lastStickyEdit="655">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="3" len="0 2" symm="octahedral"/>
     <BeginBlock/>
     <SelectManifestation point="0 2 0 -2 0 2"/>
@@ -1244,8 +1244,21 @@
     <Hide>
       <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
     </Hide>
+    <ApplyTool copyColors="true" name="tool-9" selectInputs="true"/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <DeselectAll/>
+    <Snapshot id="0"/>
   </EditHistory>
-  <notes/>
+  <notes>
+    <page snapshot="0" title="Convex Hull">
+      <ViewModel distance="58.49138259887695" far="116.98301696777344" near="0.14622862637043" parallel="false" stereoAngle="0.0" width="26.32110595703125">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0037453100085258484" y="0.9805082678794861" z="-0.19631405174732208"/>
+        <LookDirection x="-0.2558656334877014" y="-0.18884150683879852" z="-0.9480739831924438"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+  </notes>
   <sceneModel ambientLight="41,41,41" background="204,204,204">
     <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
     <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
