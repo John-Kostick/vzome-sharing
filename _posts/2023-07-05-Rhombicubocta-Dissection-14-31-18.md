@@ -27,5 +27,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
  <figcaption style="text-align: center; font-style: italic;">
     Rhombicuboctahedron Dissection
  </figcaption>
-</figure>
-![IMG_1455](https://github.com/John-Kostick/vzome-sharing/assets/78830166/926b90d4-533e-4a02-8f74-a70e55b59a46)
+</figure>![IMG_1455](https://github.com/John-Kostick/vzome-sharing/assets/78830166/bcf2f97b-f302-4700-ace4-06b3b8486af1)
+
+
