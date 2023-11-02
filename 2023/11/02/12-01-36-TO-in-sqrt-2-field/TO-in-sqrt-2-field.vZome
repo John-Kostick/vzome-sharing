@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="30" field="rootTwo" version="7.1">
+  <EditHistory editNumber="242" lastStickyEdit="226">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="green" index="1" len="0 2" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 0 2 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 0 2 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 4 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -4 0 4 0"/>
+    <SelectManifestation point="-4 0 0 0 4 0"/>
+    <SelectManifestation point="-4 0 4 0 0 0"/>
+    <SelectManifestation point="0 0 4 0 -4 0"/>
+    <SelectManifestation point="4 0 0 0 -4 0"/>
+    <SelectManifestation point="4 0 -4 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <DeselectAll/>
+    <StrutCreation anchor="4 0 -4 0 0 0" dir="green" index="0" len="0 4" symm="octahedral"/>
+    <StrutCreation anchor="4 0 0 0 -4 0" dir="green" index="1" len="0 4" symm="octahedral"/>
+    <StrutCreation anchor="8 0 4 0 -4 0" dir="green" index="0" len="0 4" symm="octahedral"/>
+    <StrutCreation anchor="12 0 4 0 0 0" dir="green" index="16" len="0 4" symm="octahedral"/>
+    <StrutCreation anchor="8 0 -4 0 4 0" dir="green" index="1" len="0 4" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="12 0 0 0 4 0"/>
+    <SelectManifestation point="8 0 4 0 -4 0"/>
+    <SelectManifestation point="4 0 -4 0 0 0"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="4 0 0 0 4 0"/>
+    <SelectManifestation endSegment="4 0 0 0 4 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 0 4 0 0 0"/>
+    <SelectManifestation point="-4 0 0 0 4 0"/>
+    <SelectManifestation point="0 0 -4 0 4 0"/>
+    <SelectManifestation point="4 0 -4 0 0 0"/>
+    <SelectManifestation point="4 0 0 0 -4 0"/>
+    <SelectManifestation point="0 0 4 0 -4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="8 0 0 0 0 0" dir="yellow" index="13" len="0 2" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="0" len="0 2" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="8 -2 0 2 0 2" startSegment="8 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 0 2 0 2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="8 -2 0 2 0 2" startSegment="8 0 0 0 0 0"/>
+    <SelectManifestation point="8 -2 0 2 0 2"/>
+    <SelectManifestation point="0 2 0 2 0 2"/>
+    <SelectManifestation endSegment="0 2 0 2 0 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="4 0 4 0 4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="4 0 4 0 4 0"/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <TranslationTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-0"/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="4 0 8 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 8 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 4 0 8 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 0 4 0 4 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 8 0 4 0" startSegment="0 0 4 0 8 0"/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 6 0 6 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4 0 8 0 0 0" startSegment="0 0 8 0 4 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 6 0 6 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 0 8 0 2 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 8 0 4 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 8 0 4 0 0"/>
+    <SelectManifestation point="0 8 0 4 0 0"/>
+    <SelectManifestation endSegment="0 0 0 8 0 4" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -2 0 8 0 2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="0 0 0 6 0 6"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -2 0 8 0 2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 -8 0 0 0 4"/>
+    <SelectManifestation point="0 0 0 8 0 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-1"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="0 0 0 6 0 6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="false" name="tool-1" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -8 0 0 0 4"/>
+      <polygonVertex at="0 0 0 8 0 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 4 0 8 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="0 6 0 6 0 0"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="12 0 12 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 16 0 4 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="8 0 16 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 12 0 12 0"/>
+    <SelectManifestation point="12 0 12 0 0 0"/>
+    <SelectManifestation point="12 0 0 0 12 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 0 4 0 16 0"/>
+    <SelectManifestation point="4 0 16 0 4 0"/>
+    <SelectManifestation point="16 0 4 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="8 0 0 0 16 0"/>
+    <SelectManifestation point="8 0 16 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-2"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="12 0 12 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="false" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ -543, 0, 32 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ -512, -81, 64 ], [ -512, -81, 64 ], [ -512, -81, 64 ] ], [ [ -512, -81, 64 ], [ -512, -81, 64 ], [ 512, 81, 64 ] ], [ [ -512, -81, 64 ], [ 512, 81, 64 ], [ -512, -81, 64 ] ], [ [ -512, -81, 64 ], [ 512, 81, 64 ], [ 512, 81, 64 ] ], [ [ 0, 0, 1 ], [ -543, 0, 32 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ -543, 0, 32 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 543, 0, 32 ] ], [ [ 0, 0, 1 ], [ 543, 0, 32 ], [ 0, 0, 1 ] ], [ [ 512, 81, 64 ], [ -512, -81, 64 ], [ -512, -81, 64 ] ], [ [ 512, 81, 64 ], [ -512, -81, 64 ], [ 512, 81, 64 ] ], [ [ 512, 81, 64 ], [ 512, 81, 64 ], [ -512, -81, 64 ] ], [ [ 512, 81, 64 ], [ 512, 81, 64 ], [ 512, 81, 64 ] ], [ [ 543, 0, 32 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <SelectManifestation point="-4 0 16 0 4 0"/>
+    <SelectManifestation point="0 0 12 0 12 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <BookmarkTool name="tool-3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 0 16 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 0 16 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="8 0 16 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="8 0 0 0 16 0"/>
+      <polygonVertex at="8 0 16 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="16 0 8 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <SelectManifestation>
+      <polygonVertex at="8 0 0 0 16 0"/>
+      <polygonVertex at="8 0 16 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <BookmarkTool name="tool-4"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 543/32 0"/>
+    <SelectManifestation point="-8 -81/64 8 81/64 8 81/64"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BookmarkTool name="tool-5"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation endSegment="16 0 8 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 12 0 12 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 0 16 0 4 0"/>
+    <SelectManifestation point="4 0 16 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 0 16 0 4 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4 0 16 0 4 0" startSegment="-4 0 16 0 4 0"/>
+    <EndBlock/>
+    <Delete/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="204,204,204">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="138.2245330810547" far="276.4495849609375" near="0.3455614447593689" parallel="false" stereoAngle="0.0" width="62.201114654541016">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+    <Direction color="0,118,149" name="blue" orbit="[[0,0,1],[0,0,1]]"/>
+    <Direction color="184,134,11" name="0" orbit="[[1,0,2],[0,0,1]]" prototype="0 1/2 0 1 0 0"/>
+    <Direction color="0,141,54" name="green" orbit="[[0,0,1],[-1,0,1]]"/>
+    <Direction color="255,255,255" name="5" orbit="[[31,0,128],[0,0,1]]" prototype="0 -1 0 31/128 0 0"/>
+    <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
+    <Direction color="240,160,0" name="yellow" orbit="[[1,0,1],[-1,0,1]]"/>
+    <Direction color="255,255,255" name="2" orbit="[[128,-40,103],[153,-80,103]]" prototype="-15/32 3/4 0 -3/4 15/32 3/4"/>
+    <Direction color="255,255,255" name="1" orbit="[[1,0,4],[1,0,4]]" prototype="0 -1/4 0 1 0 1/4"/>
+    <Direction color="255,255,255" name="4" orbit="[[39329,-20736,26207],[32768,-10368,26207]]" prototype="-243/512 -3/4 0 3/4 -243/512 3/4"/>
+    <Direction color="255,255,255" name="3" orbit="[[0,0,1],[1,0,4]]" prototype="0 0 0 -1/4 0 1"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="synestructics" renderingStyle="small octahedra">
+      <Direction color="240,160,0" name="yellow" orbit="[[1,0,1],[-1,0,1]]"/>
+      <Direction color="220,76,0" name="orange" orbit="[[0,0,1],[0,0,1]]"/>
+      <Direction color="255,41,183" name="magenta" orbit="[[0,0,1],[-1,0,1]]"/>
+      <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="true" id="tool-0" label="translation 0" selectInputs="false"/>
+    <Tool copyColors="false" deleteInputs="false" hidden="true" id="tool-1" label="mirror 1" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" id="tool-2" label="mirror 2" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-3" label="Convex Hull" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-4" label="Hull panels" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-5" label="2 &amp; 3-fold balls " selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
