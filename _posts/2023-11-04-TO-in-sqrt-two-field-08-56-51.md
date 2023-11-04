@@ -2,7 +2,7 @@
 title: Packing of Spheres with Polyhedra Part 2
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/11/04/08-56-51-TO-in-sqrt-two-field/TO-in-sqrt-two-field.png
-published: true
+published: false
 layout: vzome
 description:
   This is a continuation of a study of polyhedra that can represent close-packing of equal spheres.
