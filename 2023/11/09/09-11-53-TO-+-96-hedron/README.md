@@ -1,11 +1,4 @@
 
-## Blog Post Generated
-
- - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2023/11/09/TO-+-96-hedron-09-11-53.html>) about this design; *try it before you share it!*
- - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2023-11-09-TO-+-96-hedron-09-11-53.md>); click to customize
- 
-
-
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2023/11/09/09-11-53-TO-+-96-hedron/>) to just share this design; *try it before you share it!*
