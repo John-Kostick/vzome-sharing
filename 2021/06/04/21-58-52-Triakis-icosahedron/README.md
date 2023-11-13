@@ -1,6 +1,7 @@
 
 ## How to Use or Share this Design
 
+ - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2021/06/04/21-58-52-Triakis-icosahedron/>) to just share this design; *try it before you share it!*
  - [raw vZome file](<https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2021/06/04/21-58-52-Triakis-icosahedron/Triakis-icosahedron.vZome>) to use in vZome desktop or vZome Online
  
  HTML for embedding in any web page:
