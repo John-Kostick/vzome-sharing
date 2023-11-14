@@ -1,6 +1,7 @@
 
 ## How to Use or Share this Design
 
+ - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2021/02/22/10-10-40-Pentakis-dodecahedron-2/>) to just share this design; *try it before you share it!*
  - [raw vZome file](<https://raw.githubusercontent.com/John-Kostick/vzome-sharing/main/2021/02/22/10-10-40-Pentakis-dodecahedron-2/Pentakis-dodecahedron-2.vZome>) to use in vZome desktop or vZome Online
  
  HTML for embedding in any web page:
