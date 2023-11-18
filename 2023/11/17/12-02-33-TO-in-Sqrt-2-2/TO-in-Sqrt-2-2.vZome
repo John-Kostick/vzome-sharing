@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="33" field="rootTwo" version="7.1">
-  <EditHistory editNumber="4252" lastStickyEdit="4201">
+  <EditHistory editNumber="4260" lastStickyEdit="4201">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "rootTwo",
@@ -19480,8 +19480,17 @@
     <DeselectAll/>
     <SelectManifestation endSegment="0 2 0 -2 0 8" startSegment="0 -4 0 4 0 8"/>
     <SelectManifestation endSegment="0 -6 0 6 0 0" startSegment="0 -4 0 4 0 8"/>
-    <EndBlock/>
     <DeselectAll/>
+    <SelectManifestation point="0 0 0 -8 0 4"/>
+    <SelectManifestation point="0 -8 0 0 0 -4"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -8 0 0 0 -4" startSegment="0 0 0 -8 0 4"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="FCC array cubocta">
@@ -19515,10 +19524,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="237.19424438476562" far="474.3872985839844" near="0.5929849147796631" parallel="false" stereoAngle="0.0" width="106.737548828125">
+    <ViewModel distance="272.8383483886719" far="545.6753540039062" near="0.6820952296257019" parallel="false" stereoAngle="0.0" width="122.77742004394531">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.579298198223114" y="0.592960000038147" z="-0.5592936873435974"/>
-      <LookDirection x="0.6711966395378113" y="0.7363321185112" z="0.08545682579278946"/>
+      <UpDirection x="-0.5456469058990479" y="0.5527804493904114" z="-0.629838764667511"/>
+      <LookDirection x="0.720330536365509" y="0.6934540271759033" z="-0.01542544923722744"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
