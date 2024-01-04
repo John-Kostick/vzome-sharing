@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="39" field="golden" version="7.1">
-  <EditHistory editNumber="132" lastStickyEdit="130">
+  <EditHistory editNumber="137" lastStickyEdit="135">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="0" len="1 1"/>
     <SelectManifestation point="2 3 0 0 -1 -1"/>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
@@ -261,6 +261,11 @@
     <Snapshot id="2"/>
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <Hide/>
+    <Snapshot id="3"/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Edges">
@@ -271,11 +276,11 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="2" title="Faces">
+    <page snapshot="3" title="Faces">
       <ViewModel distance="108.73126983642578" far="217.46253967285156" near="0.27182817459106445" parallel="false" stereoAngle="0.0" width="48.92906951904297">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.4999999701976776" y="0.80901700258255" z="0.30901700258255005"/>
-        <LookDirection x="-0.30901700258255005" y="0.5" z="-0.80901700258255"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
