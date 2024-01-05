@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="39" field="golden" version="7.1">
-  <EditHistory editNumber="298" lastStickyEdit="296">
+  <EditHistory editNumber="319" lastStickyEdit="317">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -1333,7 +1333,9 @@
     <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <BeginBlock/>
     <SelectManifestation>
       <polygonVertex at="-2 -3 -22/5 -36/5 -9/5 -17/5"/>
@@ -1373,7 +1375,9 @@
     <SelectManifestation point="-4 -6 -3 -5 -2 -3"/>
     <SelectManifestation point="-4 -6 -3 -5 -2 -3"/>
     <EndBlock/>
-    <Polygon/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
     <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
     <BeginBlock/>
     <DeselectAll/>
@@ -1405,21 +1409,44 @@
     <EndBlock/>
     <setItemColor blue="0" green="160" red="240"/>
     <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
-    <Hide/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
     <Snapshot id="4"/>
     <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 -5 -8 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <Snapshot id="5"/>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+    <Hide/>
+    <SelectManifestation point="-2 -3 -4 -6 -3 -5"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-8"/>
+    <DeselectAll/>
+    <Snapshot id="6"/>
+    <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
     <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="2" title="Edges">
-      <ViewModel distance="146.77186584472656" far="293.543701171875" near="0.36692970991134644" parallel="false" stereoAngle="0.0" width="66.04734802246094">
+    <page snapshot="4" title="Faces">
+      <ViewModel distance="155.8477325439453" far="311.6954345703125" near="0.3896193504333496" parallel="false" stereoAngle="0.0" width="70.1314926147461">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
         <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="4" title="Faces">
+    <page snapshot="6" title="Edges">
       <ViewModel distance="155.8477325439453" far="311.6954345703125" near="0.3896193504333496" parallel="false" stereoAngle="0.0" width="70.1314926147461">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
@@ -1436,8 +1463,8 @@
   <Viewing>
     <ViewModel distance="155.8477325439453" far="311.6954345703125" near="0.3896193504333496" parallel="false" stereoAngle="0.0" width="70.1314926147461">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.006871313787996769" y="0.9989562630653381" z="-0.04516402259469032"/>
-      <LookDirection x="0.3013651967048645" y="-0.040996257215738297" z="-0.9526269435882568"/>
+      <UpDirection x="-0.5664563179016113" y="0.7016906142234802" z="0.4321543872356415"/>
+      <LookDirection x="0.10614924132823944" y="0.5821592211723328" z="-0.8061156272888184"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="lifelike">
@@ -1488,6 +1515,7 @@
     <Tool copyColors="true" deleteInputs="false" id="tool-4" label="frame" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-5" label="panels" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-6" label="Meta panels" selectInputs="true"/>
-    <Tool copyColors="true" deleteInputs="false" id="tool-7" label="Meta Frame" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-7" label="Meta Frame" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-8" label="Meta frame" selectInputs="true"/>
   </Tools>
 </vzome:vZome>
