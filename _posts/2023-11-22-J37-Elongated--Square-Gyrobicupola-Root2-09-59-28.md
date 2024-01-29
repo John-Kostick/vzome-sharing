@@ -2,7 +2,8 @@
 title: J37 Elongated  Square Gyrobicupola Root2
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2023/11/22/09-59-28-J37-Elongated--Square-Gyrobicupola-Root2/J37-Elongated--Square-Gyrobicupola-Root2.png
-published: true
+published: false
+
 layout: vzome
 description:
   This is a rendering of Johnson Solid J37
