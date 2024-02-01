@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="39" field="polygon20" version="7.1">
+  <EditHistory editNumber="1046" lastStickyEdit="1039">
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="20" len="0 2 0 1 0 0 0 0" symm="antiprism20"/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 1 0 0 0 0" symm="antiprism20"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <RotationTool corrected="true" name="tool-0" symmetry="octahedral"/>
+    <RotationTool corrected="true" name="tool-1" symmetry="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 0 0 0 0 0 0 0 0 -5/2 0 -7/2 0 1 0 3 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <RotationTool corrected="true" full="true" name="tool-2" symmetry="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0" dir="red" index="0" len="0 2 0 1 0 0 0 0" symm="antiprism20"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <EndBlock/>
+    <BeginBlock/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 3/2 0 3/2 0 -3/2 0 -2 0 5/2 2 7/2 1 -1 0 -3 0" startSegment="0 0 0 0 0 0 0 0 3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 3/2 0 3/2 0 -3/2 0 -2 0 5/2 2 7/2 1 -1 0 -3 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0" startSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Branch>
+      <Delete/>
+      <BeginBlock/>
+      <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+      <DeselectAll/>
+      <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+      <EndBlock/>
+      <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -4, -6, 1 ], [ 3, 5, 1 ], [ 2, 3, 1 ] ], [ [ -3, -5, 1 ], [ 2, 3, 1 ], [ 4, 6, 1 ] ], [ [ -3, -5, 1 ], [ 4, 7, 1 ], [ 0, 0, 1 ] ], [ [ -2, -3, 1 ], [ 4, 6, 1 ], [ 3, 5, 1 ] ], [ [ -1, -2, 1 ], [ 1, 2, 1 ], [ 5, 8, 1 ] ], [ [ -1, -2, 1 ], [ 5, 8, 1 ], [ -1, -2, 1 ] ], [ [ -1, -2, 1 ], [ 5, 8, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 3, 5, 1 ], [ 4, 7, 1 ] ], [ [ 1, 2, 1 ], [ 1, 2, 1 ], [ 5, 8, 1 ] ], [ [ 1, 2, 1 ], [ 5, 8, 1 ], [ -1, -2, 1 ] ], [ [ 1, 2, 1 ], [ 5, 8, 1 ], [ 1, 2, 1 ] ], [ [ 2, 3, 1 ], [ 4, 6, 1 ], [ 3, 5, 1 ] ], [ [ 3, 5, 1 ], [ 2, 3, 1 ], [ 4, 6, 1 ] ], [ [ 3, 5, 1 ], [ 4, 7, 1 ], [ 0, 0, 1 ] ], [ [ 4, 6, 1 ], [ 3, 5, 1 ], [ 2, 3, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 11, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 6 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 3 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 15 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <Branch>
+        <DeselectAll/>
+        <StrutCreation anchor="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0" index="5" len="0 2 0 1 0 0 0 0" symm="octahedral"/>
+        <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+        <BeginBlock/>
+        <SelectManifestation endSegment="-4 0 6 0 -6 0 0 0 3 0 -5 0 5 0 0 0 2 0 -3 0 3 0 0 0" startSegment="-2 0 3 0 -3 0 0 0 4 0 -6 0 6 0 0 0 3 0 -5 0 5 0 0 0"/>
+        <DeselectAll/>
+        <SelectManifestation endSegment="1 0 -2 0 2 0 0 0 -5 0 8 0 -8 0 0 0 1 0 -2 0 2 0 0 0" startSegment="-1 0 2 0 -2 0 0 0 -5 0 8 0 -8 0 0 0 1 0 -2 0 2 0 0 0"/>
+        <EndBlock/>
+        <Delete/>
+        <BeginBlock/>
+        <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <EndBlock/>
+        <Midpoint>
+          <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+        </Midpoint>
+        <BeginBlock/>
+        <DeselectAll/>
+        <SelectManifestation point="0 0 0 0 0 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <DeselectAll/>
+        <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="-3 0 5 0 -5 0 0 0 4 0 -7 0 7 0 0 0 0 0 0 0 0 0 0 0"/>
+        <SelectManifestation point="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <DeselectAll/>
+        <SelectManifestation point="0 0 0 0 0 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+        <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+        <EndBlock/>
+        <TranslationTool name="tool-3"/>
+      </Branch>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -4, -6, 1 ], [ 3, 5, 1 ], [ 2, 3, 1 ] ], [ [ -3, -5, 1 ], [ 2, 3, 1 ], [ 4, 6, 1 ] ], [ [ -3, -5, 1 ], [ 4, 7, 1 ], [ 0, 0, 1 ] ], [ [ -2, -3, 1 ], [ 4, 6, 1 ], [ 3, 5, 1 ] ], [ [ -1, -2, 1 ], [ 1, 2, 1 ], [ 5, 8, 1 ] ], [ [ -1, -2, 1 ], [ 5, 8, 1 ], [ -1, -2, 1 ] ], [ [ -1, -2, 1 ], [ 5, 8, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 3, 5, 1 ], [ 4, 7, 1 ] ], [ [ 1, 2, 1 ], [ 1, 2, 1 ], [ 5, 8, 1 ] ], [ [ 1, 2, 1 ], [ 5, 8, 1 ], [ -1, -2, 1 ] ], [ [ 1, 2, 1 ], [ 5, 8, 1 ], [ 1, 2, 1 ] ], [ [ 2, 3, 1 ], [ 4, 6, 1 ], [ 3, 5, 1 ] ], [ [ 3, 5, 1 ], [ 2, 3, 1 ], [ 4, 6, 1 ] ], [ [ 3, 5, 1 ], [ 4, 7, 1 ], [ 0, 0, 1 ] ], [ [ 4, 6, 1 ], [ 3, 5, 1 ], [ 2, 3, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 11, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 6 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 3 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 15 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BookmarkTool name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0" startSegment="1 0 -2 0 2 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 5 0 -8 0 8 0 0 0 -1 0 2 0 -2 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-5"/>
+    <ApplyTool copyColors="true" name="tool-4" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-5"/>
+    <BookmarkTool name="tool-6"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0" startSegment="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0" startSegment="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation point="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation point="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0" startSegment="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation point="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ -2, 0, 4, 0, -4, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1/2 0 7 0 -5 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1/2 0 7 0 -5 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 0 2 0 -2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0" startSegment="1 0 -2 0 2 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 2 0 -4 0 4 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ -2, 0, 4, 0, -4, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ -5, 0, -6, 0, 2, 0, 4, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1/2 0 7 0 -5 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1/2 0 7 0 -5 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation endSegment="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation endSegment="-5 0 -6 0 2 0 4 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <ScalingTool name="tool-7" symmetry="octahedral"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-7"/>
+    <BookmarkTool name="tool-8"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 97 0 137 0 -11 0 -75 0 269/4 0 187/2 0 -19/2 0 -52 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-9"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-8" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-9"/>
+    <BookmarkTool name="tool-10"/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation point="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation endSegment="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" dir="green" index="16" len="0 2 0 1 0 0 0 0" symm="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 0 4 0 -4 0 0 0 -1/2 -2 -3/2 -1 -3/2 0 -1/2 0 -5/2 2 -3 1 1 0 2 0" startSegment="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-5 0 -6 0 2 0 4 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation endSegment="-5 0 -6 0 2 0 4 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0" startSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <SelectManifestation point="-2 0 4 0 -4 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0" startSegment="-5/2 0 -3 0 1 0 2 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 4 0 -4 0 0 0 -1/2 -2 -3/2 -1 -3/2 0 -1/2 0 -5/2 2 -3 1 1 0 2 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 4 0 -4 0 0 0 -1/2 -2 -3/2 -1 -3/2 0 -1/2 0 -5/2 2 -3 1 1 0 2 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1 0 -3/2 0 -1/2 0 0 0 -3/2 0 -3/2 0 3/2 0 2 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-11"/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-11" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -1 0 -3/2 0 -1/2 0 0 0 -3/2 0 -3/2 0 3/2 0 2 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -1 0 -3/2 0 -1/2 0 0 0 -3/2 0 -3/2 0 3/2 0 2 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -1 0 -3/2 0 -1/2 0 0 0 -3/2 0 -3/2 0 3/2 0 2 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ -5, 0, -6, 0, 2, 0, 4, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -3/2 0 -3/2 0 1/2 0 1/2 0 -3 0 -3 0 3 0 4 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2 0 -1 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="4" len="0 2 0 1 0 0 0 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="6" len="0 215599251/125000000 0 215599251/250000000 0 0 0 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 431198502, 0, 215599251, 0, 0, 0, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/125000000 0 -215599251/250000000 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 5, 0, 6, 0, -2, 0, -4, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 6 0 -2 0 -4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 6 0 -2 0 -4 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 6 0 -2 0 -4 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ScalingTool name="tool-12" symmetry="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 215599251/125000000 0 215599251/250000000 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 215599251/125000000 0 215599251/250000000 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 431198502, 0, 215599251, 0, 0, 0, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-12"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 215599251/125000000 0 215599251/250000000 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 215599251/125000000 0 215599251/250000000 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 215599251/125000000 0 215599251/250000000 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0"/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0 0 0 0 0 0 0">{
+  "field" : "polygon20",
+  "vertices" : [ [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ] ], [ [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ 0, 0, 0, 0, 0, 0, 0, 0, 1 ], [ -1077996255, 0, -1293595506, 0, 431198502, 0, 862397004, 0, 250000000 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 16/5 0 24/5 0 -3/5 0 -17/5 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0" startSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0" startSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 6 0 -2 0 -4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 6 0 -2 0 -4 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 0 0 0 0 0 0 0 0"/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1 0 -3/2 0 -1/2 0 0 0 -3/2 0 -3/2 0 3/2 0 2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1/2 0 3/2 0 3/2 0 1/2 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 0 0 0 0 0 0 0 0"/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 85/2 0 237/4 0 -21/4 0 -32 0 111/4 0 155/4 0 -15/4 0 -43/2 0"/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/50000000 0 -646797753/125000000 0 215599251/125000000 0 215599251/62500000 0"/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <TranslationTool name="tool-13"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-14"/>
+    <SelectAll originLast="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-14"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <RotationTool corrected="true" full="true" name="tool-15" symmetry="octahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-16"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-17"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-17" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="1 0 3/2 0 1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="1 0 3/2 0 1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 7/5 0 13/5 0 4/5 0 -4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-1 0 -3/2 0 -1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 9/10 0 11/10 0 -7/10 0 -13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-1 0 -3/2 0 -1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 7/5 0 13/5 0 4/5 0 -4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 -8/5 0 -12/5 0 3/10 0 17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 7/5 0 13/5 0 4/5 0 -4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 7/5 0 13/5 0 4/5 0 -4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 7/5 0 13/5 0 4/5 0 -4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-18"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Midpoint>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Midpoint>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-19"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-19" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Branch>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <MirrorTool name="tool-20"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <SelectManifestation point="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-19" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-17" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1/2 0 0 0 3/2 0 5/4 0 -5/2 0 -13/4 0 1 0 5/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Polygon>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Polygon>
+    <MirrorTool name="tool-21"/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-21" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 -5/2 0 -3 0 1 0 2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 -5/2 0 -3 0 1 0 2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-9/10 0 -11/10 0 7/10 0 13/10 0 -5/2 0 -3 0 1 0 2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 5/2 0 3 0 -1 0 -2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 -5/2 0 -3 0 1 0 2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 5/2 0 3 0 -1 0 -2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-9/10 0 -11/10 0 7/10 0 13/10 0 5/2 0 3 0 -1 0 -2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 5/2 0 3 0 -1 0 -2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 -1 0 -3/2 0 -1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 5/2 0 3 0 -1 0 -2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 -1 0 -3/2 0 -1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 -1 0 -3/2 0 -1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="8/5 0 12/5 0 -3/10 0 -17/10 0 -1 0 -3/2 0 -1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-7/5 0 -13/5 0 -4/5 0 4/5 0 0 0 0 0 0 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 -1 0 -3/2 0 -1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-7/5 0 -13/5 0 -4/5 0 4/5 0 0 0 0 0 0 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-7/5 0 -13/5 0 -4/5 0 4/5 0 0 0 0 0 0 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-7/5 0 -13/5 0 -4/5 0 4/5 0 0 0 0 0 0 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 1 0 3/2 0 1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-7/5 0 -13/5 0 -4/5 0 4/5 0 0 0 0 0 0 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="8/5 0 12/5 0 -3/10 0 -17/10 0 1 0 3/2 0 1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 1 0 3/2 0 1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 1 0 3/2 0 1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-9/10 0 -11/10 0 7/10 0 13/10 0 -5/2 0 -3 0 1 0 2 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="8/5 0 12/5 0 -3/10 0 -17/10 0 1 0 3/2 0 1/2 0 0 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-22"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-22" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-2 0 -5/2 0 5/4 0 5/2 0 -2 0 -5/2 0 5/4 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 0 0 3/2 0 5/4 0 -5/2 0 -13/4 0 1 0 5/2 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="-5/4 0 -3/2 0 1/2 0 1 0 5/4 0 9/4 0 5/4 0 1/4 0 0 0 0 0 0 0 0 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <SelectManifestation point="-2 0 -5/2 0 5/4 0 5/2 0 2 0 5/2 0 -5/4 0 -5/2 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-5/2 0 -13/4 0 1 0 5/2 0 1/2 0 0 0 -3/2 0 -5/4 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BookmarkTool name="tool-23"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-24"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="antiprism20 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-24" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-25"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Branch>
+      <SelectAll originLast="true"/>
+      <BookmarkTool name="tool-26"/>
+      <ApplyTool copyColors="true" name="tool-25" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <setItemColor blue="0" green="160" red="240"/>
+      <BeginBlock/>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -215599251/100000000 0 -646797753/250000000 0 215599251/250000000 0 215599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <setItemColor blue="149" green="118" red="0"/>
+      <BeginBlock/>
+      <SelectManifestation>
+        <polygonVertex at="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+        <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+      </SelectManifestation>
+      <SelectManifestation>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+        <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/100000000 0 -1846797753/250000000 0 365599251/250000000 0 640599251/125000000 0"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <setItemColor blue="0" green="0" red="175"/>
+      <ApplyTool copyColors="true" name="tool-26" selectInputs="true"/>
+      <Hide>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Hide>
+      <Snapshot id="0"/>
+      <ApplyTool copyColors="true" name="tool-26" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-25" selectInputs="true"/>
+      <Hide>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Hide>
+      <Snapshot id="1"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-24" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-16" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-22" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-22" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-19" selectInputs="true"/>
+    <ApplyTool copyColors="false" name="tool-21" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-22" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-27"/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-26" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="0 0 0 0 0 0 0 0 -7/5 0 -13/5 0 -4/5 0 4/5 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="1 0 3/2 0 1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="-5/2 0 -3 0 1 0 2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation point="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="-1 0 -3/2 0 -1/2 0 0 0 8/5 0 12/5 0 -3/10 0 -17/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <SelectManifestation endSegment="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 215599251/100000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/125000000 0" startSegment="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="5/2 0 3 0 -1 0 -2 0 -9/10 0 -11/10 0 7/10 0 13/10 0 535599251/100000000 0 1846797753/250000000 0 -365599251/250000000 0 -640599251/125000000 0"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-24" selectInputs="true"/>
+    <BookmarkTool name="tool-28"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <NewCentroid/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -535599251/500000000 0 -1846797753/1250000000 0 365599251/1250000000 0 640599251/625000000 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-29"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-29"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 535599251/500000000 0 1846797753/1250000000 0 -365599251/1250000000 0 -640599251/625000000 0"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-30"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-31"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="198" green="0" red="108"/>
+    <SelectManifestation>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+    </SelectManifestation>
+    <setItemColor blue="0" green="0" red="175"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-2 0 -3 0 -1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="3/2 0 3/2 0 -3/2 0 -2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="5/2 0 3 0 -1 0 -2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 1/2 0 3/2 0 3/2 0 1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 -5/2 0 -7/2 0 1 0 3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="2 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3/2 0 -3/2 0 3/2 0 2 0 5/2 0 7/2 0 -1 0 -3 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -3 0 1 0 2 0 -1/2 0 -3/2 0 -3/2 0 -1/2 0 806797753/250000000 0 2540393259/625000000 0 -721797753/625000000 0 -859297753/312500000 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="0" green="160" red="240"/>
+    <SelectManifestation>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <setItemColor blue="0" green="160" red="240"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-5/2 0 -7/2 0 1 0 3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 3/2 0 3/2 0 -3/2 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 -2 0 -3 0 -1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 -1 0 -3/2 0 -1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="-1/2 0 -3/2 0 -3/2 0 -1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 5/2 0 3 0 -1 0 -2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="9/10 0 11/10 0 -7/10 0 -13/10 0 -5/2 0 -3 0 1 0 2 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="-8/5 0 -12/5 0 3/10 0 17/10 0 1 0 3/2 0 1/2 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="0 0 0 0 0 0 0 0 2 0 3 0 1 0 0 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="5/2 0 7/2 0 -1 0 -3 0 -3/2 0 -3/2 0 3/2 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <setItemColor blue="149" green="118" red="0"/>
+    <ApplyTool copyColors="true" name="tool-31" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="2"/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-31" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="3"/>
+    <ApplyTool copyColors="true" name="tool-31" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-31" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <Hide/>
+    <Snapshot id="4"/>
+    <ApplyTool copyColors="true" name="tool-30" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="7/5 0 13/5 0 4/5 0 -4/5 0 0 0 0 0 0 0 0 0 -535599251/125000000 0 -1846797753/312500000 0 365599251/312500000 0 640599251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 5/2 0 3 0 -1 0 -2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+      <polygonVertex at="1/2 0 3/2 0 3/2 0 1/2 0 -5/2 0 -3 0 1 0 2 0 -135599251/125000000 0 -346797753/312500000 0 178099251/312500000 0 109349251/156250000 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes>
+    <page snapshot="2" title="Faces">
+      <ViewModel distance="127.59732818603516" far="255.19418334960938" near="0.3189934492111206" parallel="false" stereoAngle="0.0" width="57.41889953613281">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="4" title="Edges">
+      <ViewModel distance="127.59732818603516" far="255.19418334960938" near="0.3189934492111206" parallel="false" stereoAngle="0.0" width="57.41889953613281">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+  </notes>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="127.59732818603516" far="255.19418334960938" near="0.3189934492111206" parallel="false" stereoAngle="0.0" width="57.41889953613281">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="antiprism20" renderingStyle="thin antiprism">
+    <Direction color="255,255,255" name="7" orbit="[[-23,0,11,0,-13,0,9,0,19],[22,0,-32,0,24,0,-2,0,19]]" prototype="0 -3/2 0 0 0 1/2 0 0 0 1 0 0 0 -1/2 0 0 0 1/2 0 0 0 0 0 0"/>
+    <Direction color="240,160,0" name="yellow" orbit="[[1,0,-3,0,3,0,-1,0,1],[-8,0,8,0,-6,0,2,0,1]]"/>
+    <Direction color="255,255,255" name="3" orbit="[[0,0,0,0,0,0,0,0,1],[1,0,-1,0,1,0,0,0,2]]" prototype="-3/2 0 -3/2 0 1/2 0 1/2 0 7/10 0 9/5 0 2/5 0 -7/5 0 -1/10 0 -2/5 0 -1/5 0 1/5 0"/>
+    <Direction color="0,118,149" name="blue" orbit="[[0,0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0,1]]"/>
+    <Direction color="255,255,255" name="4" orbit="[[0,0,0,0,0,0,0,0,1],[125000000,0,-375000000,0,375000000,0,-125000000,0,215599251]]" prototype="215599251/100000000 0 215599251/100000000 0 -215599251/250000000 0 -215599251/250000000 0 -215599251/500000000 0 -646797753/500000000 0 -215599251/500000000 0 215599251/250000000 0 -3/2 0 -1 0 1 0 0 0"/>
+    <Direction color="255,255,255" name="5" orbit="[[1,0,-49,0,13,0,15,0,59],[16,0,42,0,-28,0,4,0,59]]" prototype="0 1/2 0 0 0 0 0 0 0 -3/2 0 0 0 1/2 0 0 0 1 0 0 0 -1/2 0 0"/>
+    <Direction color="255,255,255" name="6" orbit="[[-23,0,11,0,-13,0,9,0,19],[2,0,4,0,16,0,-14,0,19]]" prototype="0 -1 0 0 0 1/2 0 0 0 -1/2 0 0 0 0 0 0 0 3/2 0 0 0 -1/2 0 0"/>
+    <Direction color="255,255,255" name="0" orbit="[[0,0,0,0,0,0,0,0,1],[-1,0,-1,0,1,0,0,0,1]]" prototype="0 1/2 0 0 0 0 0 0 0 0 0 -2/5 0 0 0 3/10 0 0 0 -4/5 0 0 0 3/5"/>
+    <Direction color="255,255,255" name="1" orbit="[[1,0,-3,0,3,0,-1,0,1],[215599251,0,0,0,0,0,0,0,125000000]]" prototype="0 -1 0 1/2 0 0 0 0 0 -1 0 0 0 1/2 0 0 0 215599251/125000000 0 0 0 -215599251/250000000 0 0"/>
+    <Direction color="175,0,0" name="red" orbit="red"/>
+    <Direction color="255,255,255" name="2" orbit="[[0,0,0,0,0,0,0,0,1],[0,0,-1,0,1,0,0,0,1]]" prototype="3/2 0 3/2 0 -1/2 0 -1/2 0 -7/10 0 -9/5 0 -2/5 0 7/5 0 3/5 0 7/5 0 1/5 0 -6/5 0"/>
+    <Direction color="0,141,54" name="green" orbit="[[1,0,-3,0,3,0,-1,0,1],[0,0,0,0,0,0,0,0,1]]"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="octahedra">
+      <Direction color="255,255,255" name="9" orbit="[[0,-250000000,0,0,0,125000000,0,0,215599251],[0,250000000,0,-125000000,0,0,0,0,215599251]]" prototype="0 1 0 0 0 -1/2 0 0 0 1 0 -1/2 0 0 0 0 215599251/250000000 0 0 0 0 0 0 0"/>
+      <Direction color="0,118,149" name="blue" orbit="[[0,0,0,0,0,0,0,0,1],[0,0,0,0,0,0,0,0,1]]"/>
+      <Direction color="255,255,255" name="0" orbit="[[0,0,0,0,0,0,0,0,1],[-1,0,1,0,1,0,-1,0,1]]" prototype="0 1/2 0 0 0 0 0 0 0 0 0 -1 0 0 0 1/2 0 0 0 0 0 0 0 0"/>
+      <Direction color="255,255,255" name="21" orbit="[[-1,0,-1,0,1,0,0,0,1],[1,0,-1,0,-2,0,2,0,1]]" prototype="5/2 0 5/2 0 -1 0 -1 0 -3/10 0 -7/10 0 -1/10 0 3/5 0 -1/10 0 -2/5 0 -1/5 0 1/5 0"/>
+      <Direction color="255,255,255" name="6" orbit="[[2,0,-2,0,-6,0,6,0,5],[1,0,-1,0,-3,0,3,0,5]]" prototype="0 1/2 0 0 0 0 0 0 0 0 0 -2/5 0 0 0 3/10 0 0 0 -4/5 0 0 0 3/5"/>
+      <Direction color="255,255,255" name="5" orbit="[[0,0,0,0,0,0,0,0,1],[1,0,1,0,-2,0,1,0,1]]" prototype="0 0 0 0 0 0 0 0 2 0 -1 0 0 0 0 0 0 0 1 0 -1 0 0 0"/>
+      <Direction color="255,255,255" name="8" orbit="[[-1,0,-1,0,1,0,0,0,1],[0,0,0,0,0,0,0,0,1]]" prototype="0 0 0 0 0 0 0 0 0 0 0 3/5 0 0 0 -1/5 0 0 0 -4/5 0 0 0 3/5"/>
+      <Direction color="255,255,255" name="7" orbit="[[4,0,2,0,-2,0,0,0,1],[-1,0,1,0,1,0,-1,0,1]]" prototype="0 -1 0 0 0 1/2 0 0 0 0 0 1/10 0 0 0 -1/5 0 0 0 -4/5 0 0 0 3/5"/>
+      <Direction color="255,255,255" name="2" orbit="[[-1,0,-3,0,1,0,1,0,1],[0,0,0,0,0,0,0,0,1]]" prototype="-1/2 0 -1 0 0 0 1/2 0 1/2 0 0 0 -1/2 0 1/2 0 0 0 0 0 0 0 0 0"/>
+      <Direction color="255,255,255" name="20" orbit="[[750000000,0,-250000000,0,0,0,0,0,215599251],[-1,0,1,0,1,0,-1,0,1]]" prototype="215599251/250000000 0 215599251/100000000 0 215599251/500000000 0 -215599251/125000000 0 -215599251/250000000 0 -215599251/250000000 0 215599251/500000000 0 215599251/500000000 0 3/2 0 1 0 -1 0 0 0"/>
+      <Direction color="255,255,255" name="1" orbit="[[1,0,-1,0,-3,0,3,0,5],[0,0,0,0,0,0,0,0,1]]" prototype="0 3/2 0 0 0 -1/2 0 0 0 0 0 1/2 0 0 0 -1/2 0 0 0 0 0 0 0 0"/>
+      <Direction color="255,255,255" name="4" orbit="[[-1,0,-1,0,1,0,0,0,1],[2,0,1,0,-1,0,0,0,1]]" prototype="0 -61 0 -52 0 160 0 -84 0 23 0 20 0 -61 0 32 0 38 0 32 0 -99 0 52"/>
+      <Direction color="255,255,255" name="3" orbit="[[1,0,-3,0,3,0,-1,0,1],[0,0,0,0,0,0,0,0,1]]" prototype="-1 0 -1 0 1/2 0 1/2 0 1 0 1/2 0 -1/2 0 0 0 0 0 0 0 0 0 0 0"/>
+      <Direction color="0,141,54" name="green" orbit="[[0,0,0,0,0,0,0,0,1],[-1,0,0,0,0,0,0,0,1]]"/>
+      <Direction color="255,255,255" name="19" orbit="[[2,0,1,0,-1,0,0,0,2],[0,0,0,0,-1,0,1,0,2]]" prototype="7/10 0 9/5 0 2/5 0 -7/5 0 3/2 0 3/2 0 -1/2 0 -1/2 0 -3/5 0 -7/5 0 -1/5 0 6/5 0"/>
+      <Direction color="255,255,255" name="18" orbit="[[0,0,0,0,0,0,0,0,1],[4,0,2,0,-2,0,0,0,1]]" prototype="4/5 0 11/5 0 3/5 0 -8/5 0 0 0 0 0 0 0 0 0 1/10 0 2/5 0 1/5 0 -1/5 0"/>
+      <Direction color="240,160,0" name="yellow" orbit="[[1,0,0,0,0,0,0,0,1],[-1,0,0,0,0,0,0,0,1]]"/>
+      <Direction color="255,255,255" name="13" orbit="[[250000000,0,-250000000,0,125000000,0,0,0,215599251],[250000000,0,-250000000,0,125000000,0,0,0,215599251]]" prototype="0 1/2 0 -1/2 0 -1/2 0 1/2 0 -1/2 0 1/2 0 1/2 0 -1/2 0 215599251/125000000 0 0 0 -215599251/250000000 0 0"/>
+      <Direction color="255,255,255" name="12" orbit="[[-250000000,0,250000000,0,-250000000,0,125000000,0,215599251],[-250000000,0,125000000,0,0,0,0,0,215599251]]" prototype="0 -1 0 1/2 0 1/2 0 -1/2 0 1/2 0 1/2 0 -1/2 0 0 0 -215599251/125000000 0 0 0 215599251/250000000 0 0"/>
+      <Direction color="255,255,255" name="11" orbit="[[-431198502,0,431198502,0,215599251,0,-215599251,0,625000000],[1,0,-1,0,-3,0,3,0,5]]" prototype="0 0 0 -1/2 0 0 0 1/2 0 -3/2 0 0 0 1/2 0 0 0 -215599251/125000000 0 0 0 215599251/250000000 0 0"/>
+      <Direction color="255,255,255" name="10" orbit="[[125000000,0,0,0,0,0,0,0,215599251],[125000000,0,-375000000,0,375000000,0,-125000000,0,215599251]]" prototype="0 -1 0 0 0 1/2 0 0 0 -1 0 1/2 0 0 0 0 0 -215599251/125000000 0 0 0 215599251/250000000 0 0"/>
+      <Direction color="255,255,255" name="17" orbit="[[1,0,0,0,0,0,0,0,2],[-1,0,1,0,1,0,-1,0,2]]" prototype="-3/10 0 -7/10 0 -1/10 0 3/5 0 5/2 0 5/2 0 -1 0 -1 0 -3/5 0 -7/5 0 -1/5 0 6/5 0"/>
+      <Direction color="255,255,255" name="16" orbit="[[-3,0,-2,0,2,0,0,0,1],[-1,0,1,0,1,0,-1,0,1]]" prototype="-7/10 0 -9/5 0 -2/5 0 7/5 0 -3/2 0 -3/2 0 1/2 0 1/2 0 1/10 0 2/5 0 1/5 0 -1/5 0"/>
+      <Direction color="255,255,255" name="15" orbit="[[1,0,-1,0,-3,0,3,0,5],[-100000000,0,350000000,0,-450000000,0,200000000,0,215599251]]" prototype="215599251/500000000 0 646797753/500000000 0 215599251/500000000 0 -215599251/250000000 0 -215599251/100000000 0 -215599251/100000000 0 215599251/250000000 0 215599251/250000000 0 3/2 0 1 0 -1 0 0 0"/>
+      <Direction color="255,255,255" name="14" orbit="[[0,0,0,0,0,0,0,0,1],[125000000,0,-375000000,0,375000000,0,-125000000,0,215599251]]" prototype="646797753/250000000 0 646797753/250000000 0 -215599251/250000000 0 -215599251/250000000 0 0 0 0 0 0 0 0 0 -3/2 0 -1 0 1 0 0 0"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-0" label="delete" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-1" label="select" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-10" label="cupola moved" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" id="tool-11" label="mirror 11" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-12" label="scaling 12" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-13" label="translation 13" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-14" label="translation 14" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-15" label="axial symmetry 15" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-16" label="Cupola" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" id="tool-17" label="mirror 17" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-18" label="cupola rotated" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" id="tool-19" label="mirror 19" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-2" label="axial symmetry 2" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" hidden="true" id="tool-20" label="mirror 20" selectInputs="true"/>
+    <Tool copyColors="false" deleteInputs="false" id="tool-21" label="mirror 21" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-22" label="cupola half r5otation" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-23" label="20-gon ring" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-24" label="height" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-25" label="panels" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-26" label="Frame" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-27" label="Antiprism" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-28" label="bookmark 28" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-29" label="translation 29" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-3" label="translation 3" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-30" label="J22 panels" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-31" label="J22 frame" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-4" label="Cupola" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-5" label="translation 5" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-6" label="bcupola moved" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-7" label="scaling 7" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-8" label="Cupola rescaled" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-9" label="translation 9" selectInputs="false"/>
+  </Tools>
+</vzome:vZome>
