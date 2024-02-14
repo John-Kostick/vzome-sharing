@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="39" field="golden" version="7.1">
-  <EditHistory editNumber="480" lastStickyEdit="331">
+  <EditHistory editNumber="525" lastStickyEdit="331">
     <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="2" len="1 2"/>
     <StrutCreation anchor="0 0 0 0 0 0" index="8" len="4 6"/>
     <BeginBlock/>
@@ -716,6 +716,51 @@
     <SelectManifestation point="0 0 3 5 2 3"/>
     <EndBlock/>
     <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 3 5" startSegment="2 3 0 0 3 5"/>
+    <SelectManifestation endSegment="0 0 3 5 2 3" startSegment="0 0 1 2 3 5"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <SelectManifestation point="-3 -5 6 10 1 2"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <SelectManifestation endSegment="-3 -5 1 2 8 13" startSegment="-3 -5 3 5 3 5"/>
+    <SelectManifestation endSegment="-3 -5 1 2 8 13" startSegment="-3 -5 3 5 3 5"/>
+    <SelectManifestation point="-3 -5 6 10 1 2"/>
+    <SelectManifestation point="-3 -5 6 10 1 2"/>
+    <SelectManifestation point="-3 -5 6 10 1 2"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <SelectManifestation point="-3 -5 0 0 5 8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-2 -3 -7 -11 5 8" dir="yellow" index="2" len="2 3"/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <SelectManifestation point="-3 -5 0 0 1 2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 -9 -14 10 16"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 -9 -14 10 16"/>
+    <SelectManifestation endSegment="-2 -3 -9 -14 10 16" startSegment="-2 -3 -7 -11 5 8"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="-3 -5 0 0 1 2" startSegment="-2 -3 0 0 3 5"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -3 0 0 3 5"/>
+    <SelectManifestation point="-3 -5 0 0 1 2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
     <DeselectAll/>
   </EditHistory>
   <notes/>
@@ -725,7 +770,7 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="237.19424438476562" far="474.3894348144531" near="0.5929849147796631" parallel="false" stereoAngle="0.0" width="106.73751068115234">
+    <ViewModel distance="198.12130737304688" far="396.2435302734375" near="0.4953029453754425" parallel="false" stereoAngle="0.0" width="89.1546630859375">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
       <UpDirection x="0.0" y="0.9999999403953552" z="-0.0"/>
       <LookDirection x="0.9341723322868347" y="0.0" z="0.35682210326194763"/>
