@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="39" field="golden" version="7.1">
-  <EditHistory editNumber="1194" lastStickyEdit="1166">
+  <EditHistory editNumber="1201" lastStickyEdit="1166">
     <Branch>
       <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="5" len="1 1"/>
       <BeginBlock/>
@@ -1517,6 +1517,18 @@
     <EndBlock/>
     <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
     <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="3 5 0 0 5 8"/>
+      <polygonVertex at="0 0 2 3 5 8"/>
+      <polygonVertex at="2 3 2 3 2 3"/>
+      <polygonVertex at="5 8 0 0 2 3"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
     <DeselectAll/>
   </EditHistory>
   <notes/>
@@ -1526,10 +1538,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="155.8477325439453" far="311.6949768066406" near="0.38961949944496155" parallel="true" stereoAngle="0.0" width="70.1314926147461">
+    <ViewModel distance="214.62225341796875" far="429.2437438964844" near="0.5365557074546814" parallel="true" stereoAngle="0.0" width="96.58000946044922">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.0038780870381742716" y="0.9996954202651978" z="-0.024377498775720596"/>
-      <LookDirection x="-0.012142225168645382" y="-0.024422965943813324" z="-0.999627411365509"/>
+      <UpDirection x="0.0" y="1.0" z="0.0"/>
+      <LookDirection x="0.0" y="0.0" z="-1.0"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="icosahedral" renderingStyle="lifelike">
