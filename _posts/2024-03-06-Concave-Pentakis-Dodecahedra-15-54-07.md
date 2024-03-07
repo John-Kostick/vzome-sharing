@@ -2,7 +2,7 @@
 title: Pentakis dodecahedra Part 2
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2024/03/06/15-54-07-Concave-Pentakis-Dodecahedra/Concave-Pentakis-Dodecahedra.png
-published: false
+published: true
 layout: vzome
 description:
   This is a continuation of a study of Pentakis dodecahedron constructions
