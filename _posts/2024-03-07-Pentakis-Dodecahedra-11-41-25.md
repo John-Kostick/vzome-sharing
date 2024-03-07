@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 This is a study of a series of [Pentakis dodecahedra](https://en.wikipedia.org/wiki/Pentakis_dodecahedron).  The range of these is between a pentagonal dodecahedron and its' stellation, as shown.  The edges of the various polyhedra are struts of the pre-defined colored directions available in vZome, and a few more, showing as white. Scenes shows a few examples.  The one titled "Equilateral Dark Goldenrod" is unique in that it is composed of equilateral triangles.  The one titled "White Catalan" is the canonical form.  Others show stages in the progression. Note that all of the models in the series are constructed sharing the dodecahedron vertices.   By downloading, several other stages can be found in sequenced Bookmarks, including a Geodesic version which has vertices all equidistant from the center.  
-In a continuation of this study, [Pentakis dodecahedra Part 2](    shows the sequence from Orange back to Blue.  
+In a continuation of this study, [Pentakis dodecahedra Part 2](https://john-kostick.github.io/vzome-sharing/2024/03/06/Concave-Pentakis-Dodecahedra-15-54-07.html) here is shown the sequence from Orange back to Blue.  
 
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
