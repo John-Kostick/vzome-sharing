@@ -17,9 +17,6 @@ This is a study of a series of [Pentakis dodecahedra](https://en.wikipedia.org/w
 In a continuation of this study,  [Pentakis dodecahedra Part 2](https://john-kostick.github.io/vzome-sharing/2024/03/06/Pentakis-Dodecahedra-2-15-54-07.html)  is shown the sequence from Orange back to Blue.  
 
 
-![Screenshot 2024-03-06 at 2 03 08 PM](https://github.com/John-Kostick/vzome-sharing/assets/78830166/785d35cf-c5ce-4d44-bdaa-a2771595523f)
-
-
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
