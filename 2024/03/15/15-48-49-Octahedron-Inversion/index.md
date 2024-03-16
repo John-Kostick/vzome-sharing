@@ -7,7 +7,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2024/03/15/15-48-49-Octahedr
 layout: design
 ---
 
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh" show-scenes="all"
        src="https://John-Kostick.github.io/vzome-sharing/2024/03/15/15-48-49-Octahedron-Inversion/Octahedron-Inversion.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2024/03/15/15-48-49-Octahedron-Inversion/Octahedron-Inversion.png" >
