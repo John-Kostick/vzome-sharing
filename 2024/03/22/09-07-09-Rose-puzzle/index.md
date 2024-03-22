@@ -7,7 +7,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2024/03/22/09-07-09-Rose-puz
 layout: design
 ---
 
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh" show-scenes="all"
        src="https://John-Kostick.github.io/vzome-sharing/2024/03/22/09-07-09-Rose-puzzle/Rose-puzzle.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2024/03/22/09-07-09-Rose-puzzle/Rose-puzzle.png" >
