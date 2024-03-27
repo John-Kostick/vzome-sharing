@@ -1,11 +1,4 @@
 
-## Blog Post Generated
-
- - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2024/03/27/120-Hedra-Part-2-13-05-14.html>) about this design; *try it before you share it!*
- - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2024-03-27-120-Hedra-Part-2-13-05-14.md>); click to customize
- 
-
-
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2024/03/27/13-05-14-120-Hedra-Part-2/>) to just share this design; *try it before you share it!*
