@@ -7,7 +7,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2024/04/03/11-51-42-14-point
 layout: design
 ---
 
-  <vzome-viewer style="width: 100%; height: 60vh"
+  <vzome-viewer style="width: 100%; height: 60vh" show-scenes="named"
        src="https://John-Kostick.github.io/vzome-sharing/2024/04/03/11-51-42-14-point/14-point.vZome" >
     <img  style="width: 100%"
        src="https://John-Kostick.github.io/vzome-sharing/2024/04/03/11-51-42-14-point/14-point.png" >
