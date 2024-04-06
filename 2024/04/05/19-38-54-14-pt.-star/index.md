@@ -7,7 +7,8 @@ image: https://John-Kostick.github.io/vzome-sharing/2024/04/05/19-38-54-14-pt.-s
 layout: design
 ---
 
-  <div style='display:flex;'><div style='margin: auto;'><button is='vzome-viewer-previous'>prev scene</button><button is='vzome-viewer-next'>next scene</button></div></div>
+  <div style='display:flex;'><div style='margin: auto;'><vzome-viewer-previous label='prev step'></vzome-viewer-previous><vzome-viewer-next label='next step'></vzome-viewer-next></div></div>
+
   <vzome-viewer style="width: 100%; height: 60vh" indexed='true'
        src="https://John-Kostick.github.io/vzome-sharing/2024/04/05/19-38-54-14-pt.-star/14-pt.-star.vZome" >
     <img  style="width: 100%"
