@@ -3,7 +3,7 @@ title: Multiple tetraxis hex 2
 image: https://John-Kostick.github.io/vzome-sharing/2022/01/17/14-27-27-Multiple-tetraxis-hex-2/Multiple-tetraxis-hex-2.png
 layout: vzome
 description:
-  An array of rods in a 4 beam symmetrical configuration.  Center lines of beams meet at origin point.  Beams are composed of concentric multples of the primary group of 3, indicated with red tips. Beams each have 18 rods. Rods are hexagonal in cross-section, serving to represent round.  
+  An array of rods in a 4 beam symmetrical configuration.  Center lines of beams meet at origin point.  Beams are composed of concentric multples of the primary group of 3, indicated with red tips. Beams each have 27 rods. Rods are hexagonal in cross-section, serving to represent round.  
   
 ---
 
@@ -15,7 +15,7 @@ description:
 [github]: <https://github.com/John-Kostick/vzome-sharing/tree/main/2022/01/17/14-27-27-Multiple-tetraxis-hex-2/>
 {% endcomment %}
 
-  An array of rods in a 4 beam symmetrical configuration.  Center lines of beams meet at origin point.  Beams are composed of concentric multples of the primary group of 3, indicated with red tips. Beams each have 18 rods. Rods are hexagonal in cross-section, serving to represent round. 
+  An array of rods in a 4 beam symmetrical configuration.  Center lines of beams meet at origin point.  Beams are composed of concentric multples of the primary group of 3, indicated with red tips. Beams each have 27 rods. Rods are hexagonal in cross-section, serving to represent round. 
   
 <vzome-viewer style="width: 100%; height: 100vh;"
        src="https://John-Kostick.github.io/vzome-sharing/2022/01/17/14-23-19-Multiple-tetraxis-hex/Multiple-tetraxis-hex.vZome" >
