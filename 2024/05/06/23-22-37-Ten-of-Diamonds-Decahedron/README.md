@@ -1,11 +1,4 @@
 
-## Blog Post Generated
-
- - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2024/05/06/Ten-of-Diamonds-Decahedron-23-22-37.html>) about this design; *try it before you share it!*
- - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2024-05-06-Ten-of-Diamonds-Decahedron-23-22-37.md>); click to customize
- 
-
-
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2024/05/06/23-22-37-Ten-of-Diamonds-Decahedron/>) to just share this design; *try it before you share it!*
