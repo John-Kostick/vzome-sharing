@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="61" field="golden" version="7.1">
-  <EditHistory editNumber="682" lastStickyEdit="682">
+  <EditHistory editNumber="701" lastStickyEdit="682">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -1121,6 +1121,42 @@
     <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
     <DeselectAll/>
     <Snapshot id="12"/>
+    <SelectAll originLast="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <ConvexHull3d mode=""/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-6 -10 0 0 3 5"/>
+      <polygonVertex at="-3 -5 0 0 6 10"/>
+      <polygonVertex at="0 0 3 5 6 10"/>
+      <polygonVertex at="0 0 6 10 3 5"/>
+      <polygonVertex at="-3 -5 6 10 0 0"/>
+      <polygonVertex at="-6 -10 3 5 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="3 5 0 0 6 10"/>
+      <polygonVertex at="0 0 3 5 6 10"/>
+      <polygonVertex at="-3 -5 0 0 6 10"/>
+      <polygonVertex at="0 0 -3 -5 6 10"/>
+    </SelectManifestation>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="3 5 0 0 -6 -10"/>
+      <polygonVertex at="0 0 -3 -5 -6 -10"/>
+      <polygonVertex at="-3 -5 0 0 -6 -10"/>
+      <polygonVertex at="0 0 3 5 -6 -10"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Octahedron">
@@ -1252,6 +1288,7 @@
     <Direction color="255,255,255" name="24442" orbit="[[-1,1,4],[-1,1,4]]" prototype="-8 4 3 -2 3 -2"/>
     <Direction color="255,255,255" name="24447" orbit="[[1,0,4],[1,0,4]]" prototype="-2 1 8 -4 -2 1"/>
     <Direction color="255,255,255" name="24448" orbit="[[0,0,1],[1,0,2]]" prototype="-4 2 8 -4 0 0"/>
+    <Direction color="255,255,255" name="24449" orbit="[[3,0,5],[1,0,5]]" prototype="1/4 0 -5/4 0 3/4 0"/>
     <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
     <Direction color="255,255,255" name="24443" orbit="[[1,0,3],[0,0,1]]" prototype="-1/2 0 3/2 0 0 0"/>
     <Direction color="255,255,255" name="24444" orbit="[[1,0,1],[-1,1,1]]" prototype="-4 2 2 -2 -2 2"/>
