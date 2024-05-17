@@ -1,11 +1,4 @@
 
-## Blog Post Generated
-
- - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2024/05/16/six-axis-and-ten-axis-paneled-20-22-50.html>) about this design; *try it before you share it!*
- - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2024-05-16-six-axis-and-ten-axis-paneled-20-22-50.md>); click to customize
- 
-
-
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2024/05/16/20-22-50-six-axis-and-ten-axis-paneled/>) to just share this design; *try it before you share it!*
