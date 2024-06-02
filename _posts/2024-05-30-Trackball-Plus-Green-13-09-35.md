@@ -18,7 +18,7 @@ What is offered here is 3D interactive modeling, and a focus on geometric descri
 
 In Scenes, the first 3 models show a ball that is inscibed in a cube, in contact at the centers of its faces, and arrays that result from parallel balls attached to the original one at these tangent points.
 
-The next 3 models show a ball that is enlarged relative to a cube,so that it makes contact with the cube at the centers of its edges, which can be seen to be the centers of faces of a Rhombic Dodecahedron.  The arrays that result from attaching parallel balls at these points are shown.
+The next 3 models show a ball that is enlarged relative to a cube, so that it makes contact with the cube at the centers of its edges, which can be seen to be the centers of faces of a Rhombic Dodecahedron.  The arrays that result from attaching parallel balls at these points are shown.
 
 The last 4 models show a ball that is further enlarged relative to a cube, so that it coincides with the cube at its corners, which are at the centers of the hexagonal faces of a Truncated Octahedron.  The arrays that result from attaching parallel balls at these points are shown, including a sample of diamond lattice.  
 
@@ -38,7 +38,7 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </figcaption>
 </figure>
 
-Here is shown another kind of stacking of spheres represented by polyheral balls. A ball is inscibed in a Pentagonal Dodecahedron, intersecting its edge centers.  Parallel balls can be attached at these points, resulting in an array of 12 balls in icosahedral symmetry.  This arrangement can be seen to surround a similar ball, which must be scaled down to fit tangent to all of the 12.  This kind of array can be extended in various ways concentrically, but not as a uniform lattice.  
+Here is shown another kind of stacking of spheres represented by polyhedral balls. A ball is inscibed in a Pentagonal Dodecahedron, intersecting its edge centers.  Parallel balls can be attached at these points, resulting in an array of 12 balls in icosahedral symmetry.  This arrangement can be seen to surround a similar ball, which must be scaled down to fit tangent to all of the 12.  This kind of array can be extended in various ways concentrically, but not as a uniform lattice.  
 
 
 <figure style="width: 87%; margin: 5%">
