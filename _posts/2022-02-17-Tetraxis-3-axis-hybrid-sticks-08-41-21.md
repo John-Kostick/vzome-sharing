@@ -18,12 +18,12 @@ Description:
 <figure style="width: 87%; margin: 5%">
  
  <vzome-viewer style="width: 100%; height: 60vh" 
-      src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/20-17-38-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.vZome" >
+      src="https://John-Kostick.github.io/vzome-sharing/2024/06/23/17-02-14-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/20-17-38-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.png" >
+      src="https://John-Kostick.github.io/vzome-sharing/2024/06/23/17-02-14-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.png" >
  </vzome-viewer>
  <figcaption style="text-align: center; font-style: italic;">
-   Tetraxis and Three axis struts
+    Teraxis and Three-axis struts
  </figcaption>
 </figure>
 
