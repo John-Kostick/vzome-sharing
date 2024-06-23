@@ -15,7 +15,15 @@ Description:
 {% endcomment %}
   A concentric intersection of 3 beams consisting of 4 rods in each, and 4 beams consisting of 3 rods each.  Rods do not intersect, but bypass each other. Symmetry is tetrahedral. 
 
-<vzome-viewer style="width: 100%; height: 100vh;"
-       src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/08-41-21-Tetraxis-3-axis-hybrid-sticks/Tetraxis-3-axis-hybrid-sticks.vZome" >
-  <img src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/08-41-21-Tetraxis-3-axis-hybrid-sticks/Tetraxis-3-axis-hybrid-sticks.png" />
-</vzome-viewer>
+<figure style="width: 87%; margin: 5%">
+ 
+ <vzome-viewer style="width: 100%; height: 60vh" 
+      src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/20-17-38-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.vZome" >
+   <img  style="width: 100%"
+      src="https://John-Kostick.github.io/vzome-sharing/2022/02/17/20-17-38-Tetraxis-3-axis-hybrid-color-sticks/Tetraxis-3-axis-hybrid-color-sticks.png" >
+ </vzome-viewer>
+ <figcaption style="text-align: center; font-style: italic;">
+   Tetraxis and Three axis struts
+ </figcaption>
+</figure>
+
