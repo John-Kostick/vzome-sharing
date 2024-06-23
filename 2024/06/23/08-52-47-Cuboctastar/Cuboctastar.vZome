@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="64" field="rootTwo" version="7.1">
+  <EditHistory editNumber="117" lastStickyEdit="116">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="green" index="1" len="0 4" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="4 0 4 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="4 0 4 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <SelectAll/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 8 0 8 0 0"/>
+    <SelectManifestation point="0 -8 0 0 0 8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -8 0 0 0 8" startSegment="0 8 0 8 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 8 0 -8"/>
+    <SelectManifestation point="0 -8 0 0 0 8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -8 0 8 0 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="0 8 0 8 0 0" dir="green" index="1" len="0 1" symm="octahedral"/>
+    <SelectManifestation point="1 8 1 8 0 0"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 8 1 8 0 0" startSegment="0 8 0 8 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -8 1 8 0 0"/>
+    <SelectManifestation point="1 8 1 8 0 0"/>
+    <SelectManifestation point="-1 -8 1 8 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -8 1 8 0 0"/>
+    <SelectManifestation point="1 8 0 0 -1 -8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -8 1 8 0 0"/>
+    <SelectManifestation point="1 8 0 0 1 8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 8 0 0 -1 -8"/>
+    <SelectManifestation endSegment="1 8 0 0 -1 -8" startSegment="-1 -8 1 8 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -8 0 0 0 8"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -8 0 0 0 8"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 -8 0 0 0 8"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-1"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 8 0 0 0 -8" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <Snapshot id="0"/>
+    <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="1"/>
+    <Snapshot id="2"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 -8 0 8 0 0"/>
+    <SelectManifestation point="0 0 0 8 0 -8"/>
+    <EndBlock/>
+    <Branch>
+      <JoinPoints closedLoop="false"/>
+      <Branch>
+        <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+        <BeginBlock/>
+        <DeselectAll/>
+        <SelectManifestation endSegment="0 -8 0 0 0 -8" startSegment="0 0 0 0 0 0"/>
+        <EndBlock/>
+        <Branch>
+          <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+          <Delete/>
+          <Snapshot id="3"/>
+        </Branch>
+      </Branch>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 8 0 -8" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Branch>
+      <Delete/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <Delete/>
+      <Snapshot id="4"/>
+    </Branch>
+    <DeselectAll/>
+  </EditHistory>
+  <notes>
+    <page snapshot="1" title="With 6 green axes">
+      <ViewModel distance="138.2245330810547" far="276.4491271972656" near="0.3455614745616913" parallel="true" stereoAngle="0.0" width="62.201045989990234">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.7071067690849304" y="-0.0" z="-0.7071067690849304"/>
+        <LookDirection x="0.0" y="-1.0" z="0.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="3" title="Chords of Cuboctahedron.">
+      <ViewModel distance="138.2245330810547" far="276.4491271972656" near="0.3455614745616913" parallel="true" stereoAngle="0.0" width="62.201045989990234">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.7071067690849304" y="-0.0" z="-0.7071067690849304"/>
+        <LookDirection x="0.0" y="-1.0" z="0.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="4" title="Woven planes only Cuboctastar">
+      <ViewModel distance="130.1749725341797" far="260.3500061035156" near="0.3254375755786896" parallel="true" stereoAngle="0.0" width="58.57874298095703">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.7071067690849304" y="-0.0" z="-0.7071067690849304"/>
+        <LookDirection x="0.0" y="-1.0" z="0.0"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+  </notes>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="138.2245330810547" far="276.4491271972656" near="0.3455614745616913" parallel="true" stereoAngle="0.0" width="62.201045989990234">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="-0.7071067690849304" y="-0.0" z="-0.7071067690849304"/>
+      <LookDirection x="0.0" y="-1.0" z="0.0"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
+    <Direction color="0,118,149" name="blue" orbit="[[0,0,1],[0,0,1]]"/>
+    <Direction color="0,141,54" name="green" orbit="[[0,0,1],[-1,0,1]]"/>
+    <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
+    <Direction color="240,160,0" name="yellow" orbit="[[1,0,1],[-1,0,1]]"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="synestructics" renderingStyle="small octahedra">
+      <Direction color="240,160,0" name="yellow" orbit="[[1,0,1],[-1,0,1]]"/>
+      <Direction color="220,76,0" name="orange" orbit="[[0,0,1],[0,0,1]]"/>
+      <Direction color="255,41,183" name="magenta" orbit="[[0,0,1],[-1,0,1]]"/>
+      <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="false" id="tool-0" label="2-layers" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-1" label="Alt 6-axis with woven planes" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
