@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" edition="online" version="1.0" buildNumber="256" field="golden">
+  <EditHistory editNumber="160" lastStickyEdit="150">
+    <StrutCreation anchor="0 0 0 0 0 0" dir="green" index="7" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation startSegment="0 0 0 0 0 0" endSegment="0 0 2 4 2 4"/>
+    <SelectManifestation point="0 0 2 4 2 4"/>
+    <EndBlock/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="scaling.builtin/scale down" deleteInputs="true" copyColors="true"/>
+    <ApplyTool name="scaling.builtin/scale down" deleteInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="scaling.builtin/scale down" deleteInputs="true" copyColors="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="green" index="23" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 4 0 0 -2 -4"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="tool-0" deleteInputs="true" copyColors="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="green" index="23" len="2 0"/>
+    <SelectManifestation point="2 0 0 0 -2 0"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation startSegment="-2 -4 0 0 2 4" endSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Midpoint/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <TranslationTool name="tool-1"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="tool-1" deleteInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 2 0 1 -2"/>
+    <SelectManifestation point="-1 2 2 0 -1 -2"/>
+    <SelectManifestation point="-1 -2 2 0 -1 2"/>
+    <SelectManifestation point="1 -2 2 0 1 2"/>
+    <SelectManifestation point="1 -2 2 0 1 2"/>
+    <SelectManifestation point="1 -2 2 0 1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 2 0 0 1 -2"/>
+    <SelectManifestation point="1 2 2 0 1 -2"/>
+    <SelectManifestation point="1 -2 2 0 1 2"/>
+    <SelectManifestation point="1 -2 0 0 3 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 -2 0 1 -2"/>
+    <SelectManifestation point="3 2 0 0 1 -2"/>
+    <SelectManifestation point="1 -2 0 0 3 2"/>
+    <SelectManifestation point="1 -2 -2 0 1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 -2 0 -1 -2"/>
+    <SelectManifestation point="1 2 -2 0 1 -2"/>
+    <SelectManifestation point="1 -2 -2 0 1 2"/>
+    <SelectManifestation point="-1 -2 -2 0 -1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 2 0 0 -3 -2"/>
+    <SelectManifestation point="-1 2 -2 0 -1 -2"/>
+    <SelectManifestation point="-1 -2 -2 0 -1 2"/>
+    <SelectManifestation point="-3 -2 0 0 -1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 2 2 0 -1 -2"/>
+    <SelectManifestation point="-1 2 0 0 -3 -2"/>
+    <SelectManifestation point="-3 -2 0 0 -1 2"/>
+    <SelectManifestation point="-1 -2 2 0 -1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 0 0 -3 -2"/>
+    <SelectManifestation point="3 2 0 0 1 -2"/>
+    <SelectManifestation point="1 2 -2 0 1 -2"/>
+    <SelectManifestation point="-1 2 -2 0 -1 -2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 2 2 0 -1 -2"/>
+      <polygonVertex at="-1 2 0 0 -3 -2"/>
+      <polygonVertex at="-3 -2 0 0 -1 2"/>
+      <polygonVertex at="-1 -2 2 0 -1 2"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="-1 2 2 0 -1 -2"/>
+    <SelectManifestation point="1 2 2 0 1 -2"/>
+    <SelectManifestation point="3 2 0 0 1 -2"/>
+    <SelectManifestation point="-1 2 0 0 -3 -2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -2 0 0 -1 2"/>
+    <SelectManifestation point="-1 -2 -2 0 -1 2"/>
+    <SelectManifestation point="1 -2 -2 0 1 2"/>
+    <SelectManifestation point="1 -2 0 0 3 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -2 2 0 -1 2"/>
+    <SelectManifestation point="-3 -2 0 0 -1 2"/>
+    <SelectManifestation point="1 -2 0 0 3 2"/>
+    <SelectManifestation point="1 -2 2 0 1 2"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="tool-0" deleteInputs="true" copyColors="true"/>
+    <ApplyTool name="tool-1" deleteInputs="true" copyColors="true"/>
+    <ApplyTool name="tool-1" deleteInputs="true" copyColors="true"/>
+    <ApplyTool name="tool-1" deleteInputs="true" copyColors="true"/>
+    <DeselectAll/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true" copyColors="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="54" len="1 1"/>
+    <SelectManifestation startSegment="0 0 0 0 0 0" endSegment="-1 -2 1 2 -1 -2"/>
+    <RotationTool full="true" corrected="true" symmetry="icosahedral" name="tool-2"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool name="tool-2" selectInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-3"/>
+    <DeselectAll/>
+    <ApplyTool name="tool-3" selectInputs="true" copyColors="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 0 2 0 0 0"/>
+    <SelectManifestation point="0 0 2 0 -2 0"/>
+    <SelectManifestation point="-2 0 0 0 -2 0"/>
+    <EndBlock/>
+    <ApplyTool name="bookmark.builtin/ball at origin" selectInputs="true" copyColors="true"/>
+    <DeselectAll/>
+  </EditHistory>
+  <SymmetrySystem name="icosahedral" renderingStyle="small dodecahedra">
+    <Direction name="blue" orbit="[[0,0,1],[0,0,1]]" color="0,118,149"/>
+    <Direction name="green" orbit="[[2,-1,1],[5,-3,1]]" color="0,141,54"/>
+    <Direction name="orange" orbit="[[-4,3,5],[3,-1,5]]" color="220,76,0"/>
+    <Direction name="purple" orbit="[[2,-1,1],[0,0,1]]" color="108,0,198"/>
+    <Direction name="black" orbit="[[-2,3,11],[-7,5,11]]" color="30,30,30"/>
+    <Direction name="lavender" orbit="[[-3,2,1],[-3,2,1]]" color="175,135,255"/>
+    <Direction name="olive" orbit="[[3,-1,5],[0,0,1]]" color="100,113,0"/>
+    <Direction name="maroon" orbit="[[5,-3,1],[0,0,1]]" color="117,0,50"/>
+    <Direction name="rose" orbit="[[0,0,1],[-4,3,5]]" color="255,51,143"/>
+    <Direction name="navy" orbit="[[-1,1,2],[2,-1,2]]" color="0,0,153"/>
+    <Direction name="turquoise" orbit="[[2,-1,2],[-3,2,2]]" color="18,205,148"/>
+    <Direction name="coral" orbit="[[-3,2,2],[-1,1,2]]" color="255,126,106"/>
+    <Direction name="sulfur" orbit="[[-1,1,3],[0,0,1]]" color="230,245,62"/>
+    <Direction name="sand" orbit="[[-8,5,1],[5,-3,1]]" color="154,117,74"/>
+    <Direction name="apple" orbit="[[2,-1,3],[-1,1,3]]" color="116,195,0"/>
+    <Direction name="cinnamon" orbit="[[5,-3,2],[2,-1,2]]" color="136,37,0"/>
+    <Direction name="spruce" orbit="[[-5,4,11],[-5,4,11]]" color="18,73,48"/>
+    <Direction name="brown" orbit="[[2,-1,3],[5,-3,3]]" color="107,53,26"/>
+    <Direction name="yellow" orbit="[[0,0,1],[2,-1,1]]" color="240,160,0"/>
+    <Direction name="red" orbit="[[-1,1,1],[0,0,1]]" color="175,0,0"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction name="blue" orbit="[[0,0,1],[0,0,1]]" color="0,118,149"/>
+      <Direction name="yellow" orbit="[[1,0,1],[-1,0,1]]" color="240,160,0"/>
+      <Direction name="green" orbit="[[0,0,1],[-1,0,1]]" color="0,141,54"/>
+      <Direction name="lavender" orbit="[[1,2,1],[-1,0,1]]" color="175,135,255"/>
+      <Direction name="olive" orbit="[[1,0,1],[3,-2,1]]" color="100,113,0"/>
+      <Direction name="maroon" orbit="[[-1,2,1],[1,0,1]]" color="117,0,50"/>
+      <Direction name="brown" orbit="[[1,0,1],[-2,0,1]]" color="107,53,26"/>
+      <Direction name="red" orbit="[[-1,1,1],[0,0,1]]" color="175,0,0"/>
+      <Direction name="purple" orbit="[[0,0,1],[2,-1,1]]" color="108,0,198"/>
+      <Direction name="black" orbit="[[0,1,1],[1,-1,1]]" color="30,30,30"/>
+      <Direction name="turquoise" orbit="[[-1,2,1],[1,-2,1]]" color="18,205,148"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool id="tool-0" label="translation 0" selectInputs="false" deleteInputs="true" copyColors="true"/>
+    <Tool id="tool-1" label="translation 1" selectInputs="false" deleteInputs="true" copyColors="true"/>
+    <Tool id="tool-2" label="axial symmetry 2" selectInputs="true" deleteInputs="false" copyColors="true"/>
+    <Tool id="tool-3" label="triplet" selectInputs="true" deleteInputs="false" copyColors="true"/>
+  </Tools>
+  <sceneModel ambientLight="51,51,51" background="140,194,231">
+    <directionalLight color="253,253,253" x="1" y="-1" z="-0.3"/>
+    <directionalLight color="181,181,181" x="-1" y="0" z="-0.2"/>
+    <directionalLight color="48,48,48" x="0" y="0" z="-1"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="89.7905435340554" far="179.5810870681108" near="0.08313939216116241" parallel="false" stereoAngle="0.0" width="44.895271767027694">
+      <LookAtPoint x="0" y="0" z="0"/>
+      <UpDirection x="-0.778133286776406" y="-0.512649745114164" z="-0.3629033298888601"/>
+      <LookDirection x="0.2700230891485654" y="-0.7946983665388317" z="0.5436377815670821"/>
+    </ViewModel>
+  </Viewing>
+  <notes/>
+</vzome:vZome>
