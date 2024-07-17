@@ -7,7 +7,7 @@ layout: design
 
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2024/07/17/13-24-28-Triamond-Trivets/Triamond-Trivets.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2024/07/17/13-24-28-Triamond-Trivets/Triamond-Trivets.png" >
