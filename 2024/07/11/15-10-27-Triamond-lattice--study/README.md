@@ -9,11 +9,13 @@
  ```html
 <figure style="width: 87%; margin: 5%">
   
-  <vzome-viewer style="width: 100%; height: 60vh" show-scenes='named'
-       src="https://John-Kostick.github.io/vzome-sharing/2024/07/11/15-10-27-Triamond-lattice--study/Triamond-lattice--study.vZome" >
+  
+  <vzome-viewer style="width: 100%; height: 60dvh" 
+        src="https://John-Kostick.github.io/vzome-sharing/2024/07/11/15-10-27-Triamond-lattice--study/Triamond-lattice--study.vZome" >
     <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2024/07/11/15-10-27-Triamond-lattice--study/Triamond-lattice--study.png" >
+        src="https://John-Kostick.github.io/vzome-sharing/2024/07/11/15-10-27-Triamond-lattice--study/Triamond-lattice--study.png" >
   </vzome-viewer>
+
   <figcaption style="text-align: center; font-style: italic;">
      REPLACE this caption!
   </figcaption>
