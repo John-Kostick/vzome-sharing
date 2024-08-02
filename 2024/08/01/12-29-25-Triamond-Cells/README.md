@@ -10,7 +10,7 @@
 <figure style="width: 87%; margin: 5%">
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2024/08/01/12-29-25-Triamond-Cells/Triamond-Cells.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2024/08/01/12-29-25-Triamond-Cells/Triamond-Cells.png" >
