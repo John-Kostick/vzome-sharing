@@ -31,29 +31,19 @@ description:
 In the above figure, spaces between origin centered major cell and a ring of 10 major cells can be bridged with minor cells, composed from unit length edges that are parallel with some of the original directions. This is typical of all arrays shown here.  In this case, these are rhombic hexahedra, dodecahedra, and icosahedra. Note the ring of 10 polar icosahedra. In this array, centers of the 10 major cells that compose the ring are coplanar with the origin at the center of a major cell.  Overall symmetry of the array can continue the symmetries of the original cell, such as n-fold rotational symmetry, and n planes of reflection symmetry that intersect the polar axis. This array does not have an "equatorial" plane of reflection through the origin with polar axis normal to it, as the major cell does, but it could.  Chiral configurations of bridgework between major cells can be built, which have reduced symmetry, but none are shown here. 
 
 <figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/23/16-05-57-Polar-Enneacon-type-2-array/Polar-Enneacon-type-2-array.vZome" >
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" 
+       src="https://John-Kostick.github.io/vzome-sharing/2024/08/17/13-49-55-Polar-Enneacon-Array-Type-2/Polar-Enneacon-Array-Type-2.vZome" >
    <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/23/16-05-57-Polar-Enneacon-type-2-array/Polar-Enneacon-type-2-array.png" >
+       src="https://John-Kostick.github.io/vzome-sharing/2024/08/17/13-49-55-Polar-Enneacon-Array-Type-2/Polar-Enneacon-Array-Type-2.png" >
  </vzome-viewer>
+
  <figcaption style="text-align: center; font-style: italic;">
-    A Type II array of Polar Enneacontahedra
+    A Type II array of 10-directional Polar Enneacontahedra
  </figcaption>
 </figure>
 
 
 In this Type II array, the surrounding major cell chains have the centers of the cells coplanar with an origin point which is a shared polar vertex of 2 major cells.  
 
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/24/10-36-35-Polar-enneacon-array-extended/Polar-enneacon-array-extended.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/11/24/10-36-35-Polar-enneacon-array-extended/Polar-enneacon-array-extended.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    An extended Type I array
- </figcaption>
-</figure>
-
-
-In the extended array above, the bridgework is left partially open, for viewing how minor cells can be placed.  
