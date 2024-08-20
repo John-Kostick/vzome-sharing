@@ -32,13 +32,15 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
 
 
 
-  Images are of 3D prints from vZome file.  
+ 
 
 </figure>![IMG_1872](https://github.com/user-attachments/assets/4cdc8f0f-1e08-473f-ab8b-e8fc29f67294)
 
 
 
 ![IMG_1873](https://github.com/user-attachments/assets/0f52c7eb-67b8-442a-9131-06e157e4eac9)
+
+    Images are of 3D prints from vZome file. 
 
 
 
