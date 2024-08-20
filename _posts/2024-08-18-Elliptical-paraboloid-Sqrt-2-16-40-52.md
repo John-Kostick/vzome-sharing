@@ -30,6 +30,8 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
     Elliptical Paraboloid Tiling unit
   </figcaption>
 
+
+
   Images are of 3D prints from vZome file.  
 
 </figure>![IMG_1872](https://github.com/user-attachments/assets/4cdc8f0f-1e08-473f-ab8b-e8fc29f67294)
