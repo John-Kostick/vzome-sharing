@@ -1,9 +1,11 @@
 ---
-title: Arrays of edge bonded Dodecahedra 2
+title: Arrays of edge bonded Dodecahedra 
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2024/06/14/14-47-48-Arrays-of-edge-bonded-Dodecahedra-2/Arrays-of-edge-bonded-Dodecahedra-2.png
-published: false
+published: true
 layout: vzome
+description:
+These are illustrations of Edge-Bonded Dodecahedron Arrays.
 ---
 
 {% comment %}
@@ -11,6 +13,7 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2024/06/14/14-47-48-Arrays-of-edge-bonded-Dodecahedra-2/>)
  
 {% endcomment %}
+These are illustrations of Edge-Bonded Dodecahedron Arrays. Scenes shows a sequence starting with a Dodecahedron, then surounded by an Icosidodecahedron. This establishes a spacing, such that 12 Doddecahedra are placed surrounding the original, sharing edges.  This spacing is repeated between succeeding layers, to produce concentric arrays as shells.  Transition layers are shown as planar arrays.   
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -24,6 +27,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </vzome-viewer>
 
   <figcaption style="text-align: center; font-style: italic;">
-    Arrays of edge bonded Dodecahedra 2
+    Array of edge bonded Dodecahedra 
   </figcaption>
 </figure>
