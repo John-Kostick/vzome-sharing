@@ -27,6 +27,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </vzome-viewer>
 
   <figcaption style="text-align: center; font-style: italic;">
-    Array of edge bonded Dodecahedra 
+     An Array of edge bonded Dodecahedra 
   </figcaption>
 </figure>
