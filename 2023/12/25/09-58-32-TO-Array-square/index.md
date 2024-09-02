@@ -7,7 +7,7 @@ layout: design
 
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2023/12/25/09-58-32-TO-Array-square/TO-Array-square.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2023/12/25/09-58-32-TO-Array-square/TO-Array-square.png" >
