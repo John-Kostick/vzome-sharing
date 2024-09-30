@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="72" field="polygon60" version="7.1">
-  <EditHistory editNumber="1340" lastStickyEdit="741">
+  <EditHistory editNumber="1355" lastStickyEdit="1345">
     <BeginBlock/>
     <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
     <DeselectAll/>
@@ -2391,7 +2391,22 @@
     <EndBlock/>
     <Polygon/>
     <ApplyTool copyColors="false" name="tool-1" selectInputs="true"/>
+    <BeginBlock/>
     <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 -9/4 0 -9/8 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9/4 0 -9/8 0 0 0 0 0 0 0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-19"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-19"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <setItemColor blue="170" green="255" red="170"/>
   </EditHistory>
   <notes/>
   <sceneModel ambientLight="41,41,41" background="175,200,220">
@@ -2400,7 +2415,7 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="179.26756286621094" far="358.5342712402344" near="0.44816848635673523" parallel="false" stereoAngle="0.0" width="80.67034912109375">
+    <ViewModel distance="179.26756286621094" far="358.5342712402344" near="0.44816848635673523" parallel="true" stereoAngle="0.0" width="80.67034912109375">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
       <UpDirection x="0.0" y="1.0" z="0.0"/>
       <LookDirection x="0.0" y="0.0" z="-1.0"/>
@@ -2515,6 +2530,7 @@
     <Tool copyColors="true" deleteInputs="true" id="tool-16" label="translation 16" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="true" id="tool-17" label="translation 17" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-18" label="8" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-19" label="translation 19" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-2" label="Base Ellipse" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-3" label="8" selectInputs="false"/>
     <Tool copyColors="true" deleteInputs="true" hidden="true" id="tool-4" label="7" selectInputs="false"/>
