@@ -18,14 +18,17 @@ description:
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/13-44-39-Rhombic-Dodecahedron-Transformations/Rhombic-Dodecahedron-Transformations.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/03/19/13-44-39-Rhombic-Dodecahedron-Transformations/Rhombic-Dodecahedron-Transformations.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
-    Rhombic Dodecahedron 4-fold
-  </figcaption>
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+       src="https://John-Kostick.github.io/vzome-sharing/2024/10/07/16-32-59-Rhombic-Dodecahedron-Transformations/Rhombic-Dodecahedron-Transformations.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2024/10/07/16-32-59-Rhombic-Dodecahedron-Transformations/Rhombic-Dodecahedron-Transformations.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
+    Rhombic Dodecahedron Four-fold
+ </figcaption>
 </figure>
 
 This [Video](https://youtu.be/1qs0ODByqDU) shows several more examples, in a sequence.  
