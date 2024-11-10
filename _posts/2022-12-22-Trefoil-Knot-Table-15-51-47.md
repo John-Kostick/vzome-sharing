@@ -43,4 +43,4 @@ In both of these designs, there is an ingenious use of rectangular cross-section
 
 These have been built as table bases by [Jane Kostick](http://www.kosticks.com/koos-verhoeff.html)
 
-This is the 24 piece one as a table base.  
+ 
