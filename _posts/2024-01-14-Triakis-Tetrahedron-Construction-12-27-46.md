@@ -22,7 +22,7 @@ description:
   Step 2 is to connect the origin to the center of each type of edge with a strut, as shown in Scene titled  "Cross Products."
 
 
-  Step 3 is to build a strut that is perpendicular both to the edge and to the radial strut from the origin to the strut midpoint.  This can be seen as constructing a tangent to a sphere that all the midpoints lie on the surface of.  The simplest way to do this is to use the Cross Product tool in the Construct menu.  
+  Step 3 is to build a strut that is perpendicular both to the edge and to the radial strut from the origin to the strut midpoint.  This can be seen as constructing a tangent to a sphere [Midsphere](https://en.wikipedia.org/wiki/Midsphere) that all the midpoints lie on the surface of. The simplest way to do this is to use the Cross Product tool in the Construct menu. Thus the edges of both the Truncated Tetrahedron and the Triakis Tetrahedron are tangents to the same midsphere.
 
 
   Step 4 is to apply symmetry tool to the Cross Products, and find intersection points centered above each indicated face of the Archimedean Dual.  This is illustrated in Scene titled "Cross Products intersecting."
@@ -30,6 +30,7 @@ description:
 
   Step 5 is to generate panels from these intersection points.  This can be done one at a time, or by using Select> Balls, and Construct> 3D Convex Hull tools.  
 
+This method corresponds in 3-D to the [Dorman Luke Construction](https://en.wikipedia.org/wiki/Dual_uniform_polyhedron)
 
   It should be noted that there may be other polyhedra that can be constructed within the same Archimedean frameworks which have the same number and type of faces, but do not meet the definition of true Catalan Solids. One characteristic that is easy to check is that all the dihedral angles between adjoining faces in a model should be the same.  One can also check face angles against those listed.  
 
