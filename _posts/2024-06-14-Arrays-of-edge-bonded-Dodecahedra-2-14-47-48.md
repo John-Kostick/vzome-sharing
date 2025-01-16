@@ -13,7 +13,7 @@ description:
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2024/06/14/14-47-48-Arrays-of-edge-bonded-Dodecahedra-2/>)
  
 {% endcomment %}
-These are illustrations of Edge-Bonded Dodecahedron Arrays. Scenes shows a sequence starting with a Dodecahedron, then surounded by an Icosidodecahedron. This establishes a spacing, such that 12 Doddecahedra are placed surrounding the original, sharing edges.  This spacing is repeated between succeeding layers, to produce concentric arrays as shells.  Transition layers between shells are shown as planar arrays.   
+These are illustrations of Edge-Bonded Dodecahedron Arrays. Scenes shows a sequence starting with a Dodecahedron, then surounded by an Icosidodecahedron. This establishes a spacing, such that 12 Dodecahedra are placed surrounding the original, sharing edges.  This spacing is repeated between succeeding layers, to produce concentric arrays as shells.  Transition layers between shells are shown as planar arrays.   
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
