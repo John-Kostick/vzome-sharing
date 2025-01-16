@@ -74,4 +74,4 @@ Here, the method for building RDs is used to compose tubular Diamond Lattice sam
  </figcaption>
 </figure>
 
-A continuation of this series of models can be viewed 
+A continuation of this series of models can be viewed [Here](https://john-kostick.github.io/vzome-sharing/2025/01/15/Oct-tet-constructions-14-08-40.html)
