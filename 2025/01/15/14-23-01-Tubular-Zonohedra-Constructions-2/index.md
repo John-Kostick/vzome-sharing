@@ -2,7 +2,7 @@
 title: Tubular Zonohedra Constructions 
 share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/01/15/14-23-01-Tubular-Zonohedra-Constructions-2/Tubular-Zonohedra-Constructions-2.png
-published: true
+published: false
 layout: vzome
 description:
   This is a series of models showing a method of contructionn of polyhedra.
