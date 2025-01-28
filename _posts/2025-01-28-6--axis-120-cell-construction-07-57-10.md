@@ -1,11 +1,9 @@
 ---
 title: Coincidence of 30-stick construction with 120-cell framework
-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/01/28/07-57-10-6-axis-120-cell-construction/6-axis-120-cell-construction.png
-published: false
+published: true
 layout: vzome
- description:
-This describes a construction that coincides with a 120-cell framework.
+description: This describes a construction that coincides with a 120-cell framework.
 ---
 
 {% comment %}
