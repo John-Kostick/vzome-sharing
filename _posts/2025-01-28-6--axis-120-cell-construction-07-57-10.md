@@ -1,9 +1,11 @@
 ---
-title: 6  axis 120 cell construction
+title: Coincidence of 30-stick construction with 120-cell framework
 description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/01/28/07-57-10-6--axis-120-cell-construction/6--axis-120-cell-construction.png
-published: false
+published: true
 layout: vzome
+description:
+This describes a construction that coincides with a 120-cell framework.
 ---
 
 {% comment %}
@@ -11,6 +13,10 @@ layout: vzome
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2025/01/28/07-57-10-6--axis-120-cell-construction/>)
  
 {% endcomment %}
+This describes a construction that coincides with a [120-cell](https://en.wikipedia.org/wiki/120-cell) framework. This construction is explained more fully [Here](https://john-kostick.github.io/vzome-sharing/2022/04/27/6-axis-16-42-25.html)  
+Scenes shows the progression from a Rhombic Triacontahedron, first with a prismatic "stick" placed on one face, 
+then a total of 30 sticks surrounding the RT.  From there, frames of affine dodecahedra are added, first on 3-fold axes, then on 5-fold axes. The last scene shows a convex hull of the resulting 120-cell framework. 
+
 
 A 3D design created in vZome.  Use your mouse or touch to interact.
 
@@ -24,6 +30,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
   </vzome-viewer>
 
   <figcaption style="text-align: center; font-style: italic;">
-    6  axis 120 cell construction
+    30 piece construction coinciding with 120-cell framework
   </figcaption>
 </figure>
