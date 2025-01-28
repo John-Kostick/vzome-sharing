@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="83" field="golden" version="7.1">
-  <EditHistory editNumber="1749" lastStickyEdit="1744">
+  <EditHistory editNumber="1764" lastStickyEdit="1744">
     <LoadVEF scale="1 0">vZome VEF 6 field golden
 
 71
@@ -3279,7 +3279,22 @@
     <BeginBlock/>
     <DeselectAll/>
     <SelectAll originLast="true"/>
+    <DeselectAll/>
     <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-23" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-23" selectInputs="true"/>
+    <Delete/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-25" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-21"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-32" selectInputs="true"/>
     <DeselectAll/>
   </EditHistory>
   <notes>
