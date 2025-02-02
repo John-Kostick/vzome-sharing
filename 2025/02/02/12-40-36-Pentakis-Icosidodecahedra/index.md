@@ -7,7 +7,7 @@ layout: design
 
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" 
+  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
         src="https://John-Kostick.github.io/vzome-sharing/2025/02/02/12-40-36-Pentakis-Icosidodecahedra/Pentakis-Icosidodecahedra.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2025/02/02/12-40-36-Pentakis-Icosidodecahedra/Pentakis-Icosidodecahedra.png" >

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="83" field="golden" version="7.1">
-  <EditHistory editNumber="369" lastStickyEdit="307">
+  <EditHistory editNumber="377" lastStickyEdit="377">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -3420,9 +3420,25 @@
     <EndBlock/>
     <Delete/>
     <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
     <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <Delete/>
+    <Snapshot id="5"/>
   </EditHistory>
   <notes>
+    <page snapshot="5" title="Geodesic Goblet">
+      <ViewModel distance="125.07073211669922" far="250.14138793945312" near="0.3126768469810486" parallel="false" stereoAngle="0.0" width="56.281829833984375">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.2628655731678009" y="0.9510564804077148" z="0.1624598503112793"/>
+        <LookDirection x="0.525731086730957" y="0.0" z="-0.8506507873535156"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
     <page snapshot="0" title="Equilateral Chamfered Dodecahedron">
       <ViewModel distance="127.59732818603516" far="255.194580078125" near="0.31899333000183105" parallel="false" stereoAngle="0.0" width="57.41879653930664">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
