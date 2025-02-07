@@ -37,12 +37,15 @@ This method corresponds in 3-D to the [Dorman Luke Construction](https://en.wiki
 
 
 <figure style="width: 87%; margin: 5%">
-  <vzome-viewer style="width: 100%; height: 60vh"  show-scenes="true"
-       src="https://John-Kostick.github.io/vzome-sharing/2024/01/14/12-27-46-Triakis-Tetrahedron-Construction/Triakis-Tetrahedron-Construction.vZome" >
-    <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2024/01/14/12-27-46-Triakis-Tetrahedron-Construction/Triakis-Tetrahedron-Construction.png" >
-  </vzome-viewer>
-  <figcaption style="text-align: center; font-style: italic;">
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+       src="https://John-Kostick.github.io/vzome-sharing/2024/01/18/17-15-28-Triakis-Tetrahedron-Construction/Triakis-Tetrahedron-Construction.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2024/01/18/17-15-28-Triakis-Tetrahedron-Construction/Triakis-Tetrahedron-Construction.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
     Triakis Tetrahedron Construction
-  </figcaption>
+ </figcaption>
 </figure>
