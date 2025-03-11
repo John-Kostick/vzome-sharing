@@ -1,5 +1,5 @@
 ---
-title: Double Cubic lattice 2
+title: Rhombicuboccta block
 share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/03/11/10-13-16-Rhombicuboccta-block/Rhombicuboccta-block.png
 layout: design
