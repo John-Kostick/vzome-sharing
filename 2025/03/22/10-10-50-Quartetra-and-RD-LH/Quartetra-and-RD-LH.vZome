@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="102" field="golden" version="7.1">
-  <EditHistory editNumber="931" lastStickyEdit="930">
+  <EditHistory editNumber="926" lastStickyEdit="917">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "golden",
@@ -1667,28 +1667,65 @@
     <Delete/>
     <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
     <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Branch>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation point="6 12 2 4 4 8"/>
+      <SelectManifestation endSegment="4 8 6 12 2 4" startSegment="6 12 2 4 4 8"/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="8 16 0 0 0 0"/>
+        <polygonVertex at="6 12 4 8 -2 -4"/>
+        <polygonVertex at="4 8 6 12 2 4"/>
+        <polygonVertex at="6 12 2 4 4 8"/>
+      </SelectManifestation>
+      <DeselectAll/>
+      <SelectManifestation point="6 12 2 4 4 8"/>
+      <SelectManifestation point="4 8 6 12 2 4"/>
+      <SelectManifestation point="2 4 4 8 6 12"/>
+      <EndBlock/>
+      <Polygon>
+        <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+      </Polygon>
+      <Branch>
+        <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+        <Branch>
+          <DeselectAll/>
+          <Snapshot id="9"/>
+        </Branch>
+      </Branch>
+      <SelectAll originLast="true"/>
+      <Delete/>
+      <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+      <Delete/>
+      <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-6" selectInputs="true"/>
+      <DeselectAll/>
+      <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <SelectManifestation>
+        <polygonVertex at="0 0 8 16 0 0"/>
+        <polygonVertex at="-2 -4 6 12 4 8"/>
+        <polygonVertex at="2 4 4 8 6 12"/>
+        <polygonVertex at="4 8 6 12 2 4"/>
+      </SelectManifestation>
+      <EndBlock/>
+      <Snapshot id="10"/>
+    </Branch>
     <BeginBlock/>
     <DeselectAll/>
-    <SelectManifestation point="6 12 2 4 4 8"/>
-    <SelectManifestation endSegment="4 8 6 12 2 4" startSegment="6 12 2 4 4 8"/>
-    <DeselectAll/>
-    <SelectManifestation>
-      <polygonVertex at="8 16 0 0 0 0"/>
-      <polygonVertex at="6 12 4 8 -2 -4"/>
-      <polygonVertex at="4 8 6 12 2 4"/>
-      <polygonVertex at="6 12 2 4 4 8"/>
-    </SelectManifestation>
-    <DeselectAll/>
-    <SelectManifestation point="6 12 2 4 4 8"/>
-    <SelectManifestation point="4 8 6 12 2 4"/>
-    <SelectManifestation point="2 4 4 8 6 12"/>
+    <SelectManifestation point="-4 -8 2 4 6 12"/>
+    <SelectManifestation point="-2 -4 6 12 4 8"/>
+    <SelectManifestation point="-6 -12 4 8 2 4"/>
     <EndBlock/>
     <Polygon/>
     <ApplyTool copyColors="true" name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
-    <Branch>
-      <DeselectAll/>
-      <Snapshot id="9"/>
-    </Branch>
     <DeselectAll/>
   </EditHistory>
   <notes>
@@ -1739,6 +1776,14 @@
         <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve">&#120593; </content>
+    </page>
+    <page snapshot="10" title="Partial with &quot;star&quot; filling space between blocks">
+      <ViewModel distance="289.709716796875" far="579.4180908203125" near="0.724273681640625" parallel="true" stereoAngle="0.0" width="130.3692169189453">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.06879496574401855" y="0.9958867430686951" z="-0.05892433971166611"/>
+        <LookDirection x="-0.0027997735887765884" y="-0.05925697833299637" z="-0.9982366561889648"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
     </page>
   </notes>
   <sceneModel ambientLight="41,41,41" background="175,200,220">
