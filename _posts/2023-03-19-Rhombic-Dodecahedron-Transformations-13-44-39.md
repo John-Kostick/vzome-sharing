@@ -27,11 +27,6 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
        src="https://John-Kostick.github.io/vzome-sharing/2024/10/07/16-32-59-Rhombic-Dodecahedron-Transformations/Rhombic-Dodecahedron-Transformations.png" >
  </vzome-viewer>
 
- <figcaption style="text-align: center; font-style: italic;">
-    Rhombic Dodechedron Tranformation
- </figcaption>
-</figure>
-
 
  <figcaption style="text-align: center; font-style: italic;">
     Rhombic Dodecahedron Four-fold
