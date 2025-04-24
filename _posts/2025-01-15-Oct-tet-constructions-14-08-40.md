@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2025/01/15/14-08-40-Oct-tet-
 published: true
 layout: vzome
 description:
-  Here are shown examples of polyheddra built with tubular edges
+  Here are shown examples of polyhedra built with tubular edges
 ---
 
 {% comment %}
