@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="102" field="polygon20" version="7.1">
-  <EditHistory editNumber="6019" lastStickyEdit="6015">
+  <EditHistory editNumber="6044" lastStickyEdit="6036">
     <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" dir="red" index="0" len="0 2 0 1 0 0 0 0" symm="antiprism20"/>
     <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" index="3" len="0 2 0 1 0 0 0 0" symm="antiprism20"/>
     <BeginBlock/>
@@ -8597,6 +8597,43 @@
     <Delete/>
     <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
     <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-28" selectInputs="true"/>
+    <Delete/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
+      <BeginBlock/>
+      <DeselectAll/>
+      <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+      <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="IGNORE" struts="SELECT"/>
+      <EndBlock/>
+      <Delete/>
+      <SelectAll originLast="true"/>
+      <ApplyTool copyColors="true" name="symmetry.builtin/polygonal antiprism around origin" selectInputs="true"/>
+      <DeselectAll/>
+      <Snapshot id="8"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-55" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 7 0 0 0 -5 0 -3/2 2 0 3 0 1 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 7 0 0 0 -5 0 -3/2 2 0 3 0 1 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0 0 0 0 7 0 0 0 -5 0 -3/2 2 0 3 0 1 0 0 0"/>
+    <SelectManifestation point="0 3/4 0 7/2 0 3/4 0 -1 0 -1 0 -3/4 0 -3/2 0 -3/4 2 0 3 0 1 0 0 0"/>
+    <SelectManifestation point="0 3/4 0 7/2 0 3/4 0 -1 0 -1 0 -3/4 0 -3/2 0 -3/4 2 0 3 0 1 0 0 0"/>
+    <SelectManifestation point="0 3/4 0 7/2 0 3/4 0 -1 0 -1 0 -3/4 0 -3/2 0 -3/4 2 0 3 0 1 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <Snapshot id="9"/>
+    <ApplyTool copyColors="true" name="tool-55" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-38" selectInputs="true"/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="6" title="Top">
@@ -8607,19 +8644,19 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="0" title="Top &amp; Bottom">
-      <ViewModel distance="179.26756286621094" far="358.5360107421875" near="0.448170006275177" parallel="false" stereoAngle="0.0" width="80.67084503173828">
+    <page snapshot="8" title="">
+      <ViewModel distance="307.6243591308594" far="615.2501220703125" near="0.7690625786781311" parallel="false" stereoAngle="0.0" width="138.4317626953125">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.06457395106554031" y="-0.09139598160982132" z="0.9937004446983337"/>
-        <LookDirection x="0.5107492208480835" y="-0.8524444699287415" z="-0.11160191893577576"/>
+        <UpDirection x="0.004853066988289356" y="6.783967837691307E-4" z="0.9999694228172302"/>
+        <LookDirection x="0.5246846079826355" y="-0.8512833118438721" z="-0.0019765738397836685"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="7" title="Box/bottom">
-      <ViewModel distance="179.26756286621094" far="358.5360412597656" near="0.4481699764728546" parallel="false" stereoAngle="0.0" width="80.67085266113281">
+    <page snapshot="9" title="">
+      <ViewModel distance="241.9858856201172" far="483.9729309082031" near="0.6049660444259644" parallel="false" stereoAngle="0.0" width="108.89429473876953">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.08736599236726761" y="-0.11998284608125687" z="0.9889055490493774"/>
-        <LookDirection x="0.5486883521080017" y="-0.8227559924125671" z="-0.14830636978149414"/>
+        <UpDirection x="0.004853066988289356" y="6.783967837691307E-4" z="0.9999694228172302"/>
+        <LookDirection x="0.5246846079826355" y="-0.8512833118438721" z="-0.0019765738397836685"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
