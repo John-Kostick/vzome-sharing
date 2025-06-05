@@ -27,6 +27,6 @@ This shows a sample of double diamond lattice. Two diamond lattices can perfectl
  </vzome-viewer>
 
  <figcaption style="text-align: center; font-style: italic;">
-    A sample of Double Diamond Lattice
+    A sample of double diamond lattice
  </figcaption>
 </figure>
