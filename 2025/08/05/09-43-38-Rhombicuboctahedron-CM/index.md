@@ -1,5 +1,5 @@
 ---
-title: Rhombicuboctahedron CM
+title: 6,12,and 30 piece sliding interlock structures
 share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/08/05/09-43-38-Rhombicuboctahedron-CM/Rhombicuboctahedron-CM.png
 layout: design
