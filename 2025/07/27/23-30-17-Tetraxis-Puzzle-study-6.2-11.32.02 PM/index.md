@@ -1,5 +1,5 @@
 ---
-title: Tetraxis Puzzle study 6.2 11.32.02 PM
+title: Tetraxis Puzzle study 6.2
 share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2025/07/27/23-30-17-Tetraxis-Puzzle-study-6.2-11.32.02 PM/Tetraxis-Puzzle-study-6.2-11.32.02 PM.png
 layout: design
