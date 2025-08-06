@@ -70,7 +70,8 @@ motion.  It can be spun, or rolled to expand the pieces.
  </figcaption>
 </figure>
   
-This is another version of a 12 piece model that uses the same set of sliding planes, but with a structure that encloses the "hooks" that interlock adjacent sticks in cavities built into the sides of sticks that have equilateral triangle cross-section.  This is called a Tetraxis assembly.  [Tetraxis Geometry](https://youtu.be/WnkyOTtBij8)
+This is another version of a 12 piece model that uses the same set of sliding planes, but with a structure that encloses the "hooks" that interlock adjacent sticks in cavities built into the sides of sticks that have equilateral triangle cross-section.  This is called a Tetraxis assembly.  
+                               See [Tetraxis Geometry](https://youtu.be/WnkyOTtBij8)
 
 <figure style="width: 87%; margin: 5%">
  
