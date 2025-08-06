@@ -86,6 +86,8 @@ This is another version of a 12 piece model that uses the same set of sliding pl
  </figcaption>
 </figure>
 
+A continuation of this study an be seen at [30 piece sliding plane interlocking structures](https://john-kostick.github.io/vzome-sharing/2025/08/06/Six-axis-CM-study-12-22-54.html)
+
 Special thanks to Nan Ma for the initial query, and for ongoing collaboration in this study.  
 
 Here is a 3-D printed [Tetraxis CM puzzle](https://github.com/user-attachments/assets/8dbb0d74-60ae-4b1f-91f6-e96abb6dc347) 
