@@ -88,7 +88,7 @@ This is another version of a 12 piece model that uses the same set of sliding pl
 
 Special thanks to Nan Ma for the initial query, and for ongoing collaboration in this study.  
 
-Here is a 3-D printed [Tetraxis CM puzzle(https://github.com/user-attachments/assets/8dbb0d74-60ae-4b1f-91f6-e96abb6dc347)] 
+Here is a 3-D printed [Tetraxis CM puzzle](https://github.com/user-attachments/assets/8dbb0d74-60ae-4b1f-91f6-e96abb6dc347) 
 
 
 
