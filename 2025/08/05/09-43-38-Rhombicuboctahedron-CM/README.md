@@ -1,4 +1,11 @@
 
+## Blog Post Generated
+
+ - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2025/08/05/Rhombicuboctahedron-CM-09-43-38.html>) about this design; *try it before you share it!*
+ - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2025-08-05-Rhombicuboctahedron-CM-09-43-38.md>); click to customize
+ 
+
+
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2025/08/05/09-43-38-Rhombicuboctahedron-CM/>) to just share this design; *try it before you share it!*
