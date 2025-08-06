@@ -5,7 +5,7 @@ image: https://John-Kostick.github.io/vzome-sharing/2025/08/05/09-43-38-Rhombicu
 published: true
 layout: vzome
 description: 
-  Thie is a study of sliding plane interlocking structures
+  This is a study of sliding plane interlocking structures
 ---
 
 {% comment %}
@@ -14,7 +14,7 @@ description:
  
 {% endcomment %}
 
-Thie is a study of sliding plane interlocking structures, including familiar 6 piece models, and less familiar 12 piece constructions. Physical renderings of these models can all be considered Coordinate Motion (CM) and dexterity puzzles.  This exploration began with a query from a fellow enthusiast of symmetric structures, as to if the concept embodied in this classic 6-piece puzzle could be applied to a 12-piece structure.
+This is a study of sliding plane interlocking structures, including familiar 6 piece models, and less familiar 12 piece constructions. Physical renderings of these models can all be considered Coordinate Motion (CM) and dexterity puzzles.  This exploration began with a query from a fellow enthusiast of symmetric structures, as to if the concept embodied in this classic 6-piece puzzle could be applied to a 12-piece structure.
 
 ![IMG_1893](https://github.com/user-attachments/assets/20c16a12-ba59-48b7-aa0d-d72ea041c982)
 
