@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="102" field="polygon12" version="7.1">
-  <EditHistory editNumber="2825" lastStickyEdit="2488">
+  <EditHistory editNumber="2830" lastStickyEdit="2488">
     <StrutCreation anchor="0 0 0 0 0 0 0 0 0 0 0 0" index="0" len="0 2 0 1" symm="antiprism12"/>
     <SelectManifestation point="0 2 0 1 0 0 0 0 0 0 0 0"/>
     <ApplyTool copyColors="true" name="antiprism12 axial symmetry.builtin/symmetry around red through origin" selectInputs="true"/>
@@ -16598,6 +16598,11 @@
     <SelectAll originLast="true"/>
     <EndBlock/>
     <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
     <DeselectAll/>
   </EditHistory>
   <notes>
