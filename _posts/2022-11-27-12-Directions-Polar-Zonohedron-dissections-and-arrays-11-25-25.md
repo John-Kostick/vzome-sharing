@@ -29,7 +29,24 @@ Here are shown polar zonohedra with 12 directions, featuring some partial dissec
  </figcaption>
 </figure>
 
-Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Two types of such arrays can be viewed here.[Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7) In Type 1, the rings of major cells  surrounding the axis are connected to adjacent cells by shared faces.  In Type 2, theses connections are by shared vertices. 
+Arrays of polar 132-hedron cells can be composed with spaces between major cells occupied with subcells that bridge between major cells, and are all made with edges that are unit lengths parallel with some of the 12 coordinate directions.  Here is an array partially filled out.
+
+<figure style="width: 87%; margin: 5%">
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" 
+       src="https://John-Kostick.github.io/vzome-sharing/2025/08/21/15-25-06-12-gonZonohedron-Normal/12-gonZonohedron-Normal.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2025/08/21/15-25-06-12-gonZonohedron-Normal/12-gonZonohedron-Normal.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
+    Type 1 Array
+ </figcaption>
+</figure>
+
+
+Two types of such arrays can be viewed here.[Type 1](https://skfb.ly/6YYRG) and [Type 2](https://skfb.ly/6XWD7) In Type 1, the rings of major cells  surrounding the axis are connected to adjacent cells by shared faces.  In Type 2, theses connections are by shared vertices. 
 
 This is a continuation of a series of posts including [This](https://john-kostick.github.io/vzome-sharing/2022/08/22/Polar-enneacon-array-08-31-29.html)
 
