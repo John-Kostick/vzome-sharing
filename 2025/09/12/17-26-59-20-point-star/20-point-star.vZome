@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="112" field="golden" version="7.1">
-  <EditHistory editNumber="950" lastStickyEdit="950">
+  <EditHistory editNumber="960" lastStickyEdit="960">
     <StrutCreation anchor="0 0 0 0 0 0" index="1" len="2 4"/>
     <BeginBlock/>
     <SelectManifestation endSegment="0 0 2 4 0 0" startSegment="0 0 0 0 0 0"/>
@@ -1206,20 +1206,26 @@
     <Delete/>
     <Snapshot id="4"/>
     <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
     <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
-    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
     <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <Snapshot id="5"/>
   </EditHistory>
   <notes>
-    <page snapshot="4" title="Printable half star">
-      <ViewModel distance="227.89373779296875" far="455.78619384765625" near="0.5697370767593384" parallel="true" stereoAngle="0.0" width="102.55254364013672">
+    <page snapshot="5" title="20-point star">
+      <ViewModel distance="223.3811492919922" far="446.7610168457031" near="0.5584553480148315" parallel="true" stereoAngle="0.0" width="100.52186584472656">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.0" y="0.0" z="-1.0"/>
-        <LookDirection x="0.0" y="-1.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="3" title="20-p0int star">
+    <page snapshot="3" title="20-point star framed">
       <ViewModel distance="262.14019775390625" far="524.2789916992188" near="0.6553536057472229" parallel="true" stereoAngle="0.0" width="117.9635009765625">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
