@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="112" field="golden" version="7.1">
-  <EditHistory editNumber="966" lastStickyEdit="960">
+  <EditHistory editNumber="974" lastStickyEdit="967">
     <StrutCreation anchor="0 0 0 0 0 0" index="1" len="2 4"/>
     <BeginBlock/>
     <SelectManifestation endSegment="0 0 2 4 0 0" startSegment="0 0 0 0 0 0"/>
@@ -1221,6 +1221,14 @@
     <Delete/>
     <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
     <DeselectAll/>
+    <Snapshot id="6"/>
+    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
   </EditHistory>
   <notes>
     <page snapshot="5" title="20-point star">
@@ -1252,6 +1260,14 @@
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="-0.00435620779171586" y="0.9993463754653931" z="0.03580904379487038"/>
         <LookDirection x="0.009293830022215843" y="0.03584835305809975" z="-0.9993126392364502"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="6" title="Half star">
+      <ViewModel distance="223.3811492919922" far="446.7610168457031" near="0.5584553480148315" parallel="true" stereoAngle="0.0" width="100.52186584472656">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.0" y="1.0" z="0.0"/>
+        <LookDirection x="0.0" y="0.0" z="-1.0"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
