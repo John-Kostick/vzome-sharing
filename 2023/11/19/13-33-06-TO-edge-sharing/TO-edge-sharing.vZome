@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="34" field="rootTwo" version="7.1">
-  <EditHistory editNumber="34" lastStickyEdit="26">
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="112" field="rootTwo" version="7.1">
+  <EditHistory editNumber="38" lastStickyEdit="26">
     <SelectManifestation point="0 0 0 0 0 0"/>
     <ImportColoredMeshJson scale="1 0">{
   "field" : "rootTwo",
@@ -2365,6 +2365,10 @@
     <SelectManifestation point="0 0 0 0 0 0"/>
     <EndBlock/>
     <Delete/>
+    <SelectAll originLast="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="translation.builtin/b1 move along +X"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="0" title="Mirroring 3-fold A-B-A">
@@ -2382,13 +2386,13 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="246.87432861328125" far="493.748046875" near="0.6171855330467224" parallel="false" stereoAngle="0.0" width="111.0934066772461">
+    <ViewModel distance="375.7332458496094" far="751.4656372070312" near="0.9393328428268433" parallel="false" stereoAngle="0.0" width="169.07997131347656">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.5965822339057922" y="0.5621641278266907" z="-0.5727669596672058"/>
-      <LookDirection x="0.6797529458999634" y="0.7333493232727051" z="0.01175895519554615"/>
+      <UpDirection x="-0.6029369831085205" y="0.602435827255249" z="-0.5229989290237427"/>
+      <LookDirection x="0.7163536548614502" y="0.6973699927330017" z="-0.022541549056768417"/>
     </ViewModel>
   </Viewing>
-  <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
+  <SymmetrySystem name="octahedral" renderingStyle="octahedra">
     <Direction color="0,118,149" name="blue" orbit="[[0,0,1],[0,0,1]]"/>
     <Direction color="255,255,255" name="0" orbit="[[1,0,4],[1,0,4]]" prototype="0 1/4 0 -1/4 0 1"/>
     <Direction color="0,141,54" name="green" orbit="[[0,0,1],[-1,0,1]]"/>
