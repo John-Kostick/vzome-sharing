@@ -9,8 +9,8 @@
  ```html
 <figure style="width: 87%; margin: 5%">
   
-  <div style='display:flex;'><div style='margin: auto;'><vzome-viewer-previous label='prev step'></vzome-viewer-previous><vzome-viewer-next label='next step'></vzome-viewer-next></div></div>
-  <vzome-viewer style="width: 100%; height: 60dvh" indexed='true'
+  
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2026/02/03/15-32-15-RI-Puzzle-4/RI-Puzzle-4.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2026/02/03/15-32-15-RI-Puzzle-4/RI-Puzzle-4.png" >
