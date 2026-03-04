@@ -1,0 +1,3992 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="116" field="golden" version="7.1">
+  <EditHistory editNumber="1892" lastStickyEdit="1892">
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BookmarkTool name="tool-0"/>
+    <DeselectAll/>
+    <Branch>
+      <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="0" len="1 2"/>
+      <SelectManifestation endSegment="2 3 1 2 0 0" startSegment="0 0 0 0 0 0"/>
+      <RotationTool corrected="true" full="true" name="tool-1" symmetry="icosahedral"/>
+    </Branch>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="47" len="1 2"/>
+    <SelectManifestation endSegment="-1 -2 0 0 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <RotationTool corrected="true" full="true" name="tool-2" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 4 2 4" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 2 4 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BookmarkTool name="tool-3"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 4 7 3 5"/>
+    <SelectManifestation point="6 9 3 5 3 6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <NewCentroid/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="3 4 0 0 4 7"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 0 0 -2 -3"/>
+    <SelectManifestation endSegment="-1 -2 0 0 -2 -3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectAll originLast="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 -3 -6"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 5 1 1 -3 -5"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 6 -2 -3 -1 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 -2 -4 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 -1 -1 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -4 -7 1 2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-4 -6 0 -1 -1 -2" startSegment="-3 -4 0 0 -4 -7"/>
+    <AdjustSelectionByOrbitLength length="2 4" orbit="green" panels="IGNORE" struts="SELECT" symmetry="icosahedral"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-5"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <ConvexHull3d mode=""/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 2 4 0 0"/>
+    <SelectManifestation point="-4 -6 0 0 2 4"/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <SelectManifestation endSegment="-4 -6 2 2 0 0" startSegment="-4 -6 2 3 1 2"/>
+    <SelectManifestation point="-4 -6 2 2 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 -2 -4"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-4 -6 2 2 0 0" startSegment="-4 -6 2 3 1 2"/>
+    <SelectManifestation point="-4 -6 2 2 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 -2 -4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 0 0"/>
+    <SelectManifestation point="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation point="-4 -6 2 4 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 -2 -4"/>
+    <SelectManifestation endSegment="-4 -6 0 0 -2 -4" startSegment="-4 -6 0 -1 -1 -2"/>
+    <SelectManifestation endSegment="-4 -6 0 0 -2 -4" startSegment="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation point="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-4 -6 0 1 -1 -2" startSegment="-4 -6 0 0 0 0"/>
+    <SelectManifestation point="-4 -6 0 -1 -1 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-4 -6 0 0 0 0" startSegment="-4 -6 0 -1 -1 -2"/>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="-4 -6 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 2 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, -1, 1 ], [ -1, -2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ -2, -4, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ -1, -2, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 2, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#F0A000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <SelectManifestation endSegment="-4 -6 0 0 2 4" startSegment="-4 -6 2 3 1 2"/>
+    <SelectManifestation point="-4 -6 0 0 2 4"/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ -2, -3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#AF0000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-4 -6 0 0 2 4" startSegment="-4 -6 0 -1 1 2"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 0 2 4"/>
+    <SelectManifestation point="-4 -6 -2 -3 1 2"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -6 -2 -3 1 2"/>
+    <SelectManifestation endSegment="-4 -6 -2 -3 1 2" startSegment="-4 -6 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 -2 -4 0 0"/>
+    <SelectManifestation point="-4 -6 -2 -3 1 2"/>
+    <SelectManifestation point="-3 -5 -3 -4 2 3"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4 -6 2 3 1 2" startSegment="-4 -6 0 -1 -1 -2"/>
+    <AdjustSelectionByOrbitLength length="2 4" orbit="green" panels="IGNORE" struts="SELECT" symmetry="icosahedral"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-6"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <SelectManifestation endSegment="-4 -6 2 4 0 0" startSegment="-3 -5 3 4 2 3"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -6 -2 -3 1 2"/>
+    <SelectManifestation endSegment="-4 -6 -2 -3 1 2" startSegment="-4 -6 0 0 0 0"/>
+    <SelectManifestation point="-4 -6 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 1 -1 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ -2, -3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#AF0000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 -2 -3 1 2"/>
+    <SelectManifestation point="-4 -6 -2 -2 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+      <polygonVertex at="-4 -6 0 0 -2 -4"/>
+      <polygonVertex at="-4 -6 -2 -4 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation point="-4 -6 -2 -2 0 0"/>
+    <SelectManifestation endSegment="-4 -6 -2 -2 0 0" startSegment="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation endSegment="-4 -6 -2 -2 0 0" startSegment="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation endSegment="-4 -6 -2 -2 0 0" startSegment="-4 -6 0 1 -1 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -6 0 1 -1 -2"/>
+    <SelectManifestation point="-3 -4 0 1 -3 -5"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <EndBlock/>
+    <ConvexHull3d mode="onlyPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -5 1 1 3 5"/>
+      <polygonVertex at="-3 -5 3 4 2 3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -5 1 1 3 5"/>
+      <polygonVertex at="-3 -5 3 4 2 3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-4 -6 0 0 2 4"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-3 -5 3 4 2 3" startSegment="-4 -6 0 0 2 4"/>
+    <SelectManifestation endSegment="-3 -5 3 4 2 3" startSegment="-1 -2 4 7 1 1"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="-3 -4 2 3 -3 -5" startSegment="-4 -6 0 0 -2 -4"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="IGNORE" struts="SELECT"/>
+    <BookmarkTool name="tool-7"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <AdjustSelectionByClass balls="SELECT" originLast="true" panels="IGNORE" struts="IGNORE"/>
+    <BookmarkTool name="tool-8"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="0"/>
+    <ApplyTool copyColors="true" name="tool-8" selectInputs="true"/>
+    <ConvexHull3d mode=""/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -5 3 5 1 1"/>
+      <polygonVertex at="-1 -2 4 7 1 1"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+      <polygonVertex at="0 0 4 6 -2 -4"/>
+      <polygonVertex at="-3 -4 2 3 -3 -5"/>
+      <polygonVertex at="-4 -6 2 4 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 3 4 -2 -4"/>
+    <SelectManifestation point="-3 -4 2 4 -2 -3"/>
+    <SelectManifestation point="-1 -1 3 6 -2 -3"/>
+    <SelectManifestation point="-2 -3 3 5 -1 -2"/>
+    <SelectManifestation point="-3 -5 3 4 0 -1"/>
+    <SelectManifestation point="-2 -3 3 6 0 0"/>
+    <SelectManifestation point="-1 -2 4 6 0 -1"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="1"/>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-9"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-9" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="2"/>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-10"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <DeselectAll/>
+    <Snapshot id="3"/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-8" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 -3 -6"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 5 1 1 -3 -5"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 6 -2 -3 -1 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 4 -2 -4 2 3"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 0 -1 -1 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 2 3 1 2"/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -4 -7 1 2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 1, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ 1, 2, 1 ] ], [ [ 0, 0, 1 ], [ 2, 4, 1 ], [ 2, 4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 3, 2 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#AF0000"
+  }, {
+    "vertices" : [ 0, 3 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 -3 -4 2 4"/>
+    <SelectManifestation point="-2 -4 -2 -3 3 4"/>
+    <SelectManifestation point="0 -1 -3 -5 3 4"/>
+    <SelectManifestation point="-1 -2 -4 -6 2 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <SelectManifestation point="-3 -4 -2 -4 -2 -3"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -1 -1 -2 -4 -7" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -6 0 -1 -1 -2"/>
+    <SelectManifestation point="-3 -5 -1 -1 3 5"/>
+    <SelectManifestation point="0 0 -2 -3 3 6"/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <SelectManifestation point="-4 -6 0 -1 -1 -2"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -2 -3 3 6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -5 -3 -5 1 1"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="4"/>
+    <ApplyTool copyColors="true" name="tool-5" selectInputs="true"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="5"/>
+    <ApplyTool copyColors="true" name="tool-7" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-8" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <BookmarkTool name="tool-11"/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Hide>
+      <Boolean attrName="org.vorthmann.zome.editor.Command.LOADING_FROM_FILE" value="true"/>
+    </Hide>
+    <Snapshot id="6"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-3 -4 2 3 -3 -5" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-3 -4 2 3 -3 -5"/>
+    <SelectManifestation endSegment="-3 -4 2 3 -3 -5" startSegment="-3 -4 2 4 -2 -3"/>
+    <SelectManifestation endSegment="-3 -4 2 3 -3 -5" startSegment="-3 -4 2 4 -2 -3"/>
+    <SelectManifestation endSegment="-3 -4 2 3 -3 -5" startSegment="-3 -4 2 4 -2 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 0 1 -3 -5" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-3 -4 0 1 -3 -5"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 0 1 -3 -5" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-3 -4 0 1 -3 -5"/>
+    <SelectManifestation endSegment="-3 -4 2 4 -2 -3" startSegment="-3 -4 0 1 -3 -5"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+      <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+      <DeselectAll/>
+      <Snapshot id="7"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-0" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -4 2 4 -2 -3" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-4 -6 0 -1 -1 -2" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-4 -6 0 -1 -1 -2"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+      <polygonVertex at="0 0 2 3 -3 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-4 -6 0 -1 -1 -2"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+      <polygonVertex at="0 0 2 3 -3 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+      <polygonVertex at="-1 -2 4 6 2 3"/>
+      <polygonVertex at="2 3 3 4 2 4"/>
+      <polygonVertex at="3 5 3 5 -1 -1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-1 -2 4 6 2 3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-1 -2 4 6 2 3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-3 -4 2 4 -2 -3" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-3 -4 2 4 -2 -3" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-1 -2 4 6 2 3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+      <polygonVertex at="0 0 2 3 -3 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 2 4 -2 -3"/>
+      <polygonVertex at="-4 -6 2 3 1 2"/>
+      <polygonVertex at="-1 -2 4 6 2 3"/>
+      <polygonVertex at="0 0 4 7 -1 -2"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="0 0 4 7 -1 -2" startSegment="-3 -4 2 4 -2 -3"/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="0 0 4 7 -1 -2"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="0 0 4 7 -1 -2"/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="0 0 4 7 -1 -2"/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="0 0 4 7 -1 -2"/>
+    <SelectManifestation endSegment="0 0 4 7 -1 -2" startSegment="-3 -4 2 4 -2 -3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-3 -4 0 0 -4 -7" dir="navy" index="3" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -1 2 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 -1 2 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-1 -1 2 2 -3 -6"/>
+    <SelectManifestation endSegment="-1 -1 2 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -1 2 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 0 -1 -1 -4 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 2 3 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="0 1 -1 -2 -4 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-3 -4 0 0 -4 -7" dir="lavender" index="4" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-1 -2 1 2 -3 -6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 -1 0 -1 -4 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <Delete/>
+    <SelectManifestation endSegment="-1 -1 0 -1 -4 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -1 2 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-1 -1 2 2 -3 -6"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation endSegment="-1 -1 0 -1 -4 -6" startSegment="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-1 -2 2 4 -2 -3"/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+      <polygonVertex at="-1 -1 0 -1 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+      <polygonVertex at="-1 -1 0 -1 -4 -6"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 1 1 1 -3 -5" startSegment="-1 -2 1 2 -3 -6"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+      <polygonVertex at="1 1 2 3 -2 -2"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+      <polygonVertex at="1 1 2 3 -2 -2"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-1 -2 1 2 -3 -6" startSegment="-1 -2 2 4 -2 -3"/>
+    <SelectManifestation endSegment="1 1 1 1 -3 -5" startSegment="1 1 2 3 -2 -2"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+      <polygonVertex at="1 1 2 3 -2 -2"/>
+      <polygonVertex at="2 2 0 1 -1 0"/>
+      <polygonVertex at="2 2 -1 -1 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+      <polygonVertex at="1 1 2 3 -2 -2"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -1 0 -1 -4 -6"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+      <polygonVertex at="2 2 -1 -1 -2 -3"/>
+      <polygonVertex at="0 0 -2 -3 -3 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+      <polygonVertex at="1 1 1 1 -3 -5"/>
+      <polygonVertex at="-1 -1 0 -1 -4 -6"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-3 -4 0 0 -4 -7" dir="navy" index="3" len="1 1"/>
+    <SelectAll originLast="true"/>
+    <BookmarkTool name="tool-12"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="2" len="2 4"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="apple" index="0" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 1 1 2 2 3"/>
+    <SelectManifestation endSegment="-1 1 1 2 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="0" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 1 2 0 0"/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 1 2 0 0"/>
+    <SelectManifestation endSegment="2 3 1 2 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="2 3 1 2 0 0"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="apple" index="4" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 2 2 2 0 -2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 2 2 2 0 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <SelectManifestation endSegment="0 0 0 0 2 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="orange" index="11" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="3/2 2 1 3/2 3/2 5/2"/>
+    <SelectManifestation endSegment="3/2 2 1 3/2 3/2 5/2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 3 1 2 2 1"/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 2 2 2 0 -2"/>
+    <SelectManifestation point="-2 -3 -1 -1 1 2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 2 2 2 0 -2"/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="2 2 2 2 0 -2"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 0 0 1 2"/>
+    <SelectManifestation endSegment="2 3 0 0 1 2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <SelectManifestation endSegment="0 0 0 0 2 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <SelectManifestation endSegment="0 0 0 0 2 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 2 2 2 0 -2"/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 2 1 1 3"/>
+    <SelectManifestation point="0 0 0 0 2 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 2 1 1 3"/>
+    <SelectManifestation endSegment="1 2 2 1 1 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 2 1 1 3"/>
+    <SelectManifestation endSegment="1 2 2 1 1 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 0 0 1 3 3"/>
+      <polygonVertex at="1 1 -1 -2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="97/310 88/155 14/31 23/62 661/310 1153/310" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="97/310 88/155 14/31 23/62 661/310 1153/310"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="97/310 88/155 14/31 23/62 661/310 1153/310" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="176/155 273/155 23/31 51/31 273/155 449/155" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="14/31 23/62 431/310 643/310 607/310 458/155" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-97/310 -88/155 -14/31 -23/62 661/310 1153/310" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23/31 51/31 273/155 449/155 176/155 273/155" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-237/310 -291/310 51/62 37/31 343/155 1013/310" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="431/310 643/310 607/310 458/155 14/31 23/62" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-51/62 -37/31 203/155 783/310 467/310 801/310" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-13"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 2 2 1 1 3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="1 2 2 1 1 3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="navy" index="8" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="1 1 0 1 2 4" dir="lavender" index="41" len="2 3"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 1 2 4 5 8"/>
+    <SelectManifestation endSegment="1 1 2 4 5 8" startSegment="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "-1", "-1", "1" ], [ "0", "-1", "1" ], [ "-2", "-4", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "0", "0", "1" ], [ "2", "3", "1" ], [ "3", "4", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 2,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 2 ],
+    "color" : "#AF87FF"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 2 4 5 8" startSegment="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 1 2 4 5 8"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 2 3 3 4"/>
+    <SelectManifestation endSegment="0 0 2 3 3 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 1 3" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="1 1 0 1 2 4" dir="red" index="2" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 0 1 4 7"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation endSegment="2 3 0 1 4 7" startSegment="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "1", "2", "1" ], [ "0", "0", "1" ], [ "2", "3", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 0, 1 ],
+    "color" : "#AF0000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 0 1 4 7"/>
+    <SelectManifestation endSegment="2 3 0 1 4 7" startSegment="1 1 0 1 2 4"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 1 2 1 3"/>
+    <SelectManifestation endSegment="0 0 1 2 1 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 1 0 1 2 3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 1 0 1 2 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 1 2 1 3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 1 2 1 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="97/310 88/155 14/31 23/62 661/310 1153/310" dir="lavender" index="38" len="2 3"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 1 1 1 3 5"/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation point="1 2 0 0 2 3"/>
+    <SelectManifestation point="1 1 1 1 3 5"/>
+    <SelectManifestation point="1 1 1 1 3 5"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 0 0 2 3"/>
+      <polygonVertex at="1 1 1 1 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="407/310 243/155 -17/31 -39/62 1591/310 2703/310"/>
+    <SelectManifestation endSegment="407/310 243/155 -17/31 -39/62 1591/310 2703/310" startSegment="97/310 88/155 14/31 23/62 661/310 1153/310"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="97/310 88/155 14/31 23/62 661/310 1153/310" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="273/155 449/155 -176/155 -273/155 -23/31 -51/31"/>
+    <SelectManifestation endSegment="97/310 88/155 14/31 23/62 661/310 1153/310" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="97/310 88/155 14/31 23/62 661/310 1153/310"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="467/310 801/310 -51/62 -37/31 203/155 783/310" startSegment="0 0 0 0 0 0"/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 0 0 2 3"/>
+      <polygonVertex at="1 1 1 1 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23/30 13/10 5/6 1 47/15 49/10" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="23/30 13/10 5/6 1 47/15 49/10"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23/30 13/10 5/6 1 47/15 49/10" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="23/30 13/10 5/6 1 47/15 49/10" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 11/6 23/10 39/10 53/30 47/15" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="1 2 0 0 2 3" dir="lavender" index="1" len="2 3"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 1 1 5 8"/>
+    <SelectManifestation endSegment="2 3 1 1 5 8" startSegment="1 2 0 0 2 3"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 1 1 5 8"/>
+    <SelectManifestation endSegment="2 3 1 1 5 8" startSegment="1 2 0 0 2 3"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 32/15 46/15 13/5 62/15" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 32/15 46/15 13/5 62/15"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="1 1 1 1 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="1 1 1 1 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 1 2 -3 -4"/>
+      <polygonVertex at="-3 -5 1 1 -1 -1"/>
+      <polygonVertex at="-1 -3 2 3 0 0"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -5 0 -1 -2 -4"/>
+      <polygonVertex at="-3 -5 1 1 -1 -1"/>
+      <polygonVertex at="-3 -4 1 2 -3 -4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "-1", "1" ], [ "0", "-1", "1" ], [ "2", "3", "1" ] ], [ [ "0", "-1", "1" ], [ "1", "1", "1" ], [ "3", "6", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "0", "0", "1" ], [ "1", "2", "1" ], [ "1", "3", "1" ] ], [ [ "1", "0", "1" ], [ "-2", "-3", "1" ], [ "3", "5", "1" ] ], [ [ "1", "0", "1" ], [ "-1", "-1", "1" ], [ "4", "8", "1" ] ], [ [ "1", "1", "1" ], [ "-2", "-2", "1" ], [ "1", "2", "1" ] ], [ [ "2", "1", "1" ], [ "2", "3", "1" ], [ "4", "7", "1" ] ], [ [ "2", "2", "1" ], [ "1", "2", "1" ], [ "1", "1", "1" ] ], [ [ "2", "2", "1" ], [ "2", "4", "1" ], [ "2", "4", "1" ] ], [ [ "3", "2", "1" ], [ "0", "1", "1" ], [ "5", "9", "1" ] ], [ [ "2", "3", "1" ], [ "0", "-1", "1" ], [ "0", "1", "1" ] ], [ [ "2", "3", "1" ], [ "2", "2", "1" ], [ "1", "1", "1" ] ], [ [ "3", "3", "1" ], [ "-2", "-4", "1" ], [ "3", "6", "1" ] ], [ [ "3", "3", "1" ], [ "-1", "-2", "1" ], [ "4", "9", "1" ] ], [ [ "3", "4", "1" ], [ "-2", "-3", "1" ], [ "1", "3", "1" ] ], [ [ "3", "4", "1" ], [ "0", "0", "1" ], [ "4", "7", "1" ] ], [ [ "4", "4", "1" ], [ "2", "2", "1" ], [ "4", "8", "1" ] ], [ [ "4", "5", "1" ], [ "1", "1", "1" ], [ "1", "2", "1" ] ], [ [ "4", "5", "1" ], [ "2", "3", "1" ], [ "2", "5", "1" ] ], [ [ "5", "5", "1" ], [ "-1", "-2", "1" ], [ "4", "7", "1" ] ], [ [ "5", "5", "1" ], [ "0", "0", "1" ], [ "5", "10", "1" ] ], [ [ "5", "6", "1" ], [ "-1", "-1", "1" ], [ "2", "4", "1" ] ], [ [ "5", "6", "1" ], [ "0", "1", "1" ], [ "3", "7", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 12,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 21,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 20,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 23,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 17,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 10,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 14,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 22,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 19,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 7,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 5,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 13,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 18,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 9,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 4,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 15,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 3,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 6,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 11,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 8,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 16,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 2,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 12 ],
+    "color" : "#000099"
+  }, {
+    "vertices" : [ 21, 20 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 21, 23 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 21, 17 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 21, 10 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 14, 21 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 20, 13 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 22, 20 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 23, 22 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 19, 23 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 17, 19 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 7, 17 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 10, 7 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 5, 10 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 14, 5 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 13, 14 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 22, 15 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 18, 22 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 19, 18 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 9, 19 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 7, 9 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 1, 7 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 5, 1 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 4, 5 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 13, 4 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 15, 13 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 18, 11 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 8, 18 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 9, 8 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 3, 9 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 6, 4 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 15, 6 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 11, 15 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 3 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 6 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 11 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 8 ],
+    "color" : "#AF87FF"
+  } ],
+  "panels" : [ {
+    "vertices" : [ 13, 20, 21, 14 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 22, 23, 21, 20 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 19, 17, 21, 23 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 7, 10, 21, 17 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 5, 14, 21, 10 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 15, 22, 20, 13 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 18, 19, 23, 22 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 9, 7, 17, 19 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 1, 5, 10, 7 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 4, 13, 14, 5 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 11, 18, 22, 15 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 8, 9, 19, 18 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 0, 4, 5, 1 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 6, 15, 13, 4 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 8, 18, 11 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 3, 9, 8 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 0, 1, 3 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 6, 4, 0 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 11, 15, 6 ],
+    "color" : "#FFFFFF"
+  } ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 3 2 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="2 2 1 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 2 1 2 1 1"/>
+    <SelectManifestation endSegment="2 3 2 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 3 2 2 1 1"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 3 2 2 1 1"/>
+    <SelectManifestation endSegment="2 3 2 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="2 2 1 2 1 1"/>
+    <SelectManifestation endSegment="2 2 1 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-14"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-14" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="2" len="2 4"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="2" len="1 2"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="7" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="2 2 1 2 1 1"/>
+    <SelectManifestation endSegment="2 2 1 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 1 0 1 2 3"/>
+    <SelectManifestation endSegment="0 1 0 1 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 3 2 2 1 1"/>
+    <SelectManifestation endSegment="2 3 2 2 1 1" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 2 0 0 2 3" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-13" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="203/155 783/310 467/310 801/310 -51/62 -37/31"/>
+    <SelectManifestation endSegment="203/155 783/310 467/310 801/310 -51/62 -37/31" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1 2 0 0 2 3"/>
+    <SelectManifestation point="0 0 1 2 3 5"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 2 1 1 3"/>
+      <polygonVertex at="0 0 0 0 2 4"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="1 2 0 0 2 3"/>
+      <polygonVertex at="0 0 1 2 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="4/5 37/30 1/2 7/6 29/10 73/15" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="4/5 37/30 1/2 7/6 29/10 73/15" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="4/5 37/30 1/2 7/6 29/10 73/15" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 1 0 1 2 3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 1 0 1 2 3" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 1 0 1 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -5 0 -1 -2 -4"/>
+      <polygonVertex at="-3 -5 1 1 -1 -1"/>
+      <polygonVertex at="-3 -4 1 2 -3 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 1 2 -3 -4"/>
+      <polygonVertex at="-3 -5 1 1 -1 -1"/>
+      <polygonVertex at="-1 -3 2 3 0 0"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-3 -4 0 0 -4 -7"/>
+      <polygonVertex at="-3 -4 1 2 -3 -4"/>
+      <polygonVertex at="-1 -2 2 4 -2 -3"/>
+      <polygonVertex at="-1 -2 1 2 -3 -6"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-3 -5 1 1 -1 -1"/>
+      <polygonVertex at="-2 -4 -1 -1 0 1"/>
+      <polygonVertex at="0 -2 0 1 1 2"/>
+      <polygonVertex at="-1 -3 2 3 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -3 2 3 0 0"/>
+      <polygonVertex at="0 -2 0 1 1 2"/>
+      <polygonVertex at="2 1 0 0 1 3"/>
+      <polygonVertex at="1 0 2 2 0 1"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation endSegment="2 6 0 0 8 10" startSegment="3 9 0 0 9 12"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4/5 37/30 1/2 7/6 29/10 73/15"/>
+    <SelectManifestation endSegment="4/5 37/30 1/2 7/6 29/10 73/15" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <SelectManifestation point="-3 -4 0 0 -4 -7"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "-1", "1" ], [ "0", "-1", "1" ], [ "2", "3", "1" ] ], [ [ "0", "-1", "1" ], [ "1", "1", "1" ], [ "3", "6", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "0", "0", "1" ], [ "1", "2", "1" ], [ "1", "3", "1" ] ], [ [ "1", "0", "1" ], [ "-2", "-3", "1" ], [ "3", "5", "1" ] ], [ [ "1", "0", "1" ], [ "-1", "-1", "1" ], [ "4", "8", "1" ] ], [ [ "1", "1", "1" ], [ "-2", "-2", "1" ], [ "1", "2", "1" ] ], [ [ "2", "1", "1" ], [ "2", "3", "1" ], [ "4", "7", "1" ] ], [ [ "2", "2", "1" ], [ "1", "2", "1" ], [ "1", "1", "1" ] ], [ [ "2", "2", "1" ], [ "2", "4", "1" ], [ "2", "4", "1" ] ], [ [ "3", "2", "1" ], [ "0", "1", "1" ], [ "5", "9", "1" ] ], [ [ "2", "3", "1" ], [ "0", "-1", "1" ], [ "0", "1", "1" ] ], [ [ "2", "3", "1" ], [ "2", "2", "1" ], [ "1", "1", "1" ] ], [ [ "3", "3", "1" ], [ "-2", "-4", "1" ], [ "3", "6", "1" ] ], [ [ "3", "3", "1" ], [ "-1", "-2", "1" ], [ "4", "9", "1" ] ], [ [ "3", "4", "1" ], [ "-2", "-3", "1" ], [ "1", "3", "1" ] ], [ [ "4", "4", "1" ], [ "2", "2", "1" ], [ "4", "8", "1" ] ], [ [ "4", "5", "1" ], [ "1", "1", "1" ], [ "1", "2", "1" ] ], [ [ "4", "5", "1" ], [ "2", "3", "1" ], [ "2", "5", "1" ] ], [ [ "5", "5", "1" ], [ "-1", "-2", "1" ], [ "4", "7", "1" ] ], [ [ "5", "5", "1" ], [ "0", "0", "1" ], [ "5", "10", "1" ] ], [ [ "5", "6", "1" ], [ "-1", "-1", "1" ], [ "2", "4", "1" ] ], [ [ "5", "6", "1" ], [ "0", "1", "1" ], [ "3", "7", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 8,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 11,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 6,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 3,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 15,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 4,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 9,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 17,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 13,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 5,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 7,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 18,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 21,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 14,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 10,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 16,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 22,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 19,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 20,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 12,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 2,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 2, 8 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 11 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 6 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 3 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 11, 15 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 15, 6 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 6, 4 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 4, 0 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 0, 1 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 3, 9 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 9, 8 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 8, 17 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 17, 11 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 15, 13 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 13, 4 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 4, 5 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 5, 1 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 1, 7 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 7, 9 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 9, 18 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 18, 17 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 17, 21 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 21, 15 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 13, 14 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 14, 5 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 5, 10 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 10, 7 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 7, 16 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 16, 18 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 18, 22 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 22, 21 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 21, 19 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 19, 13 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 14, 20 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 20, 10 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 20, 16 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 20, 22 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 20, 19 ],
+    "color" : "#AF87FF"
+  }, {
+    "vertices" : [ 2, 12 ],
+    "color" : "#000099"
+  } ],
+  "panels" : [ {
+    "vertices" : [ 2, 11, 15, 6 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 6, 4, 0 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 0, 1, 3 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 3, 9, 8 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 2, 8, 17, 11 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 6, 15, 13, 4 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 0, 4, 5, 1 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 3, 1, 7, 9 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 8, 9, 18, 17 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 11, 17, 21, 15 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 4, 13, 14, 5 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 1, 5, 10, 7 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 9, 7, 16, 18 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 17, 18, 22, 21 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 15, 21, 19, 13 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 5, 14, 20, 10 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 7, 10, 20, 16 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 18, 16, 20, 22 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 21, 22, 20, 19 ],
+    "color" : "#FFFFFF"
+  }, {
+    "vertices" : [ 13, 19, 20, 14 ],
+    "color" : "#FFFFFF"
+  } ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="1 1 0 1 2 4"/>
+    <SelectManifestation endSegment="1 1 0 1 2 4" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -1 2 3 2 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 -1 2 3 2 2" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 1 3 2 3"/>
+    <SelectManifestation endSegment="0 0 1 3 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 1 3 2 3"/>
+    <SelectManifestation endSegment="0 0 1 3 2 3" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-13" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-13" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="56" len="2 4"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 1 1 -1 -2"/>
+    <SelectManifestation endSegment="-2 -3 1 1 -1 -2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 1 1 -1 -2"/>
+    <SelectManifestation endSegment="-2 -3 1 1 -1 -2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="1 2 0 0 2 3"/>
+    <SelectManifestation point="0 0 1 2 3 5"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <Polygon/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="1 2 0 0 2 3"/>
+      <polygonVertex at="0 0 1 2 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 2 3 1 2"/>
+      <polygonVertex at="0 0 1 2 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 2 3 1 2"/>
+      <polygonVertex at="0 0 1 2 3 5"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -3 1 1 -1 -2"/>
+    <SelectManifestation endSegment="-2 -3 1 1 -1 -2" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 16/5 74/15 61/15 98/15"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 16/5 74/15 61/15 98/15"/>
+    <SelectManifestation endSegment="0 0 16/5 74/15 61/15 98/15" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -16/5 -74/15 -61/15 -98/15"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -16/5 -74/15 -61/15 -98/15"/>
+    <SelectManifestation endSegment="0 0 -16/5 -74/15 -61/15 -98/15" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1/15 -11/30 59/30 29/10 -29/10 -73/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-61/30 -49/15 14/15 59/30 -31/6 -47/6"/>
+      <polygonVertex at="-1/15 -11/30 1/2 7/6 -9/2 -22/3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 -7/6 13/10 12/5 -14/15 -59/30"/>
+      <polygonVertex at="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-1/15 -11/30 59/30 29/10 -29/10 -73/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 -7/6 13/10 12/5 -14/15 -59/30"/>
+      <polygonVertex at="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-1/15 -11/30 59/30 29/10 -29/10 -73/15"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-10/3 -17/3 22/15 26/15 -61/15 -98/15"/>
+      <polygonVertex at="-10/3 -17/3 0 0 -17/3 -9"/>
+      <polygonVertex at="-61/30 -49/15 14/15 59/30 -31/6 -47/6"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+      <polygonVertex at="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+      <polygonVertex at="-10/3 -17/3 22/15 26/15 -61/15 -98/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-10/3 -17/3 0 0 -17/3 -9" startSegment="-113/30 -97/15 -2/3 -1/2 -37/10 -61/10"/>
+    <SelectManifestation endSegment="-61/30 -49/15 14/15 59/30 -31/6 -47/6" startSegment="-10/3 -17/3 0 0 -17/3 -9"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-37/15 -61/15 26/15 16/5 -8/5 -37/15" startSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 -7/6 13/10 12/5 -14/15 -59/30"/>
+      <polygonVertex at="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-1/15 -11/30 59/30 29/10 -29/10 -73/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1/2 -7/6 13/10 12/5 -14/15 -59/30"/>
+      <polygonVertex at="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+      <polygonVertex at="-61/30 -49/15 12/5 37/10 -107/30 -161/30"/>
+      <polygonVertex at="-1/15 -11/30 59/30 29/10 -29/10 -73/15"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="-61/30 -49/15 12/5 37/10 -107/30 -161/30" startSegment="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-61/30 -49/15 12/5 37/10 -107/30 -161/30" startSegment="-10/3 -17/3 22/15 26/15 -61/15 -98/15"/>
+    <SelectManifestation endSegment="-61/30 -49/15 12/5 37/10 -107/30 -161/30" startSegment="-37/15 -61/15 26/15 16/5 -8/5 -37/15"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="45" len="2 4"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="olive" index="48" len="1 2"/>
+    <SelectManifestation endSegment="-2 -4 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 -4 -1 -2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1/2 -7/6 13/10 12/5 -14/15 -59/30" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-59/30 -29/10 13/30 4/5 -2/3 -1/2" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 1 2 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 1 2 -1 -1"/>
+    <SelectManifestation point="-2 -4 1 2 -1 -1"/>
+    <SelectManifestation point="-2 -4 1 2 -1 -1"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -2 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 -2 -2 -3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6"/>
+      <polygonVertex at="-13/10 -12/5 -12/5 -37/10 -21/10 -109/30"/>
+      <polygonVertex at="-49/15 -53/10 -59/30 -29/10 -83/30 -62/15"/>
+      <polygonVertex at="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+      <polygonVertex at="-49/15 -53/10 -59/30 -29/10 -83/30 -62/15"/>
+      <polygonVertex at="-113/30 -97/15 -2/3 -1/2 -37/10 -61/10"/>
+      <polygonVertex at="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+      <polygonVertex at="-113/30 -97/15 -2/3 -1/2 -37/10 -61/10"/>
+      <polygonVertex at="-10/3 -17/3 0 0 -17/3 -9"/>
+      <polygonVertex at="-10/3 -17/3 22/15 26/15 -61/15 -98/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6"/>
+      <polygonVertex at="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+      <polygonVertex at="-59/30 -29/10 13/30 4/5 -2/3 -1/2"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="-1 -2 -2 -3 -1 -1" index="55" len="6 10"/>
+    <SelectManifestation endSegment="-3 -5 1 2 -6 -9" startSegment="-1 -2 -2 -3 -1 -1"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-3 -5 1 2 -6 -9" startSegment="-1 -2 -2 -3 -1 -1"/>
+    <SelectManifestation endSegment="-2 -4 0 0 -6 -10" startSegment="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <StrutIntersection/>
+    <SelectManifestation endSegment="-4 -7 1 1 -5 -8" startSegment="1 1 -1 -2 -2 -3"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 -6 -10" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 -4 0 0 -6 -10" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 -4 -6"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="-3 -5 1 2 -6 -9"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 -4 -6"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation endSegment="1 2 0 0 2 3" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="47" len="6 10"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 -6 -10"/>
+    <SelectManifestation endSegment="0 0 0 0 -6 -10" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 -2 0" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 -2 0"/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -2 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "2", "-2", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 2 -2"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 2 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 2 -2"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-3 -1 -3 -2 -2 -1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 2 -2"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 2 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-10", "6", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-15"/>
+    <JoinPoints closedLoop="false"/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <BookmarkTool name="tool-16"/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <JoinPoints closedLoop="false"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 2 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 -10 6"/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 -2 5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 -2 5 1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 16/5 74/15 61/15 98/15" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 16/5 74/15 61/15 98/15"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 26/15 16/5 37/15 61/15"/>
+      <polygonVertex at="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+      <polygonVertex at="12/5 37/10 37/10 61/10 109/30 86/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 26/15 16/5 37/15 61/15"/>
+      <polygonVertex at="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+      <polygonVertex at="12/5 37/10 37/10 61/10 109/30 86/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+      <polygonVertex at="11/30 13/30 -7/6 -5/3 22/3 71/6"/>
+      <polygonVertex at="83/30 62/15 4/5 37/30 17/2 27/2"/>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="-4/5 -37/30 -1/2 -7/6 29/10 73/15"/>
+      <polygonVertex at="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+      <polygonVertex at="0 0 26/15 16/5 37/15 61/15"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="12/5 37/10 37/10 61/10 109/30 86/15"/>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+      <polygonVertex at="9/2 22/3 12/5 37/10 211/30 353/30"/>
+      <polygonVertex at="53/10 257/30 29/10 73/15 62/15 69/10"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+      <polygonVertex at="83/30 62/15 4/5 37/30 17/2 27/2"/>
+      <polygonVertex at="17/3 9 0 0 9 44/3"/>
+      <polygonVertex at="9/2 22/3 12/5 37/10 211/30 353/30"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 26/15 16/5 37/15 61/15"/>
+      <polygonVertex at="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+      <polygonVertex at="8/5 37/15 16/5 74/15 98/15 53/5"/>
+      <polygonVertex at="12/5 37/10 37/10 61/10 109/30 86/15"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 26/15 16/5 37/15 61/15" startSegment="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+    <SelectManifestation endSegment="12/5 37/10 37/10 61/10 109/30 86/15" startSegment="0 0 26/15 16/5 37/15 61/15"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 26/15 16/5 37/15 61/15" startSegment="-4/5 -37/30 37/30 61/30 161/30 134/15"/>
+    <SelectManifestation endSegment="-4/5 -37/30 37/30 61/30 161/30 134/15" startSegment="-4/5 -37/30 -1/2 -7/6 29/10 73/15"/>
+    <DeselectAll/>
+    <SelectManifestation point="-1 -2 -2 -3 -1 -1"/>
+    <SelectManifestation endSegment="-1 -2 -2 -3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6"/>
+    <SelectManifestation endSegment="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3" startSegment="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6"/>
+    <SelectManifestation point="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+    <SelectManifestation endSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30" startSegment="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+    <SelectManifestation point="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation endSegment="-10/3 -17/3 22/15 26/15 -61/15 -98/15" startSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation endSegment="-10/3 -17/3 22/15 26/15 -61/15 -98/15" startSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation endSegment="-10/3 -17/3 22/15 26/15 -61/15 -98/15" startSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation point="-10/3 -17/3 22/15 26/15 -61/15 -98/15"/>
+    <SelectManifestation endSegment="-10/3 -17/3 22/15 26/15 -61/15 -98/15" startSegment="-10/3 -17/3 0 0 -17/3 -9"/>
+    <SelectManifestation point="-10/3 -17/3 0 0 -17/3 -9"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <SelectManifestation endSegment="-13/10 -12/5 -14/15 -59/30 -1/2 -7/6" startSegment="-13/10 -12/5 -12/5 -37/10 -21/10 -109/30"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30" startSegment="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+    <SelectManifestation endSegment="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3" startSegment="-49/15 -53/10 -59/30 -29/10 -83/30 -62/15"/>
+    <SelectManifestation endSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30" startSegment="-113/30 -97/15 -2/3 -1/2 -37/10 -61/10"/>
+    <SelectManifestation endSegment="-37/15 -61/15 26/15 16/5 -8/5 -37/15" startSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30"/>
+    <SelectManifestation endSegment="-113/30 -97/15 4/5 37/30 -21/10 -109/30" startSegment="-49/15 -53/10 -1/2 -7/6 -7/6 -5/3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -10 6"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 2 -2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-10", "6", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -10 6"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 -2 2 3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 16 -10"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 -26 16"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <Branch>
+      <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-26", "16", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+      <BookmarkTool name="tool-17"/>
+    </Branch>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -26 16"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 42 -26"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 42 -26"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 110 -68"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale down"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 288 -178"/>
+    <SelectManifestation point="0 0 0 0 288 -178"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 288 -178"/>
+    <SelectManifestation endSegment="0 0 1 2 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 1 2 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 288 -178"/>
+    <SelectManifestation point="0 0 0 0 288 -178"/>
+    <SelectManifestation endSegment="0 0 1 2 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 1 2 3 5" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-178", "110", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <SelectManifestation point="0 0 0 0 -178 110"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-178", "110", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -186 114"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 -16 0 0 -6 -2" startSegment="3 -10 2 -5 -7 1"/>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="6 -11 -5 -3 -13 0"/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="8 -16 0 0 -6 -2"/>
+      <polygonVertex at="3 -10 -2 5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="11 -17 -7 2 -12 -3"/>
+      <polygonVertex at="8 -16 0 0 -6 -2"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="8 -16 0 0 -6 -2"/>
+      <polygonVertex at="3 -10 -2 5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="11 -17 -7 2 -12 -3" startSegment="14 -18 0 0 -18 -4"/>
+    <SelectManifestation endSegment="11 -17 7 -2 -12 -3" startSegment="14 -18 0 0 -18 -4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4/5 -37/30 -1/2 -7/6 29/10 73/15" startSegment="11/30 13/30 -29/10 -73/15 73/15 233/30"/>
+    <SelectManifestation endSegment="11/30 13/30 -29/10 -73/15 73/15 233/30" startSegment="7/6 5/3 -12/5 -37/10 59/30 29/10"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="3 -1 -7 2 -6 -1"/>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="11 -8 2 -5 -11 -5"/>
+      <polygonVertex at="9 -12 2 -5 -19 -1"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="11 -8 2 -5 -11 -5"/>
+      <polygonVertex at="9 -12 2 -5 -19 -1"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="3 -1 -7 2 -6 -1"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="3 -1 -7 2 -6 -1"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="3 -1 -7 2 -6 -1"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 -2 -3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 -2 5 1 -3"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="-2 -4 0 0 -8 4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="5 -6 -2 5 1 -3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <PolarZonohedron symmetry="icosahedral"/>
+    <BookmarkTool name="tool-18"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 2 -2"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 -4 -6"/>
+    <SelectManifestation point="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-19"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 -4 -6"/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-20"/>
+    <BookmarkTool name="tool-21"/>
+    <Delete/>
+    <Branch>
+      <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+      <DeselectAll/>
+      <Snapshot id="8"/>
+    </Branch>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 0 0 -4 -6"/>
+    <SelectManifestation endSegment="-2 -4 0 0 -4 -6" startSegment="-2 -4 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3 2 0 1 5 9" startSegment="5 5 0 0 5 10"/>
+    <SelectManifestation endSegment="4 4 2 2 4 8" startSegment="5 5 0 0 5 10"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 6 2 3 5 9" startSegment="4 7 0 0 7 11"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="3 6 2 3 5 9" startSegment="4 7 0 0 7 11"/>
+    <SelectManifestation endSegment="2 3 1 1 7 10" startSegment="4 7 0 0 7 11"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="9/2 22/3 12/5 37/10 211/30 353/30" startSegment="17/3 9 0 0 9 44/3"/>
+    <SelectManifestation endSegment="83/30 62/15 4/5 37/30 17/2 27/2" startSegment="17/3 9 0 0 9 44/3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <Snapshot id="9"/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="10"/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="11"/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="14" index="2" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation point="3 -10 2 -5 -7 1"/>
+    <SelectManifestation point="5 -6 2 -5 1 -3"/>
+    <SelectManifestation point="5 -6 2 -5 1 -3"/>
+    <SelectManifestation point="5 -6 2 -5 1 -3"/>
+    <SelectManifestation point="3 -10 2 -5 -7 1"/>
+    <SelectManifestation point="3 -10 2 -5 -7 1"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -2 -2 -3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-1 -2 -2 -3 -1 -1" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-178", "110", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "-178", "110", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="5 -6 2 -5 1 -3"/>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="6 -11 -5 -3 -13 0"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation point="3 -10 2 -5 -7 1"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "2", "4", "1" ], [ "0", "0", "1" ], [ "8", "-4", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 1, 0 ],
+    "color" : "#FFFFFF"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 -6 4 -176 112"/>
+    <SelectManifestation endSegment="0 0 -6 4 -176 112" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <Snapshot id="12"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="3" index="23" len="1 2" sense="minus"/>
+    <SelectManifestation endSegment="23/31 51/31 -273/155 -449/155 176/155 273/155" startSegment="0 0 0 0 0 0"/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+      <polygonVertex at="3 -10 2 -5 -7 1"/>
+      <polygonVertex at="-2 -4 0 0 -8 4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation point="23/31 51/31 -273/155 -449/155 176/155 273/155"/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="7" index="58" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="217/90 17/5 0 0 -8032/45 3271/30"/>
+    <SelectManifestation endSegment="217/90 17/5 0 0 -8032/45 3271/30" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="7" index="10" len="1 2"/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="22" index="25" len="1 2"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <SelectParallelStruts dir="15" index="45" orbit="15" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-710 442 0 0 -656 406"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <SelectManifestation endSegment="-710 442 0 0 -656 406" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 4 0 0 -170 106"/>
+    <SelectManifestation endSegment="0 0 0 0 -178 110" startSegment="2 4 0 0 -170 106"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="3 -1 -7 2 -6 -1"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 0 0 0 0 0"/>
+      <polygonVertex at="3 -1 -7 2 -6 -1"/>
+      <polygonVertex at="8 -7 -5 -3 -5 -4"/>
+      <polygonVertex at="5 -6 2 -5 1 -3"/>
+    </SelectManifestation>
+    <SelectManifestation endSegment="5 -6 2 -5 1 -3" startSegment="8 -7 -5 -3 -5 -4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 -8 4" startSegment="3 -10 2 -5 -7 1"/>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 -8 4" startSegment="3 -10 2 -5 -7 1"/>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 -8 4" startSegment="3 -10 2 -5 -7 1"/>
+    <SelectManifestation endSegment="3 -10 2 -5 -7 1" startSegment="5 -6 2 -5 1 -3"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-44/45 -29/15 13/9 35/18 -131/90 -109/45" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="-44/45 -29/15 13/9 35/18 -131/90 -109/45"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 0 -2 -3 3 5" startSegment="1 1 -2 -2 1 2"/>
+    <SelectManifestation endSegment="0 -1 0 -1 2 3" startSegment="1 0 -2 -3 3 5"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -1 0 -1 2 4" startSegment="0 0 -2 -4 4 6"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -1 0 -1 2 4" startSegment="0 0 -2 -4 4 6"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-4/5 -37/30 -1/2 -7/6 29/10 73/15" startSegment="11/30 13/30 -29/10 -73/15 73/15 233/30"/>
+    <SelectManifestation endSegment="11/30 13/30 -29/10 -73/15 73/15 233/30" startSegment="7/6 5/3 -12/5 -37/10 59/30 29/10"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-1 -1 0 -1 2 4" startSegment="0 0 -2 -4 4 6"/>
+    <SelectManifestation endSegment="0 0 -2 -4 4 6" startSegment="1 1 -2 -3 2 2"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="6" index="44" len="2 3"/>
+    <SelectManifestation endSegment="-47/15 -49/10 -23/30 -13/10 -1073/6 109" startSegment="0 0 0 0 -178 110"/>
+    <SelectParallelStruts dir="6" index="44" orbit="6" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-47/15 -49/10 -23/30 -13/10 -1073/6 109"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <SelectManifestation point="-2 -4 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="-47/15 -49/10 -23/30 -13/10 -1073/6 109" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="7/6 5/3 -12/5 -37/10 59/30 29/10" startSegment="61/15 98/15 -16/5 -74/15 37/15 61/15"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="6" index="46" orbit="6" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-47/15 -49/10 -23/30 -13/10 -1073/6 109" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <SelectManifestation endSegment="-1382/15 501/10 1673/30 -327/10 -869/6 88" startSegment="-89 55 55 -34 -144 89"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1382/15 501/10 1673/30 -327/10 -869/6 88" startSegment="-89 55 55 -34 -144 89"/>
+    <SelectManifestation point="-47/15 -49/10 -23/30 -13/10 -1073/6 109"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectAll originLast="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="13"/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 -1 1 4 0 1"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-2 -4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -1 1 4 0 1"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-1 -1 1 4 0 1"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="-1 1 1 2 2 3"/>
+      <polygonVertex at="1 2 2 3 1 1"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByOrbitLength length="1 1" orbit="navy" panels="IGNORE" struts="SELECT" symmetry="icosahedral"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="2 2 2 4 2 4" startSegment="0 0 1 2 1 3"/>
+    <AdjustSelectionByOrbitLength length="1 2" orbit="lavender" panels="IGNORE" struts="SELECT" symmetry="icosahedral"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 2 2 2 2"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <Delete/>
+    <StrutCreation anchor="4 7 2 4 3 5" dir="6" index="33" len="2 3"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 26/15 16/5 37/15 61/15"/>
+    <SelectManifestation point="0 0 26/15 16/5 37/15 61/15"/>
+    <SelectManifestation point="0 0 1 3 2 3"/>
+    <SelectManifestation point="0 0 1 2 1 3"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="17/10 31/10 113/30 107/15 4 41/6" startSegment="4 7 2 4 3 5"/>
+    <SelectManifestation point="17/10 31/10 113/30 107/15 4 41/6"/>
+    <SelectManifestation point="4 7 2 4 3 5"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 2 2 4 2 4"/>
+    <SelectManifestation point="2 3 3 5 3 4"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="2 1 2 3 4 7"/>
+    <DeselectAll/>
+    <SelectManifestation point="2 1 2 3 4 7"/>
+    <SelectManifestation point="1 2 3 4 5 8"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tool-2" selectInputs="true"/>
+    <Delete/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="red" index="1" len="1 2"/>
+    <ApplyTool copyColors="true" name="tool-20" selectInputs="true"/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 0 0 -178 110" dir="6" index="23" len="3 5"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-11/6 -17/6 39/10 31/5 -2717/15 1051/10" startSegment="0 0 0 0 -178 110"/>
+    <SelectManifestation endSegment="-11/6 -17/6 39/10 31/5 -2717/15 1051/10" startSegment="0 0 0 0 -178 110"/>
+    <EndBlock/>
+    <SelectParallelStruts dir="6" index="23" orbit="6" symmetry="icosahedral"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-11/6 -17/6 39/10 31/5 -2717/15 1051/10" startSegment="0 0 0 0 -178 110"/>
+    <SelectManifestation point="-11/6 -17/6 39/10 31/5 -2717/15 1051/10"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 2 2 2 2"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 2 2 2 2"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 2 2 2 2"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="0 2 2 2 2 2"/>
+      <polygonVertex at="-1 -1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 -2 2 2 2 2"/>
+      <polygonVertex at="1 1 1 2 2 3"/>
+      <polygonVertex at="0 0 0 0 0 0"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <PanelPanelIntersection/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="3 3 -2 -4 3 6"/>
+    <SelectManifestation point="3 3 -2 -4 3 6"/>
+    <SelectManifestation endSegment="0 0 52/15 86/15 23/5 112/15" startSegment="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 52/15 86/15 23/5 112/15" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 52/15 86/15 23/5 112/15"/>
+    <EndBlock/>
+    <Delete/>
+    <Snapshot id="14"/>
+    <SelectAll originLast="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-18" selectInputs="true"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-19" selectInputs="true"/>
+    <DeselectAll/>
+    <Snapshot id="15"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="olive" index="52" len="1 2"/>
+  </EditHistory>
+  <notes>
+    <page snapshot="15" title="Approximate sqrt phi RI">
+      <ViewModel distance="214.62225341796875" far="429.243408203125" near="0.5365580320358276" parallel="true" stereoAngle="0.0" width="96.58088684082031">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.510701060295105" y="-0.002224236261099577" z="-0.8597107529640198"/>
+        <LookDirection x="0.8594068288803101" y="0.02620711922645569" z="-0.5105987787246704"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="13" title="Alignmment of approx RI with blue">
+      <ViewModel distance="218.95790100097656" far="437.9148254394531" near="0.5473971366882324" parallel="true" stereoAngle="0.0" width="98.53175354003906">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.5476743578910828" y="0.10051418840885162" z="-0.8305881023406982"/>
+        <LookDirection x="0.3839263916015625" y="0.9122453331947327" z="-0.14276647567749023"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="10" title="Blue lines ">
+      <ViewModel distance="162.20799255371094" far="324.41510009765625" near="0.40552154183387756" parallel="false" stereoAngle="0.0" width="72.99405670166016">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="-0.5104451775550842" y="0.108552947640419" z="-0.8529903888702393"/>
+        <LookDirection x="0.38329586386680603" y="0.9167070984840393" z="-0.11271551251411438"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="8" title="Green lines">
+      <ViewModel distance="313.8387756347656" far="627.6760864257812" near="0.7846001386642456" parallel="false" stereoAngle="0.0" width="141.2283477783203">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.51641446352005" y="-0.014513849280774593" z="0.856177806854248"/>
+        <LookDirection x="0.36998191475868225" y="-0.8979222774505615" z="-0.23837417364120483"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="14" title="Navy, White,&amp; Lavender RIs">
+      <ViewModel distance="278.3500671386719" far="556.6984252929688" near="0.6958783864974976" parallel="true" stereoAngle="0.0" width="125.25863647460938">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.626171350479126" y="-0.2776090204715729" z="0.7285337448120117"/>
+        <LookDirection x="0.2286309450864792" y="-0.8279845118522644" z="-0.5120022892951965"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+  </notes>
+  <sceneModel ambientLight="41,41,41" background="153,153,153">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="295.562255859375" far="591.1231689453125" near="0.738908588886261" parallel="false" stereoAngle="0.0" width="133.00387573242188">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.5424797534942627" y="-0.04861551523208618" z="0.8386210203170776"/>
+      <LookDirection x="-0.14972196519374847" y="-0.9879204630851746" z="0.03958618640899658"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="lifelike">
+    <Direction color="255,255,255" name="5" orbit="[[0,1,7],[3,-1,7]]" prototype="22 -13 1 -1 -11 6"/>
+    <Direction color="0,141,54" name="green" orbit="[[2,-1,1],[5,-3,1]]"/>
+    <Direction color="255,255,255" name="6" orbit="[[-2,3,11],[17,-9,11]]" prototype="-1/15 3/10 7/6 -1/2 29/30 2/5"/>
+    <Direction color="255,255,255" name="3" orbit="[[6,-1,29],[-27,19,29]]" prototype="61/310 9/155 -19/31 33/62 323/310 169/310"/>
+    <Direction color="154,117,74" name="sand" orbit="[[-8,5,1],[5,-3,1]]"/>
+    <Direction color="255,255,255" name="4" orbit="[[18,-11,1],[5,-3,1]]" prototype="7/44 3/22 1/11 5/44 23/44 37/44"/>
+    <Direction color="255,255,255" name="1" orbit="[[16,-7,19],[5,-1,19]]" prototype="13 -8 4 -3 7 -5"/>
+    <Direction color="255,255,255" name="2" orbit="[[3,-1,5],[-4,3,5]]" prototype="-10 6 8 -6 6 -4"/>
+    <Direction color="255,255,255" name="0" orbit="[[5,-2,11],[5,-2,11]]" prototype="-22 14 -2 2 2 -2"/>
+    <Direction color="30,30,30" name="black" orbit="[[-2,3,11],[-7,5,11]]"/>
+    <Direction color="255,255,255" name="17" orbit="[[0,0,1],[-71,44,1]]" prototype="-2 2 0 0 230 -142"/>
+    <Direction color="255,51,143" name="rose" orbit="[[0,0,1],[-4,3,5]]"/>
+    <Direction color="18,205,148" name="turquoise" orbit="[[2,-1,2],[-3,2,2]]"/>
+    <Direction color="255,255,255" name="16" orbit="[[0,0,1],[18,-11,1]]" prototype="-2 2 0 0 -58 36"/>
+    <Direction color="255,255,255" name="19" orbit="[[0,0,1],[217,-134,1]]" prototype="-2 2 0 0 -702 434"/>
+    <Direction color="255,255,255" name="18" orbit="[[0,0,1],[73,-45,1]]" prototype="-2 2 0 0 -236 146"/>
+    <Direction color="255,255,255" name="13" orbit="[[0,0,1],[5,-3,1]]" prototype="-2 2 0 0 -16 10"/>
+    <Direction color="255,255,255" name="12" orbit="[[17,-10,3],[-35,22,3]]" prototype="-49/18 91/45 7/90 67/90 53/45 -4/3"/>
+    <Direction color="255,255,255" name="15" orbit="[[0,0,1],[-16,10,1]]" prototype="-2 2 0 0 52 -32"/>
+    <Direction color="108,0,198" name="purple" orbit="[[2,-1,1],[0,0,1]]"/>
+    <Direction color="255,255,255" name="14" orbit="[[0,0,1],[-8,5,1]]" prototype="-2 2 0 0 26 -16"/>
+    <Direction color="220,76,0" name="orange" orbit="[[-4,3,5],[3,-1,5]]"/>
+    <Direction color="107,53,26" name="brown" orbit="[[2,-1,3],[5,-3,3]]"/>
+    <Direction color="255,255,255" name="11" orbit="[[3,11,79],[-10,16,79]]" prototype="19/15 -19/18 17/30 4/15 -26/15 3/5"/>
+    <Direction color="255,255,255" name="10" orbit="[[-4,3,3],[-1,1,3]]" prototype="2 -1 -3 3 -7 4"/>
+    <Direction color="255,255,255" name="9" orbit="[[0,0,1],[-3,2,1]]" prototype="-7 4 6 -3 -5 3"/>
+    <Direction color="255,255,255" name="7" orbit="[[0,0,1],[-2,3,11]]" prototype="-1/90 -43/90 17/18 1/2 -83/90 41/90"/>
+    <Direction color="255,255,255" name="8" orbit="[[3,-1,5],[14,-8,5]]" prototype="83/45 -41/45 17/18 1/2 -7/15 -1/90"/>
+    <Direction color="0,118,149" name="blue" orbit="[[0,0,1],[0,0,1]]"/>
+    <Direction color="18,73,48" name="spruce" orbit="[[-5,4,11],[-5,4,11]]"/>
+    <Direction color="175,0,0" name="red" orbit="[[-1,1,1],[0,0,1]]"/>
+    <Direction color="255,126,106" name="coral" orbit="[[-3,2,2],[-1,1,2]]"/>
+    <Direction color="117,0,50" name="maroon" orbit="[[5,-3,1],[0,0,1]]"/>
+    <Direction color="230,245,62" name="sulfur" orbit="[[-1,1,3],[0,0,1]]"/>
+    <Direction color="240,160,0" name="yellow" orbit="[[0,0,1],[2,-1,1]]"/>
+    <Direction color="116,195,0" name="apple" orbit="[[2,-1,3],[-1,1,3]]"/>
+    <Direction color="136,37,0" name="cinnamon" orbit="[[5,-3,2],[2,-1,2]]"/>
+    <Direction color="255,255,255" name="23" orbit="[[1,5,19],[34,-20,19]]" prototype="2932 -1812 -1202 742 132 -82"/>
+    <Direction color="0,0,153" name="navy" orbit="[[-1,1,2],[2,-1,2]]"/>
+    <Direction color="255,255,255" name="20" orbit="[[0,0,1],[594,-367,1]]" prototype="-2 2 0 0 -1922 1188"/>
+    <Direction color="255,255,255" name="22" orbit="[[0,0,1],[22,-9,41]]" prototype="-1812 1120 -3146 1944 -82 50"/>
+    <Direction color="255,255,255" name="21" orbit="[[0,0,1],[-393,243,1]]" prototype="-2 2 0 0 1272 -786"/>
+    <Direction color="175,135,255" name="lavender" orbit="[[-3,2,1],[-3,2,1]]"/>
+    <Direction color="100,113,0" name="olive" orbit="[[3,-1,5],[0,0,1]]"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue" orbit="[[0,0,1],[0,0,1]]"/>
+      <Direction color="175,135,255" name="lavender" orbit="[[1,2,1],[-1,0,1]]"/>
+      <Direction color="18,205,148" name="turquoise" orbit="[[-1,2,1],[1,-2,1]]"/>
+      <Direction color="30,30,30" name="black" orbit="[[0,1,1],[1,-1,1]]"/>
+      <Direction color="0,141,54" name="green" orbit="[[0,0,1],[-1,0,1]]"/>
+      <Direction color="100,113,0" name="olive" orbit="[[1,0,1],[3,-2,1]]"/>
+      <Direction color="117,0,50" name="maroon" orbit="[[-1,2,1],[1,0,1]]"/>
+      <Direction color="107,53,26" name="brown" orbit="[[1,0,1],[-2,0,1]]"/>
+      <Direction color="240,160,0" name="yellow" orbit="[[1,0,1],[-1,0,1]]"/>
+      <Direction color="175,0,0" name="red" orbit="[[-1,1,1],[0,0,1]]"/>
+      <Direction color="108,0,198" name="purple" orbit="[[0,0,1],[2,-1,1]]"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool copyColors="true" deleteInputs="false" id="tool-0" label="single" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-1" label="axial symmetry 1" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-10" label="RI-Achiral=frame" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-11" label="bookmark 11" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-12" label="Lav pz +" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-13" label="Navy planes" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-14" label="bookmark 14" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-15" label="bookmark 15" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-16" label="bookmark 16" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-17" label="bookmark 17" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-18" label="Approx PZ" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-19" label="Blue cone" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-2" label="axial symmetry 2" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-20" label="3 alt." selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-21" label="bookmark 21" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-3" label="PZ" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="true" id="tool-4" label="translation 4" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-5" label="greens" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-6" label="greens" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-7" label="R&amp;Y struts" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-8" label="balls" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-9" label="Convex  Hull" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
