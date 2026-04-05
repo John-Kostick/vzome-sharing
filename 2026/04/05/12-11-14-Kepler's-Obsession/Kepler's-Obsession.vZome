@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="117" field="golden" version="7.1">
-  <EditHistory editNumber="388" lastStickyEdit="388">
+  <EditHistory editNumber="391" lastStickyEdit="388">
     <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="32" len="1 2"/>
     <SelectManifestation point="-1 -2 0 0 2 3"/>
     <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
@@ -439,6 +439,9 @@
     <ApplyTool copyColors="true" name="tool-1" selectInputs="true"/>
     <DeselectAll/>
     <Snapshot id="17"/>
+    <SelectManifestation point="2 2 0 2 0 0"/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
     <page snapshot="17" title="Complete">
@@ -473,7 +476,7 @@
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
-    <page snapshot="3" title="Iosahedral Symmetry, connect ">
+    <page snapshot="3" title="Icosahedral Symmetry, connect ">
       <ViewModel distance="152.76174926757812" far="305.5231018066406" near="0.38190463185310364" parallel="false" stereoAngle="0.0" width="68.74275970458984">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.0" y="1.0" z="0.0"/>
