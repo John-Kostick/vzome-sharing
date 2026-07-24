@@ -1,5 +1,5 @@
 ---
-title: Full Octahedron CM
+title: Octahedron CM
 share-description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2026/07/24/17-57-25-Tetraxis-CM-Study-9/Tetraxis-CM-Study-9.png
 layout: design
