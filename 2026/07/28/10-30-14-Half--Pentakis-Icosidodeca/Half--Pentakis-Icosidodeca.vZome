@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="117" field="golden" version="7.1">
-  <EditHistory editNumber="335" lastStickyEdit="335">
+  <EditHistory editNumber="340" lastStickyEdit="335">
     <StrutCreation anchor="0 0 0 0 0 0" index="0" len="2 4"/>
     <BeginBlock/>
     <SelectManifestation endSegment="2 4 0 0 0 0" startSegment="0 0 0 0 0 0"/>
@@ -630,21 +630,26 @@
     <SelectManifestation endSegment="0 0 -2 -2 4 6" startSegment="0 0 -2 -2 0 0"/>
     <Delete/>
     <Snapshot id="2"/>
+    <SelectAll originLast="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-3" selectInputs="true"/>
+    <ApplyTool copyColors="true" deleteInputs="true" name="tool-4"/>
+    <DeselectAll/>
   </EditHistory>
   <notes>
-    <page snapshot="2" title="5=fold">
-      <ViewModel distance="102.39925384521484" far="204.79803466796875" near="0.25599807500839233" parallel="false" stereoAngle="0.0" width="46.07964324951172">
-        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-        <UpDirection x="0.016014741733670235" y="0.9989600777626038" z="0.04252402111887932"/>
-        <LookDirection x="-0.0012784507125616074" y="0.04255266115069389" z="-0.9990838766098022"/>
-      </ViewModel>
-      <content xml:space="preserve"/>
-    </page>
     <page snapshot="1" title="2=fold">
       <ViewModel distance="75.85923767089844" far="151.7182159423828" near="0.18964816629886627" parallel="false" stereoAngle="0.0" width="34.136653900146484">
         <LookAtPoint x="0.0" y="0.0" z="0.0"/>
         <UpDirection x="0.010652687400579453" y="0.9994698166847229" z="0.030536849051713943"/>
         <LookDirection x="-0.0010514268651604652" y="0.03055252879858017" z="-0.9995234608650208"/>
+      </ViewModel>
+      <content xml:space="preserve"/>
+    </page>
+    <page snapshot="2" title="5=fold">
+      <ViewModel distance="102.39925384521484" far="204.79803466796875" near="0.25599807500839233" parallel="false" stereoAngle="0.0" width="46.07964324951172">
+        <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+        <UpDirection x="0.016014741733670235" y="0.9989600777626038" z="0.04252402111887932"/>
+        <LookDirection x="-0.0012784507125616074" y="0.04255266115069389" z="-0.9990838766098022"/>
       </ViewModel>
       <content xml:space="preserve"/>
     </page>
