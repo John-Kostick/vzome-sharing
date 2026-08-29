@@ -17,7 +17,7 @@
   </vzome-viewer>
 
   <figcaption style="text-align: center; font-style: italic;">
-     7-Directional Space Fillind
+     7-Directional Space Filling
   </figcaption>
 </figure>
 
