@@ -29,15 +29,4 @@ description:
   </figcaption>
 </figure>
 
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/20/08-24-52-yellow-9-Directions-Ring-2/yellow-9-Directions-Ring-2.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/20/08-24-52-yellow-9-Directions-Ring-2/yellow-9-Directions-Ring-2.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-   An extension of the array shown above 
- </figcaption>
-</figure>
-
-
+Another 9-Directional array can be viewed [Here](https://skfb.ly/oowAN)
