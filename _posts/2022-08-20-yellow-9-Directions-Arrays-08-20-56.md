@@ -40,39 +40,4 @@ description:
  </figcaption>
 </figure>
 
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/13-54-50-Nona-array-2/Nona-array-2.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/13-54-50-Nona-array-2/Nona-array-2.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    Another version of extended array.  
- </figcaption>
-</figure>
 
-Building out from a shared polar vertex with a chiral composition of subcells, as shown in the figure below, leads to a 72-hedron with edge lengths twice the original unit.  This is a kind of self-similarity.  
-
-
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/13-47-09-yellow-9-Directions-Chiral/yellow-9-Directions-Chiral.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/13-47-09-yellow-9-Directions-Chiral/yellow-9-Directions-Chiral.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    A pair of 72-hedra with a chiral arrangement of subcells between.  
- </figcaption>
-</figure>
-
-
-<figure style="width: 87%; margin: 5%">
- <vzome-viewer style="width: 100%; height: 60vh"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/19-48-52-yellow-9-zone-doubled/yellow-9-zone-doubled.vZome" >
-   <img  style="width: 100%"
-      src="https://John-Kostick.github.io/vzome-sharing/2022/08/19/19-48-52-yellow-9-zone-doubled/yellow-9-zone-doubled.png" >
- </vzome-viewer>
- <figcaption style="text-align: center; font-style: italic;">
-    An 18 direction polar zonohedron with a pair of zones marked.  
- </figcaption>
-</figure>
