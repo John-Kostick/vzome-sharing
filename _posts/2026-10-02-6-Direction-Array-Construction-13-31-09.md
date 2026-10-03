@@ -4,9 +4,12 @@ description: A 3D design created in vZome.  Use your mouse or touch to interact.
 image: https://John-Kostick.github.io/vzome-sharing/2026/10/02/13-31-09-6-Direction-Array-Construction/6-Direction-Array-Construction.png
 published: true
 layout: vzome
----
+
 description:
-  This a continuation of exploration of space filling with elements of Icosahedral Symmetry
+  This is a continuation of exploration of space filling with elements of Icosahedral Symmetry.
+---
+
+
 {% comment %}
  - [***web page generated from this source***](<https://John-Kostick.github.io/vzome-sharing/2026/10/02/6-Direction-Array-Construction-13-31-09.html>)
  - [data assets and more info](<https://github.com/John-Kostick/vzome-sharing/tree/main/2026/10/02/13-31-09-6-Direction-Array-Construction/>)
