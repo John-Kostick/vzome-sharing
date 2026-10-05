@@ -16,7 +16,7 @@ description:
  
 {% endcomment %}.
 
-This a continuation of exploration of space filling with elements of Icosahedral Symmetry.
+This is a continuation of exploration of space filling with elements of Icosahedral Symmetry.
 
 This is a sequel to [6 Directions Array](https://john-kostick.github.io/vzome-sharing/2026/09/28/6-Direction-array-09-31-23.html)
 
