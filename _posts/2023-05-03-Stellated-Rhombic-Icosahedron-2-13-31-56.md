@@ -28,3 +28,20 @@ A 3D design created in vZome.  Use your mouse or touch to interact.
     Second Stellation of Rhombic Icosahedron
  </figcaption>
 </figure>
+
+This shows some variations of Stellation of Rhombic Icosahedron, constructed in Golden field, which is the canonical RI.  
+
+
+<figure style="width: 87%; margin: 5%">
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+       src="https://John-Kostick.github.io/vzome-sharing/2026/10/25/10-41-26-5-Directions-Constructions/5-Directions-Constructions.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2026/10/25/10-41-26-5-Directions-Constructions/5-Directions-Constructions.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
+    Stellaion of Rhombic Icosahedron
+ </figcaption>
+</figure>
