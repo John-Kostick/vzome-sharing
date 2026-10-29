@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="27" field="rootTwo" version="7.1">
-  <EditHistory editNumber="4861" lastStickyEdit="4745">
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="117" field="rootTwo" version="7.1">
+  <EditHistory editNumber="4998" lastStickyEdit="4993">
     <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="13" len="0 2" symm="octahedral"/>
     <SelectManifestation endSegment="0 -2 0 2 0 2" startSegment="0 0 0 0 0 0"/>
     <RotationTool corrected="true" full="true" name="tool-0" symmetry="octahedral"/>
@@ -7982,6 +7982,207 @@
     <ApplyTool copyColors="true" deleteInputs="true" name="scaling.builtin/scale up"/>
     <DeselectAll/>
     <ApplyTool copyColors="true" name="tool-9" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-38 4 16 -4 -14 -4"/>
+      <polygonVertex at="-38 4 16 -4 -18 -4"/>
+      <polygonVertex at="-38 4 -2 -4 0 -4"/>
+      <polygonVertex at="-38 4 2 -4 0 -4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-10"/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <Delete/>
+    <ShowHidden/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-22 4 0 -4 -18 -4"/>
+      <polygonVertex at="-22 4 16 -4 -2 -4"/>
+      <polygonVertex at="-18 4 16 -4 -6 -4"/>
+      <polygonVertex at="-18 4 0 -4 -22 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="-22 4 0 -4 -18 -4"/>
+      <polygonVertex at="-22 4 16 -4 -2 -4"/>
+      <polygonVertex at="-18 4 16 -4 -6 -4"/>
+      <polygonVertex at="-18 4 0 -4 -22 -4"/>
+    </SelectManifestation>
+    <SelectManifestation>
+      <polygonVertex at="0 4 38 -4 2 -4"/>
+      <polygonVertex at="0 4 38 -4 -2 -4"/>
+      <polygonVertex at="-22 4 16 -4 -2 -4"/>
+      <polygonVertex at="-22 4 16 -4 2 -4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Hide/>
+    <BeginBlock/>
+    <SelectManifestation point="-18 4 16 -4 -6 -4"/>
+    <SelectManifestation point="-22 4 16 -4 -2 -4"/>
+    <SelectManifestation point="-22 4 16 -4 2 -4"/>
+    <SelectManifestation point="-18 4 16 -4 6 -4"/>
+    <SelectManifestation point="-14 4 16 -4 6 -4"/>
+    <SelectManifestation point="-10 4 16 -4 2 -4"/>
+    <SelectManifestation point="-10 4 16 -4 -2 -4"/>
+    <SelectManifestation point="-14 4 16 -4 -6 -4"/>
+    <SelectManifestation point="-16 4 16 -4 0 -4"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ "-6", "0", "1" ], [ "0", "0", "1" ], [ "-2", "0", "1" ] ], [ [ "-6", "0", "1" ], [ "0", "0", "1" ], [ "2", "0", "1" ] ], [ [ "-2", "0", "1" ], [ "0", "0", "1" ], [ "-6", "0", "1" ] ], [ [ "-2", "0", "1" ], [ "0", "0", "1" ], [ "6", "0", "1" ] ], [ [ "0", "0", "1" ], [ "0", "0", "1" ], [ "0", "0", "1" ] ], [ [ "2", "0", "1" ], [ "0", "0", "1" ], [ "-6", "0", "1" ] ], [ [ "2", "0", "1" ], [ "0", "0", "1" ], [ "6", "0", "1" ] ], [ [ "6", "0", "1" ], [ "0", "0", "1" ], [ "-2", "0", "1" ] ], [ [ "6", "0", "1" ], [ "0", "0", "1" ], [ "2", "0", "1" ] ] ],
+  "balls" : [ {
+    "vertex" : 2,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 0,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 1,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 3,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 6,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 8,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 7,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 5,
+    "color" : "#F2F2F2"
+  }, {
+    "vertex" : 4,
+    "color" : "#F2F2F2"
+  } ],
+  "struts" : [ ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <DeselectAll/>
+    <ShowHidden/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-10" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 6 0 2 0"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <ApplyTool copyColors="true" name="point reflection.builtin/reflection through origin" selectInputs="true"/>
+    <Delete/>
+    <SelectManifestation point="-2 0 6 0 0 0"/>
+    <ApplyTool copyColors="true" name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-16 4 -2 -4 22 -4"/>
+    <SelectManifestation point="-16 4 -2 -4 22 -4"/>
+    <SelectManifestation point="-16 4 -2 -4 22 -4"/>
+    <SelectManifestation point="-16 4 -2 -4 22 -4"/>
+    <SelectManifestation point="-16 4 2 -4 22 -4"/>
+    <SelectManifestation point="-38 4 2 -4 0 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation>
+      <polygonVertex at="0 4 -18 -4 22 -4"/>
+      <polygonVertex at="0 4 -14 -4 22 -4"/>
+      <polygonVertex at="-16 4 2 -4 22 -4"/>
+      <polygonVertex at="-16 4 -2 -4 22 -4"/>
+    </SelectManifestation>
+    <DeselectAll/>
+    <SelectManifestation point="-16 4 -2 -4 22 -4"/>
+    <SelectManifestation point="-38 4 -2 -4 0 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-34 4 -6 -4 0 -4"/>
+    <SelectManifestation point="-16 4 -6 -4 18 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-34 4 6 -4 0 -4"/>
+    <SelectManifestation point="-16 4 6 -4 18 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-16 4 6 -4 14 -4"/>
+    <SelectManifestation point="-30 4 6 -4 0 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-26 4 2 -4 0 -4"/>
+    <SelectManifestation point="-16 4 2 -4 10 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-26 4 -2 -4 0 -4"/>
+    <SelectManifestation point="-16 4 -2 -4 10 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-16 4 -6 -4 14 -4"/>
+    <SelectManifestation point="-30 4 -6 -4 0 -4"/>
+    <EndBlock/>
+    <NewCentroid/>
+    <BeginBlock/>
+    <SelectManifestation point="-25 4 -6 -4 9 -4"/>
+    <SelectManifestation point="-27 4 -2 -4 11 -4"/>
+    <SelectManifestation point="-27 4 2 -4 11 -4"/>
+    <SelectManifestation point="-25 4 6 -4 9 -4"/>
+    <SelectManifestation point="-23 4 6 -4 7 -4"/>
+    <SelectManifestation point="-21 4 2 -4 5 -4"/>
+    <SelectManifestation point="-21 4 -2 -4 5 -4"/>
+    <SelectManifestation point="-23 4 -6 -4 7 -4"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-11"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation>
+      <polygonVertex at="-34 4 6 -4 0 -4"/>
+      <polygonVertex at="-38 4 2 -4 0 -4"/>
+      <polygonVertex at="-16 4 2 -4 22 -4"/>
+      <polygonVertex at="-16 4 6 -4 18 -4"/>
+    </SelectManifestation>
+    <EndBlock/>
+    <Hide/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-16 4 0 -4 16 -4"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-16 4 0 -4 16 -4" startSegment="-32 4 0 -4 0 -4"/>
+    <EndBlock/>
+    <Midpoint/>
+    <DeselectAll/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="-24 4 0 -4 8 -4"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ShowHidden/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <AdjustSelectionByClass balls="IGNORE" originLast="true" panels="SELECT" struts="IGNORE"/>
+    <EndBlock/>
+    <BookmarkTool name="tool-12"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-11" selectInputs="true"/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="tool-12" selectInputs="true"/>
     <DeselectAll/>
   </EditHistory>
   <notes/>
@@ -7991,10 +8192,10 @@
     <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
   </sceneModel>
   <Viewing>
-    <ViewModel distance="391.06719970703125" far="782.1364135742188" near="0.9776677489280701" parallel="true" stereoAngle="0.0" width="175.9799346923828">
+    <ViewModel distance="283.97308349609375" far="567.9474487304688" near="0.7099321484565735" parallel="true" stereoAngle="0.0" width="127.78751373291016">
       <LookAtPoint x="0.0" y="0.0" z="0.0"/>
-      <UpDirection x="-0.24835887551307678" y="0.6502060294151306" z="0.7179805040359497"/>
-      <LookDirection x="0.9569527506828308" y="0.04984477162361145" z="0.2858596742153168"/>
+      <UpDirection x="-0.7335559725761414" y="0.6728281378746033" z="-0.0955934077501297"/>
+      <LookDirection x="-0.029364068061113358" y="-0.17193259298801422" z="-0.9846476316452026"/>
     </ViewModel>
   </Viewing>
   <SymmetrySystem name="octahedral" renderingStyle="small octahedra">
@@ -8023,6 +8224,9 @@
   <Tools>
     <Tool copyColors="true" deleteInputs="false" id="tool-0" label="axial symmetry 0" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="true" id="tool-1" label="translation 1" selectInputs="false"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-10" label="V tubular" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-11" label="bookmark 11" selectInputs="true"/>
+    <Tool copyColors="true" deleteInputs="false" id="tool-12" label="panels" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-2" label="S&amp;B" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" id="tool-3" label="panels" selectInputs="true"/>
     <Tool copyColors="true" deleteInputs="false" hidden="true" id="tool-4" label=" beams- Rhombic" selectInputs="true"/>
