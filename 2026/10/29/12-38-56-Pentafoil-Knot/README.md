@@ -1,4 +1,11 @@
 
+## Blog Post Generated
+
+ - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2026/10/29/Pentafoil-Knot-12-38-56.html>) about this design; *try it before you share it!*
+ - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2026-10-29-Pentafoil-Knot-12-38-56.md>); click to customize
+ 
+
+
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2026/10/29/12-38-56-Pentafoil-Knot/>) to just share this design; *try it before you share it!*
