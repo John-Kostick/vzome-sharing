@@ -43,4 +43,19 @@ In both of these designs, there is an ingenious use of rectangular cross-section
 
 These have been built as table bases by [Jane Kostick](http://www.kosticks.com/koos-verhoeff.html)
 
+The cross-section of the sticks can be altered from the rectangular as shown, such as with chamfering. One proportion of stick profile is shown here.  
+
+<figure style="width: 87%; margin: 5%">
  
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" 
+       src="https://John-Kostick.github.io/vzome-sharing/2023/08/30/14-39-52-Trefoil-Knot-3vZome/Trefoil-Knot-3vZome.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2023/08/30/14-39-52-Trefoil-Knot-3vZome/Trefoil-Knot-3vZome.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
+    Trefoil Knot with chamfered stick cross-section
+ </figcaption>
+</figure>
+
