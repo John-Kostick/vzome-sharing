@@ -1,4 +1,11 @@
 
+## Blog Post Generated
+
+ - [***custom blog post***](<https://John-Kostick.github.io/vzome-sharing/2024/11/10/Trefoils-with-alt.-stick-profiles-18-27-21.html>) about this design; *try it before you share it!*
+ - [source file for that blog post](<https://github.com/John-Kostick/vzome-sharing/edit/main/_posts/2024-11-10-Trefoils-with-alt.-stick-profiles-18-27-21.md>); click to customize
+ 
+
+
 ## How to Use or Share this Design
 
  - [***simple web page***](<https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/>) to just share this design; *try it before you share it!*
@@ -10,7 +17,7 @@
 <figure style="width: 87%; margin: 5%">
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.png" >

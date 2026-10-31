@@ -7,7 +7,7 @@ layout: design
 
   
   
-  <vzome-viewer style="width: 100%; height: 60dvh" show-scenes='named'
+  <vzome-viewer style="width: 100%; height: 60dvh" 
         src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.vZome" >
     <img  style="width: 100%"
         src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.png" >
