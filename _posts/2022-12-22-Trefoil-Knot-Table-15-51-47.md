@@ -45,17 +45,17 @@ These have been built as table bases by [Jane Kostick](http://www.kosticks.com/k
 
 The cross-section of the sticks can be altered from the rectangular as shown, such as with chamfering. One proportion of stick profile is shown here.  
 
+
 <figure style="width: 87%; margin: 5%">
- 
- 
- <vzome-viewer style="width: 100%; height: 60dvh" 
-       src="https://John-Kostick.github.io/vzome-sharing/2023/08/30/14-39-52-Trefoil-Knot-3vZome/Trefoil-Knot-3vZome.vZome" >
-   <img  style="width: 100%"
-       src="https://John-Kostick.github.io/vzome-sharing/2023/08/30/14-39-52-Trefoil-Knot-3vZome/Trefoil-Knot-3vZome.png" >
- </vzome-viewer>
+  
+  
+  <vzome-viewer style="width: 100%; height: 60dvh" 
+        src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.vZome" >
+    <img  style="width: 100%"
+        src="https://John-Kostick.github.io/vzome-sharing/2024/11/10/18-27-21-Trefoils-with-alt.-stick-profiles/Trefoils-with-alt.-stick-profiles.png" >
+  </vzome-viewer>
 
- <figcaption style="text-align: center; font-style: italic;">
-    Trefoil Knot with chamfered stick cross-section
- </figcaption>
+  <figcaption style="text-align: center; font-style: italic;">
+   Knot with chamfered stick cross-section
+  </figcaption>
 </figure>
-
