@@ -56,6 +56,6 @@ The cross-section of the sticks can be altered from the rectangular as shown, su
   </vzome-viewer>
 
   <figcaption style="text-align: center; font-style: italic;">
-   Knot with chamfered stick cross-section
+   Knot with irregular hexagon stick cross-section
   </figcaption>
 </figure>
