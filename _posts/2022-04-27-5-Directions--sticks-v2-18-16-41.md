@@ -30,3 +30,20 @@ occur as dihedrals, also are the face angles. This can be seen in the opening vi
        src="https://John-Kostick.github.io/vzome-sharing/2022/04/27/18-10-04-5-Direction-sticks-dissectedvZome/5-Direction-sticks-dissectedvZome.vZome" >
   <img src="https://John-Kostick.github.io/vzome-sharing/2022/04/27/18-10-04-5-Direction-sticks-dissectedvZome/5-Direction-sticks-dissectedvZome.png" />
 </vzome-viewer>
+
+
+This is another version, with different end cuts.
+
+<figure style="width: 87%; margin: 5%">
+ 
+ 
+ <vzome-viewer style="width: 100%; height: 60dvh" 
+       src="https://John-Kostick.github.io/vzome-sharing/2026/10/18/22-21-14-5-Direction-Sticks-v.2A/5-Direction-Sticks-v.2A.vZome" >
+   <img  style="width: 100%"
+       src="https://John-Kostick.github.io/vzome-sharing/2026/10/18/22-21-14-5-Direction-Sticks-v.2A/5-Direction-Sticks-v.2A.png" >
+ </vzome-viewer>
+
+ <figcaption style="text-align: center; font-style: italic;">
+    Alternate end cuts
+ </figcaption>
+</figure>
