@@ -42,7 +42,7 @@ This shows indicated hyperboloid surfaces of 2 kinds, bounded by a cuboctahedron
  <img src="https://John-Kostick.github.io/vzome-sharing/2021/05/07/20-21-41-Cubocta-Hyperboloid-5/Cubocta-Hyperboloid-5.png" />
 </vzome-viewer>
 
-Hyperboloid surfaces bounded by a Rhombic Dodecahedron present a challenge.  Here, the indicated hyperboloid surfaces are bounded by a Chamfered Cube, or truncated Rhombic Dodecahedron.
+Hyperboloid surfaces bounded by rhombic polyhedra present a challenge.  Here, two types of indicated hyperboloid surfaces are bounded by a Chamfered Cube, or truncated Rhombic Dodecahedron.
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/05/15-48-40-Chamfered-Cube-Hyperboloids/Chamfered-Cube-Hyperboloids.vZome" >
@@ -50,7 +50,7 @@ Hyperboloid surfaces bounded by a Rhombic Dodecahedron present a challenge.  Her
 </vzome-viewer>
 
 
-Analogously, indicated hyperboloid surfaces are bounded by a Chamfered Dodecahedron, or truncated Triacontahedron
+Analogously, 2 types of indicated hyperboloid surfaces are bounded by a Chamfered Dodecahedron, or truncated Triacontahedron
 
 <vzome-viewer style="width: 87%; height: 60vh; margin: 5%"
       src="https://John-Kostick.github.io/vzome-sharing/2022/08/05/18-04-23-Chamfered-Dodeca/Chamfered-Dodeca.vZome" >
